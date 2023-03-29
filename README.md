@@ -6,6 +6,17 @@ Notebooks for playing around with Netdata and GPT
 
 ## Usage
 
+### Locally
+
+Recommended to use VSCode with the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) installed as will make things much easier.
+
+1. clone the repo and cd into it.
+2. create a virtual environment `python -m venv venv`.
+3. activate the virtual environment `source venv/bin/activate` (or use vscode and select the venv as the python interpreter).
+4. install the requirements `pip install -r requirements.txt`.
+5. create a `.env` file based off of the `.env.example` file and fill in the details.
+6. see if you can run the minimal example notebook `notebooks/minimal_data_example.ipynb`.
+
 ### Binder
 
 Press the binder "launch" button above to launch and run the notebooks in this repo in the cloud on binder.
