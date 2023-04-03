@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv6.icmpmldv2",
+    "chart_description": "This chart displays the rate of IPv6 Multicast Listener Discovery version 2 (MLDv2) report messages received and sent by the device.",
+    "dimension_descriptions": [
+        {
+            "InMLDv2Reports": "The rate of incoming IPv6 MLDv2 report messages received by the device.",
+            "OutMLDv2Reports": "The rate of outgoing IPv6 MLDv2 report messages sent by the device."
+        }
+    ]
+}

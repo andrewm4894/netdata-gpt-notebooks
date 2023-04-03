@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_panic_count_total",
+    "chart_description": "This chart counts the number of times that the CoreDNS DNS server has panicked.",
+    "dimension_descriptions": [
+        {
+            "panics": "The number of panic events that have occurred on the DNS server."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.file_sync",
+    "chart_description": "This chart monitors the frequency of calls for the fsync(2) and fdatasync(2) functions, which are used to synchronize file data and metadata between memory and storage. By monitoring the frequency of these calls, you can gain insight into the I/O patterns of your system's applications and identify potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "fdatasync": "The number of system calls to the fdatasync(2) function, which synchronizes only file data (not metadata) between memory and storage. This dimension can indicate how often applications are writing large amounts of file data but are not concerned about synchronizing file metadata with the storage subsystem.",
+            "fsync": "The number of system calls to the fsync(2) function, which synchronizes both file data and metadata between memory and storage. This dimension can indicate how often applications are concerned about synchronizing both file data and metadata with the storage subsystem, and can be a good indicator of overall storage performance."
+        }
+    ]
+}

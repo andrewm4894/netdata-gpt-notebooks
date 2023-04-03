@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_objects_filtered",
+    "chart_description": "This chart represents the rate of filtered Active Directory (AD) Directory Replication Agent (DRA) objects flowing through the inbound dimension. DRA is used to replicate AD changes among domain controllers in a forest. The chart provides insight into the filtering rate of DRA objects, which could relate to potential issues with replication performance or DRA configuration.",
+    "dimension_descriptions": [
+        {
+            "inbound": "This dimension refers to DRA objects that are incoming to the domain controller. Monitoring this dimension can help identify issues with replication performance of incoming DRA objects or potential configuration issues that limit the filtering of incoming DRA objects."
+        }
+    ]
+}

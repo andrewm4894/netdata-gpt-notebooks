@@ -1,0 +1,10 @@
+{
+    "chart_id": "coredns.dns_requests_count_total_per_per_type",
+    "chart_description": "This chart displays the number of DNS requests received per second by CoreDNS broken down by request type.",
+    "dimension_descriptions": [
+        {
+            "A": "The number of DNS requests for IPv4 addresses received per second.",
+            "AAAA": "The number of DNS requests for IPv6 addresses received per second."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.mcastpkts",
+    "chart_description": "This chart displays the rate of incoming and outgoing IP multicast packets per second.",
+    "dimension_descriptions": [
+        {
+            "InMcastPkts": "The rate of incoming IP multicast packets per second.",
+            "OutMcastPkts": "The rate of outgoing IP multicast packets per second."
+        }
+    ]
+}

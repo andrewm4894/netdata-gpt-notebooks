@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_cache_size",
+    "chart_description": "The HTTP Cache size chart displays the amount of cache memory used for HTTP response caching. This metric is important in ensuring optimal performance of web applications utilizing the NGINX Plus software. Caching responses to requests reduces the amount of processing needed for subsequent requests, resulting in faster response times.",
+    "dimension_descriptions": [
+        {
+            "size": "The size dimension represents the amount of memory allocated to the HTTP cache in bytes. Monitoring this dimension over time can help identify trends and potential issues with cache size, such as running out of allocated memory and needing to increase allocation. It is recommended to adjust cache size based on the expected request volume and response sizes of the web application being served."
+        }
+    ]
+}

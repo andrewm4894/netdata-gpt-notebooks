@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.os_visible_memory_usage",
+    "chart_description": "This chart displays information about the usage of visible memory on a Windows operating system. Visible memory refers to the portion of physical memory which can be accessed immediately without the need for paging. The chart displays the amount of free and used visible memory in bytes in a stacked format.",
+    "dimension_descriptions": [
+        {
+            "free": "The amount of visible memory on the system that is currently available for new processes to use.",
+            "used": "The amount of visible memory on the system that is currently being used by processes."
+        }
+    ]
+}

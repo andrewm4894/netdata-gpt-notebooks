@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.available",
+    "chart_description": "This chart shows the amount of RAM available for use by applications on the server. It is an important metric for ensuring optimal performance and preventing crashes due to insufficient memory.",
+    "dimension_descriptions": [
+        {
+            "MemAvailable": "The amount of memory available for allocation to new processes, measured in megabytes (MiB)."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "chart_id": "groups.threads",
+    "chart_description": "The User Groups Threads chart shows the number of threads being used by each user group in the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Number of threads being used by the user with the UID of 1000",
+            "32": "Number of threads being used by the daemons group",
+            "65532": "Number of threads being used by the nobody group",
+            "65535": "Number of threads being used by the system services group",
+            "81": "Number of threads being used by the cgroup management daemon",
+            "996": "Number of threads being used by the kernel documentation team user",
+            "997": "Number of threads being used by the kernel configuration team user",
+            "cm": "Number of threads being used by the cluster management user",
+            "libvirt": "Number of threads being used by the libvirt virtualization user",
+            "messagebus": "Number of threads being used by the message bus user",
+            "netdata": "Number of threads being used by the Netdata monitoring software",
+            "nobody": "Number of threads being used by the nobody user",
+            "root": "Number of threads being used by the root user",
+            "systemd-coredump": "Number of threads being used by the systemd coredump service",
+            "systemd-journal": "Number of threads being used by the systemd journal service",
+            "systemd-timesync": "Number of threads being used by the systemd timesync service",
+            "vpopmail": "Number of threads being used by the vpopmail user",
+            "xfs": "Number of threads being used by the XFS filesystem management user"
+        }
+    ]
+}

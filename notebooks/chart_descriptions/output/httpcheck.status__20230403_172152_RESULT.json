@@ -1,0 +1,10 @@
+{
+    "chart_id": "httpcheck.status",
+    "chart_description": "The HTTP Check Status chart shows the status of the last HTTP health check. If the check is successful, it will display as True, if the check is unsuccessful, it will display as False. This chart allows you to monitor the health of your HTTP services.",
+    "dimension_descriptions": [
+        {
+            "bad_content": "This dimension shows if the HTTP health check found bad content on the page. If True, it means that the check found unexpected or incorrect content on the page.",
+            "success": "This dimension shows if the HTTP health check was successful. If True, it means that the check was able to connect to the web server and receive a response."
+        }
+    ]
+}

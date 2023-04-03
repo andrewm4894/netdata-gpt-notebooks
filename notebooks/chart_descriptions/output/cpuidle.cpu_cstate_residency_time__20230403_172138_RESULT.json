@@ -1,0 +1,9 @@
+{
+    "chart_id": "cpuidle.cpu_cstate_residency_time",
+    "chart_description": "The `cpuidle.cpu_cstate_residency_time` chart measures the amount of time the CPU is in each C-state (inactive power consumption state) as a percentage of the total time between samples.",
+    "dimension_descriptions": [
+        {
+            "active": "The amount of time the CPU was active between samples."
+        }
+    ]
+}

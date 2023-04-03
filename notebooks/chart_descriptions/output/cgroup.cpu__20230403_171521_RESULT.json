@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.cpu",
+    "chart_description": "This chart displays the CPU usage percentage for the specified cgroup, where 100% equals 1 full core.",
+    "dimension_descriptions": [
+        {
+            "system": "The amount of CPU usage percentage consumed by system-level processes running within the cgroup.",
+            "user": "The amount of CPU usage percentage consumed by user-level processes running within the cgroup."
+        }
+    ]
+}

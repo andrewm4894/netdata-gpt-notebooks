@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.wal_io_rate",
+    "chart_description": "The `postgres.wal_io_rate` chart displays the rate at which data is written to the Write-Ahead Log (WAL) buffer in bytes per second. The WAL is an essential part of PostgreSQL's durability guarantee and is used to record changes made to the database.",
+    "dimension_descriptions": [
+        {
+            "written": "The amount of data written to the WAL buffer in bytes per second."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "nginxplus.http_cache_iops",
+    "chart_description": "The HTTP Cache IOPS chart shows the number of operations per second on the cache key space. It is a measure of the throughput of the cache system in terms of cache hits, cache bypasses and cache writes.",
+    "dimension_descriptions": [
+        {
+            "bypassed": "The number of requests that were not served from cache due to cache-bypass directives in the request or response.",
+            "served": "The number of requests that were served from the cache.",
+            "written": "The number of responses that were written to the cache."
+        }
+    ]
+}
