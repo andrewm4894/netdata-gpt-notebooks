@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubeproxy.kubeproxy_sync_proxy_rules",
+    "chart_description": "The Sync Proxy Rules chart shows the rate at which proxy rules are being synchronized in the kube-proxy component of a Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "sync proxy rules": "The dimension represents the type of synchronization being performed by kube-proxy. It can have values like 'service', 'endpoints', 'serviceaccount', 'namespace', etc., depending on the type of kube-proxy synchronization."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "chart_id": "system.hardirq_latency",
+    "chart_description": "This chart shows the latency time of hardware interrupts (IRQ). A hardware interrupt is a signal that is sent to the CPU from a device or a hardware component, notifying the CPU that it requires attention. This chart helps to identify the performance impact of system hardware on overall system performance.",
+    "dimension_descriptions": [
+        {
+            "ata_piix": "The latency for ATA devices connected to the 'ata_piix' driver.",
+            "local_timer": "The latency for local system timer interrupts.",
+            "reschedule": "The latency for rescheduling interrupts that occur when a higher-priority process becomes available to run on the CPU.",
+            "virtio0": "The latency for virtual devices connected to 'virtio0' driver.",
+            "virtio2-output.0": "The latency for the virtual network device 'virtio2-output.0' driver."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.ldap_last_bind_time",
+    "chart_description": "This chart displays the amount of time in seconds between the last successful LDAP bind operation and now. It can help to monitor the health of the LDAP connection and spot potential issues.",
+    "dimension_descriptions": [
+        {
+            "last_bind": "The timestamp of the last successful LDAP bind operation."
+        }
+    ]
+}

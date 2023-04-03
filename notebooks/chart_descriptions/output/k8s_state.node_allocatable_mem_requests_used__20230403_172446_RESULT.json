@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_mem_requests_used",
+    "chart_description": "This chart measures the amount of memory consumed by Kubernetes workloads on each node of the cluster, looking at the demands made by pods for additional resources. It shows if the available memory in a node is insufficient to support its running containers or if the container is requesting too much memory. This information is significant for capacity planning, creating alert rules, and troubleshooting high memory usage in your Kubernetes cluster",
+    "dimension_descriptions": [
+        {
+            "requests": "The dimension 'requests' shows the amount of memory requested by the containers in different nodes. By using this, we can determine if we need to add more resources to the Kubernetes cluster or if we can optimize our memory allocation strategy in the pod definitions"
+        }
+    ]
+}

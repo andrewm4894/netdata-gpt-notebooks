@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_node_config_error",
+    "chart_description": "This chart tracks if there are any node configuration-related errors in the kubelet. A `true` value indicates that the kubelet is experiencing errors related to the node's configuration, while `false` indicates that there are no configuration issues.",
+    "dimension_descriptions": [
+        {
+            "experiencing_error": "This dimension indicates whether the kubelet is currently experiencing node configuration-related errors. A value of `1` indicates that errors are being experienced, while `0` indicates that there are no errors at present."
+        }
+    ]
+}

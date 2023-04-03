@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.rest_client_requests_by_code",
+    "chart_description": "This chart tracks the number of HTTP requests made by the Kubernetes kubelet to the API server, grouped by their HTTP status codes. It provides insight into the health of the Kubernetes cluster, particularly the communication between the kubelet and API server.",
+    "dimension_descriptions": [
+        {
+            "200": "The number of HTTP requests that were successful with a status code of 200.",
+            "201": "The number of HTTP requests that were successful with a status code of 201."
+        }
+    ]
+}

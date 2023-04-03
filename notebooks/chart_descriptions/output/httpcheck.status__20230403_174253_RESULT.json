@@ -1,0 +1,10 @@
+{
+    "chart_id": "httpcheck.status",
+    "chart_description": "The HTTP Check Status chart shows the success or failure of HTTP checks. It helps in identifying and troubleshooting issues related to HTTP endpoints.",
+    "dimension_descriptions": [
+        {
+            "bad_content": "This dimension indicates whether the HTTP response contains an error or unexpected content.",
+            "success": "This dimension indicates whether the HTTP check is successful or not."
+        }
+    ]
+}

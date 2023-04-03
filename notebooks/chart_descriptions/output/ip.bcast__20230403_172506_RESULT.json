@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.bcast",
+    "chart_description": "The IP Broadcast Bandwidth chart shows the inbound and outbound kilobits per second (Kbps) usage of broadcast packets in the network. Broadcast packets are messages sent to all devices on the local network, and this chart provides insight into the bandwidth used by these messages.",
+    "dimension_descriptions": [
+        {
+            "InBcastOctets": "The amount of inbound broadcast traffic in kilobits per second (Kbps) flowing through the network interface.",
+            "OutBcastOctets": "The amount of outbound broadcast traffic in kilobits per second (Kbps) flowing through the network interface."
+        }
+    ]
+}

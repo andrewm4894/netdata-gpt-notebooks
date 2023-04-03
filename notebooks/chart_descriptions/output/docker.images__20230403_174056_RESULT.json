@@ -1,0 +1,9 @@
+{
+    "chart_id": "docker.images",
+    "chart_description": "This chart displays the number of Docker images on the system. The number includes both active and inactive images.",
+    "dimension_descriptions": [
+        {
+            "active": "This dimension represents the number of active Docker images on the system."
+        }
+    ]
+}

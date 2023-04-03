@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_response_time",
+    "chart_description": "This chart measures the average response time of the upstream servers in an NGINX Plus HTTP server zone. The response time is the time it takes for the server to respond to a client request and includes the time for NGINX Plus to send the request, the time the upstream server takes to respond, and the time for NGINX Plus to receive the response from the upstream server.",
+    "dimension_descriptions": [
+        {
+            "response": "This dimension represents the response time in milliseconds. It is the time taken by the upstream server to respond to a client request."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.cpu_shares",
+    "chart_description": "Tracks the relative share of CPU usage within a Kubernetes pod's cgroup. Cgroup is a Linux kernel feature that limits, accounts and isolates the CPU usage of system resources among groups of processes.",
+    "dimension_descriptions": [
+        {
+            "shares": "The amount of CPU time provided to a Kubernetes pod CPU cgroup(s). The proportion of CPU shares assigned to each cgroup determines the relative amount of CPU available to the processes running inside the cgroups. The value is represented as a ratio."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.backlog",
+    "chart_description": "The `disk.backlog` chart monitors the time (in milliseconds) that a request has to wait before being acted upon by the storage device. It provides insights into the backlog of I/O operations on the disk and can reveal potential performance bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "backlog": "The time (in milliseconds) that a request has to wait before being acted upon by the storage device."
+        }
+    ]
+}

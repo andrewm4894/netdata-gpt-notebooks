@@ -1,0 +1,9 @@
+{
+    "chart_id": "services.io_write",
+    "chart_description": "This chart shows the disk write bandwidth used by systemd services. It can help identify services that are writing to disk excessively, which may impact performance and disk health.",
+    "dimension_descriptions": [
+        {
+            "system-slice_netdata-service": "This dimension represents the systemd service that is using disk write bandwidth. It allows for filtering and comparison between different services."
+        }
+    ]
+}

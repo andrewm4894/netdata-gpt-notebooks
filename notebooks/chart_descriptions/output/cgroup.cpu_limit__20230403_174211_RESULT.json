@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.cpu_limit",
+    "chart_description": "This chart shows the percentage of CPU used by processes that are within the limits of the Control Group (cgroup) configuration. The cgroup is a Linux kernel feature that allows for resource isolation and prioritization among groups of processes.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of CPU usage by processes within the cgroup limits."
+        }
+    ]
+}

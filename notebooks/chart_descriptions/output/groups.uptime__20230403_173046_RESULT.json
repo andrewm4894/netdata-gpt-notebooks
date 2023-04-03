@@ -1,0 +1,26 @@
+{
+    "chart_id": "groups.uptime",
+    "chart_description": "This chart shows the uptime of the various system user groups, measured in seconds. It can be used to identify any groups that may have been restarted or experienced downtime.",
+    "dimension_descriptions": [
+        {
+            "1000": "The 'lp' group, which is used for printing.",
+            "32": "The 'smmsp' group, which is used for the sendmail service.",
+            "65532": "The 'nogroup' group. This is used when a file's owner or group cannot be determined.",
+            "65535": "The 'nobody' group, which is used for unprivileged processes that do not need access to any specific files.",
+            "81": "The 'dbus' group, which is used for the dbus service.",
+            "996": "The 'rpm' group, which is used for package management.",
+            "997": "The 'rpcuser' group, which is used for nfsd.",
+            "cm": "The 'cm' group is used for submitting jobs to a computation management server.",
+            "libvirt": "The 'libvirt' group is used for managing virtual machines.",
+            "messagebus": "The 'messagebus' group is used for the system message bus.",
+            "netdata": "The 'netdata' group is used for the netdata monitoring service.",
+            "nobody": "The 'nobody' group, which is used for unprivileged processes that do not need access to any specific files.",
+            "root": "The 'root' group, which is used for the root user.",
+            "systemd-coredump": "The 'systemd-coredump' group is used for handling system crashes and producing core dumps for troubleshooting.",
+            "systemd-journal": "The 'systemd-journal' group is used for system logging.",
+            "systemd-timesync": "The 'systemd-timesync' group is used for network time synchronization.",
+            "vpopmail": "The 'vpopmail' group is used for vpopmail.",
+            "xfs": "The 'xfs' group is used for the X Window System."
+        }
+    ]
+}

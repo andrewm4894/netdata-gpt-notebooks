@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_requests",
+    "chart_description": "This chart shows the number of client requests currently being processed by the exchange's remote procedure call (RPC) service.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of client requests currently being processed by the RPC service. This dimension is a representation of the current workload and can be used to monitor the system's capacity and to detect anomalies or issues such as backlog or overload."
+        }
+    ]
+}

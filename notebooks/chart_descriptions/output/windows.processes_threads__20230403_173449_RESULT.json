@@ -1,0 +1,41 @@
+{
+    "chart_id": "windows.processes_threads",
+    "chart_description": "This chart shows the number of active threads for each process running on a Windows server.",
+    "dimension_descriptions": [
+        {
+            "Idle": "The number of threads associated with processes in the idle state.",
+            "LogonUI": "The number of threads associated with the Windows LogonUI process.",
+            "Microsoft.ActiveDirectory.WebServices": "The number of threads associated with the Microsoft Active Directory Web Services process.",
+            "MsMpEng": "The number of threads associated with the Windows Defender Antivirus service.",
+            "NisSrv": "The number of threads associated with the Network Isolation service.",
+            "Registry": "The number of threads associated with the Windows Registry.",
+            "SMSvcHost": "The number of threads associated with the Microsoft SMS service host.",
+            "SecurityHealthService": "The number of threads associated with the Windows Defender Security Center service.",
+            "System": "The number of threads associated with the Windows system processes.",
+            "WMSvc": "The number of threads associated with the Windows Process Activation Service.",
+            "WmiApSrv": "The number of threads associated with the Windows Management Instrumentation (WMI) process.",
+            "WmiPrvSE": "The number of threads associated with the Windows Management Instrumentation Provider Service.",
+            "amazon-ssm-agent": "The number of threads associated with the AWS Systems Manager Agent.",
+            "conhost": "The number of threads associated with console host applications.",
+            "csrss": "The number of threads associated with the Windows Client/Server Runtime Subsystem.",
+            "dfsrs": "The number of threads associated with the DFS Replication service.",
+            "dfssvc": "The number of threads associated with the DFS Namespace service.",
+            "dns": "The number of threads associated with the DNS Client service.",
+            "dwm": "The number of threads associated with the Desktop Window Manager process.",
+            "fontdrvhost": "The number of threads associated with the Windows Font Driver Host process.",
+            "ismserv": "The number of threads associated with the Windows Identity Foundation STS service.",
+            "lsass": "The number of threads associated with the Local Security Authority Subsystem Service.",
+            "mqsvc": "The number of threads associated with the Windows Message Queuing service.",
+            "msdtc": "The number of threads associated with the Microsoft Distributed Transaction Coordinator service.",
+            "services": "The number of threads associated with the Windows Service Control Manager.",
+            "smss": "The number of threads associated with the Windows Session Manager.",
+            "spoolsv": "The number of threads associated with the Windows Spooler service.",
+            "ssm-agent-worker": "The number of threads associated with the Amazon Web Services (AWS) Systems Manager Agent worker process.",
+            "svchost": "The number of threads associated with the Windows Host Process service.",
+            "vds": "The number of threads associated with the Windows Virtual Disk service.",
+            "windows_exporter": "The number of threads associated with the Netdata Windows Exporter.",
+            "wininit": "The number of threads associated with the Windows boot initialization process.",
+            "winlogon": "The number of threads associated with the Windows security login process."
+        }
+    ]
+}

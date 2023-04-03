@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_pods_readiness",
+    "chart_description": "The Pods readiness chart measures the percentage of pods that are ready for deployment. If a pod isn't ready, it could indicate an issue with the application running on the node or with the node itself.",
+    "dimension_descriptions": [
+        {
+            "ready": "The ready dimension indicates the percentage of pods on the node that have reached a ready state. A pod is considered ready when all of its containers are running and have not terminated abnormally."
+        }
+    ]
+}

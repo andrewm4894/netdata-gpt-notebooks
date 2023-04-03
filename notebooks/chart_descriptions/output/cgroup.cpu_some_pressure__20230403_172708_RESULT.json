@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.cpu_some_pressure",
+    "chart_description": "This chart monitors the CPU pressure of a cgroup where all processes share equal access to a certain amount of CPU time.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension represents the percentage of time in the last 10 seconds that processes in the cgroup were throttled because they exceeded their CPU quota.",
+            "some 300": "This dimension represents the percentage of time in last 5 minutes that processes in the cgroup were throttled due to exceeding their CPU quota.",
+            "some 60": "This dimension represents the percentage of time in last minute that processes in the cgroup were throttled due to exceeding their CPU quota."
+        }
+    ]
+}

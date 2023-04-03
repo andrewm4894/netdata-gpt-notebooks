@@ -1,0 +1,10 @@
+{
+    "chart_id": "coredns.dns_requests_count_total_per_per_type",
+    "chart_description": "The `coredns.dns_requests_count_total_per_per_type` chart shows the number of DNS requests per type, including A and AAAA requests. This chart can provide insights into which types of DNS requests are most common on your network and can help detect potential issues with DNS resolution for specific types.",
+    "dimension_descriptions": [
+        {
+            "A": "The number of DNS requests resolved to an IPv4 address.",
+            "AAAA": "The number of DNS requests resolved to an IPv6 address."
+        }
+    ]
+}

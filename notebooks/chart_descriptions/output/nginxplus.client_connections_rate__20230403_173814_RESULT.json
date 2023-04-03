@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.client_connections_rate",
+    "chart_description": "The client connections rate chart shows the rate of new client connections being accepted by the NGINX Plus server.",
+    "dimension_descriptions": [
+        {
+            "accepted": "This dimension tracks the rate of new client connections being accepted by the NGINX Plus server."
+        }
+    ]
+}

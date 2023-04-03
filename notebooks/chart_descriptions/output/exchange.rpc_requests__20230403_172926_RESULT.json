@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_requests",
+    "chart_description": "The 'exchange.rpc_requests' chart displays the number of client requests currently being processed by the exchange's RPC (remote procedure call) server. This chart can help system administrators monitor the health of the RPC server and troubleshoot any related issues.",
+    "dimension_descriptions": [
+        {
+            "processed": "This dimension represents the number of client requests that are currently being processed by the RPC server. A high number of requests in this dimension could indicate that the RPC server is being overloaded and might need more resources allocated to it."
+        }
+    ]
+}

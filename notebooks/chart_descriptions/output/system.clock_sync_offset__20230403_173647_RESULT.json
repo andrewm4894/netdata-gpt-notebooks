@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_offset",
+    "chart_description": "The `system.clock_sync_offset` chart displays the computed time offset between the local system and a reference clock, typically from an NTP server. A positive value indicates the local system is behind the reference clock, while a negative value indicates it is ahead.",
+    "dimension_descriptions": [
+        {
+            "offset": "The time difference between the local system and the reference clock, measured in milliseconds."
+        }
+    ]
+}

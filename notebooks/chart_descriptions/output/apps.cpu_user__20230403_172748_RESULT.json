@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.cpu_user",
+    "chart_description": "This chart measures the percentage of CPU time spent in user space by applications running on the system. The chart is stacked, meaning the total CPU time is divided into components for each dimension.",
+    "dimension_descriptions": [
+        {
+            "VMs": "The virtual machines running on the system.",
+            "agent_sd": "The Netdata Agent responsible for collecting data about the system.",
+            "apps.plugin": "The Netdata plugin collecting data about the application layer.",
+            "containers": "The Docker, Kubernetes or other containers running on the system.",
+            "go.d.plugin": "The Netdata plugin collecting data about Go applications.",
+            "httpd": "The Apache HTTP Server running on the system.",
+            "kube-proxy": "The Kubernetes proxy component running on the system.",
+            "kubelet": "The main orchestration component of Kubernetes running on the system.",
+            "metrics-server": "The Kubernetes metrics server collecting data about containers and nodes in the cluster.",
+            "netdata": "The Netdata monitoring system itself.",
+            "nfacct.plugin": "The Netdata plugin collecting data about accounting tables.",
+            "nosql": "NoSQL databases running on the system.",
+            "other": "Other types of applications running on the system.",
+            "python.d.plugin": "The Netdata plugin collecting data about Python applications.",
+            "sql": "SQL databases running on the system.",
+            "system": "The operating system processes running on the system.",
+            "tc-qos-helper": "The Linux Traffic Control QoS Helper module."
+        }
+    ]
+}
