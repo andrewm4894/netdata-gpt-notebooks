@@ -1,0 +1,1 @@
+{"chart_id": "prometheus.velero.process_virtual_memory_max_bytes", "chart_description": "This chart displays the maximum amount of virtual memory available in bytes for the Velero process.", "dimension_descriptions": [{"process_virtual_memory_max_bytes": "The amount of virtual memory available in bytes for the Velero process."}]}

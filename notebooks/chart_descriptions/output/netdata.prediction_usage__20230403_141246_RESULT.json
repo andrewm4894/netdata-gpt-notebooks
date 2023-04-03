@@ -1,0 +1,1 @@
+{"chart_id": "netdata.prediction_usage", "chart_description": "This chart displays the resource usage of the Netdata prediction engine, which provides long term resource predictions based on machine learning algorithms. It helps users optimize resource allocation and prevent resource exhaustion.", "dimension_descriptions": [{"N/A": "This chart does not have any dimensions."}]}

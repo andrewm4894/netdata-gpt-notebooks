@@ -1,0 +1,1 @@
+{"chart_id": "cassandra.thread_pool_blocked_tasks_rate", "chart_description": "This chart displays the rate at which tasks are blocked in Cassandra thread pools.", "dimension_descriptions": [{"blocked": "This dimension represents the number of blocked tasks in the thread pool."}]}

@@ -1,0 +1,1 @@
+{"chart_id": "coredns.dns_requests_count_total_per_ip_family", "chart_description": "This chart displays the number of DNS requests per IP family. IP family is either IPv4 or IPv6.", "dimension_descriptions": [{"v4": "The number of DNS requests made using IPv4 address family."}, {"v6": "The number of DNS requests made using IPv6 address family."}]}

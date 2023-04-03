@@ -1,0 +1,1 @@
+{"chart_id": "system.uptime", "chart_description": "The System Uptime chart shows the length of time that the operating system has been running since the last boot.", "dimension_descriptions": [{"uptime": "The total time that the system has been running since the last boot."}]}

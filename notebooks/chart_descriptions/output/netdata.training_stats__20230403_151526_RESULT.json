@@ -1,0 +1,1 @@
+{"chart_id": "netdata.training_stats", "chart_description": "This chart shows the CPU usage in milliseconds per second of the training thread in the machine learning family. The chart is stacked, which means each dimension is shown as a stacked bar chart.", "dimension_descriptions": []}

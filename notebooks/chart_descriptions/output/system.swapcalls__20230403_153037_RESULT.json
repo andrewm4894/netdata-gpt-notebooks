@@ -1,0 +1,1 @@
+{"chart_id": "system.swapcalls", "chart_description": "The system.swapcalls chart shows the number of swap memory access calls made by the system. This can be an indicator of high memory usage.", "dimension_descriptions": [{"read": "The number of swap memory read calls made by the system.", "write": "The number of swap memory write calls made by the system."}]}

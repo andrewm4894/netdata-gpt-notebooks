@@ -1,0 +1,1 @@
+{"chart_id": "exchange.rpc_requests", "chart_description": "This chart provides information on the number of client requests currently being processed by the RPC (Remote Procedure Call) system in the Exchange microservices architecture.", "dimension_descriptions": [{"processed": "The number of client requests currently being processed by the RPC system."}]}

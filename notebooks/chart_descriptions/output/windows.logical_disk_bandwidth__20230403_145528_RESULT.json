@@ -1,0 +1,1 @@
+{"chart_id": "windows.logical_disk_bandwidth", "chart_description": "This chart displays the bandwidth usage (in bytes per second) of logical disks on Windows machines.", "dimension_descriptions": [{"read": "The amount of data read from the logical disk in bytes per second.", "write": "The amount of data written to the logical disk in bytes per second."}]}

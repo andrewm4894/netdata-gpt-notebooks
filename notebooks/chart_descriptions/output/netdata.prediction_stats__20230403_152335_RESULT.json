@@ -1,0 +1,1 @@
+{"chart_id": "netdata.prediction_stats", "chart_description": "The prediction_stats chart shows the CPU usage of the Netdata prediction thread. This thread is used by Netdata's machine learning algorithms to predict anomalies and provide anomaly detection.", "dimension_descriptions": [{"N/A": "This chart does not have any dimensions."}]}
