@@ -1,0 +1,1 @@
+{"chart_id": "net.operstate", "chart_description": "This chart shows the operational state of the network interfaces in the system. It tracks the number of interfaces that are either up or down.", "dimension_descriptions": [{"down": "The number of network interfaces that are down.", "up": "The number of network interfaces that are up."}]}

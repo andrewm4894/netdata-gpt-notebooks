@@ -1,0 +1,1 @@
+{"chart_id": "k8s_state.node_allocatable_cpu_limits_used", "chart_description": "This chart shows the usage in millicpu of the CPU limits allocated to nodes in the cluster, compared to the node's allocatable CPU resources", "dimension_descriptions": [{"limits": "The specific limit of CPU resources that is being measured"}]}

@@ -1,0 +1,1 @@
+{"chart_id": "disk_ext.avgsz", "chart_description": "The `disk_ext.avgsz` chart displays the average amount of discarded data in KiB (Kibibyte) per operation.", "dimension_descriptions": [{"discards": "The number of operations that resulted in discarded data."}]}

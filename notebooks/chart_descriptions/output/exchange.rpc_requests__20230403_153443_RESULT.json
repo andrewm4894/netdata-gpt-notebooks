@@ -1,0 +1,1 @@
+{"chart_id": "exchange.rpc_requests", "chart_description": "This chart monitors the number of client requests that are currently being processed by the exchange's RPC (Remote Procedure Call) service.", "dimension_descriptions": [{"processed": "This dimension represents the total number of client requests that are currently being processed by the exchange's RPC service."}]}

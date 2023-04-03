@@ -1,0 +1,1 @@
+{"chart_id": "disk.ops", "chart_description": "This chart displays the rate of completed I/O operations for a disk. It includes the number of read and write operations per second.", "dimension_descriptions": [{"reads": "The rate at which read operations are completed on the disk per second.", "writes": "The rate at which write operations are completed on the disk per second."}]}

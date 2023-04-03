@@ -1,0 +1,1 @@
+{"chart_id": "netdata.workers.stats.threads", "chart_description": "The Netdata Workers Threads chart shows the number of threads currently running in the Netdata workers.", "dimension_descriptions": [{"busy": "The number of threads being used by Netdata workers to handle requests.", "free": "The number of idle threads available for use by Netdata workers."}]}

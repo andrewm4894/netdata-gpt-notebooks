@@ -1,0 +1,1 @@
+{"chart_id": "netdata.aclk_protobuf_rx_types", "chart_description": "The `netdata.aclk_protobuf_rx_types` chart displays the number of received new cloud architecture messages by their type.", "dimension_descriptions": [{"cmd": "This dimension represents the type of received new cloud architecture message."}]}

@@ -1,0 +1,1 @@
+{"chart_id": "apache.bytesperreq", "chart_description": "This chart displays the average size of the HTTP response body (in Kilobytes) per request processed by Apache over the lifetime of the process.", "dimension_descriptions": [{"size": "The size of the HTTP response body in Kilobytes."}]}
