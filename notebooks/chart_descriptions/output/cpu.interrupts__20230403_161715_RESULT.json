@@ -1,0 +1,31 @@
+{
+    "chart_id": "cpu.interrupts",
+    "chart_description": "Shows the number of interrupts per second that are being handled by the CPU.",
+    "dimension_descriptions": [
+        {
+            "10": "Number of interrupts caused by the Advanced Programmable Interrupt Controller(APIC) local timer interrupt.",
+            "15": "Number of interrupts caused by the non-maskable interrupt (NMI).",
+            "25": "Number of interrupts caused by the system management interrupt (SMI).",
+            "26": "Number of interrupts caused by the APIC thermal sensor interrupt.",
+            "27": "Number of interrupts caused by the APIC performance monitoring interrupt.",
+            "28": "Number of interrupts caused by the APIC LINT0 interrupt.",
+            "29": "Number of interrupts caused by the APIC LINT1 interrupt.",
+            "30": "Number of interrupts caused by the APIC error interrupt.",
+            "31": "Number of interrupts caused by the APIC spurious interrupt.",
+            "32": "Number of interrupts caused by the Performance Event-based Xeon interrupt.",
+            "33": "Number of interrupts caused by the Time Stamp Counter (TSC) interrupt.",
+            "34": "Number of interrupts caused by the APIC virtual interrupt.",
+            "35": "Number of interrupts caused by the APIC security interrupt.",
+            "36": "Number of interrupts caused by the APIC private interrupt.",
+            "37": "Number of interrupts caused by the APIC performance interrupt.",
+            "38": "Number of interrupts caused by the APIC IRQ work interrupt.",
+            "39": "Number of interrupts caused by the APIC kernel work interrupt.",
+            "55": "Number of interrupts caused by the APIC local interrupt.",
+            "56": "Number of interrupts caused by the APIC other interrupt.",
+            "CAL": "Number of interrupts caused by the APIC calibration interrupt.",
+            "LOC": "Number of interrupts caused by the APIC local performance counter interrupt.",
+            "RES": "Reserved.",
+            "TLB": "Number of interrupts caused by the TLB flush interrupt."
+        }
+    ]
+}

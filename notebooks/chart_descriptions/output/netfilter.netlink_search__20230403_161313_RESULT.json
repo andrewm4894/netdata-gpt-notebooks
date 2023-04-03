@@ -1,0 +1,9 @@
+{
+    "chart_id": "netfilter.netlink_search",
+    "chart_description": "This chart monitors the number of searches that are restarted. The netfilter connection tracker keeps track of connections that pass through the system, and sometimes it needs to restart a search if no relevant connection is found. This chart provides an insight into how often those searches are being restarted. Higher values could indicate performance issues with the connection tracker or the need for more system resources.",
+    "dimension_descriptions": [
+        {
+            "search_restart": "The number of searches that are restarted per second."
+        }
+    ]
+}

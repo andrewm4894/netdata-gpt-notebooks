@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.atq_outstanding_requests",
+    "chart_description": "The 'ad.atq_outstanding_requests' chart displays the number of outstanding requests in the Active Directory query (AD.atq) queue.",
+    "dimension_descriptions": [
+        {
+            "outstanding": "The 'outstanding' dimension represents the number of requests that have been sent to the AD.atq queue and have not yet been processed."
+        }
+    ]
+}

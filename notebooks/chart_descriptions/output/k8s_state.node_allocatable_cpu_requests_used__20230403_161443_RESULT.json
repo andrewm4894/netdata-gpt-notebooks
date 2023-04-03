@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_cpu_requests_used",
+    "chart_description": "This chart displays the amount of CPU requests used by each node in the Kubernetes cluster, measured in thousandths of a CPU unit (millicpu). The chart helps to monitor the CPU usage of the Kubernetes nodes and to identify any potential resource constraints that may affect the performance and stability of the applications running on the nodes.",
+    "dimension_descriptions": [
+        {
+            "requests": "The name of the dimension represents the resources requested by the pods running on the nodes. This dimension shows the usage of CPU requests specified in the pod resource requests field. High values on this dimension may indicate that the pod requests more CPU resources than required, which may lead to contention and performance issues."
+        }
+    ]
+}

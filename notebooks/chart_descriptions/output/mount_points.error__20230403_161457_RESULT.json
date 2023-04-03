@@ -1,0 +1,10 @@
+{
+    "chart_id": "mount_points.error",
+    "chart_description": "This chart displays the rate at which errors occurred while mounting or unmounting file systems.",
+    "dimension_descriptions": [
+        {
+            "mount": "This dimension displays the rate at which errors occurred while mounting a file system.",
+            "umount": "This dimension displays the rate at which errors occurred while unmounting a file system."
+        }
+    ]
+}

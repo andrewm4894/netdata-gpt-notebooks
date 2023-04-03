@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.net_operstate",
+    "chart_description": "The Interface Operational State chart tracks the state of network interfaces across the Kubernetes cluster. It shows whether or not the network interfaces are up or down.",
+    "dimension_descriptions": [
+        {
+            "up": "This dimension indicates whether the network interface is operational and able to transmit and receive data. The value is either 1 (up) or 0 (down)."
+        }
+    ]
+}

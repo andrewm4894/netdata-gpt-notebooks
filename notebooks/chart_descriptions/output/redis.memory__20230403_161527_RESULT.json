@@ -1,0 +1,15 @@
+{
+    "chart_id": "redis.memory",
+    "chart_description": "The `redis.memory` chart displays the memory used by Redis, a popular in-memory data structure store often used for caching or message broker purposes.",
+    "dimension_descriptions": [
+        {
+            "dataset": "The type of Redis dataset (e.g. hash, list, set) that is stored in memory. This dimension helps identify the specific data structure that is contributing to the memory usage.",
+            "lua": "The amount of memory used by Lua scripts that have been loaded into Redis. This dimension accounts for memory used by Redis Lua scripts and represents a significant portion of Redis' memory usage.",
+            "max": "The maximum amount of memory Redis has been configured to use. If Redis reaches the `max` limit, it will start rejecting new writes until memory usage decreases.",
+            "peak": "The highest amount of memory used by Redis since it was last started. This can help identify any new data structures consuming large amounts of memory over time.",
+            "rss": "The Resident Set Size (RSS) is the portion of memory used by Redis that is held in RAM. This dimension can help identify how much physical memory Redis is consuming.",
+            "scripts": "The number of Lua scripts currently loaded into Redis.",
+            "used": "The current amount of memory used by Redis. This dimension can help identify memory leak issues or unusual spikes in memory usage."
+        }
+    ]
+}

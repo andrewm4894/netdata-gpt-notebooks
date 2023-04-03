@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_downtime",
+    "chart_description": "This chart displays the downtime of the streaming upstream servers in seconds. It is useful to monitor the server's performance and identify any issues that may cause downtime.",
+    "dimension_descriptions": [
+        {
+            "downtime": "The amount of time the upstream server was down, measured in seconds."
+        }
+    ]
+}

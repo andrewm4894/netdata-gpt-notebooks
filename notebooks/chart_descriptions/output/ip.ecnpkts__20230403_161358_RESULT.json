@@ -1,0 +1,9 @@
+{
+    "chart_id": "ip.ecnpkts",
+    "chart_description": "This chart displays the number of incoming IP packets per second that have the Explicit Congestion Notification (ECN) bit set. ECN is a mechanism to avoid network congestion by allowing network devices to indicate congestion before it occurs. The chart shows how many packets with ECN have been received per second, which can help identify and troubleshoot congestion issues.",
+    "dimension_descriptions": [
+        {
+            "InNoECTPkts": "The number of incoming IP packets per second that do not have the ECN bit set."
+        }
+    ]
+}

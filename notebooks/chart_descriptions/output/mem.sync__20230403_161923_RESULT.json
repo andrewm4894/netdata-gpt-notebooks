@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.sync",
+    "chart_description": "The `mem.sync` chart monitors the frequency of calls to the `sync(2)` and `syncfs(2)` system calls, which force all modified data to be written to the storage device. This chart is particularly useful for identifying performance bottlenecks related to disk I/O and determining if the system is keeping up with the rate of disk writes.",
+    "dimension_descriptions": [
+        {
+            "sync": "Tracks the frequency of calls to the `sync(2)` system call, which ensures that all data in the system buffers is written to the storage device. High values for this dimension may indicate that the system is experiencing significant disk activity.",
+            "syncfs": "Tracks the frequency of calls to the `syncfs(2)` system call, which is similar to `sync(2)` but only applies to the filesystem containing the file descriptor passed as an argument. High values for this dimension may indicate that a particular filesystem is experiencing significant disk activity."
+        }
+    ]
+}

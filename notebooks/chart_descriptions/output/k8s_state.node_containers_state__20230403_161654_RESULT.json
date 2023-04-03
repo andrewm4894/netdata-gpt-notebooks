@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_containers_state",
+    "chart_description": "This chart displays the number of containers in each state for the selected node in a Kubernetes cluster. The dimension 'running' shows the number of containers that are currently running on the node, while the dimension 'terminated' displays the number of containers that have exited.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of containers that are currently running on the selected node.",
+            "terminated": "The number of containers that have exited on the selected node."
+        }
+    ]
+}

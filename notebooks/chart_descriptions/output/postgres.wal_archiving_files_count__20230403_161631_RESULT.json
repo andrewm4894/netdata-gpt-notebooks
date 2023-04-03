@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.wal_archiving_files_count",
+    "chart_description": "The `postgres.wal_archiving_files_count` chart shows the number of Write-Ahead Log (WAL) files archived per second. WAL files are archived when they are no longer needed for crash recovery or replication and can be removed from the primary server. The chart helps in monitoring the performance of WAL archiving process and the readiness of the standby servers to receive archived files.",
+    "dimension_descriptions": [
+        {
+            "done": "The number of WAL files that have been successfully archived and removed from the primary server.",
+            "ready": "The number of WAL files that are currently waiting to be archived and removed from the primary server. These files are referred to as \u2018ready\u2019 because they are ready to be sent to the standby servers."
+        }
+    ]
+}

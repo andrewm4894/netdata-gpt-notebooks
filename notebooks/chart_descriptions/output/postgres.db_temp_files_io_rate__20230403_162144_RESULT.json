@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_temp_files_io_rate",
+    "chart_description": "This chart displays the rate of data written to disk by temporary files of the specified PostgreSQL database. Temp files are used for various purposes by PostgreSQL and can be used for sorting, indexes, and other operations. This chart helps monitor the use of temporary files and the related I/O activity, which can impact the performance of the database.",
+    "dimension_descriptions": [
+        {
+            "written": "The amount of data written to disk by temporary files per second, in bytes per second (B/s)."
+        }
+    ]
+}

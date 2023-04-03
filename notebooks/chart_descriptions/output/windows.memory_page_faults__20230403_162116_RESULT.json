@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_page_faults",
+    "chart_description": "This chart shows the rate at which page faults occur in the memory of a Windows system. A page fault happens when the operating system needs to access a page of memory that is not currently in RAM and results in slower performance.",
+    "dimension_descriptions": [
+        {
+            "page_faults": "The number of page faults per second."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_location_zone_requests_rate",
+    "chart_description": "This chart shows the rate of HTTP requests served by different zones located in the nginxplus server. Zones are the storage for HTTP requests with similar content or characteristics. This chart can help in identifying the zones with higher request rates, which can help in troubleshooting issues or load balancing decisions.",
+    "dimension_descriptions": [
+        {
+            "requests": "The number of HTTP requests served per second by the individual zones on the nginxplus server."
+        }
+    ]
+}

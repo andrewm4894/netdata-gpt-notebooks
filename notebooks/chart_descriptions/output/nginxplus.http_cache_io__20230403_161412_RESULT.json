@@ -1,0 +1,11 @@
+{
+    "chart_id": "nginxplus.http_cache_io",
+    "chart_description": "This chart shows the rate of data transfer for the HTTP cache in bytes per second. The data transfer can be divided into three categories, bypassed, served, and written.",
+    "dimension_descriptions": [
+        {
+            "bypassed": "The rate at which data is bypassed in the HTTP cache in bytes per second. This represents the amount of data that is not served from the cache and is instead retrieved directly from the origin server.",
+            "served": "The rate at which data is served from the HTTP cache in bytes per second. This represents the amount of data that is served from the cache and does not need to be retrieved from the origin server.",
+            "written": "The rate at which data is written to the HTTP cache in bytes per second. This represents the amount of data that is added to the cache."
+        }
+    ]
+}
