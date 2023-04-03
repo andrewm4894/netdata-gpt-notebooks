@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_conns_active",
+    "chart_description": "This chart represents the rate at which TCP connections are being established or closed down on the Windows machine. It provides insight into how busy the TCP stack is and is an important metric for understanding network activity.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The number of active TCP connections using IPv4.",
+            "ipv6": "The number of active TCP connections using IPv6."
+        }
+    ]
+}

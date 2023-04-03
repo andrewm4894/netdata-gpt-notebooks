@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.name_cache_lookups",
+    "chart_description": "This chart displays the rate at which Active Directory domain name lookups are being performed on the server's name cache. This can be helpful in understanding the server's DNS performance.",
+    "dimension_descriptions": [
+        {
+            "lookups": "The number of name cache lookups per second."
+        }
+    ]
+}

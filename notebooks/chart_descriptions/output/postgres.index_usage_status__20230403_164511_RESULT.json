@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.index_usage_status",
+    "chart_description": "This chart displays the usage status of indexes in Postgres database. It helps to identify any unused indexes that can be removed to improve database performance and reduce storage consumption.",
+    "dimension_descriptions": [
+        {
+            "used": "This dimension shows the current status of index usage - whether it is being used or not. A value of 1 indicates the index is being used while a value of 0 indicates it is not being used."
+        }
+    ]
+}

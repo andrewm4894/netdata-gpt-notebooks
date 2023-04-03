@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_traffic_rate",
+    "chart_description": "This chart shows the rate of traffic received and sent by HTTP upstream servers in bytes per second. It is useful for monitoring the performance of upstream servers and identifying potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate of traffic received by HTTP upstream servers in bytes per second.",
+            "sent": "The rate of traffic sent by HTTP upstream servers in bytes per second."
+        }
+    ]
+}

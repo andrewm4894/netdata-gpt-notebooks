@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.transactions_duration",
+    "chart_description": "The 'postgres.transactions_duration' chart displays the observed time it takes to complete transactions in Postgres. This chart is useful for monitoring the performance of the database.",
+    "dimension_descriptions": [
+        {
+            "100ms": "This dimension represents the number of transactions that completed within 100 milliseconds. A high value indicates that the majority of transactions are executing quickly.",
+            "500ms": "This dimension represents the number of transactions that completed between 100 and 500 milliseconds. A high value in this dimension may indicate that some transactions are taking longer than expected but are still completing within a reasonable amount of time."
+        }
+    ]
+}

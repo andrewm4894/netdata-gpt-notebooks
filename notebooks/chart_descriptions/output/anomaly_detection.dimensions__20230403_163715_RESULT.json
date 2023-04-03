@@ -1,0 +1,10 @@
+{
+    "chart_id": "anomaly_detection.dimensions",
+    "chart_description": "The anomaly_detection.dimensions chart tracks the number of anomalies and normal events detected by the anomaly detection system. It is useful for identifying periods when an unusual number of anomalies are occurring and for detecting changes in normal activity levels.",
+    "dimension_descriptions": [
+        {
+            "anomalous": "The number of anomalous events detected by the anomaly detection system.",
+            "normal": "The number of normal events detected by the anomaly detection system."
+        }
+    ]
+}

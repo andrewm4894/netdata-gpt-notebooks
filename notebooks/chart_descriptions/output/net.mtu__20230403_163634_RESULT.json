@@ -1,0 +1,9 @@
+{
+    "chart_id": "net.mtu",
+    "chart_description": "The `net.mtu` chart displays the maximum transmission unit (MTU) for each network interface on the system. The MTU refers to the largest data packet size permitted for transmission without fragmentation.",
+    "dimension_descriptions": [
+        {
+            "mtu": "The maximum transmission unit (MTU) dimension displays the total number of octets that can be transmitted per packet on the specified interface."
+        }
+    ]
+}

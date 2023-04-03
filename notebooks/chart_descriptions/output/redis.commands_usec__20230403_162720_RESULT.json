@@ -1,0 +1,12 @@
+{
+    "chart_id": "redis.commands_usec",
+    "chart_description": "This chart shows the total CPU time consumed by various redis commands in microseconds.",
+    "dimension_descriptions": [
+        {
+            "INFO": "CPU time consumed by Redis INFO command.",
+            "LPUSH": "CPU time consumed by Redis LPUSH command.",
+            "LRANGE": "CPU time consumed by Redis LRANGE command.",
+            "PING": "CPU time consumed by Redis PING command."
+        }
+    ]
+}

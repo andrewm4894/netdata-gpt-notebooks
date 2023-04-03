@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.cpu_limit",
+    "chart_description": "This chart shows the percentage of CPU usage within the limits set by cgroups. Cgroups provide resource limitation and prioritization to processes.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of CPU used by processes within the cgroup limits."
+        }
+    ]
+}

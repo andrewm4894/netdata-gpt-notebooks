@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.sockstat_tcp_mem",
+    "chart_description": "This chart shows the memory used by open TCP sockets in the IPv4 protocol. It helps to monitor memory usage and detect potential memory leaks or excessive memory usage related to TCP connections.",
+    "dimension_descriptions": [
+        {
+            "mem": "The amount of memory in KiB used by TCP sockets."
+        }
+    ]
+}

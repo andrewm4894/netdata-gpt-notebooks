@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_operations",
+    "chart_description": "This chart displays the average number of logical disk read and write operations per second that have been requested from the operating system over time. These operations occur on one or more partitions of a logical disk, and they represent input/output (I/O) activity related to file operations on the disk.",
+    "dimension_descriptions": [
+        {
+            "reads": "This dimension represents the average number of logical disk read operations per second that have been performed over time. A read operation refers to reading data from a file on the disk to memory.",
+            "writes": "This dimension represents the average number of logical disk write operations per second that have been performed over time. A write operation refers to writing data from memory to a file on the disk."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.uptime",
+    "chart_description": "The System Uptime chart displays the amount of time that the system has been running without experiencing a reboot. This metric is useful in determining system stability and availability.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The amount of time, in seconds, that the system has been running without a reboot."
+        }
+    ]
+}

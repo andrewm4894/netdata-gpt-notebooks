@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.compaction_completed_tasks_rate",
+    "chart_description": "This chart shows the rate at which compaction tasks are completed in the Cassandra database.",
+    "dimension_descriptions": [
+        {
+            "completed": "The number of completed compaction tasks per second."
+        }
+    ]
+}

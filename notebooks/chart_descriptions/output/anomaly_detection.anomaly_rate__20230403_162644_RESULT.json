@@ -1,0 +1,9 @@
+{
+    "chart_id": "anomaly_detection.anomaly_rate",
+    "chart_description": "This chart shows the percentage of anomalous dimensions in your infrastructure. Anomalous dimensions are those that deviate from the expected behavior and may indicate a problem.",
+    "dimension_descriptions": [
+        {
+            "anomaly_rate": "The percentage of anomalous dimensions within your infrastructure. A higher value indicates a greater number of anomalies and potentially higher risk of issues."
+        }
+    ]
+}

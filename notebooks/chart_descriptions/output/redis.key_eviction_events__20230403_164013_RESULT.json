@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.key_eviction_events",
+    "chart_description": "This chart shows the rate of keys that have been evicted due to the maximum memory limit being reached in the Redis database. When Redis runs out of memory and can't allocate more, it starts to remove data automatically according to the eviction policy. This chart helps to monitor the efficiency of the key eviction process.",
+    "dimension_descriptions": [
+        {
+            "evicted": "The number of keys evicted per second due to Redis reaching the maximum memory limit."
+        }
+    ]
+}

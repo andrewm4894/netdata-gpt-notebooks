@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_peers_count",
+    "chart_description": "This chart shows the current number of peers connected to each upstream server in real-time for the NGINX Plus stream module, which is responsible for TCP and UDP load balancing.",
+    "dimension_descriptions": [
+        {
+            "peers": "The number of active connections to the upstream server. This dimension is useful for identifying load imbalance where one server has significantly more active connections than others."
+        }
+    ]
+}

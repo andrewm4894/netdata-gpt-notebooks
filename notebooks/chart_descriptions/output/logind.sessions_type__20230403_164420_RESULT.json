@@ -1,0 +1,9 @@
+{
+    "chart_id": "logind.sessions_type",
+    "chart_description": "This chart displays the number of logind sessions by type, where 'console' refers to sessions started on the physical console of the machine.",
+    "dimension_descriptions": [
+        {
+            "console": "Number of sessions started on the physical console of the machine."
+        }
+    ]
+}

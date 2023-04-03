@@ -1,0 +1,5 @@
+{
+    "chart_id": "exchange.ldap_long_running_ops_per_sec",
+    "chart_description": "This chart displays the rate of long running LDAP (Lightweight Directory Access Protocol) operations per second in an Exchange server environment. Long running LDAP operations can cause performance issues and this chart helps monitor their frequency.",
+    "dimension_descriptions": []
+}

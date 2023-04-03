@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_token_requests",
+    "chart_description": "This chart shows the rate of Token() requests made to the alternate token source by kubelet on a Kubernetes node. This chart is useful for monitoring if the requests to the alternate token source are increasing, indicating a potential issue with the Kubernetes node.",
+    "dimension_descriptions": [
+        {
+            "failed": "The rate of Token() requests that failed to retrieve a token from the alternate token source.",
+            "total": "The total rate of Token() requests made to the alternate token source by kubelet on a Kubernetes node."
+        }
+    ]
+}

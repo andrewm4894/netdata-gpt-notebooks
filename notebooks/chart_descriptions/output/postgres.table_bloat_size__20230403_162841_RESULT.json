@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_bloat_size",
+    "chart_description": "This chart displays the amount of disk space consumed by the bloated tables in the PostgreSQL database. Bloated tables refer to the tables that have unused or dead rows due to data insertion, updates or deletions, leading to fragmentation and increased storage size.",
+    "dimension_descriptions": [
+        {
+            "bloat": "The bloat dimension represents the extent of bloat or dead space due to fragmentation and other reasons in the tables of the PostgreSQL database. The values are represented in bytes."
+        }
+    ]
+}

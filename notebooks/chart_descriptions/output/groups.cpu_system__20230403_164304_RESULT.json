@@ -1,0 +1,17 @@
+{
+    "chart_id": "groups.cpu_system",
+    "chart_description": "This chart displays the system CPU time used by different user groups. The CPU time here denotes time spent executing system calls on behalf of the user group.",
+    "dimension_descriptions": [
+        {
+            "1000": "CPU time used by the user group with a numeric ID 1000.",
+            "65532": "CPU time used by the user group with a numeric ID 65532.",
+            "libvirt": "CPU time used by the Libvirt virtualization API user group.",
+            "messagebus": "CPU time used by the message bus user group.",
+            "netdata": "CPU time used by the Netdata server user group.",
+            "nobody": "CPU time used by the Nobody group.",
+            "root": "CPU time used by the Root user.",
+            "systemd-coredump": "CPU time used by the systemd-coredump user group.",
+            "xfs": "CPU time used by the XFS user group."
+        }
+    ]
+}

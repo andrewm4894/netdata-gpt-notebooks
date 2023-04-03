@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.txid_exhaustion_oldest_txid_num",
+    "chart_description": "Displays the oldest transaction identifier (XID) tracked by PostgreSQL's transaction ID (TXID) wraparound mechanism. The TXID wraparound mechanism ensures that transaction IDs do not overflow and cause database corruption. This chart shows the maximum age of running transactions and can help identify if there is a potential for TXID wraparound failure.",
+    "dimension_descriptions": [
+        {
+            "xid": "The transaction identifier (XID) in PostgreSQL used to track the age of running transactions. This dimension shows the number of transactions that have occurred since wraparound started. Higher values mean that the database is closer to wraparound failure."
+        }
+    ]
+}

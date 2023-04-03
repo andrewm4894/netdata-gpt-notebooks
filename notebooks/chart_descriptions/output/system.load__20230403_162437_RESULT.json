@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.load",
+    "chart_description": "The `system.load` chart displays the average system load over the last 1, 5, and 15 minutes. System load is a measure of the amount of work that the system is doing. A high load indicates that the system has more work to do than it can handle at that moment.",
+    "dimension_descriptions": [
+        {
+            "load1": "The load average over the last 1 minute.",
+            "load5": "The load average over the last 5 minutes.",
+            "load15": "The load average over the last 15 minutes."
+        }
+    ]
+}

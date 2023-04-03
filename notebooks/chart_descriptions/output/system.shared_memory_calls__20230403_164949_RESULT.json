@@ -1,0 +1,12 @@
+{
+    "chart_id": "system.shared_memory_calls",
+    "chart_description": "This chart displays the rate of calls made to shared memory system calls per second. Shared Memory is a way of inter-process communication where processes share a segment of memory to exchange data.",
+    "dimension_descriptions": [
+        {
+            "at": "The rate of successful attaches (shmat) to shared memory segments.",
+            "ctl": "The rate of successful control (shmctl) calls on shared memory segments, such as changing permissions or removing the segment.",
+            "dt": "The rate of successful detaches (shmdt) from shared memory segments.",
+            "get": "The rate of successful retrievals (shmget) of shared memory segments."
+        }
+    ]
+}

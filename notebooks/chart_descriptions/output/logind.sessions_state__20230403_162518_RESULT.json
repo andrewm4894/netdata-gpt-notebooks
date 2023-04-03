@@ -1,0 +1,9 @@
+{
+    "chart_id": "logind.sessions_state",
+    "chart_description": "This chart displays the number of sessions currently active and their state.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of currently active sessions."
+        }
+    ]
+}

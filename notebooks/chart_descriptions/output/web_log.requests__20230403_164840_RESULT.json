@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.requests",
+    "chart_description": "This chart displays the number of total requests made to the website per second.",
+    "dimension_descriptions": [
+        {
+            "requests": "The total number of requests sent to the website per second."
+        }
+    ]
+}

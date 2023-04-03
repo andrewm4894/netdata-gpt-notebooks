@@ -1,0 +1,17 @@
+{
+    "chart_id": "groups.lwrites",
+    "chart_description": "This chart shows the I/O logical writes, measured in KiB/s, for different user groups. Logical writes refer to the number of blocks of data that are written to a file system, regardless of the amount of data in those blocks. The chart is useful for tracking which user groups are writing the most data to disk.",
+    "dimension_descriptions": [
+        {
+            "1000": "The user group with ID 1000.",
+            "65532": "The user group with ID 65532.",
+            "997": "The user group with ID 997.",
+            "libvirt": "The libvirt user group, which is used by the virtualization platform Libvirt.",
+            "netdata": "The Netdata user group, which is used by the Netdata monitoring system.",
+            "nobody": "The nobody user group, which is used for unprivileged processes.",
+            "root": "The root user group, which has full privileges on the system.",
+            "vpopmail": "The vpopmail user group, which is used by the Vpopmail mail server software.",
+            "xfs": "The XFS user group, which is used by the XFS file system."
+        }
+    ]
+}

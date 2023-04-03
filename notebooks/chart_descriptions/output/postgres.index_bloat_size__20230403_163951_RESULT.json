@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.index_bloat_size",
+    "chart_description": "This chart displays the size of index bloat in bytes for the Postgres database. Index bloat happens when the size of indexes in the database grows beyond their required size.",
+    "dimension_descriptions": [
+        {
+            "bloat": "This dimension represents the degree of bloat for the index. A value of 1 means that the index is bloated and needs maintenance."
+        }
+    ]
+}

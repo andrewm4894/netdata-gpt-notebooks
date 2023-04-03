@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_sync_objects_remaining",
+    "chart_description": "This chart shows the remaining number of full synchronization objects in the Dynamic Replication Agreement (DRA) replication for a given inbound dimension. The number of remaining full synchronization objects indicates that the replication process is not yet complete.",
+    "dimension_descriptions": [
+        {
+            "inbound": "This dimension indicates the replication direction, where the synchronization objects are being replicated to the Active Directory domain within the organization's network."
+        }
+    ]
+}

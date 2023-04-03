@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_operations",
+    "chart_description": "This chart displays the number of operations per second (ops/s) for both reads and writes made to logical disks on Windows systems.",
+    "dimension_descriptions": [
+        {
+            "reads": "This dimension represents the number of read operations per second made to logical disks.",
+            "writes": "This dimension represents the number of write operations per second made to logical disks."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netfilter.netlink_search",
+    "chart_description": "This chart displays the number of searches performed by the connection tracker of netfilter using netlink. It can be used to identify the workload on the connection tracker for a specific dimension.",
+    "dimension_descriptions": [
+        {
+            "search_restart": "This dimension refers to the netlink connection tracker restart interactions that involve listing and updating all the search elements. It tracks how many times the search_restart function is executed per second."
+        }
+    ]
+}

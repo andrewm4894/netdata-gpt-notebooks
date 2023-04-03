@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_mem_limits_used",
+    "chart_description": "This chart shows the memory limit used by pods in bytes. Memory limits are the maximum amount of memory a container can consume, and this chart helps monitor how much memory a pod is utilizing compared to its allocated limit.",
+    "dimension_descriptions": [
+        {
+            "limits": "The memory limit dimension represents the set limit memory of pods, which defines the maximum amount of memory that the container is allowed to use. This dimension helps identify how much memory a pod is utilizing compared to its defined limits."
+        }
+    ]
+}

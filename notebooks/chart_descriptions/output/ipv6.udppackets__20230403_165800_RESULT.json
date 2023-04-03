@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.udppackets",
+    "chart_description": "The `ipv6.udppackets` chart displays the rate of outgoing IPv6 UDP packets per second.",
+    "dimension_descriptions": [
+        {
+            "OutDatagrams": "The number of outgoing IPv6 UDP packets per second."
+        }
+    ]
+}

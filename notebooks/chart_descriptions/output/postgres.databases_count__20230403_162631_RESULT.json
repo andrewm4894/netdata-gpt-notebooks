@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.databases_count",
+    "chart_description": "This chart displays the number of databases in the PostgreSQL instance being monitored. It can help to determine if there are any issues related to the number of databases and whether the instance is being used efficiently.",
+    "dimension_descriptions": [
+        {
+            "databases": "The number of databases being monitored in the PostgreSQL instance. Each database is a separate namespace within an instance."
+        }
+    ]
+}

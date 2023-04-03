@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.bcastpkts",
+    "chart_description": "This chart displays the rate of incoming and outgoing IP broadcast packets in packets per second. IP broadcasting is used to send data to all devices on a network segment, making it useful for distributing information such as network time protocol or dynamic host configuration protocol messages.",
+    "dimension_descriptions": [
+        {
+            "InBcastPkts": "The rate of incoming IP broadcast packets.",
+            "OutBcastPkts": "The rate of outgoing IP broadcast packets."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "chart_id": "users.swap",
+    "chart_description": "This chart displays the amount of swap memory used by each user on the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Swap memory used by user with UID 1000.",
+            "1001": "Swap memory used by user with UID 1001.",
+            "32": "Swap memory used by user with UID 32.",
+            "65532": "Swap memory used by user with UID 65532.",
+            "65535": "Swap memory used by user with UID 65535.",
+            "81": "Swap memory used by user with UID 81.",
+            "998": "Swap memory used by user with UID 998.",
+            "999": "Swap memory used by user with UID 999.",
+            "cm": "Swap memory used by cm user.",
+            "man": "Swap memory used by man user.",
+            "messagebus": "Swap memory used by messagebus user.",
+            "netdata": "Swap memory used by netdata user.",
+            "nobody": "Swap memory used by nobody user.",
+            "nut": "Swap memory used by nut user.",
+            "root": "Swap memory used by root user.",
+            "systemd-coredump": "Swap memory used by systemd-coredump user.",
+            "systemd-network": "Swap memory used by systemd-network user.",
+            "systemd-timesync": "Swap memory used by systemd-timesync user.",
+            "vpopmail": "Swap memory used by vpopmail user.",
+            "xfs": "Swap memory used by xfs user."
+        }
+    ]
+}

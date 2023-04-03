@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_swap_operations",
+    "chart_description": "The Swap Operations chart displays the rate at which data is read from or written to the paging file on disk. It can provide useful information on disk activity related to system memory usage.",
+    "dimension_descriptions": [
+        {
+            "read": "The rate at which data is read from or written to the paging file on disk, measured in operations per second."
+        }
+    ]
+}

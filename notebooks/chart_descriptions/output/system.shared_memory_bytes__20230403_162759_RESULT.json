@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.shared_memory_bytes",
+    "chart_description": "This chart displays the amount of memory in bytes that is currently being used by various processes sharing the inter-process communication (IPC) mechanism which is called Shared Memory. This chart can help identify any abnormal memory utilization and reveal issues that may impact system performance.",
+    "dimension_descriptions": [
+        {
+            "bytes": "This is the unit used to measure the amount of memory used by the shared memory segment. It enables comparison of the memory usage across different charts and helps identify any anomalies in the overall memory usage."
+        }
+    ]
+}

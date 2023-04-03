@@ -1,0 +1,5 @@
+{
+    "chart_id": "exchange.ldap_long_running_ops_per_sec",
+    "chart_description": "This chart displays the rate of long running Lightweight Directory Access Protocol (LDAP) operations in operations per second on Exchange servers. Long running operations are defined as the LDAP requests that take more than 5 seconds to complete. This chart can help identify potential performance issues related to LDAP queries.",
+    "dimension_descriptions": []
+}
