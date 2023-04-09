@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_some_pressure",
+    "chart_description": "This chart displays the percentage of I/O some pressure on the disk in the system. It measures how much pressure is put on the disk when some process requests data which is not currently available in the memory. A high value in this chart may indicate that disk performance is being impacted by the I/O operations.",
+    "dimension_descriptions": [
+        {
+            "some 10": "The value represents the average I/O pressure over the last 10 seconds.",
+            "some 300": "The value represents the average I/O pressure over the last 5 minutes.",
+            "some 60": "The value represents the average I/O pressure over the last 1 minute."
+        }
+    ]
+}

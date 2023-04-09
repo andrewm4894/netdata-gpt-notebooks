@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.idlejitter",
+    "chart_description": "This chart displays the jitter in CPU idle time, which is the variation in intervals between the processor being idle. This chart helps to identify if the CPU is experiencing erratic or unstable idle patterns.",
+    "dimension_descriptions": [
+        {
+            "average": "The average amount of time the CPU is idle per second.",
+            "max": "The maximum amount of time the CPU is idle per second during the monitoring period.",
+            "min": "The minimum amount of time the CPU is idle per second during the monitoring period."
+        }
+    ]
+}

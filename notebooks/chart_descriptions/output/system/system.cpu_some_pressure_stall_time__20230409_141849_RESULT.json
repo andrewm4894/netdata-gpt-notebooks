@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_some_pressure_stall_time",
+    "chart_description": "This chart represents the amount of time that the CPU is unable to execute any application due to a delay in some external factors, such as memory access, I/O operations, or network activity. It is a measure of system pressure on CPU operation.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension represents the amount of time, in milliseconds, during which the CPU experienced some pressure stall time for the past 10 seconds.",
+            "some 300": "This dimension represents the amount of time, in milliseconds, during which the CPU experienced some pressure stall time for the past 5 minutes.",
+            "some 60": "This dimension represents the amount of time, in milliseconds, during which the CPU experienced some pressure stall time for the past minute."
+        }
+    ]
+}

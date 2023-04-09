@@ -1,0 +1,13 @@
+{
+    "chart_id": "system.hardirq_latency",
+    "chart_description": "The system.hardirq_latency chart displays the latency values of hardware interrupts. It shows the amount of time taken by the kernel to handle hardware interrupts.",
+    "dimension_descriptions": [
+        {
+            "ata_piix": "The ATA_PIIX dimension represents the Advanced Technology Attachment (ATA) driver for Intel chipsets.",
+            "ena-mgmnt@pci:0000:00:05.0": "The ENA MGMNT dimension represents the Amazon Elastic Network Adapter (ENA) management function on PCI address 0000:00:05.0.",
+            "func_call_single": "The func_call_single dimension represents a function that runs in a single thread instead of going to multiple CPUs, which can improve cache locality and reduce latency.",
+            "local_timer": "The local_timer dimension represents the local timer interrupt used for thread scheduling and timekeeping.",
+            "virtio0": "The virtio0 dimension represents a virtual device used in virtualization settings."
+        }
+    ]
+}

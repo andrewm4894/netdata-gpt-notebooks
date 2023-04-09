@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_offset",
+    "chart_description": "This chart displays the computed time offset between the local system and the reference clock in milliseconds. To ensure accurate timekeeping, it is necessary to synchronize the system clock with a reference clock. This chart helps to monitor and identify any time drift and adjust the system clock accordingly.",
+    "dimension_descriptions": [
+        {
+            "offset": "The time offset between the local system and the reference clock is calculated by subtracting the estimated time of the reference clock from the local system's clock. This dimension measures the difference in milliseconds."
+        }
+    ]
+}

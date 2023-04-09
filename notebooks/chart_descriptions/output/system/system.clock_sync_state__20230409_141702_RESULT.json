@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_state",
+    "chart_description": "This chart shows the state of the system clock synchronization. The state indicates whether the system clock is synchronized or not.",
+    "dimension_descriptions": [
+        {
+            "state": "The state of system clock synchronization. It can have two values: 0 indicates that the system clock is not synchronized, and 1 indicates that the system clock is synchronized with a reliable time source."
+        }
+    ]
+}

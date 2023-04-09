@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.intr",
+    "chart_description": "The `system.intr` chart displays the CPU interrupts that occur on the system. Interrupts are signals sent to the CPU by hardware or software components of the system, such as input/output operations or signals from the kernel. Monitoring the number of interrupts can provide insight into the efficiency of the system and help identify potential performance bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "interrupts": "The number of CPU interrupts per second."
+        }
+    ]
+}

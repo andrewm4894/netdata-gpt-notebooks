@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_state",
+    "chart_description": "This chart tracks the synchronization state of the system clock. It shows whether the system clock is synchronized with an external time source or not.",
+    "dimension_descriptions": [
+        {
+            "state": "This dimension shows the state of the clock synchronization. It can have one of two values: synced or unsynced. A synced state means that the system clock is synchronized with an external time source, while an unsynced state means that the system clock is not synchronized."
+        }
+    ]
+}

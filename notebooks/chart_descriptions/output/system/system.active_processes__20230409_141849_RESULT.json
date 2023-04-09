@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.active_processes",
+    "chart_description": "This chart displays the number of active processes currently running on the system.",
+    "dimension_descriptions": [
+        {
+            "active": "This dimension represents the number of processes currently active on the system."
+        }
+    ]
+}

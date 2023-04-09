@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.io",
+    "chart_description": "The Disk I/O chart provides insight into disk input and output operations in the system. It shows the amount of data read from and written to the disk per unit of time, measured in KiB/s. The chart can be useful in identifying disk performance bottlenecks and potential issues.",
+    "dimension_descriptions": [
+        {
+            "in": "Measures the rate at which data is read from the disk, in KiB/s.",
+            "out": "Measures the rate at which data is written to the disk, in KiB/s."
+        }
+    ]
+}

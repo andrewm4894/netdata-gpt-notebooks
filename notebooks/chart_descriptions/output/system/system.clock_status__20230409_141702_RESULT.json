@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.clock_status",
+    "chart_description": "The System Clock Status chart displays the current status of the system clock synchronization. It helps to alert any discrepancies in the clock synchronization, which might affect the performance of the system.",
+    "dimension_descriptions": [
+        {
+            "clockerr": "This dimension displays the number of errors detected in the clock synchronization process. An increase in this value might suggest a problem with the clock synchronization process.",
+            "unsync": "This dimension displays whether the system clock is synchronized or not. A value of 1 indicates that the system clock is unsynchronized, while a value of 0 indicates that clock synchronization is successful."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_offset",
+    "chart_description": "The Computed Time Offset Between Local System and Reference Clock chart shows the discrepancy in time between the local system clock and reference clock, indicative of any clock synchronization issues.",
+    "dimension_descriptions": [
+        {
+            "offset": "The time difference in milliseconds between the local system clock and reference clock."
+        }
+    ]
+}

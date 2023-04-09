@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.ctxt",
+    "chart_description": "The CPU Context Switches chart measures the rate at which the CPU switches from one task to another. A high number of context switches may indicate a poorly optimized system or an application that is intensive on context switching.",
+    "dimension_descriptions": [
+        {
+            "switches": "The number of context switches per second."
+        }
+    ]
+}

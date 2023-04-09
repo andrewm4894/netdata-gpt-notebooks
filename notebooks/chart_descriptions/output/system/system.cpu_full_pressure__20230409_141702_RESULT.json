@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure",
+    "chart_description": "This chart measures the pressure on the CPU from processes requesting CPU resources. If the CPU is under full pressure, it means that there are no available CPU resources and processes are being blocked from executing. A sustained high CPU full pressure can lead to performance degradation.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension shows the percentage of time the CPU is under full pressure for a given 10 second interval.",
+            "full 300": "This dimension shows the percentage of time the CPU is under full pressure for a given 5 minute interval (300 seconds).",
+            "full 60": "This dimension shows the percentage of time the CPU is under full pressure for a given 1 minute interval (60 seconds)."
+        }
+    ]
+}

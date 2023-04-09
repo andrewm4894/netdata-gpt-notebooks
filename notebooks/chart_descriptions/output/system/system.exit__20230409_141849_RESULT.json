@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.exit",
+    "chart_description": "The 'system.exit' chart monitors the calls to the 'exit' system call made by processes on the system. This chart is useful for understanding when and how frequently processes are terminating on the system.",
+    "dimension_descriptions": [
+        {
+            "do_exit": "This dimension tracks the calls to the 'exit' system call made by processes on the system, indicating under what conditions processes are terminating.",
+            "release_task": "This dimension tracks the release of the system's task struct, which is a data structure used to keep track of a process's state and progression through the system. It can be useful for understanding whether processes are exiting cleanly or being terminated by other means such as signals."
+        }
+    ]
+}

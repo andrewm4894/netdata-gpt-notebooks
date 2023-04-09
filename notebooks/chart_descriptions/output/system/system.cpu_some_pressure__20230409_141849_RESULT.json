@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_some_pressure",
+    "chart_description": "The CPU some pressure chart shows the percentage of time during which the CPU is experiencing some pressure due to tasks being queued or otherwise not able to fully utilize the CPU resources.",
+    "dimension_descriptions": [
+        {
+            "some 10": "The percentage of time during which the CPU is experiencing some pressure for tasks that take up to 10ms per CPU core.",
+            "some 300": "The percentage of time during which the CPU is experiencing some pressure for tasks that take up to 300ms per CPU core.",
+            "some 60": "The percentage of time during which the CPU is experiencing some pressure for tasks that take up to 60s per CPU core."
+        }
+    ]
+}

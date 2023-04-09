@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_state",
+    "chart_description": "This chart displays the state of clock synchronization in the system. It helps to detect any discrepancies between the system clock and the real time clock.",
+    "dimension_descriptions": [
+        {
+            "state": "This dimension represents the state of clock synchronization in the system. Possible values are 'synchronized', 'unsynchronized', 'no reference', and 'unknown'. 'synchronized' indicates that the system clock is in sync with the reference time source. 'unsynchronized' indicates that the system clock is not synchronized with the reference time source. 'no reference' indicates that no reference time source is available. 'unknown' indicates that the state of clock synchronization is unknown."
+        }
+    ]
+}

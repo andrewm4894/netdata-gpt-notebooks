@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.clock_status",
+    "chart_description": "The System Clock Status chart displays the synchronization status of the server's clock. It shows the number of errors and the number of times the clock has been unsynchronized.",
+    "dimension_descriptions": [
+        {
+            "clockerr": "The number of times the server's clock has encountered errors or inconsistencies.",
+            "unsync": "The number of times the clock has been found to be unsynchronized."
+        }
+    ]
+}

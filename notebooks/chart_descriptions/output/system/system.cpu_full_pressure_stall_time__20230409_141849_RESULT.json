@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure_stall_time",
+    "chart_description": "This chart shows the amount of time a processor is stalled due to full CPU pressure. Full CPU pressure is when all cores of the CPU are actively performing work and unable to handle any more requests, resulting in bottlenecks and slower performance. A higher value on this chart indicates that the CPU is experiencing more pressure and may need to be upgraded or optimized.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension represents the amount of time the CPU is stalled due to full pressure for 10 seconds.",
+            "full 300": "This dimension represents the amount of time the CPU is stalled due to full pressure for 300 seconds (or 5 minutes).",
+            "full 60": "This dimension represents the amount of time the CPU is stalled due to full pressure for 60 seconds (or 1 minute)."
+        }
+    ]
+}

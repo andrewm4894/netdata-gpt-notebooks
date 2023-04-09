@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_some_pressure_stall_time",
+    "chart_description": "This chart shows the amount of time in milliseconds when the I/O operation takes longer than the set limit due to some pressure on the system. The stall time can be caused by various factors such as too many I/O operations, disk failures, or insufficient resources.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension shows the stall time for an I/O operation that happens in every 10 seconds.",
+            "some 300": "This dimension shows the stall time for an I/O operation that happens in every 5 minutes.",
+            "some 60": "This dimension shows the stall time for an I/O operation that happens in every minute."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure",
+    "chart_description": "The `system.cpu_full_pressure` chart shows the percent of time over the last 10 seconds, 60 seconds, and 300 seconds where all CPUs were fully utilized and unable to keep up with all the tasks requested of them. This can indicate CPU saturation and potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The percentage of time over the last 10 seconds where all CPUs were fully utilized.",
+            "full 300": "The percentage of time over the last 300 seconds where all CPUs were fully utilized.",
+            "full 60": "The percentage of time over the last 60 seconds where all CPUs were fully utilized."
+        }
+    ]
+}

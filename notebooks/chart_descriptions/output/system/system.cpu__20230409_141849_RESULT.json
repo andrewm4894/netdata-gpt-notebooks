@@ -1,0 +1,14 @@
+{
+    "chart_id": "system.cpu",
+    "chart_description": "This chart displays the overall CPU utilization of the system. It includes the percentages of time spent by the CPU in different states, such as user, system, iowait, steal, softirq, and nice.",
+    "dimension_descriptions": [
+        {
+            "iowait": "Percentage of time spent by the CPU waiting for I/O operations to complete.",
+            "nice": "Percentage of time spent by the CPU running user tasks with a lower priority.",
+            "softirq": "Percentage of time spent by the CPU handling softirq interrupts.",
+            "steal": "Percentage of time spent by the CPU waiting for a virtual CPU while the hypervisor is servicing another virtual CPU.",
+            "system": "Percentage of time spent by the CPU running kernel tasks.",
+            "user": "Percentage of time spent by the CPU running user tasks."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.active_processes",
+    "chart_description": "This chart displays the number of active processes in the system. It can be used to monitor the overall system load and identify any spikes or anomalies in process activity.",
+    "dimension_descriptions": [
+        {
+            "active": "The 'active' dimension shows the number of currently running processes. This can be useful for identifying any sudden spikes in process activity, which may indicate a performance issue or some other problem."
+        }
+    ]
+}

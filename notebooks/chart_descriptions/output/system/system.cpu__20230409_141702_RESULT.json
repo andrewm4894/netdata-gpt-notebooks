@@ -1,0 +1,14 @@
+{
+    "chart_id": "system.cpu",
+    "chart_description": "This chart displays the total CPU utilization percentage of the system. It includes the utilization of all CPU cores.",
+    "dimension_descriptions": [
+        {
+            "iowait": "The percentage of CPU time spent waiting for I/O operations to complete.",
+            "nice": "The percentage of CPU time spent running user space processes with a positive nice value.",
+            "softirq": "The percentage of CPU time spent handling soft interrupts.",
+            "steal": "The percentage of CPU time spent waiting for a CPU resource to become available in a virtualized environment.",
+            "system": "The percentage of CPU time spent running kernel space processes.",
+            "user": "The percentage of CPU time spent running user space processes."
+        }
+    ]
+}

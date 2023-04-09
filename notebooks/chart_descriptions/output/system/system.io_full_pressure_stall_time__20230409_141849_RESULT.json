@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_full_pressure_stall_time",
+    "chart_description": "This chart shows the full pressure stall time for I/O operations on the disk. Full pressure stall time is the amount of time a process waits to perform operations in case the device is too busy with other processes. This chart helps in understanding the I/O performance of the system and can be used to optimize the disk usage.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The amount of time a process waits when the disk is 10% full.",
+            "full 300": "The amount of time a process waits when the disk is 300% full.",
+            "full 60": "The amount of time a process waits when the disk is 60% full."
+        }
+    ]
+}

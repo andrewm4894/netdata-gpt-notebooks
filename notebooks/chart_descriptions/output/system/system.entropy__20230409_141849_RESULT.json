@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.entropy",
+    "chart_description": "This chart shows the amount of entropy currently available to the system. Entropy is a measure of randomness, and it is used by various cryptographic algorithms to ensure security.",
+    "dimension_descriptions": [
+        {
+            "entropy": "This dimension represents the amount of entropy available on the system, measured in bits. A higher value means there is more randomness available, which is generally desirable for security purposes."
+        }
+    ]
+}

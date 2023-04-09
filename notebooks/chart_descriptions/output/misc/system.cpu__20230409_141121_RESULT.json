@@ -1,0 +1,14 @@
+{
+    "chart_id": "system.cpu",
+    "chart_description": "This chart displays the total CPU utilization.",
+    "dimension_descriptions": [
+        {
+            "iowait": "The percentage of time the CPU is idle during which the system is waiting for an I/O operation to complete.",
+            "nice": "The percentage of CPU time consumed by user processes that have been explicitly reniced.",
+            "softirq": "The percentage of CPU time taken up by soft interrupts.",
+            "steal": "The percentage of CPU time a virtual CPU has to wait for a real CPU while the hypervisor is servicing another virtual processor.",
+            "system": "The percentage of CPU time consumed by system processes.",
+            "user": "The percentage of CPU time consumed by user processes."
+        }
+    ]
+}

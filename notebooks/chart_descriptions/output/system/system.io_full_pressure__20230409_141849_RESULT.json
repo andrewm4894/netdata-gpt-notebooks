@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_full_pressure",
+    "chart_description": "The I/O full pressure chart measures the percentage of time the disk is busy with requests, showing how much load is being placed on the disk subsystem. A high value here could indicate a bottleneck in your I/O system.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension shows the percentage of time the disk was fully utilized over the last 10 seconds.",
+            "full 300": "This dimension shows the percentage of time the disk was fully utilized over the last 5 minutes.",
+            "full 60": "This dimension shows the percentage of time the disk was fully utilized over the last minute."
+        }
+    ]
+}

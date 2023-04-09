@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure",
+    "chart_description": "This chart represents the percentage of time the CPU spent in a state of full pressure, where it is unable to handle all required processes at once.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension shows the percentage of time the CPU spent under full pressure for the previous 10-second interval.",
+            "full 300": "This dimension shows the percentage of time the CPU spent under full pressure for the previous 5-minute interval.",
+            "full 60": "This dimension shows the percentage of time the CPU spent under full pressure for the previous 1-minute interval."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_offset",
+    "chart_description": "The 'system.clock_sync_offset' chart displays the difference between the local system time and the reference clock time, which is used for synchronization purposes. A positive value indicates that the local system time is ahead of the reference clock time, while a negative value indicates that the local system time is behind.",
+    "dimension_descriptions": [
+        {
+            "offset": "The difference between the local system time and the reference clock time, measured in milliseconds."
+        }
+    ]
+}

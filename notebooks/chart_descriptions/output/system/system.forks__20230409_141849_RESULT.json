@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.forks",
+    "chart_description": "The `system.forks` chart displays the number of processes created per second on the system. This metric can help you identify abnormal spikes in process creation which could be caused by various issues like memory leaks, new software deployments, or abnormal user behavior. ",
+    "dimension_descriptions": [
+        {
+            "started": "Represents the number of newly created processes per second at the time of measurement. This metric can help identify changes in process creation rates over time, which if sustained may indicate a need for system upgrades or modifications."
+        }
+    ]
+}

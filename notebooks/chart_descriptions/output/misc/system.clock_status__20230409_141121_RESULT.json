@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.clock_status",
+    "chart_description": "This chart shows the status of the system clock synchronization. It provides information on clock error and unsynchronized clocks.",
+    "dimension_descriptions": [
+        {
+            "clockerr": "The number of clock errors detected in the system.",
+            "unsync": "The number of unsynchronized clocks in the system."
+        }
+    ]
+}
