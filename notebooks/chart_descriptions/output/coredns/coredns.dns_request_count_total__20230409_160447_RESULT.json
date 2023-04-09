@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_request_count_total",
+    "chart_description": "The Number of DNS Requests chart provides a real-time view of the total number of DNS requests received by the CoreDNS DNS server. The chart helps the admins to track the DNS query traffic on their infrastructure.",
+    "dimension_descriptions": [
+        {
+            "requests": "The total number of DNS requests received by the CoreDNS DNS server."
+        }
+    ]
+}

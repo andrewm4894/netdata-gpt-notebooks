@@ -1,0 +1,10 @@
+{
+    "chart_id": "coredns.dns_request_count_total_per_status",
+    "chart_description": "This chart shows the number of DNS requests processed and dropped by the CoreDNS service. It helps to monitor the DNS service and identify any issues related to request processing or rejection.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of processed DNS requests per second.",
+            "dropped": "The number of dropped DNS requests per second."
+        }
+    ]
+}

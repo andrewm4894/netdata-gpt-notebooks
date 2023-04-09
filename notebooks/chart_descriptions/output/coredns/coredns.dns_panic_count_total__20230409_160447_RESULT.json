@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_panic_count_total",
+    "chart_description": "This chart shows the total number of panics occurring in CoreDNS, a popular DNS server and proxy. Panics typically indicate unexpected errors or crashes in the software.",
+    "dimension_descriptions": [
+        {
+            "panics": "The number of panics that have occurred, measured in panics per second."
+        }
+    ]
+}

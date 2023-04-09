@@ -1,0 +1,10 @@
+{
+    "chart_id": "coredns.dns_responses_count_total_per_rcode",
+    "chart_description": "This chart displays the number of DNS responses per Response Code (RCODE) such as NOERROR or NXDOMAIN. It helps to monitor how many requests were successfully resolved and how many failed due to different types of errors.",
+    "dimension_descriptions": [
+        {
+            "NOERROR": "Number of successful DNS queries that were resolved without any errors.",
+            "NXDOMAIN": "Number of DNS queries that resulted in a non-existing domain name error (NXDOMAIN). This error occurs when the requested domain name does not exist in the DNS server's records."
+        }
+    ]
+}

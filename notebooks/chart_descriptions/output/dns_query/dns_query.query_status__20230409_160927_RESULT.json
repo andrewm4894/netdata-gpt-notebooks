@@ -1,0 +1,9 @@
+{
+    "chart_id": "dns_query.query_status",
+    "chart_description": "The DNS Query Status chart provides information on the success of DNS queries made to the system. It tracks the number of successful and failed queries.",
+    "dimension_descriptions": [
+        {
+            "success": "This dimension tracks the success rate of DNS queries. A value of 1 indicates a successful query, while a value of 0 indicates a failed query."
+        }
+    ]
+}

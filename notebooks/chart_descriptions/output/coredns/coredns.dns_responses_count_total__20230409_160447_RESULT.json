@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_responses_count_total",
+    "chart_description": "This chart displays the number of DNS responses over time. It is useful for monitoring the DNS server's performance and identifying potential issues.",
+    "dimension_descriptions": [
+        {
+            "responses": "The number of DNS responses received by the server per second."
+        }
+    ]
+}

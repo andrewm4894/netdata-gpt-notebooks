@@ -1,0 +1,10 @@
+{
+    "chart_id": "coredns.dns_requests_count_total_per_per_type",
+    "chart_description": "This chart shows the number of DNS requests per second, categorized by query type such as IPv4 (A) and IPv6 (AAAA) queries.",
+    "dimension_descriptions": [
+        {
+            "A": "The number of DNS queries of type A (IPv4 address) per second.",
+            "AAAA": "The number of DNS queries of type AAAA (IPv6 address) per second."
+        }
+    ]
+}

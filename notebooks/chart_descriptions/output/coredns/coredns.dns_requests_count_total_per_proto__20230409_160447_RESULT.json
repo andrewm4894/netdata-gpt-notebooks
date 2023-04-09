@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_requests_count_total_per_proto",
+    "chart_description": "This chart displays the number of DNS requests per transport protocol. The dimension being measured is the number of DNS requests received over the User Datagram Protocol (UDP) transport protocol.",
+    "dimension_descriptions": [
+        {
+            "udp": "The number of DNS requests received over the User Datagram Protocol (UDP) transport protocol."
+        }
+    ]
+}

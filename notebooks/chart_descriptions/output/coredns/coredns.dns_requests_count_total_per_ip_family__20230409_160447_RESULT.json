@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_requests_count_total_per_ip_family",
+    "chart_description": "This chart shows the number of DNS requests per IP family (v4 or v6) received by the CoreDNS server. It is useful for monitoring the distribution of DNS traffic between the two IP families.",
+    "dimension_descriptions": [
+        {
+            "v4": "The number of DNS requests per second received from IPv4 clients."
+        }
+    ]
+}

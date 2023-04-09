@@ -1,0 +1,9 @@
+{
+    "chart_id": "dns_query.query_time",
+    "chart_description": "DNS Query Time chart displays the time taken by the DNS server to respond to a query in seconds. It helps to monitor the DNS server's performance and troubleshoot latency or slow queries.",
+    "dimension_descriptions": [
+        {
+            "query_time": "The time taken by the DNS server to respond to a client's query in seconds. It measures the round trip time between the client and server, including the time spent in transit and processing the query."
+        }
+    ]
+}
