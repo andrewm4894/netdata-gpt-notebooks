@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.forks",
+    "chart_description": "The `system.forks` chart shows the rate at which new processes are being started on the system.",
+    "dimension_descriptions": [
+        {
+            "started": "The total number of processes started per second."
+        }
+    ]
+}

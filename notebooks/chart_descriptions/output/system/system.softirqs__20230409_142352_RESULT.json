@@ -1,0 +1,15 @@
+{
+    "chart_id": "system.softirqs",
+    "chart_description": "This chart displays the rate of softirqs (software interrupts) processed by the system per second, broken down by type of interrupt.",
+    "dimension_descriptions": [
+        {
+            "BLOCK": "The number of softirqs caused by blocked I/O operations per second.",
+            "NET_RX": "The number of softirqs caused by incoming network traffic per second.",
+            "NET_TX": "The number of softirqs caused by outgoing network traffic per second.",
+            "RCU": "The number of softirqs caused by read-copy-update (RCU) synchronization per second.",
+            "SCHED": "The number of softirqs caused by task scheduler per second.",
+            "TASKLET": "The number of softirqs caused by tasklets (a way of handling bottom-halves of interrupts) per second.",
+            "TIMER": "The number of softirqs caused by timers per second."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "chart_id": "system.softirq_latency",
+    "chart_description": "This chart shows the latency, in milliseconds, of the software IRQs (Interrupt Requests) in the system. The longer the latency, the longer the time it takes for the CPU to process those requests. High latency can cause performance issues in the system.",
+    "dimension_descriptions": [
+        {
+            "NET_RX": "The time it takes to process incoming network packets.",
+            "RCU": "The time it takes to synchronize kernel data structures between CPUs.",
+            "SCHED": "The time it takes to schedule processes to run.",
+            "TASKLET": "The time it takes to execute kernel tasks.",
+            "TIMER": "The time it takes to handle timers in the system."
+        }
+    ]
+}

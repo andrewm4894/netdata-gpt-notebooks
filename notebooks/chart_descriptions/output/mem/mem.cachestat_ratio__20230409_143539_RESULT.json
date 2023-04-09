@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.cachestat_ratio",
+    "chart_description": "The Hit ratio chart monitors the effectiveness of the page cache in reducing the number of disk reads. It is calculated as a ratio of hits to total search operations.",
+    "dimension_descriptions": [
+        {
+            "ratio": "The ratio shows the percentage of successful searches that result in the retrieval of a page from the page cache."
+        }
+    ]
+}

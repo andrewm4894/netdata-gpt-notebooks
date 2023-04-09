@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.ctxt",
+    "chart_description": "This chart shows the number of context switches per second on the CPU.",
+    "dimension_descriptions": [
+        {
+            "switches": "This dimension represents the number of context switches that occur per second on the CPU. Context switches occur when the CPU switches from executing one task to another, and can indicate how busy the CPU is."
+        }
+    ]
+}

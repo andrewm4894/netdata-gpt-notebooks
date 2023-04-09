@@ -1,0 +1,12 @@
+{
+    "chart_id": "system.processes_state",
+    "chart_description": "The System Processes State chart displays the distribution of processes in various states in the system. It helps to identify the processes that are running, sleeping, zombie, or blocked by some event. The chart also provides insights into system performance and resource usage.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of processes that are currently running on the system. These processes are actively using CPU resources and executing commands.",
+            "sleeping_interruptible": "The number of processes that are asleep and waiting for an event to complete. These processes can be interrupted and resumed when the event occurs.",
+            "sleeping_uninterruptible": "The number of processes that are asleep and waiting for an event to complete. These processes cannot be interrupted and are waiting for a system resource to become available.",
+            "zombie": "The number of processes that have completed execution but still have an entry in the process table. These processes are no longer active but cannot be removed until their parent process acknowledges their completion."
+        }
+    ]
+}

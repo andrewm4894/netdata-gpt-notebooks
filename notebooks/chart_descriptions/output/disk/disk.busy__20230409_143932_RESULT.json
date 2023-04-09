@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.busy",
+    "chart_description": "The disk.busy chart displays the percentage of time that the disk was busy processing blocking I/O requests, over the sample period. This chart can help identify periods of high disk I/O, which may impact system performance.",
+    "dimension_descriptions": [
+        {
+            "busy": "Shows the portion of time, expressed as a percentage, that the disk spent processing blocking I/O requests during the sample period."
+        }
+    ]
+}

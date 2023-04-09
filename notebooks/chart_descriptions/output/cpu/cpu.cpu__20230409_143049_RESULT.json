@@ -1,0 +1,14 @@
+{
+    "chart_id": "cpu.cpu",
+    "chart_description": "The `cpu.cpu` chart displays the utilization of each CPU core in percentage. It helps identify CPU bottlenecks and potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "iowait": "The percentage of time the CPU is waiting for IO operations to complete.",
+            "nice": "The percentage of time the CPU is executing processes with a positive nice value, which is a user-defined adjustment to the process priority.",
+            "softirq": "The percentage of time spent handling software interrupts. Softirqs are a mechanism to defer work from hardware interrupts to a later time in the kernel.",
+            "steal": "The percentage of time the CPU is unavailable for the virtual machine because it is being used by another virtual machine in the same shared environment.",
+            "system": "The percentage of time the CPU is executing kernel-level code, such as device drivers and system calls.",
+            "user": "The percentage of time the CPU is executing user-level code, such as applications and processes."
+        }
+    ]
+}

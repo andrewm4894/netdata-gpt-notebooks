@@ -1,0 +1,11 @@
+{
+    "chart_id": "disk.space",
+    "chart_description": "The `disk.space` chart provides information on the usage of the disk space in gigabytes (GiB). It shows the amount of available space, the amount reserved for root, and the amount currently used.",
+    "dimension_descriptions": [
+        {
+            "avail": "The amount of disk space that is available for use.",
+            "reserved_for_root": "The amount of disk space that is reserved for the root user.",
+            "used": "The amount of disk space that is currently in use."
+        }
+    ]
+}

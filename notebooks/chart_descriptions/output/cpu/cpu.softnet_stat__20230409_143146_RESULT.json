@@ -1,0 +1,9 @@
+{
+    "chart_id": "cpu.softnet_stat",
+    "chart_description": "The `cpu.softnet_stat` chart displays the softirqs executed on behalf of network activities, such as receive processing, and the number of events processed by the CPU to handle these softirqs. This chart provides insight into the capacity of your system to handle network load, particularly during periods of high network traffic. ",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of events processed by the CPU for `cpu.softnet_stat`. A softirq can generate many events, and the rate of event processing determines the CPU overhead required to handle network activities."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.available",
+    "chart_description": "This chart displays the amount of available RAM for applications on the system. It shows the memory available for use by processes, in MiB.",
+    "dimension_descriptions": [
+        {
+            "MemAvailable": "This dimension indicates the amount of physically available memory on the system. It is calculated based on the amount of memory that can be instantaneously reclaimed without significant impact on performance, as well as accounting for memory that has been reserved by the kernel or other processes."
+        }
+    ]
+}

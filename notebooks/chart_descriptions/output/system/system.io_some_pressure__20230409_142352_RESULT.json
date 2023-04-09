@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_some_pressure",
+    "chart_description": "The I/O some pressure chart measures the percentage of time that the system's disk I/O subsystem is experiencing some pressure. This pressure can be caused by multiple factors such as paging, swapping, or high disk I/O traffic.",
+    "dimension_descriptions": [
+        {
+            "some_10": "The percentage of time the disk I/O subsystem was experiencing some pressure over the last 10 seconds.",
+            "some_300": "The percentage of time the disk I/O subsystem was experiencing some pressure over the last 5 minutes.",
+            "some_60": "The percentage of time the disk I/O subsystem was experiencing some pressure over the last minute."
+        }
+    ]
+}

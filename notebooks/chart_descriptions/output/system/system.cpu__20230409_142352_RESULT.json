@@ -1,0 +1,14 @@
+{
+    "chart_id": "system.cpu",
+    "chart_description": "The `system.cpu` chart displays the percentage of CPU utilization across different CPU modes.",
+    "dimension_descriptions": [
+        {
+            "iowait": "The percentage of time spent waiting for I/O operations to complete.",
+            "nice": "The percentage of CPU utilization for processes with a positive nice value.",
+            "softirq": "The percentage of CPU utilization for servicing soft IRQs.",
+            "steal": "The percentage of CPU utilization that is lost due to virtualization.",
+            "system": "The percentage of CPU utilization for servicing kernel processes.",
+            "user": "The percentage of CPU utilization for running user processes."
+        }
+    ]
+}

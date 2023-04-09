@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.io",
+    "chart_description": "The `system.io` chart displays the volume of data being read from (`in`) and written to (`out`) disks in your system. Monitoring this metric can help you identify disk bottlenecks and determine if you need to upgrade your storage solution.",
+    "dimension_descriptions": [
+        {
+            "in": "The number of kilobytes per second being read from disk.",
+            "out": "The number of kilobytes per second being written to disk."
+        }
+    ]
+}

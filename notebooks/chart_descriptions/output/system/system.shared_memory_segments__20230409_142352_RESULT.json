@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.shared_memory_segments",
+    "chart_description": "This chart displays the number of interprocess communication (IPC) shared memory segments currently in use by the system.",
+    "dimension_descriptions": [
+        {
+            "segments": "The number of active shared memory segments used for interprocess communication."
+        }
+    ]
+}

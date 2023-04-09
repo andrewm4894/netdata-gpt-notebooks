@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.intr",
+    "chart_description": "This chart shows the number of CPU interrupts per second being handled by the system. Interrupts are signals sent to the processor by hardware devices, such as the mouse or keyboard, to gain attention from the CPU and request a specific action. Higher numbers of interrupts can indicate high device or process activity on the system.",
+    "dimension_descriptions": [
+        {
+            "interrupts": "The number of CPU interrupts. This dimension shows how many interrupts were received by the CPU during the monitoring period. A high value may indicate high system activity or excessive interrupt-generating devices or processes."
+        }
+    ]
+}

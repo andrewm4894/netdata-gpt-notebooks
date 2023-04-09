@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.memory_some_pressure_stall_time",
+    "chart_description": "This chart tracks the time that the kernel has been under memory pressure, and the number of processes that had to wait for memory to be reclaimed.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension indicates the duration of stall time when the memory pressure was at a low level.",
+            "some 300": "This dimension indicates the duration of stall time when the memory pressure was at a moderately high level.",
+            "some 60": "This dimension indicates the duration of stall time when the memory pressure was at a critical level."
+        }
+    ]
+}

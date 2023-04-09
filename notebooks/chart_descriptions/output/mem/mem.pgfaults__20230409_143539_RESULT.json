@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.pgfaults",
+    "chart_description": "The `mem.pgfaults` chart displays the number of faults per second caused by memory page faults in the system. Page faults occur when a process attempts to access a page of memory that is not currently in physical memory, causing the system to retrieve the page from the disk. A high number of page faults can indicate that the system is experiencing memory pressure and may benefit from additional memory resources.",
+    "dimension_descriptions": [
+        {
+            "major": "The number of major page faults per second. Major page faults occur when a process attempts to access a page of memory that is not in physical memory and must be retrieved from the disk. This can have a significant impact on system performance.",
+            "minor": "The number of minor page faults per second. Minor page faults occur when a process attempts to access a page of memory that is not in physical memory but can be retrieved from memory-mapped files."
+        }
+    ]
+}

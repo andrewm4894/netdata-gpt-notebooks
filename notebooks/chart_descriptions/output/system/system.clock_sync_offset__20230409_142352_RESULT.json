@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_offset",
+    "chart_description": "The 'system.clock_sync_offset' chart shows the computed time offset between the local system and a reference clock. This is useful for clock synchronization to ensure accurate timekeeping.",
+    "dimension_descriptions": [
+        {
+            "offset": "The 'offset' dimension represents the difference in time between the local system and the reference clock, in milliseconds. A positive offset means the local system time is ahead of the reference clock time, while a negative offset means the local system time is behind the reference clock time."
+        }
+    ]
+}

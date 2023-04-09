@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.pgpgio",
+    "chart_description": "The `system.pgpgio` chart displays the rate at which memory pages are being paged from and to the disk.",
+    "dimension_descriptions": [
+        {
+            "in": "The rate at which memory pages are being paged in from disk, indicating the amount of memory needed that is not currently available in RAM.",
+            "out": "The rate at which memory pages are being written to disk, indicating that the system is moving memory pages from active use to the swap space or that the system is running low on RAM."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure",
+    "chart_description": "The CPU full pressure chart shows the percentage of time the CPU has spent with all its cores fully utilized in the past 10, 300 and 60 seconds. This can indicate if the CPU is being overloaded and potentially impacting system performance.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The percentage of time the CPU has been under full load for the past 10 seconds.",
+            "full 300": "The percentage of time the CPU has been under full load for the past 300 seconds (5 minutes).",
+            "full 60": "The percentage of time the CPU has been under full load for the past 60 seconds (1 minute)."
+        }
+    ]
+}

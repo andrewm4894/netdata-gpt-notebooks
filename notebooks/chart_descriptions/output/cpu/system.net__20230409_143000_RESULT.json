@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.net",
+    "chart_description": "This chart shows the aggregated bandwidth usage of physical network interfaces in kilobits per second. It can help you monitor your network performance and identify any potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "InOctets": "This dimension measures the number of bytes received on the network interface over a specified time period. It can help you identify which interfaces are receiving the most data.",
+            "OutOctets": "This dimension measures the number of bytes sent out on the network interface over a specified time period. It can help you identify which interfaces are sending the most data."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "chart_id": "system.ram",
+    "chart_description": "This chart displays the current usage of system RAM. The dimensions show how much RAM is being used for buffering, caching, or is currently free or used.",
+    "dimension_descriptions": [
+        {
+            "buffers": "The amount of RAM used for buffering disk reads and writes.",
+            "cached": "The amount of RAM used for caching file system data.",
+            "free": "The amount of RAM currently not in use.",
+            "used": "The amount of RAM currently in use by the system."
+        }
+    ]
+}

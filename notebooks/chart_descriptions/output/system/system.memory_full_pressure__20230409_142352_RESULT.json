@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.memory_full_pressure",
+    "chart_description": "This chart monitors the percentage of memory full pressure in the system, which occurs when the system is running out of available memory. A high value indicates a high pressure on the memory and may result in decreased performance or even system failures.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension represents the percentage of memory full pressure over the last 10 seconds. It provides a real-time snapshot of the memory usage.",
+            "full 300": "This dimension represents the percentage of memory full pressure over the last 5 minutes (300 seconds). It provides a longer-term view of the memory usage and can help identify trends.",
+            "full 60": "This dimension represents the percentage of memory full pressure over the last minute (60 seconds). It provides a more immediate view of the memory usage than the 5-minute dimension."
+        }
+    ]
+}

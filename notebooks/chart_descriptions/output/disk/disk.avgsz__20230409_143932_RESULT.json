@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.avgsz",
+    "chart_description": "The Average Completed I/O Operation Bandwidth chart displays the average amount of data transferred per I/O operation for the specified disk device.",
+    "dimension_descriptions": [
+        {
+            "reads": "The average completed read operation bandwidth for the specified disk device.",
+            "writes": "The average completed write operation bandwidth for the specified disk device."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "systemd.service_unit_state",
+    "chart_description": "The Service Unit State chart displays the current state of systemd service units on a line chart. This can be useful for tracking the health of services and identifying any potential issues.",
+    "dimension_descriptions": [
+        {
+            "none": "This chart does not have any dimensions, as it simply displays the current state of all available service units. States can include running, failed, inactive, etc."
+        }
+    ]
+}

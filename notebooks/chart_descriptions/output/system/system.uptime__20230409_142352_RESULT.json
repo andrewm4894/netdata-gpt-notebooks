@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.uptime",
+    "chart_description": "The system.uptime chart displays the amount of time that the system has been up and running.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The amount of time in seconds that the system has been up and running."
+        }
+    ]
+}

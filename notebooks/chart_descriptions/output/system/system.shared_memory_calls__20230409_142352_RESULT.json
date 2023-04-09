@@ -1,0 +1,12 @@
+{
+    "chart_id": "system.shared_memory_calls",
+    "chart_description": "This chart shows the rate of system calls related to shared memory usage within the system. It provides insight into the usage patterns and trends of shared memory in a system.",
+    "dimension_descriptions": [
+        {
+            "at": "The number of attach calls made to shared memory segments per second.",
+            "ctl": "The number of control operations (e.g. set or get permissions) made on shared memory segments per second.",
+            "dt": "The number of detach calls made from shared memory segments per second.",
+            "get": "The number of get calls made to shared memory segments per second."
+        }
+    ]
+}

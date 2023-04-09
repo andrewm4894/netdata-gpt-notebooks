@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.exit",
+    "chart_description": "The system.exit chart monitors the number of processes exiting the system. This can help pinpoint issues with processes terminating unexpectedly or identify patterns in process exits.",
+    "dimension_descriptions": [
+        {
+            "do_exit": "Measures the number of processes exiting due to a call to the do_exit function. This can indicate issues with individual processes or the system as a whole.",
+            "release_task": "Measures the number of processes exiting due to a release_task function call. This can indicate issues with task management and potential performance bottlenecks."
+        }
+    ]
+}

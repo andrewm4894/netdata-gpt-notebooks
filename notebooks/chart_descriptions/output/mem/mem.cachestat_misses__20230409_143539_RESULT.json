@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.cachestat_misses",
+    "chart_description": "The 'mem.cachestat_misses' chart tracks the number of files that are not currently present in the memory page cache and hence need to be loaded from disk when accessed. This can be an indicator of memory pressure on the system or suboptimal caching behavior.",
+    "dimension_descriptions": [
+        {
+            "miss": "The 'miss' dimension represents the number of cache misses per second, indicating the rate at which files are being accessed in a way that requires them to be loaded from disk rather than from memory."
+        }
+    ]
+}

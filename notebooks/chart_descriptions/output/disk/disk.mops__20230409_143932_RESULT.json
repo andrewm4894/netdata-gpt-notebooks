@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.mops",
+    "chart_description": "The Disk Merged Operations chart depicts the number of disk operations that were merged into a single operation by the operating system. It measures the rate of merged disk operations in operations per second (ops/s).",
+    "dimension_descriptions": [
+        {
+            "writes": "The number of write operations per second that were merged into a single operation by the operating system."
+        }
+    ]
+}

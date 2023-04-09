@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.memory_map",
+    "chart_description": "This chart monitors the calls for the msync(2) system call. msync(2) is used to synchronize a file's memory with its corresponding storage on a disk. This can improve performance by reducing the number of disk I/O operations needed when accessing memory-mapped files.",
+    "dimension_descriptions": [
+        {
+            "msync": "The number of msync(2) calls per second."
+        }
+    ]
+}

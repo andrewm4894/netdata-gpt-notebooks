@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.ctxt",
+    "chart_description": "This chart displays the rate of CPU context switches per second.",
+    "dimension_descriptions": [
+        {
+            "switches": "The number of context switches between processes that occur per second on the CPU."
+        }
+    ]
+}

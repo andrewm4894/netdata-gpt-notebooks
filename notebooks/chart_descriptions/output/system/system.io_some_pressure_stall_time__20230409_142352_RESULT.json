@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_some_pressure_stall_time",
+    "chart_description": "This chart shows the I/O pressure stall time for some processes responsible for Disk operations. It is a measure of how much time system is under pressure to complete I/O requests when the request queue exceeds specific thresholds.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension represents the 10 seconds time window for which I/O pressure stall time is measured.",
+            "some 300": "This dimension represents the 5 minutes time window for which I/O pressure stall time is measured.",
+            "some 60": "This dimension represents the 1 minute time window for which I/O pressure stall time is measured."
+        }
+    ]
+}

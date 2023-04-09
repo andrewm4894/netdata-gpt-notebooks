@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.shared_memory_bytes",
+    "chart_description": "This chart displays the amount of shared memory in use in bytes on your system. Shared memory allows multiple processes to access common data structures at faster speeds than if they had to rely on interprocess communication to pass information back and forth. It is useful to monitor this chart to ensure that shared memory is being used efficiently and that the system has enough available memory to accommodate it.",
+    "dimension_descriptions": [
+        {
+            "bytes": "The number of bytes that are currently allocated for shared memory."
+        }
+    ]
+}

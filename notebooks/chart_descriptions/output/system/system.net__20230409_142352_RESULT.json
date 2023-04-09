@@ -1,0 +1,12 @@
+{
+    "chart_id": "system.net",
+    "chart_description": "This chart displays the aggregated bandwidth usage of physical network interfaces on the system, in kilobits per second. It can help in monitoring the network traffic and identifying any spikes or dips in traffic to troubleshoot network issues.",
+    "dimension_descriptions": [
+        {
+            "InOctets": "The amount of incoming network traffic, measured in kilobits per second."
+        },
+        {
+            "OutOctets": "The amount of outgoing network traffic, measured in kilobits per second."
+        }
+    ]
+}

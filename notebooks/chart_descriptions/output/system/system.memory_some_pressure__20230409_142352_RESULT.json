@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.memory_some_pressure",
+    "chart_description": "This chart shows the percentage of memory utilization where some pressure exists. This indicates there are some memory constraints and usage is more than usual but not critical yet.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension shows the memory some pressure at 10-second intervals.",
+            "some 300": "This dimension shows the memory some pressure at 5 minute intervals.",
+            "some 60": "This dimension shows the memory some pressure at 1 minute intervals."
+        }
+    ]
+}

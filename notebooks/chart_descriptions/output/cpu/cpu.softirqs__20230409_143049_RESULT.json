@@ -1,0 +1,15 @@
+{
+    "chart_id": "cpu.softirqs",
+    "chart_description": "The CPU softirqs chart shows the number of times per second that each type of softirq was serviced by the CPU. SoftIRQs are software interrupts triggered by kernel space drivers and are typically used to handle time-sensitive I/O operations or to schedule deferred work. This chart helps identify potential bottlenecks in the kernel, as excessive softirq activity can lead to increased system overhead and reduced performance.",
+    "dimension_descriptions": [
+        {
+            "BLOCK": "SoftIRQs associated with block devices, such as disk and tape drivers.",
+            "NET_RX": "SoftIRQs that service incoming network packets.",
+            "NET_TX": "SoftIRQs that service outgoing network packets.",
+            "RCU": "Read-Copy Update softirqs, which are used to synchronize access to kernel data structures across multiple CPUs.",
+            "SCHED": "SoftIRQs related to process scheduling and task management.",
+            "TASKLET": "SoftIRQs that run scheduled tasks or deferred work.",
+            "TIMER": "SoftIRQs that handle timer events, such as timeouts and other time-based kernel events."
+        }
+    ]
+}

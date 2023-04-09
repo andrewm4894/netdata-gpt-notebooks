@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.softnet_stat",
+    "chart_description": "This chart displays the rate at which network stack events are processed by the kernel in events per second. It is a metric for measuring the load on the softirq processing subsystem of the kernel.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of softirq events processed by the network stack every second."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_full_pressure_stall_time",
+    "chart_description": "The CPU full pressure stall time chart measures the amount of time when CPU is under high pressure and is unable to complete all its work as per the request.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The amount of time in milliseconds when CPU is under high pressure and has less than 10% of its needed resources available.",
+            "full 300": "The amount of time in milliseconds when CPU is under high pressure and has less than 300% of its needed resources available.",
+            "full 60": "The amount of time in milliseconds when CPU is under high pressure and has less than 60% of its needed resources available."
+        }
+    ]
+}

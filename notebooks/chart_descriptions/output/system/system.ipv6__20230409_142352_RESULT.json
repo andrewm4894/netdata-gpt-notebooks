@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.ipv6",
+    "chart_description": "The `system.ipv6` chart displays the bandwidth usage of IPv6 traffic on the system, measured in kilobits per second. This chart can be helpful in monitoring the overall network traffic patterns on the system.",
+    "dimension_descriptions": [
+        {
+            "InOctets": "The amount of IPv6 traffic received by the system, measured in kilobits per second.",
+            "OutOctets": "The amount of IPv6 traffic sent by the system, measured in kilobits per second."
+        }
+    ]
+}

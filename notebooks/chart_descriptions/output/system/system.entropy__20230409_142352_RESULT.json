@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.entropy",
+    "chart_description": "The system.entropy chart displays the amount of available entropy on the system. Entropy is a measure of randomness in data and is essential for cryptographic operations, such as SSL/TLS connections and generating secure passwords.",
+    "dimension_descriptions": [
+        {
+            "entropy": "The entropy dimension represents the amount of available randomness on the system. A higher value denotes more available entropy and is desirable for secure cryptographic operations. If the entropy value is low, it may cause delays or failures in SSL/TLS connections, certificate generation, or other security-related functions."
+        }
+    ]
+}

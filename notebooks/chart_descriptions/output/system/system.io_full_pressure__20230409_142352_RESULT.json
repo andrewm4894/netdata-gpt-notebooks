@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_full_pressure",
+    "chart_description": "The I/O full pressure of the system measures the percentage of time that a process must wait for disk I/O as all available I/O operations are being used. High values may indicate that the system is experiencing I/O bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The percentage of time that a process must wait for disk I/O when the disk is at 10 percent full.",
+            "full 300": "The percentage of time that a process must wait for disk I/O when the disk is at 300 percent full.",
+            "full 60": "The percentage of time that a process must wait for disk I/O when the disk is at 60 percent full."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.transparent_hugepages",
+    "chart_description": "This chart shows the memory usage of Transparent HugePages, which is a Linux memory management feature that enables efficient usage of memory for large page allocations. The chart measures the anonymous dimension, which refers to memory allocated by user-space applications and kernel services without any identification.",
+    "dimension_descriptions": [
+        {
+            "anonymous": "The anonymous dimension represents memory usage of unknown origin that has not been identified as belonging to any particular application or service. This can include memory that is allocated by the operating system kernel or other system processes."
+        }
+    ]
+}

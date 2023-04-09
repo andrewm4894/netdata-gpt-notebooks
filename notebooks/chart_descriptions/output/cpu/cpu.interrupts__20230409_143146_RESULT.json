@@ -1,0 +1,31 @@
+{
+    "chart_id": "cpu.interrupts",
+    "chart_description": "This chart displays the rate of interrupts received by the CPU over time. Interrupts are messages sent to the CPU by hardware devices requesting its attention.",
+    "dimension_descriptions": [
+        {
+            "10": "Number of interrupts caused by the system timer (IRQ0)",
+            "15": "Number of interrupts caused by the secondary ATA channel",
+            "25": "Number of interrupts caused by the network interface card (NIC)",
+            "26": "Number of interrupts caused by the storage adapter",
+            "27": "Number of interrupts caused by the graphics card",
+            "28": "Number of interrupts caused by the sound card",
+            "29": "Number of interrupts caused by the USB controller",
+            "30": "Number of interrupts caused by the keyboard",
+            "31": "Number of interrupts caused by the mouse",
+            "32": "Number of interrupts caused by the co-processor",
+            "33": "Number of interrupts caused by the primary ATA channel",
+            "34": "Number of interrupts caused by the floppy disk drive controller",
+            "35": "Number of interrupts caused by the serial ports",
+            "36": "Number of interrupts caused by the parallel ports",
+            "37": "Number of interrupts caused by the real-time clock (RTC)",
+            "38": "Number of interrupts caused by the ACPI system",
+            "39": "Number of interrupts caused by the system management interrupt (SMI)",
+            "55": "Number of interrupts caused by other devices",
+            "56": "Number of interrupts caused by software",
+            "CAL": "Number of interrupts caused by kernel calibration timers",
+            "LOC": "Number of interrupts caused by the local APIC",
+            "RES": "Number of interrupts caused by the APIC Bus Resend",
+            "TLB": "Number of interrupts caused by the TLB flush"
+        }
+    ]
+}

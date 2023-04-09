@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_some_pressure_stall_time",
+    "chart_description": "This chart measures the time a CPU is unable to execute any instructions due to lack of resources, specifically some of the processors. This can be caused by a variety of factors such as too many running processes or a lack of memory.",
+    "dimension_descriptions": [
+        {
+            "some 10": "The average amount of time a CPU is stalled for every 10 seconds.",
+            "some 300": "The average amount of time a CPU is stalled for every 5 minutes.",
+            "some 60": "The average amount of time a CPU is stalled for every 1 minute."
+        }
+    ]
+}

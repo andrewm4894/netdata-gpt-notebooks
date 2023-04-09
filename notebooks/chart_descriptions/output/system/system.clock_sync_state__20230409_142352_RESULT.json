@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.clock_sync_state",
+    "chart_description": "This chart displays the synchronization state of the system clocks. The state can be one of the following: unsynchronized, in progress or synchronized.",
+    "dimension_descriptions": [
+        {
+            "state": "The synchronization state of the system clock. The state can be one of the following: unsynchronized, in progress or synchronized."
+        }
+    ]
+}

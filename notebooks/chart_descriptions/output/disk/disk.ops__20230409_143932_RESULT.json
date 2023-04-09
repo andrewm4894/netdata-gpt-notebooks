@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.ops",
+    "chart_description": "The Disk Completed I/O Operations chart displays the number of completed read and write operations per second on the disk. This chart provides insight into the health of the disk, as any issues with read/write operations could result in performance issues or data loss.",
+    "dimension_descriptions": [
+        {
+            "reads": "The number of completed read operations per second on the disk.",
+            "writes": "The number of completed write operations per second on the disk."
+        }
+    ]
+}

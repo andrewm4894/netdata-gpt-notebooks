@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_some_pressure",
+    "chart_description": "This chart shows the percentage of time the CPU is under some level of pressure. It can help you identify periods of time in which the CPU is struggling to keep up with demand.",
+    "dimension_descriptions": [
+        {
+            "some 10": "The percentage of time the CPU is under some level of pressure for the last 10 seconds.",
+            "some 300": "The percentage of time the CPU is under some level of pressure for the last 5 minutes.",
+            "some 60": "The percentage of time the CPU is under some level of pressure for the last minute."
+        }
+    ]
+}

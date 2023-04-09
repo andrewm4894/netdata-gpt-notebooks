@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.memory_full_pressure_stall_time",
+    "chart_description": "The Memory full pressure stall time chart measures how long it takes for the system to recover after memory has been exhausted and no more memory is available. The higher the value, the worse the performance degradation. The stall time is measured in milliseconds.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension represents the 10-second rolling average of the time it takes for the system to recover after memory pressure hits the maximum threshold.",
+            "full 300": "This dimension represents the 5-minute rolling average of the time it takes for the system to recover after memory pressure hits the maximum threshold.",
+            "full 60": "This dimension represents the 1-minute rolling average of the time it takes for the system to recover after memory pressure hits the maximum threshold."
+        }
+    ]
+}

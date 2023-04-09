@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.sync",
+    "chart_description": "The `mem.sync` chart monitors calls for `sync(2)` and `syncfs(2)` system calls which sync the memory with the disk. It helps to identify any potential bottlenecks due to the excessive usage of these system calls.",
+    "dimension_descriptions": [
+        {
+            "sync": "This dimension represents the frequency of `sync(2)` system calls which ensures that all modified data is written to the disk.",
+            "syncfs": "This dimension represents the frequency of `syncfs(2)` system calls which ensures that all data and metadata related to a mounted filesystem is written to the disk."
+        }
+    ]
+}

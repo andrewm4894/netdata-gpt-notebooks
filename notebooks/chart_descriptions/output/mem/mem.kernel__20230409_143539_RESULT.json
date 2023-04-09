@@ -1,0 +1,13 @@
+{
+    "chart_id": "mem.kernel",
+    "chart_description": "The mem.kernel chart displays the memory used by the kernel of the server in MiB. This includes the memory consumed by the kernel stack, page tables, percpu data, slab (allocator for kernel objects), and VmallocUsed (memory allocated dynamically by the kernel). It helps to understand how much memory is being utilized by the kernel with different components.",
+    "dimension_descriptions": [
+        {
+            "KernelStack": "The amount of memory used by the kernel for its own stack.",
+            "PageTables": "The amount of memory used by the page tables maintained by the kernel.",
+            "Percpu": "The amount of memory used by the kernel to allocate memory for per-CPU data structures.",
+            "Slab": "The amount of memory used by the kernel for the slab allocator, which is used to allocate small objects.",
+            "VmallocUsed": "The amount of memory used by the kernel for the dynamic allocation of memory using the vmalloc mechanism."
+        }
+    ]
+}

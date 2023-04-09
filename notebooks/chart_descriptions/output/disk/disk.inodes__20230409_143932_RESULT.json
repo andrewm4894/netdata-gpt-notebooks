@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.inodes",
+    "chart_description": "This chart displays the usage of inodes on your disk, which are data structures used by the file system to store information about files and directories. The chart shows the available and used inodes on your disk over time.",
+    "dimension_descriptions": [
+        {
+            "avail": "This dimension shows the number of available inodes on your disk. An inode is considered available if it has not been allocated to a file or directory.",
+            "used": "This dimension shows the number of inodes that are currently being used by files or directories on your disk. When this value reaches the maximum number of inodes available on your disk, you may run into issues creating new files or directories."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.iotime",
+    "chart_description": "The Disk Total I/O Time chart displays the total time it takes for a disk to perform input/output (I/O) operations in milliseconds per second. This can help to identify any performance issues with disk operations and determine if upgrades or adjustments are necessary.",
+    "dimension_descriptions": [
+        {
+            "reads": "The time it takes for the disk to complete read operations in milliseconds per second. A high read time may indicate that the disk is struggling to keep up with read requests.",
+            "writes": "The time it takes for the disk to complete write operations in milliseconds per second. A high write time may indicate that the disk is struggling to keep up with write requests."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.io",
+    "chart_description": "The Disk I/O Bandwidth chart displays the amount of data read from and written to the disk per second, measured in KiB/s. This chart shows the overall performance of the storage device and can be useful for identifying bottlenecks and potential issues with the storage subsystem.",
+    "dimension_descriptions": [
+        {
+            "reads": "The amount of data read from the disk per second, measured in KiB/s. This value represents the rate at which the system is retrieving data from the storage device.",
+            "writes": "The amount of data written to the disk per second, measured in KiB/s. This value represents the rate at which the system is sending data to the storage device."
+        }
+    ]
+}

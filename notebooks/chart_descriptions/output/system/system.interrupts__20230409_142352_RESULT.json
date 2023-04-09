@@ -1,0 +1,32 @@
+{
+    "chart_id": "system.interrupts",
+    "chart_description": "This chart displays the rate of interrupts per second on the system.",
+    "dimension_descriptions": [
+        {
+            "10": "The number of interrupts received by the CPU from devices and applications on the system's 0th IRQ channel.",
+            "15": "The number of interrupts received by the CPU from devices and applications on the system's 3rd IRQ channel.",
+            "25": "The number of interrupts received by the CPU from devices and applications on the system's 9th IRQ channel.",
+            "26": "The number of interrupts received by the CPU from devices and applications on the system's 10th IRQ channel.",
+            "27": "The number of interrupts received by the CPU from devices and applications on the system's 11th IRQ channel.",
+            "28": "The number of interrupts received by the CPU from devices and applications on the system's 12th IRQ channel.",
+            "29": "The number of interrupts received by the CPU from devices and applications on the system's 13th IRQ channel.",
+            "30": "The number of interrupts received by the CPU from devices and applications on the system's 14th IRQ channel.",
+            "31": "The number of interrupts received by the CPU from devices and applications on the system's 15th IRQ channel.",
+            "32": "The number of interrupts received by the CPU from devices and applications on the system's 16th IRQ channel.",
+            "33": "The number of interrupts received by the CPU from devices and applications on the system's 17th IRQ channel.",
+            "34": "The number of interrupts received by the CPU from devices and applications on the system's 18th IRQ channel.",
+            "35": "The number of interrupts received by the CPU from devices and applications on the system's 19th IRQ channel.",
+            "36": "The number of interrupts received by the CPU from devices and applications on the system's 20th IRQ channel.",
+            "37": "The number of interrupts received by the CPU from devices and applications on the system's 21st IRQ channel.",
+            "38": "The number of interrupts received by the CPU from devices and applications on the system's 22nd IRQ channel.",
+            "39": "The number of interrupts received by the CPU from devices and applications on the system's 23rd IRQ channel.",
+            "55": "The number of interrupts received by the CPU from devices and applications on the system's 14th local APIC IRQ channel.",
+            "56": "The number of interrupts received by the CPU from devices and applications on the system's 15th local APIC IRQ channel.",
+            "CAL": "The number of interrupts received by the CPU from the system's calendar",
+            "LOC": "The number of interrupts received by the CPU from the system's clock",
+            "MCP": "The number of interrupts received by the CPU from the system's mouse controller",
+            "RES": "The number of interrupts received by the CPU from the system's keyboard controller",
+            "TLB": "The number of interrupts received by the CPU from the system's translation lookaside buffer"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.ip",
+    "chart_description": "The IP Bandwidth chart shows the amount of network traffic in kilobits per second (kbps) for incoming and outgoing data (InOctets and OutOctets) over the network interface.",
+    "dimension_descriptions": [
+        {
+            "InOctets": "The amount of incoming data in kilobits per second on the network interface.",
+            "OutOctets": "The amount of outgoing data in kilobits per second on the network interface."
+        }
+    ]
+}

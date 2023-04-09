@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.clock_status",
+    "chart_description": "The System Clock Status chart shows the status of the system clock synchronization with a reference clock. The chart provides insight into the accuracy and reliability of the system clock, which can impact other system functions and applications.",
+    "dimension_descriptions": [
+        {
+            "clockerr": "The clock error dimension displays the difference between the system clock and the reference clock, in seconds. A high value can indicate an issue with clock synchronization.",
+            "unsync": "The unsynchronized dimension shows the percentage of time the system clock is not synchronized with the reference clock. A value greater than 0 indicates an issue with clock synchronization."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.cachestat_hits",
+    "chart_description": "This chart displays the number of files cached in the page cache that have been accessed, or 'hit', per second.",
+    "dimension_descriptions": [
+        {
+            "hit": "The number of files that have been accessed and found in the page cache per second."
+        }
+    ]
+}

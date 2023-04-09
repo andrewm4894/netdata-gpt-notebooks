@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.file_sync",
+    "chart_description": "This chart monitors the number of calls for the fsync(2) and fdatasync(2) functions, which are used to synchronize changes to a file system. This can help identify potential performance bottlenecks or issues with data consistency.",
+    "dimension_descriptions": [
+        {
+            "fdatasync": "The number of fdatasync(2) calls per second. This function synchronizes the current state of the file with the device, without flushing the associated metadata.",
+            "fsync": "The number of fsync(2) calls per second. This function synchronizes both file data and metadata with the underlying device."
+        }
+    ]
+}

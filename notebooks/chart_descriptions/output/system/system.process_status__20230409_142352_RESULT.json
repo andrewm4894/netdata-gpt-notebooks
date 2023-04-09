@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.process_status",
+    "chart_description": "The process status chart shows the difference between the number of processes that were supposed to have stopped and those that are still running. This can be an indicator of processes that are taking longer than expected to shut down or are not shutting down at all.",
+    "dimension_descriptions": [
+        {
+            "process": "The name of the process being monitored."
+        }
+    ]
+}

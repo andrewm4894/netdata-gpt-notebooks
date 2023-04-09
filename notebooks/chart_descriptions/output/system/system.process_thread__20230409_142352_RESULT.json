@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.process_thread",
+    "chart_description": "This chart shows the number of process and thread creations for a system. It can help identify processes or applications that are consuming more system resources and contributing to system load.",
+    "dimension_descriptions": [
+        {
+            "_do_fork": "This dimension measures the number of new processes created by the system call 'fork'. A higher value for this dimension indicates more new processes have been created.",
+            "sys_clone": "This dimension measures the number of new system threads created by the system call 'clone'. A higher value for this dimension indicates more new threads have been created."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.shared_memory_bytes",
+    "chart_description": "The IPC Shared Memory Used Bytes chart displays the amount of memory used by inter-process communication (IPC) shared memory. This chart is useful for monitoring the amount of memory utilized by the shared memory section of the operating system that allows different processes to communicate with each other.",
+    "dimension_descriptions": [
+        {
+            "bytes": "The amount of memory used by the IPC shared memory in bytes."
+        }
+    ]
+}

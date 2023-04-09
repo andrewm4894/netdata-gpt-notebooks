@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.oom_kill",
+    "chart_description": "This chart displays the rate at which processes are being killed due to out of memory (OOM) errors in the system. When a system runs low on memory, the kernel will select a process to terminate to make more memory available. This chart helps determine if the system is experiencing an unusually high number of OOM kills, which may indicate a need for more memory or better memory management.",
+    "dimension_descriptions": [
+        {
+            "kills": "The number of processes being killed due to OOM errors per second."
+        }
+    ]
+}

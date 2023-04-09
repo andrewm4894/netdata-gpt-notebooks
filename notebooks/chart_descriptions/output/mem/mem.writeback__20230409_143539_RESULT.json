@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.writeback",
+    "chart_description": "The `mem.writeback` chart shows the amount of dirty memory that is being written back by the kernel to disk. Dirty memory refers to the memory that has been modified by a process but not yet written to disk. The writeback process occurs when the system is under memory pressure, and it writes the dirty memory to disk to free up memory for other processes. This chart helps to monitor the system's memory usage and identify potential issues with memory allocation and writeback.",
+    "dimension_descriptions": [
+        {
+            "Dirty": "The amount of dirty memory in MiB that is waiting to be written back to disk.",
+            "Writeback": "The rate of dirty memory being written back to disk in MiB/s."
+        }
+    ]
+}

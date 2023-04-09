@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.committed",
+    "chart_description": "The `mem.committed` chart shows the amount of memory that has been allocated by processes and has not been freed yet. This memory is committed by the kernel and represents the amount of virtual memory that has been allocated to a process. This chart can help identify potential memory leaks or inefficient memory usage.",
+    "dimension_descriptions": [
+        {
+            "Committed_AS": "The `Committed_AS` dimension represents the amount of memory (in MiB) that has been committed by the kernel, which includes both anonymous memory (memory not associated with a file, such as the stack and the heap) and file-backed memory (memory that is associated with a file, such as shared libraries or memory mapped files). This dimension provides an overall view of the amount of memory being used by processes on the system."
+        }
+    ]
+}

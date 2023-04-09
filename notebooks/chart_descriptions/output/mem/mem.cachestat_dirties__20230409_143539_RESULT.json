@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.cachestat_dirties",
+    "chart_description": "The 'mem.cachestat_dirties' chart tracks the rate at which pages in the page cache are dirtied, i.e., modified or written to.",
+    "dimension_descriptions": [
+        {
+            "dirty": "The 'dirty' dimension represents the number of dirty pages in the page cache that need to be written back to their respective storage devices. This dimension is measured in pages per second. High values for this dimension may indicate a higher I/O load on the system, which could affect performance."
+        }
+    ]
+}

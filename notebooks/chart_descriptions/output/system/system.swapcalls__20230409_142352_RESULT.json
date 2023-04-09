@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.swapcalls",
+    "chart_description": "This chart shows the rate at which the system calls to access swap memory are being made. The swap memory is used when there is not enough physical memory available to fulfill the system's requirements. A high rate of calls indicates that the system is under memory pressure and is frequently accessing the slower swap memory, which can lead to performance degradation.",
+    "dimension_descriptions": [
+        {
+            "read": "The rate at which calls are made to read from the swap memory. This measures the number of times the system retrieves data from the swap memory.",
+            "write": "The rate at which calls are made to write to the swap memory. This measures the number of times the system writes data to the swap memory."
+        }
+    ]
+}

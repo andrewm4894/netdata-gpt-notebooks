@@ -1,0 +1,10 @@
+{
+    "chart_id": "system.processes",
+    "chart_description": "This chart displays the number of processes currently running and those that are blocked in the system. The number of blocked processes indicates any processes that are waiting for a resource to become available, such as disk or network I/O or waiting for a lock to be released. This chart can help identify if the system is reaching its process limit or if there are resource contention issues.",
+    "dimension_descriptions": [
+        {
+            "blocked": "The number of processes that are currently blocked, waiting for a resource.",
+            "running": "The number of processes that are currently running on the system."
+        }
+    ]
+}

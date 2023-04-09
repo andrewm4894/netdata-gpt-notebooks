@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.ipc_semaphore_arrays",
+    "chart_description": "This chart displays the number of IPC semaphore arrays in use by the system. IPC (Inter-Process Communication) semaphores are synchronization primitives used for inter-process communication.",
+    "dimension_descriptions": [
+        {
+            "arrays": "The number of semaphore arrays currently in use by the system."
+        }
+    ]
+}

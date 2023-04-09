@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.qops",
+    "chart_description": "The Disk Current I/O Operations chart displays the number of operations being performed on the disk at any given time.",
+    "dimension_descriptions": [
+        {
+            "operations": "The number of read and write operations happening on the disk."
+        }
+    ]
+}

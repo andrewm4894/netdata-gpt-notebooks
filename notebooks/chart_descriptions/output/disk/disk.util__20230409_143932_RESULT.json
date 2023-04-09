@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.svctm",
+    "chart_description": "The Average Service Time chart displays the average time taken by the disk to service a single operation in milliseconds. This is a critical metric in diagnosing issues with disk I/O performance, as high values indicate that the disk is taking a long time to retrieve or store data.",
+    "dimension_descriptions": [
+        {
+            "svctm": "The dimension `svctm` refers to the average service time of the disk, measured in milliseconds. This dimension is the key metric for this chart and is useful in diagnosing I/O performance issues."
+        }
+    ]
+}

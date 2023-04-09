@@ -1,0 +1,14 @@
+{
+    "chart_id": "cpu.cpu",
+    "chart_description": "The 'Core utilization' chart shows the percentage of time that each CPU core is busy. This chart can help you identify CPU usage trends and hotspots to optimize your application performance.",
+    "dimension_descriptions": [
+        {
+            "iowait": "The percentage of time that the CPU core is idle because it is waiting for input/output operations to complete.",
+            "nice": "The percentage of time that the CPU core is running user processes with 'nice' priority.",
+            "softirq": "The percentage of time that the CPU core is handling kernel software interrupts.",
+            "steal": "The percentage of time that the CPU core is waiting for a virtual CPU while the hypervisor is servicing another virtual CPU.",
+            "system": "The percentage of time that the CPU core is running kernel (system) processes.",
+            "user": "The percentage of time that the CPU core is running user (application) processes."
+        }
+    ]
+}

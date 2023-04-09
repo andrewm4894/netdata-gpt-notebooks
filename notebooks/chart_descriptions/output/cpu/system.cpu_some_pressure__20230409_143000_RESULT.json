@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.cpu_some_pressure",
+    "chart_description": "This chart measures the percentage of CPU usage under some level of pressure. It can help determine if the CPU is being utilized efficiently or if there are potential bottlenecks causing pressure.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension represents the 10-second CPU usage percentage. It provides a short-term view of CPU usage and can help identify any spikes or dips in CPU pressure.",
+            "some 300": "This dimension represents the 5-minute CPU usage percentage. It provides a longer-term view and can help identify any sustained high or low CPU pressure.",
+            "some 60": "This dimension represents the 1-minute CPU usage percentage. It provides a balance between the short and long-term views and can help identify changes in CPU pressure trend."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.load",
+    "chart_description": "The System Load Average chart displays the average system load over the last 1, 5, and 15 minutes. System load is a measure of the work the system is doing along with the degree of resource utilization. It represents the total number of processes that are either in the running state or in an uninterrupted sleep state.",
+    "dimension_descriptions": [
+        {
+            "load1": "The average system load over the last one minute.",
+            "load5": "The average system load over the last five minutes.",
+            "load15": "The average system load over the last fifteen minutes."
+        }
+    ]
+}

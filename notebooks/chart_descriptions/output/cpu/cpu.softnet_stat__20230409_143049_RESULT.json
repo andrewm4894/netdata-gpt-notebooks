@@ -1,0 +1,9 @@
+{
+    "chart_id": "cpu.softnet_stat",
+    "chart_description": "This chart displays the rate at which SoftIRQ events are being processed by the CPU. SoftIRQs are software interrupts that are raised in response to network or other I/O events.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of SoftIRQ events being processed per second."
+        }
+    ]
+}

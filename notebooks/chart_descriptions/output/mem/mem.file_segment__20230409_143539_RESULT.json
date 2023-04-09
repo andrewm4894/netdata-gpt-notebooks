@@ -1,0 +1,9 @@
+{
+    "chart_id": "mem.file_segment",
+    "chart_description": "This chart monitors the calls for the system call sync_file_range(2). This system call is used to initiate the writing of dirty pages in the file segment to disk. Higher values of calls per second can indicate heavy I/O activity.",
+    "dimension_descriptions": [
+        {
+            "sync_file_range": "The number of calls per second made for sync_file_range(2) system call."
+        }
+    ]
+}

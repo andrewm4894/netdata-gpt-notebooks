@@ -1,0 +1,10 @@
+{
+    "chart_id": "disk.await",
+    "chart_description": "The disk.await chart displays the average time, in milliseconds, for a completed I/O operation. This metric measures the time difference between when the I/O request was initiated and when it was completed. High values for this chart may indicate a disk bottleneck or slow disk performance.",
+    "dimension_descriptions": [
+        {
+            "reads": "The time taken, in milliseconds, to complete a read I/O operation.",
+            "writes": "The time taken, in milliseconds, to complete a write I/O operation."
+        }
+    ]
+}

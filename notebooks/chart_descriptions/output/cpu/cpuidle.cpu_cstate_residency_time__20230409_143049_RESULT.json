@@ -1,0 +1,11 @@
+{
+    "chart_id": "cpuidle.cpu_cstate_residency_time",
+    "chart_description": "This chart shows the percentage of time that the CPU spends in each C-state while idling. C-states are power-saving states where the CPU reduces power consumption by entering lower power states. The active dimension refers to the time the CPU spends in an active state while the c1 dimension represents the time the CPU spends in the shallowest idle state. The poll dimension refers to the time the CPU spends in the deeper idle states.",
+    "dimension_descriptions": [
+        {
+            "active": "The amount of time the CPU spends in the active state.",
+            "c1": "The amount of time the CPU spends in the C1 idle state, which is the shallowest idle state.",
+            "poll": "The amount of time the CPU spends in the deeper idle states known as C2, C3, and Cx states."
+        }
+    ]
+}

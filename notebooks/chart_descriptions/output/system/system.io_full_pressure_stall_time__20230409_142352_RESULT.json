@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.io_full_pressure_stall_time",
+    "chart_description": "This chart measures the time taken for I/O requests to complete under full pressure (when there is no available memory) in milliseconds.",
+    "dimension_descriptions": [
+        {
+            "full 10": "This dimension represents the 10th percentile value of the I/O full pressure stall time.",
+            "full 300": "This dimension represents the 300th percentile (max) value of the I/O full pressure stall time.",
+            "full 60": "This dimension represents the 60th percentile value of the I/O full pressure stall time."
+        }
+    ]
+}

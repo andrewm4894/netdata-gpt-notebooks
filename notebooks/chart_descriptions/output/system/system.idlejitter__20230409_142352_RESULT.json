@@ -1,0 +1,11 @@
+{
+    "chart_id": "system.idlejitter",
+    "chart_description": "This chart shows the amount of variability in the time that the CPU is idle. This can be used to identify issues related to CPU utilization and performance.",
+    "dimension_descriptions": [
+        {
+            "average": "The average amount of time the CPU is idle in microseconds lost per second.",
+            "max": "The maximum amount of time the CPU is idle in microseconds lost per second.",
+            "min": "The minimum amount of time the CPU is idle in microseconds lost per second."
+        }
+    ]
+}

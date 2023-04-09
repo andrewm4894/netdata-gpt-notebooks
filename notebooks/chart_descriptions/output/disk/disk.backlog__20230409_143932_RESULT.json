@@ -1,0 +1,9 @@
+{
+    "chart_id": "disk.backlog",
+    "chart_description": "The Disk Backlog chart measures the amount of time in milliseconds that a request to a storage device takes to complete once it has been queued. This measurement includes the time spent waiting in the storage device queue as well as the time spent executing the request. The chart provides a valuable insight into the server's disk performance.",
+    "dimension_descriptions": [
+        {
+            "backlog": "The backlog dimension measures the current number of I/O operations currently awaiting execution on the disk. A high value may indicate that the disk is struggling to keep up with the volume of requests, which can cause bottlenecks and degrade system performance."
+        }
+    ]
+}

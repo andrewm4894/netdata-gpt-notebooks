@@ -1,0 +1,10 @@
+{
+    "chart_id": "mem.slab",
+    "chart_description": "The 'Reclaimable Kernel Memory' chart provides information about the amount of memory used by the kernel that can be reclaimed if needed. It includes both reclaimable and unreclaimable memory.",
+    "dimension_descriptions": [
+        {
+            "reclaimable": "The amount of memory used by the kernel that can be reclaimed if needed.",
+            "unreclaimable": "The amount of memory used by the kernel that cannot be reclaimed if needed."
+        }
+    ]
+}

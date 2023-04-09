@@ -1,0 +1,9 @@
+{
+    "chart_id": "system.ipc_semaphores",
+    "chart_description": "This chart displays the number of available inter-process communication (IPC) semaphores in the system. Semaphores are a type of synchronization object used by processes to coordinate access to shared resources.",
+    "dimension_descriptions": [
+        {
+            "semaphores": "The number of available IPC semaphores in the system. This value reflects the current system configuration and can be adjusted by modifying the kernel configuration parameters."
+        }
+    ]
+}
