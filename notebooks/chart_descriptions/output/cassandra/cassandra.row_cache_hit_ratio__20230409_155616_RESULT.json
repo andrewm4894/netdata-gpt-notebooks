@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.row_cache_hit_ratio",
+    "chart_description": "The Row cache hit ratio chart for Cassandra database shows the percentage of row cache hits as compared to the total number of attempts to access cache. A higher percentage signifies a better cache ability and can improve the overall read performance of the Cassandra database.",
+    "dimension_descriptions": [
+        {
+            "hit_ratio": "The percentage of successful access attempts to the row cache as compared to the total number of attempts to access cache."
+        }
+    ]
+}

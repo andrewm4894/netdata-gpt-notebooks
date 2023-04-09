@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.compaction_completed_tasks_rate",
+    "chart_description": "This chart tracks the rate of completed compactions in tasks per second for the Cassandra database system. Compactions are the process of merging multiple SSTables (sorted string tables) into a larger one to improve read performance. This chart can be used to monitor the effectiveness of the compaction process and detect any bottlenecks that may be affecting performance.",
+    "dimension_descriptions": [
+        {
+            "completed": "This dimension represents the number of compactions that have been completed within a specific time frame. It is measured in tasks per second and can be used to track changes in the rate of completed compactions over time or in response to system events."
+        }
+    ]
+}

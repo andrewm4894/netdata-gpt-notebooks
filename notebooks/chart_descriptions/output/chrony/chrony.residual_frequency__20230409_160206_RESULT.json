@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.residual_frequency",
+    "chart_description": "The residual frequency chart shows the difference between the measured frequency and the ideal frequency, for the Chrony service. A positive residual frequency means the system is running slow, while a negative residual frequency means the system is running fast. This chart is important for monitoring time synchronization accuracy and detecting issues with the Chrony service.",
+    "dimension_descriptions": [
+        {
+            "residual_frequency": "The difference between the measured frequency and the ideal frequency, measured in parts per million (ppm). A positive value means the system is running slow, while a negative value means the system is running fast."
+        }
+    ]
+}

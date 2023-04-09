@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.client_requests_rate",
+    "chart_description": "The `cassandra.client_requests_rate` chart measures the rate of client requests to the Cassandra database, in requests per second (reads and writes combined). This chart is useful for monitoring overall system throughput and load.",
+    "dimension_descriptions": [
+        {
+            "read": "The `read` dimension measures the rate of read requests to the Cassandra database, in requests per second.",
+            "write": "The `write` dimension measures the rate of write requests to the Cassandra database, in requests per second."
+        }
+    ]
+}

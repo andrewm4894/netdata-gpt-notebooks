@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.activity",
+    "chart_description": "The chrony.activity chart displays the activity of peers in the Chrony network, including the number of online sources.",
+    "dimension_descriptions": [
+        {
+            "online": "The number of online sources or peers in the Chrony network, indicating the current activity level of the network."
+        }
+    ]
+}

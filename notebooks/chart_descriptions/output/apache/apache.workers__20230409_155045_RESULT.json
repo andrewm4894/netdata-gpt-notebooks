@@ -1,0 +1,10 @@
+{
+    "chart_id": "apache.workers",
+    "chart_description": "The 'apache.workers' chart shows the number of Apache worker threads that are either busy or idle at a given time. This information can be used to monitor the state of the web server and ensure that there are enough worker threads available to handle incoming requests.",
+    "dimension_descriptions": [
+        {
+            "busy": "The 'busy' dimension represents the number of worker threads that are currently processing a request.",
+            "idle": "The 'idle' dimension represents the number of worker threads that are currently available to handle incoming requests."
+        }
+    ]
+}

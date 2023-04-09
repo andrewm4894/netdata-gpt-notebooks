@@ -1,0 +1,7 @@
+{
+    "chart_id": "cassandra.key_cache_utilization",
+    "chart_description": "This line chart shows the utilization of Cassandra's key cache, which is a cache that stores the most recently accessed keys of a table in memory to reduce disk reads. The utilization is expressed as a percentage.",
+    "dimension_descriptions": {
+        "used": "This dimension represents the percentage of the key cache that is currently in use."
+    }
+}

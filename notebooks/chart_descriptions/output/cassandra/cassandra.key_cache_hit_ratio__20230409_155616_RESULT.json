@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.key_cache_hit_ratio",
+    "chart_description": "The Key cache hit ratio chart displays the percentage of times a key cache lookup resulted in a cache hit rather than a miss.",
+    "dimension_descriptions": [
+        {
+            "hit_ratio": "The percentage of times a key cache lookup resulted in a cache hit rather than a miss."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.skew",
+    "chart_description": "The `chrony.skew` chart displays the time difference between the local system clock and the reference clock, expressed in parts per million (ppm). Skew is one of the parameters used by Chrony, a network time synchronization software, to determine the offset and accuracy of the system clock.",
+    "dimension_descriptions": [
+        {
+            "skew": "The difference between the local system clock and the reference clock, expressed in parts per million (ppm). A positive skew means the local clock is running too fast, while a negative skew means it is running too slow. The magnitude of the skew represents the amount of adjustment required to synchronize the clocks."
+        }
+    ]
+}

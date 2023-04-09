@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.compaction_compacted_rate",
+    "chart_description": "The `cassandra.compaction_compacted_rate` chart shows the rate at which data is compacted in Cassandra. This is useful in monitoring the health of the database and identifying any peaks or drops in compaction rates that may affect overall performance.",
+    "dimension_descriptions": [
+        {
+            "compacted": "This dimension refers to the amount of data that has been compacted during a given time period, indicated by the units of bytes/s."
+        }
+    ]
+}

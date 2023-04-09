@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.compaction_pending_tasks_count",
+    "chart_description": "This chart monitors the number of pending compaction tasks in a Cassandra cluster.",
+    "dimension_descriptions": [
+        {
+            "pending": "Represents the number of compaction tasks that are queued and waiting to be executed."
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "chart_id": "apache.scoreboard",
+    "chart_description": "The Scoreboard chart tracks the status of open connections to an Apache web server. This chart displays a count of connections in various states, such as keepalive, reading, and sending.",
+    "dimension_descriptions": [
+        {
+            "closing": "The number of connections in the process of closing.",
+            "keepalive": "The number of connections in a keep-alive state.",
+            "logging": "The number of connections being logged.",
+            "open": "The number of connections that are currently open.",
+            "reading": "The number of connections in the process of reading.",
+            "sending": "The number of connections in the process of sending.",
+            "waiting": "The number of connections that are waiting for a request."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.last_offset",
+    "chart_description": "This chart displays the offset on the last update of the system clock by Chrony, a time synchronization program. The offset indicates the difference between the system clock and the reference clock.",
+    "dimension_descriptions": [
+        {
+            "offset": "The offset between the system clock and the reference clock, measured in seconds."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.root_delay",
+    "chart_description": "This chart displays the network path delay to the stratum-1 time source as measured by the chrony daemon. The root_delay dimension provides the time difference between the local system clock and the stratum-1 time source clock.",
+    "dimension_descriptions": [
+        {
+            "root_delay": "The time difference between the local system clock and the stratum-1 time source clock, measured in seconds."
+        }
+    ]
+}

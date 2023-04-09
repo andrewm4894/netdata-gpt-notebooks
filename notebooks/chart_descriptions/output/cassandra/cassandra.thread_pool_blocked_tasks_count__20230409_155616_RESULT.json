@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.thread_pool_blocked_tasks_count",
+    "chart_description": "This chart shows the number of tasks that are currently blocked and waiting to be executed in Cassandra's thread pools. This metric can indicate problems with the workload or resource constraints.",
+    "dimension_descriptions": [
+        {
+            "blocked": "The dimension represents the number of blocked tasks waiting on the thread pool. This can be an important metric to monitor and evaluate the overall health of the Cassandra cluster."
+        }
+    ]
+}

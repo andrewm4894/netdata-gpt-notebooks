@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.uptime",
+    "chart_description": "The Uptime chart shows the duration of time that the Apache web server has been running since it was last started.",
+    "dimension_descriptions": [
+        {
+            "uptime": "This dimension measures the time in seconds since the Apache web server was last started."
+        }
+    ]
+}

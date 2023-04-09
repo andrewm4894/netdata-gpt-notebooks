@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.jvm_memory_used",
+    "chart_description": "This chart shows the amount of memory used by the Java Virtual Machine (JVM) running the Cassandra database system. It displays both the heap and non-heap memory usage in bytes.",
+    "dimension_descriptions": [
+        {
+            "heap": "The memory that is reserved for object allocations in Java programs. This includes both the object data and associated metadata, such as object headers and references.",
+            "nonheap": "The memory used by the JVM that is outside of the heap space. This includes the JVM code itself, as well as other data structures and metadata that are required for running Java applications, such as thread stacks and loaded class definitions."
+        }
+    ]
+}

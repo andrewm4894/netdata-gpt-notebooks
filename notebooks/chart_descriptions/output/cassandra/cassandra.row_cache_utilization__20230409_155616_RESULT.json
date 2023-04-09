@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.row_cache_utilization",
+    "chart_description": "The Row cache utilization chart shows the percentage of the row cache that is currently in use by the Cassandra database.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of the row cache that is currently in use."
+        }
+    ]
+}

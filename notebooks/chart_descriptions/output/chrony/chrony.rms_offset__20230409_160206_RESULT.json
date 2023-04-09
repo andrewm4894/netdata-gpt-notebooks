@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.rms_offset",
+    "chart_description": "This chart shows the long-term average of the offset value in seconds. The offset is the difference between the system clock and the time provided by the NTP server. A negative offset means the system clock is behind the NTP server time, while a positive offset means the system clock is ahead of the NTP server time.",
+    "dimension_descriptions": [
+        {
+            "offset": "This dimension represents the difference between the system clock and the time provided by the NTP server in seconds. A negative value means the system clock is behind the NTP server time, while a positive value means the system clock is ahead of the NTP server time."
+        }
+    ]
+}

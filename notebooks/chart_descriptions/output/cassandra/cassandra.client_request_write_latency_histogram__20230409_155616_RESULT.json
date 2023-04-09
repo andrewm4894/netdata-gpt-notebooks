@@ -1,0 +1,14 @@
+{
+    "chart_id": "cassandra.client_request_write_latency_histogram",
+    "chart_description": "This chart shows the distribution of client request write latencies for Cassandra. It helps identify variations in latencies and can be useful in optimizing the write performance of a Cassandra cluster.",
+    "dimension_descriptions": [
+        {
+            "p50": "The 50th percentile of client request write latencies. 50% of requests completed in this time or faster.",
+            "p75": "The 75th percentile of client request write latencies. 75% of requests completed in this time or faster.",
+            "p95": "The 95th percentile of client request write latencies. 95% of requests completed in this time or faster.",
+            "p98": "The 98th percentile of client request write latencies. 98% of requests completed in this time or faster.",
+            "p99": "The 99th percentile of client request write latencies. 99% of requests completed in this time or faster.",
+            "p999": "The 99.9th percentile of client request write latencies. 99.9% of requests completed in this time or faster."
+        }
+    ]
+}

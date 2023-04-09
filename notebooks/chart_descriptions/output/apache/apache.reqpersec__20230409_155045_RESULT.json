@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.reqpersec",
+    "chart_description": "The 'apache.reqpersec' chart shows the lifetime average number of requests per second processed by the Apache web server.",
+    "dimension_descriptions": [
+        {
+            "requests": "The 'requests' dimension measures the number of requests per second that were processed by the Apache web server."
+        }
+    ]
+}

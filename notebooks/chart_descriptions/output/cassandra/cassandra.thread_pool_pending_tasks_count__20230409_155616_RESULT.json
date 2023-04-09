@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.thread_pool_pending_tasks_count",
+    "chart_description": "This chart displays the number of pending tasks in the Cassandra thread pools. It helps to monitor whether the thread pools are overworked and may be a potential bottleneck in the system.",
+    "dimension_descriptions": [
+        {
+            "pending": "The dimension represents the number of tasks pending in the thread pool. An increase in pending tasks indicates that the thread pool is not able to keep up with the incoming requests."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "coredns.dns_no_matching_zone_dropped_total",
+    "chart_description": "This chart shows the number of dropped DNS requests due to no matching zone on a per-second basis.",
+    "dimension_descriptions": [
+        {
+            "dropped": "The number of DNS requests that were dropped because of no matching zone."
+        }
+    ]
+}

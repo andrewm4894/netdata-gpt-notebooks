@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.key_cache_hit_rate",
+    "chart_description": "This chart displays the performance of the Cassandra key cache in terms of cache hit rate. The key cache stores frequently-accessed data in memory to speed up read operations. A higher hit rate indicates better performance, while a lower hit rate may indicate that the cache is not being utilized effectively.",
+    "dimension_descriptions": [
+        {
+            "hits": "The number of successful lookups in the key cache. This is the number of times Cassandra was able to obtain data from the cache.",
+            "misses": "The number of unsuccessful lookups in the key cache. This is the number of times Cassandra had to read data from disk instead of the cache, which can negatively impact performance."
+        }
+    ]
+}

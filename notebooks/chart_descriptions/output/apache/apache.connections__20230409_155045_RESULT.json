@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.connections",
+    "chart_description": "The Apache Connections chart displays the number of connections made to the Apache server. This chart can help you understand how busy your server is and if there are any sudden spikes in traffic that might be causing performance issues.",
+    "dimension_descriptions": [
+        {
+            "connections": "The number of connections made to the Apache server. This includes all active connections, both idle and active."
+        }
+    ]
+}

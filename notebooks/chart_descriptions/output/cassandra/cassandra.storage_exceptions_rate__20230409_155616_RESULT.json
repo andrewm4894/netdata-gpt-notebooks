@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.storage_exceptions_rate",
+    "chart_description": "The 'cassandra.storage_exceptions_rate' chart monitors the rate of storage exceptions that have occurred in Cassandra. This chart is useful for troubleshooting and identifying issues that might be causing problems within the database.",
+    "dimension_descriptions": [
+        {
+            "storage": "This dimension refers to the specific storage location within Cassandra where the exceptions are occurring. By identifying which storage areas are experiencing issues, it may be possible to pinpoint the cause of the problem and take corrective action."
+        }
+    ]
+}

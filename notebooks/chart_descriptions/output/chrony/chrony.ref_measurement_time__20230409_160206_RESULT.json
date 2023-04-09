@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.ref_measurement_time",
+    "chart_description": "The `chrony.ref_measurement_time` chart displays the time since the last measurement of the reference clock. This measurement is important for the chrony daemon to adjust the system clock accurately.",
+    "dimension_descriptions": [
+        {
+            "ref_measurement_time": "The time elapsed, in seconds, since the last measurement of the reference clock."
+        }
+    ]
+}

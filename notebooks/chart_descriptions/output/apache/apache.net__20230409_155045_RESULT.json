@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.net",
+    "chart_description": "This chart displays the amount of network bandwidth used by the Apache web server. The 'sent' dimension indicates the amount of data sent from the server to clients.",
+    "dimension_descriptions": [
+        {
+            "sent": "The amount of data sent from the Apache web server to clients, measured in kilobits per second."
+        }
+    ]
+}

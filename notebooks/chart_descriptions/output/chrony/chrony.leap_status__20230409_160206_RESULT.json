@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.leap_status",
+    "chart_description": "The Chrony Leap Status chart displays the status of the leap second insertion mechanism in the Chrony daemon. Leap second is an adjustment that is made to UTC time to synchronize it with the earth's rotation. The chart shows whether the Chrony leap second is currently active or not.",
+    "dimension_descriptions": [
+        {
+            "normal": "This is the only dimension available for this chart and it represents the normal status of the leap second insertion mechanism. Normal status indicates that the leap second adjustment is not currently being made."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.client_requests_latency",
+    "chart_description": "This chart displays the total latency of client requests in Cassandra database. It helps in monitoring the performance of the database and detecting any anomalies that could affect user experience or cause errors.",
+    "dimension_descriptions": [
+        {
+            "read": "This dimension represents the total latency of read client requests in the Cassandra database. It is important to keep this latency as low as possible to ensure fast and efficient retrieval of data.",
+            "write": "This dimension represents the total latency of write client requests in the Cassandra database. It is important to keep this latency as low as possible to ensure fast and efficient insertion or modification of data."
+        }
+    ]
+}

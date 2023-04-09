@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.root_dispersion",
+    "chart_description": "This chart shows the root dispersion value over time. This value represents the maximum error in seconds between the system clock and the root time source.",
+    "dimension_descriptions": [
+        {
+            "root_dispersion": "The root dispersion value represents the estimated maximum time difference between a server and its synchronization source. It is calculated by measuring the time offset between the server and its source, and adding the dispersion of the source to the offset."
+        }
+    ]
+}

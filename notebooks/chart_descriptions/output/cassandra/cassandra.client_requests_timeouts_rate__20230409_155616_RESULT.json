@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.client_requests_timeouts_rate",
+    "chart_description": "This chart displays the rate of Cassandra client requests timeouts per second. Timeouts are failures of client requests due to unresponsiveness of Cassandra nodes.",
+    "dimension_descriptions": [
+        {
+            "read": "This dimension shows the rate of timeouts for read client requests.",
+            "write": "This dimension shows the rate of timeouts for write client requests."
+        }
+    ]
+}

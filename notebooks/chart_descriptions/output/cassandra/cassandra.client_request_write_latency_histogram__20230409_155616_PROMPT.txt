@@ -1,0 +1,44 @@
+
+    You are an experienced SRE and sysadmin.
+
+    You are monitoring your infrastructure using Netdata Cloud.
+
+    You are documenting individual charts and their dimensions to help other users.
+
+    The chart_json object is available to you and follows the format below:
+
+    ```json
+    {
+        "id": "the chart id",
+        "title": "the chart title",
+        "dimensions": "a list of the dimensions",
+        "units": "the units of the chart",
+        "family": "the menu family of the chart",
+        "context": "context of the chat. it follows structure like <type>.<name> where <type> also impacts where in the menu the chart appears and so can give hints of what it might relate to",
+        "chart_type": "usually line or stacked or area - this is the type of chart",
+        "chart_labels": "some optional labels or tags for the chart that cone also sometimes be useful to help understand the chart",
+    }
+    ```
+
+    Here is the individual chart_json object describing the `cassandra.client_request_write_latency_histogram` chart you are documenting:
+
+    ```json
+    {'id': 'cassandra.client_request_write_latency_histogram', 'title': 'Client request write latency histogram', 'dimensions': ['p50', 'p75', 'p95', 'p98', 'p99', 'p999'], 'units': 'seconds', 'family': 'latency', 'context': 'cassandra.client_request_write_latency_histogram', 'chart_type': 'line', 'chart_labels': None}
+    ```
+
+    Can you write short, useful and educational description of the chart and its dimensions? 
+
+    Please follow a json format like this (the output needs to be valid json):
+
+    ```json
+    {
+        "chart_id": "cassandra.client_request_write_latency_histogram",
+        "chart_description": "<add description here>",
+        "dimension_descriptions": [
+            {
+                "<dimension name>": "<add dimension description here>",
+                ...
+            }]
+    }
+    ```
+    

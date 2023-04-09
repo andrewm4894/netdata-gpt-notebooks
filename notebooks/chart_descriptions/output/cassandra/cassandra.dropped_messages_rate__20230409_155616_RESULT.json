@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.dropped_messages_rate",
+    "chart_description": "This chart shows the rate at which messages are being dropped by the Cassandra database. A high dropped messages rate indicates a potential problem with the database cluster's capacity or network connectivity.",
+    "dimension_descriptions": [
+        {
+            "dropped": "The number of messages that have been dropped by the Cassandra database."
+        }
+    ]
+}

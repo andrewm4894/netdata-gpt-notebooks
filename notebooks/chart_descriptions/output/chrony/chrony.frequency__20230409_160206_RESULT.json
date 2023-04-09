@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.frequency",
+    "chart_description": "This chart monitors the frequency offset in parts per million (ppm) of the system clock as adjusted by Chrony.",
+    "dimension_descriptions": [
+        {
+            "frequency": "This dimension represents the frequency offset of the system clock in parts per million (ppm) as adjusted by Chrony. A positive value indicates that the clock runs faster than the reference clock, while a negative value indicates that the clock runs slower. The ideal frequency is 0 ppm."
+        }
+    ]
+}

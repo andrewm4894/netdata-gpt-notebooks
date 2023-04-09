@@ -1,0 +1,14 @@
+{
+    "chart_id": "cassandra.client_request_read_latency_histogram",
+    "chart_description": "This chart displays the client request read latency histogram in seconds for a Cassandra database cluster. It shows the distribution of read latencies with various percentiles, allowing users to monitor the performance of their read operations and detect any anomalies.",
+    "dimension_descriptions": [
+        {
+            "p50": "The median read latency value, which represents the value that separates the lower 50% from the upper 50% of the recorded latencies.",
+            "p75": "The 75th percentile of read latency values, which indicates the value below which 75% of the recorded latencies fall.",
+            "p95": "The 95th percentile of read latency values, which indicates the value below which 95% of the recorded latencies fall.",
+            "p98": "The 98th percentile of read latency values, which indicates the value below which 98% of the recorded latencies fall.",
+            "p99": "The 99th percentile of read latency values, which indicates the value below which 99% of the recorded latencies fall.",
+            "p999": "The 99.9th percentile of read latency values, which indicates the value below which 99.9% of the recorded latencies fall."
+        }
+    ]
+}

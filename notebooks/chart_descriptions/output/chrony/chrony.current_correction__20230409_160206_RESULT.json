@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.current_correction",
+    "chart_description": "The `chrony.current_correction` chart displays the current correction value for the chrony clock synchronization service. The correction value is the difference between the system clock and chrony's internal clock, and is continuously adjusted by chrony to keep the system clock accurate. A value close to 0 means the system clock is well-synchronized with the chrony clock, while a positive or negative value indicates a clock drift that chrony is compensating for.",
+    "dimension_descriptions": [
+        {
+            "current_correction": "The current correction value in seconds. A positive value indicates the system clock is fast relative to the chrony clock, while a negative value indicates the system clock is slow."
+        }
+    ]
+}

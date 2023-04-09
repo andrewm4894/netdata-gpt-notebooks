@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.update_interval",
+    "chart_description": "This chart displays the interval between the last two clock updates performed by Chrony - an implementation of NTP. It gives an indication of the stability and accuracy of the system's clock over time. A shorter update interval means the system clock is more frequently adjusted to match an accurate time source.",
+    "dimension_descriptions": [
+        {
+            "update_interval": "The time duration in seconds between the last two clock updates performed by Chrony. This dimension is critical as it directly relates to the accuracy and stability of the system's clock."
+        }
+    ]
+}

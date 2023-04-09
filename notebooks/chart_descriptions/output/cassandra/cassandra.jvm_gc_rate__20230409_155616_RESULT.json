@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.jvm_gc_rate",
+    "chart_description": "The Garbage Collections Rate chart shows the number of garbage collection cycles per second for the Cassandra Java Virtual Machine (JVM). When the rate is too high, it can indicate that the JVM is struggling to keep up with the load and may cause performance issues.",
+    "dimension_descriptions": [
+        {
+            "parnew": "The Parnew dimension represents the Parallel Collector, which is a garbage collector that runs on multiple threads in parallel, making it faster than the Serial Collector."
+        }
+    ]
+}

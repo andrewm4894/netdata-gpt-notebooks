@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.thread_pool_blocked_tasks_rate",
+    "chart_description": "The Blocked Tasks Rate chart tracks the number of blocked tasks in Cassandra thread pools. Blocked tasks are any operations that can't be executed because the thread pool is full, and thus, are waiting for a free thread to complete their execution. A high rate of blocked tasks could indicate an overloaded system, and the need to increase the number of threads or adjust the workload to maintain optimal performance.",
+    "dimension_descriptions": [
+        {
+            "blocked": "The number of blocked tasks per second."
+        }
+    ]
+}

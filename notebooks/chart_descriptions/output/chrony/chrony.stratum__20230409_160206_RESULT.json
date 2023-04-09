@@ -1,0 +1,9 @@
+{
+    "chart_id": "chrony.stratum",
+    "chart_description": "The `chrony.stratum` chart displays the distance in levels from the local system to the reference clock, which is the system with the most accurate time measurement. The chart helps monitor the synchronization status of the system clock with the reference clock using the Chrony time synchronization tool.",
+    "dimension_descriptions": [
+        {
+            "stratum": "The number of levels in the hierarchy of servers providing the time. The higher the number, the further away from the reference clock the system is. This dimension helps identify how many levels the local system is away from the reference clock and monitor the accuracy of the system clock synchronization."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.thread_pool_active_tasks_count",
+    "chart_description": "This chart shows the number of active tasks in the thread pool of Cassandra. It helps monitor the workload on the thread pool and identify any bottlenecks or overload issues that may affect the overall performance of Cassandra.",
+    "dimension_descriptions": [
+        {
+            "active": "This dimension represents the number of active tasks in the thread pool at the time of measurement. It indicates the current workload on the thread pool and can be used to track any spikes or drops in workload that may affect the performance of Cassandra."
+        }
+    ]
+}

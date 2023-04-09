@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.conns_async",
+    "chart_description": "The 'Async Connections' chart monitors the number of asynchronous connections to the Apache web server. An asynchronous connection refers to a connection that is kept alive and can be reused, rather than a new connection being established for every request. This chart can help identify potential performance issues related to the Apache web server, such as misconfigured keepalive settings or insufficient resources.",
+    "dimension_descriptions": [
+        {
+            "keepalive": "This dimension represents the keepalive setting of the connections. Keepalive allows multiple requests to be sent over a single TCP connection, reducing the overhead of opening and closing connections for each request. This dimension can help identify any issues related to keepalive settings and their impact on performance."
+        }
+    ]
+}

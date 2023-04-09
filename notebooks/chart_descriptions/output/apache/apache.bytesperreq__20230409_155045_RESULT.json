@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.bytesperreq",
+    "chart_description": "The 'Lifetime Average Response Size' chart measures the average size of the responses sent by the Apache server per request, over the lifetime of the server.",
+    "dimension_descriptions": [
+        {
+            "size": "The 'size' dimension represents the amount of data transmitted in KiB (kibibytes) per request."
+        }
+    ]
+}

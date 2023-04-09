@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.client_requests_unavailables_rate",
+    "chart_description": "This chart tracks the rate of client requests that are unavailable exceptions (such as when all connections in the pool are in use). A high rate of these exceptions could indicate that the Cassandra cluster is overloaded or that there are issues with the client applications.",
+    "dimension_descriptions": [
+        {
+            "read": "This dimension represents the rate of unavailable exceptions for read requests.",
+            "write": "This dimension represents the rate of unavailable exceptions for write requests."
+        }
+    ]
+}

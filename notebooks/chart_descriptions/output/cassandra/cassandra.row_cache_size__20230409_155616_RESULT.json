@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.row_cache_size",
+    "chart_description": "This chart measures the size of the row cache  present in Cassandra database. The row cache is used to store frequently accessed rows of data in memory, which can provide a significant performance boost by reducing read latency. This chart helps to monitor the memory usage of the Cassandra row cache and identify any spikes or drops in memory usage that could point to performance or configuration issues.",
+    "dimension_descriptions": [
+        {
+            "size": "The size of the row cache in bytes."
+        }
+    ]
+}

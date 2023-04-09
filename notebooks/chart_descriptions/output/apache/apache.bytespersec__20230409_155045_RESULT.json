@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.bytespersec",
+    "chart_description": "The Apache BytesPerSec chart shows the average number of bytes served per second by the Apache web server over the lifetime of the server. This chart is useful for monitoring the overall throughput of the server.",
+    "dimension_descriptions": [
+        {
+            "served": "The 'served' dimension represents the number of bytes served by the server per second."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.jvm_gc_time",
+    "chart_description": "This chart shows the amount of time Cassandra spends on garbage collection in seconds.",
+    "dimension_descriptions": [
+        {
+            "cms": "The CMS (Concurrent Mark and Sweep) Garbage Collector is used to collect the old generation heap space in Cassandra. This dimension shows the amount of time spent on CMS GC.",
+            "parnew": "The ParNew Garbage Collector is used to collect the young generation heap space in Cassandra. This dimension shows the amount of time spent on ParNew GC."
+        }
+    ]
+}

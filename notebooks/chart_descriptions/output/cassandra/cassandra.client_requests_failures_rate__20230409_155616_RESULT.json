@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.client_requests_failures_rate",
+    "chart_description": "This chart shows the rate at which client requests are failing in a Cassandra cluster. A high value may indicate issues with the cluster setup or high load on the system.",
+    "dimension_descriptions": [
+        {
+            "read": "The rate at which read requests are failing in the Cassandra cluster.",
+            "write": "The rate at which write requests are failing in the Cassandra cluster."
+        }
+    ]
+}

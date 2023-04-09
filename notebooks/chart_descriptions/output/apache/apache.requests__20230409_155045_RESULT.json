@@ -1,0 +1,9 @@
+{
+    "chart_id": "apache.requests",
+    "chart_description": "The `apache.requests` chart is a line chart that shows the rate of requests per second processed by the Apache web server. It can be used to monitor the workload on the server and identify periods of high traffic.",
+    "dimension_descriptions": [
+        {
+            "requests": "The `requests` dimension represents the number of requests per second processed by the web server. It can be used to identify trends in website traffic or spikes in usage that may require additional resources."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cassandra.row_cache_hit_rate",
+    "chart_description": "This chart displays the rate at which row cache data is being accessed in Cassandra, measured in events per second. It can be used to identify whether the row cache is being utilized efficiently or needs to be adjusted.",
+    "dimension_descriptions": [
+        {
+            "hits": "The rate at which data is being retrieved from the row cache.",
+            "misses": "The rate at which data is not found in the row cache and needs to be retrieved from disk."
+        }
+    ]
+}

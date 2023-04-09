@@ -1,0 +1,9 @@
+{
+    "chart_id": "cassandra.storage_live_disk_space_used",
+    "chart_description": "This chart shows the amount of disk space currently being used by live data in Cassandra. It can be used to monitor the storage capacity of live data and predict when additional storage may be required.",
+    "dimension_descriptions": [
+        {
+            "used": "The amount of disk space used by live data in bytes."
+        }
+    ]
+}
