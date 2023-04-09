@@ -1,0 +1,12 @@
+{
+    "chart_id": "netfilter.netlink_errors",
+    "chart_description": "The Connection Tracker Errors chart displays the rate of netlink errors related to connection tracking. Connection tracking assists with managing network connections and helps maintain stateful filters.",
+    "dimension_descriptions": [
+        {
+            "drop": "The drop dimension represents the rate at which packets were intentionally dropped before being tracked or classified.",
+            "early_drop": "The early_drop dimension represents the rate at which packets were dropped during classification or if they could not be classified properly.",
+            "icmp_error": "The icmp_error dimension represents the rate at which ICMP error messages were returned in response to connection tracking-related activity.",
+            "insert_failed": "The insert_failed dimension represents the rate at which connection tracking state insertion failed, which can cause packets to be dropped."
+        }
+    ]
+}

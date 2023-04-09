@@ -1,0 +1,9 @@
+{
+    "chart_id": "services.io_ops_read",
+    "chart_description": "This chart displays the rate of disk read operations performed by Systemd Services. It helps to identify potential bottlenecks and monitor the health of the disk input/output operations of the system.",
+    "dimension_descriptions": [
+        {
+            "system-slice_netdata-service": "This dimension breaks down the read operations by the Systemd services that are performing them. It provides insights into which services are reading data from the disk and how much load they are putting on the I/O operations."
+        }
+    ]
+}

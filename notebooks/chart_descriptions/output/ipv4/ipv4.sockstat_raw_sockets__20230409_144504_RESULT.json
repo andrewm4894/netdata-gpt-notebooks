@@ -1,0 +1,5 @@
+{
+    "chart_id": "ipv4.sockstat_raw_sockets",
+    "chart_description": "This chart displays the number of currently open IPv4 RAW sockets. RAW sockets are a type of socket that allows access to lower-level protocols such as ICMP or TCP. This chart can help identify potential network issues or abnormal behavior.",
+    "dimension_descriptions": []
+}

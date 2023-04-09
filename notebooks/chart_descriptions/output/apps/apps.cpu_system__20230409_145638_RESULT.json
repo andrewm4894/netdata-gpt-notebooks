@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.cpu_system",
+    "chart_description": "This chart monitors the CPU system time used by various applications running on the system. The data is collected as a percentage of the total available CPU time on each core. This chart can help identify which applications are consuming the most system resources and potentially causing performance issues.",
+    "dimension_descriptions": [
+        {
+            "VMs": "This dimension represents virtual machines that are running on the system. It can be used to isolate CPU usage by specific VMs.",
+            "agent_sd": "This dimension represents the Netdata agent that is collecting the system metrics. It is included to help differentiate between multiple agents collecting data from different systems.",
+            "apps.plugin": "This dimension represents the Netdata plugin that is collecting the data. It is included to help differentiate between multiple plugins collecting data from different sources.",
+            "containers": "This dimension represents Docker containers running on the system. It can be used to isolate CPU usage by specific containers.",
+            "ebpf.plugin": "This dimension represents the Netdata plugin that is collecting data using eBPF technology. It is included to help differentiate between plugins using different collection methods.",
+            "go.d.plugin": "This dimension represents the Netdata plugin that is collecting data using the go.d framework. It is included to help differentiate between plugins using different collection methods.",
+            "httpd": "This dimension represents the Apache web server process running on the system. It can be used to isolate CPU usage by the web server.",
+            "kernel": "This dimension represents the CPU system time used by the Linux kernel.",
+            "kube-proxy": "This dimension represents the Kubernetes proxy process running on the system. It can be used to isolate CPU usage by the proxy.",
+            "kubelet": "This dimension represents the Kubernetes agent process running on the system. It can be used to isolate CPU usage by the agent.",
+            "metrics-server": "This dimension represents the Kubernetes metrics server process running on the system. It can be used to isolate CPU usage by the server.",
+            "netdata": "This dimension represents the Netdata monitoring system process running on the system. It can be used to isolate CPU usage by the Netdata system itself.",
+            "nosql": "This dimension represents NoSQL databases running on the system. It can be used to isolate CPU usage by specific databases.",
+            "other": "This dimension represents any other processes running on the system that are not explicitly defined in the other dimensions.",
+            "sql": "This dimension represents SQL databases running on the system. It can be used to isolate CPU usage by specific databases.",
+            "system": "This dimension represents other system processes that are not associated with any specific application or service.",
+            "tc-qos-helper": "This dimension represents a process used for quality of service management. It can be used to isolate CPU usage by the quality of service helper."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netfilter.conntrack_expect",
+    "chart_description": "This chart displays the flow of connection tracker expectations on the system, with expectations per second on the y-axis and time on the x-axis. This is useful for monitoring connection establishment in real-time, to see if connections are being created and deleted as expected.",
+    "dimension_descriptions": [
+        {
+            "created": "Number of new expectations created per second.",
+            "deleted": "Number of expectations deleted per second.",
+            "new": "Number of new expectations per second."
+        }
+    ]
+}

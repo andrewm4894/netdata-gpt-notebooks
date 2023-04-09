@@ -1,0 +1,17 @@
+{
+    "chart_id": "ipv6.errors",
+    "chart_description": "The IPv6 Errors chart tracks the number of IPv6 packet errors per second across various dimensions.",
+    "dimension_descriptions": [
+        {
+            "InAddrErrors": "The number of incoming packets that were discarded due to an incorrect address.",
+            "InDiscards": "The number of incoming packets that were discarded because they did not meet specific criteria.",
+            "InHdrErrors": "The number of incoming packets that were discarded due to header errors.",
+            "InNoRoutes": "The number of incoming packets that were discarded because there was no matching route.",
+            "InTooBigErrors": "The number of incoming packets that were discarded because they exceeded a maximum transmission unit size.",
+            "InTruncatedPkts": "The number of incoming packets that were truncated or cut short.",
+            "InUnknownProtos": "The number of incoming packets that were discarded due to an unknown protocol.",
+            "OutDiscards": "The number of outgoing packets that were discarded because they could not be transmitted.",
+            "OutNoRoutes": "The number of outgoing packets that were discarded because there was no matching route."
+        }
+    ]
+}

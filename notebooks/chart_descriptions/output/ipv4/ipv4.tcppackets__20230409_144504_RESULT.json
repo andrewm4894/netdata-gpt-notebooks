@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv4.tcppackets",
+    "chart_description": "This chart shows the rate of transmission of TCP packets over IPv4 network.",
+    "dimension_descriptions": [
+        {
+            "InSegs": "The number of TCP segments received by the local host without errors.",
+            "OutSegs": "The number of TCP segments sent by the local host without errors. This could be further classified into retransmitted and new segments."
+        }
+    ]
+}

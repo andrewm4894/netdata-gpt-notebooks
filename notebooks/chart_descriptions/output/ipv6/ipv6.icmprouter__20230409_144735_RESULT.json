@@ -1,0 +1,12 @@
+{
+    "chart_id": "ipv6.icmprouter",
+    "chart_description": "This chart shows the rate of incoming and outgoing ICMPv6 router messages. These messages are used by routers to announce their presence on the network and to advertise network prefixes.",
+    "dimension_descriptions": [
+        {
+            "InAdvertisements": "The rate of incoming router advertisements, which are messages sent by routers to notify hosts of their presence and to advertise network prefixes.",
+            "InSolicits": "The rate of incoming router solicits, which are messages sent by hosts to solicit router advertisements.",
+            "OutAdvertisements": "The rate of outgoing router advertisements, which are messages sent by routers to notify hosts of changes to the network topology or to advertise new network prefixes.",
+            "OutSolicits": "The rate of outgoing router solicits, which are messages sent by hosts to solicit router advertisements."
+        }
+    ]
+}

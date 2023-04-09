@@ -1,0 +1,11 @@
+{
+    "chart_id": "ipv4.sockstat_tcp_sockets",
+    "chart_description": "This chart displays the current number of IPv4 TCP sockets that are allocated, in use, and in the timewait state.",
+    "dimension_descriptions": [
+        {
+            "alloc": "The number of sockets that have been allocated to the kernel but are not yet being used.",
+            "inuse": "The number of sockets that are currently being used by a process or a connection.",
+            "timewait": "The number of sockets that are waiting for enough time to pass before going from the timewait state to closed."
+        }
+    ]
+}

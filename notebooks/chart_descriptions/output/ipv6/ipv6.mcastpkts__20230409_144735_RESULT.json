@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.mcastpkts",
+    "chart_description": "This chart displays the rate of outgoing IPv6 multicast packets per second.",
+    "dimension_descriptions": [
+        {
+            "OutMcastPkts": "The number of outgoing IPv6 multicast packets per second."
+        }
+    ]
+}

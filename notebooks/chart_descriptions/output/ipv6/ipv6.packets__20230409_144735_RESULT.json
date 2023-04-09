@@ -1,0 +1,11 @@
+{
+    "chart_id": "ipv6.packets",
+    "chart_description": "This chart displays the number of IPv6 packets that are either delivered to the system (InDelivers), received by the system (InReceives), or sent from the system (OutRequests) per second. It helps monitor the overall IPv6 traffic on the system.",
+    "dimension_descriptions": [
+        {
+            "InDelivers": "The number of IPv6 packets delivered to the system per second.",
+            "InReceives": "The number of IPv6 packets received by the system per second.",
+            "OutRequests": "The number of IPv6 packets sent from the system per second."
+        }
+    ]
+}

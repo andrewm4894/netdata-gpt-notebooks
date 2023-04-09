@@ -1,0 +1,9 @@
+{
+    "chart_id": "netfilter.conntrack_new",
+    "chart_description": "This chart shows the rate of new connections being tracked by the Netfilter connection tracking system.",
+    "dimension_descriptions": [
+        {
+            "ignore": "This dimension has no effect on the chart and is present for compatibility reasons."
+        }
+    ]
+}

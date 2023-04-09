@@ -1,0 +1,9 @@
+{
+    "chart_id": "services.throttle_io_ops_write",
+    "chart_description": "The 'Systemd Services Throttle Disk Write Operations' chart tracks the number of write operations throttled by Systemd services on the disk, measured in operations per second. It helps identify any service or slice that may be causing excessive write operations on the disk and causing performance issues.",
+    "dimension_descriptions": [
+        {
+            "system-slice_systemd-journald-service": "This dimension represents the name of the slice used by Systemd to group together its journald service. This allows for monitoring of the disk write operations throttled by journald, which stores system logs on disk. Identifying high disk usage slices can help optimize system performance."
+        }
+    ]
+}

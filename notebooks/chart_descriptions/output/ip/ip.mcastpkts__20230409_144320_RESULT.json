@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.mcastpkts",
+    "chart_description": "This chart tracks the rate at which IP multicast packets are received and transmitted in packets per second (packets/s). It is useful for monitoring multicast traffic in a network, especially for troubleshooting issues related to multicast routing and connectivity.",
+    "dimension_descriptions": [
+        {
+            "InMcastPkts": "This dimension represents the rate at which incoming IP multicast packets are received in packets per second (packets/s). It reflects the traffic that originates from other hosts and is destined for the current host.",
+            "OutMcastPkts": "This dimension represents the rate at which outgoing IP multicast packets are transmitted in packets per second (packets/s). It reflects the traffic that originates from the current host and is destined for other hosts."
+        }
+    ]
+}

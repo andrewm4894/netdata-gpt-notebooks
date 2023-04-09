@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.bcastpkts",
+    "chart_description": "The IP Broadcast Packets chart displays the rate of incoming and outgoing broadcast packets per second.",
+    "dimension_descriptions": [
+        {
+            "InBcastPkts": "The rate of incoming broadcast packets per second.",
+            "OutBcastPkts": "The rate of outgoing broadcast packets per second."
+        }
+    ]
+}

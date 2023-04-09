@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.mcast",
+    "chart_description": "This chart displays the bandwidth used by IPv6 multicast traffic in kilobits per second. Multicast allows a single stream of data to be sent to multiple recipients simultaneously and efficiently. The chart can help to monitor and troubleshoot IPv6 multicast traffic usage and performance.",
+    "dimension_descriptions": [
+        {
+            "OutMcastOctets": "The amount of outgoing multicast traffic in octets per second from the perspective of the monitoring device."
+        }
+    ]
+}

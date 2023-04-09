@@ -1,0 +1,11 @@
+{
+    "chart_id": "netfilter.netlink_expect",
+    "chart_description": "The `netfilter.netlink_expect` chart displays the number of expectation events per second for the netfilter connection tracker. Expectations are events that the connection tracker has predicted will happen, and are used to help anticipate certain types of network traffic. This chart can be useful for troubleshooting network connectivity issues and identifying unusual network behavior.",
+    "dimension_descriptions": [
+        {
+            "found": "The number of expectation events per second where the connection tracker already found an expectation for the connection.",
+            "new": "The number of expectation events per second where a new expectation is created by the connection tracker.",
+            "searched": "The number of expectation events per second where the connection tracker searched for an expectation but could not find one."
+        }
+    ]
+}

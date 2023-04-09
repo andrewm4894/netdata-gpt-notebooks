@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.sockstat_udp_mem",
+    "chart_description": "The `ipv4.sockstat_udp_mem` chart displays the amount of memory usage in KiB for UDP sockets in IPv4 protocol.",
+    "dimension_descriptions": [
+        {
+            "mem": "The `mem` dimension represents the amount of memory used by UDP sockets in KiB."
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.lreads",
+    "chart_description": "The `apps.lreads` chart displays the logical disk read throughput of various applications on your system, measured in KiB/s. This chart helps in identifying any read-heavy applications and optimizing their disk usage.",
+    "dimension_descriptions": [
+        {
+            "VMs": "This dimension shows the read throughput of virtual machines running on the system.",
+            "agent_sd": "This dimension shows the read throughput of Netdata plugins such as the smartd and cpu plugins.",
+            "apps.plugin": "This dimension shows the read throughput of other Netdata plugins running on the system.",
+            "containers": "This dimension shows the read throughput of containerized applications on the system.",
+            "ebpf.plugin": "This dimension shows the read throughput of the eBPF plugin.",
+            "go.d.plugin": "This dimension shows the read throughput of the Go plugins.",
+            "httpd": "This dimension shows the read throughput of the Apache HTTP server.",
+            "kernel": "This dimension shows the read throughput of the kernel.",
+            "kube-proxy": "This dimension shows the read throughput of the Kubernetes proxy.",
+            "kubelet": "This dimension shows the read throughput of the Kubernetes node agent.",
+            "metrics-server": "This dimension shows the read throughput of the Kubernetes metrics-server.",
+            "netdata": "This dimension shows the read throughput of the Netdata daemon itself.",
+            "nosql": "This dimension shows the read throughput of NoSQL databases such as MongoDB and Cassandra.",
+            "other": "This dimension shows the read throughput of other miscellaneous applications on the system.",
+            "sql": "This dimension shows the read throughput of SQL databases such as MySQL and PostgreSQL.",
+            "system": "This dimension shows the read throughput of system-level applications such as systemd and udev.",
+            "tc-qos-helper": "This dimension shows the read throughput of the `tc` utility's QoS helper."
+        }
+    ]
+}

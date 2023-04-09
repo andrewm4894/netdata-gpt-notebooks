@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.tcpsock",
+    "chart_description": "The IPv4 TCP Connections chart displays the number of active TCP connections on the system. TCP connections are the backbone of most communication protocols in use today, which makes this chart an important indicator of overall network activity.",
+    "dimension_descriptions": [
+        {
+            "CurrEstab": "The number of active TCP connections on the system."
+        }
+    ]
+}

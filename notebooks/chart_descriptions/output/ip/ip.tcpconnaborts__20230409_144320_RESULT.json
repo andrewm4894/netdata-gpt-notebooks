@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.tcpconnaborts",
+    "chart_description": "The TCP Connection Aborts chart displays the rate of connection aborts in TCP. It counts how many attempted TCP connections were not completed, either due to closure or unexpected data.",
+    "dimension_descriptions": [
+        {
+            "TCPAbortOnClose": "This dimension records the rate of connection aborts due to a closure request from the local side.",
+            "TCPAbortOnData": "This dimension records the rate of connection aborts due to unexpected data received from the remote side."
+        }
+    ]
+}

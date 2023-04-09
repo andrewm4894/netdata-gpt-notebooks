@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipvs.net",
+    "chart_description": "The IPVS Bandwidth chart shows the bandwidth for incoming (received) and outgoing (sent) traffic in kilobits per second (kb/s) on the IP Virtual Server (IPVS) network. IPVS is a Linux kernel module that implements Layer 4 load balancing and can be used as a load balancer to distribute incoming network traffic across multiple backend servers.",
+    "dimension_descriptions": [
+        {
+            "received": "The received dimension measures the bandwidth of incoming network traffic in kilobits per second (kb/s) on the IPVS network.",
+            "sent": "The sent dimension measures the bandwidth of outgoing network traffic in kilobits per second (kb/s) on the IPVS network."
+        }
+    ]
+}

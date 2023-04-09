@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv4.icmp",
+    "chart_description": "The IPv4 ICMP Packets chart displays the rate of incoming and outgoing Internet Control Message Protocol (ICMP) packets sent and received by the IP version 4 (IPv4) layer of the network stack. ICMP is an error-reporting and control protocol, used by network devices to communicate with each other and to diagnose network problems. This chart provides insight into the overall health and performance of the network.",
+    "dimension_descriptions": [
+        {
+            "InMsgs": "The rate of incoming ICMP packets per second.",
+            "OutMsgs": "The rate of outgoing ICMP packets per second."
+        }
+    ]
+}

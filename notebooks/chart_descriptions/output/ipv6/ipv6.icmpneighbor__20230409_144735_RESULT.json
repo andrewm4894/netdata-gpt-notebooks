@@ -1,0 +1,12 @@
+{
+    "chart_id": "ipv6.icmpneighbor",
+    "chart_description": "This chart displays the rate of IPv6 neighbor messages exchanged per second.",
+    "dimension_descriptions": [
+        {
+            "InAdvertisements": "The rate at which IPv6 neighbors advertise their presence to the monitored system.",
+            "InSolicits": "The rate at which the monitored system solicits for IPv6 neighbors.",
+            "OutAdvertisements": "The rate at which the monitored system advertises its presence to its IPv6 neighbors.",
+            "OutSolicits": "The rate at which the monitored system solicits for IPv6 neighbors to connect."
+        }
+    ]
+}

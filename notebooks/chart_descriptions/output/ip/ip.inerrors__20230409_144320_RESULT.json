@@ -1,0 +1,11 @@
+{
+    "chart_id": "ip.inerrors",
+    "chart_description": "This chart tracks the number of IP input errors per second, providing insight into potential network issues that may be causing packet loss or latency. The chart measures the rate of packets discarded due to errors in IP headers, failures to locate a valid route, and truncated packets that are too large for their destination.",
+    "dimension_descriptions": [
+        {
+            "InCsumErrors": "The number of input packets that fail the cyclical redundancy check (CRC), a common method of detecting errors.",
+            "InNoRoutes": "The number of input packets that cannot reach their destination due to a missing or incorrect route.",
+            "InTruncatedPkts": "The number of input packets that are smaller than their advertised size or are truncated en route due to network congestion or errors."
+        }
+    ]
+}

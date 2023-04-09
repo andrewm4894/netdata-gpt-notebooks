@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv6.icmpmldv2",
+    "chart_description": "This chart represents the rate at which IPv6 Multicast Listener Discovery Version 2 (MLDv2) reports are sent and received on the network. MLDv2 allows nodes to efficiently track multicast group membership, enabling efficient delivery of multicast traffic.",
+    "dimension_descriptions": [
+        {
+            "InMLDv2Reports": "This dimension represents the rate at which MLDv2 reports are received by the node. It indicates the level of interest in multicast group membership on the network.",
+            "OutMLDv2Reports": "This dimension represents the rate at which MLDv2 reports are sent by the node. It indicates the level of multicasting activity on the network."
+        }
+    ]
+}

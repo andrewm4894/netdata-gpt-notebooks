@@ -1,0 +1,43 @@
+{
+    "chart_id": "services.mem_usage",
+    "chart_description": "The chart shows the memory usage (in MiB) of the various systemd services running on the system.",
+    "dimension_descriptions": [
+        {
+            "system-slice_acpid-service": "Memory used by the acpid service.",
+            "system-slice_amazon-ssm-agent-service": "Memory used by the Amazon SSM agent service.",
+            "system-slice_auditd-service": "Memory used by the auditd service.",
+            "system-slice_chrony-service": "Memory used by the chrony service.",
+            "system-slice_chronyd-service": "Memory used by the chronyd service.",
+            "system-slice_cloud-final-service": "Memory used by the cloud-final service.",
+            "system-slice_containerd-service": "Memory used by the containerd service.",
+            "system-slice_cron-service": "Memory used by the cron service.",
+            "system-slice_crond-service": "Memory used by the crond service.",
+            "system-slice_dbus-service": "Memory used by the dbus service.",
+            "system-slice_docker-service": "Memory used by the docker service.",
+            "system-slice_ifup_ens18-service": "Memory used by the ens18 service.",
+            "system-slice_irqbalance-service": "Memory used by the irqbalance service.",
+            "system-slice_kubelet-service": "Memory used by the kubelet service.",
+            "system-slice_multipathd-service": "Memory used by the multipathd service.",
+            "system-slice_netdata-service": "Memory used by the netdata service.",
+            "system-slice_network-service": "Memory used by the network service.",
+            "system-slice_networkd-dispatcher-service": "Memory used by the networkd-dispatcher service.",
+            "system-slice_packagekit-service": "Memory used by the packagekit service.",
+            "system-slice_polkit-service": "Memory used by the polkit service.",
+            "system-slice_postfix-service": "Memory used by the postfix service.",
+            "system-slice_qemu-guest-agent-service": "Memory used by the qemu-guest-agent service.",
+            "system-slice_rpcbind-service": "Memory used by the rpcbind service.",
+            "system-slice_rsyslog-service": "Memory used by the rsyslog service.",
+            "system-slice_snap-amazon-ssm-agent-amazon-ssm-agent-service": "Memory used by the snap-amazon-ssm-agent-amazon-ssm-agent service.",
+            "system-slice_snapd-service": "Memory used by the snapd service.",
+            "system-slice_ssh-service": "Memory used by the ssh service.",
+            "system-slice_systemd-journald-service": "Memory used by the systemd-journald service.",
+            "system-slice_systemd-logind-service": "Memory used by the systemd-logind service.",
+            "system-slice_systemd-networkd-service": "Memory used by the systemd-networkd service.",
+            "system-slice_systemd-resolved-service": "Memory used by the systemd-resolved service.",
+            "system-slice_systemd-timesyncd-service": "Memory used by the systemd-timesyncd service.",
+            "system-slice_systemd-udevd-service": "Memory used by the systemd-udevd service.",
+            "system-slice_unattended-upgrades-service": "Memory used by the unattended-upgrades service.",
+            "system-slice_uuidd-service": "Memory used by the uuidd service."
+        }
+    ]
+}

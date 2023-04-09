@@ -1,0 +1,11 @@
+{
+    "chart_id": "netfilter.netlink_new",
+    "chart_description": "The Connection Tracker New Connections chart shows the rate at which new connections are being established on the network that are being tracked by netfilter\u2019s connection tracking subsystem.",
+    "dimension_descriptions": [
+        {
+            "ignore": "The number of packets that were received but ignored by connection tracking because they had an invalid state or were not of interest for connection tracking.",
+            "invalid": "The number of packets that failed connection tracking validation checks and were not tracked.",
+            "new": "The number of new connections that have been initiated and are being tracked by netfilter\u2019s connection tracking subsystem."
+        }
+    ]
+}

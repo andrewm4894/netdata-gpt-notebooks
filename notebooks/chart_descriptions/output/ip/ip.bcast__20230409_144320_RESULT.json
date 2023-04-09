@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.bcast",
+    "chart_description": "The IP Broadcast Bandwidth chart displays the amount of kilobits per second of broadcast traffic sent and received by the network interface. Broadcast traffic is a form of communication where data packets are sent to all the devices on the local network, and this chart helps in identifying the bandwidth consumption caused by such traffic.",
+    "dimension_descriptions": [
+        {
+            "InBcastOctets": "The amount of data received in kilobits per second by the network interface through broadcast traffic.",
+            "OutBcastOctets": "The amount of data sent in kilobits per second by the network interface through broadcast traffic."
+        }
+    ]
+}

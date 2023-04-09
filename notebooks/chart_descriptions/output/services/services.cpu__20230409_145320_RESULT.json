@@ -1,0 +1,28 @@
+{
+    "chart_id": "services.cpu",
+    "chart_description": "The `services.cpu` chart shows the CPU utilization percentage for various systemd services running on the system. The values are displayed as a stacked chart, with each service represented as a separate stack. The total height of the stacks represents the total CPU usage of all the services combined. The chart is useful for identifying any service that may be consuming too much CPU resources and causing system performance issues.",
+    "dimension_descriptions": [
+        {
+            "system-slice_amazon-ssm-agent-service": "CPU utilization percentage for the Amazon SSM agent service.",
+            "system-slice_chrony-service": "CPU utilization percentage for the chrony service, which is a network time synchronization daemon.",
+            "system-slice_containerd-service": "CPU utilization percentage for the containerd service, which is a container runtime.",
+            "system-slice_cron-service": "CPU utilization percentage for the cron service, which is a time-based job scheduler.",
+            "system-slice_dbus-service": "CPU utilization percentage for the dbus service, which is a message bus system.",
+            "system-slice_docker-service": "CPU utilization percentage for the Docker service, which is a container platform.",
+            "system-slice_irqbalance-service": "CPU utilization percentage for the irqbalance service, which is a daemon that distributes interrupts among various processors.",
+            "system-slice_kubelet-service": "CPU utilization percentage for the kubelet service, which is a node agent that runs on each node in a Kubernetes cluster.",
+            "system-slice_multipathd-service": "CPU utilization percentage for the multipathd service, which is a daemon that manages multipath I/O devices.",
+            "system-slice_netdata-service": "CPU utilization percentage for the Netdata service.",
+            "system-slice_network-service": "CPU utilization percentage for the network service.",
+            "system-slice_packagekit-service": "CPU utilization percentage for the packagekit service, which is a package management service.",
+            "system-slice_qemu-guest-agent-service": "CPU utilization percentage for the QEMU guest agent service, which is a daemon that runs inside a guest virtual machine and allows communication with the host system.",
+            "system-slice_snap-amazon-ssm-agent-amazon-ssm-agent-service": "CPU utilization percentage for the snap-amazon-ssm-agent-amazon-ssm-agent service.",
+            "system-slice_snapd-service": "CPU utilization percentage for the snapd service, which is a package management service used by snap packages on Ubuntu systems.",
+            "system-slice_systemd-journald-service": "CPU utilization percentage for the systemd-journald service, which is a system journal service that collects and stores logging data.",
+            "system-slice_systemd-logind-service": "CPU utilization percentage for the systemd-logind service, which is a system service that manages user logins and seats.",
+            "system-slice_systemd-resolved-service": "CPU utilization percentage for the systemd-resolved service, which is a system service that provides DNS name resolution.",
+            "system-slice_systemd-timesyncd-service": "CPU utilization percentage for the systemd-timesyncd service, which is a system service that provides time synchronization between the system clock and network time servers.",
+            "system-slice_systemd-udevd-service": "CPU utilization percentage for the systemd-udevd service, which is a system service that manages device nodes in the /dev directory."
+        }
+    ]
+}

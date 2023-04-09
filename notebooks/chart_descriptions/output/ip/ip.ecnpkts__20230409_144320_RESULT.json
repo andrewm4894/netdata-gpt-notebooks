@@ -1,0 +1,9 @@
+{
+    "chart_id": "ip.ecnpkts",
+    "chart_description": "The IP ECN Statistics chart shows the rate of incoming packets that have the ECN (Explicit Congestion Notification) flag set. ECN is a way of notifying routers of network congestion before packet loss occurs, which makes it less disruptive to the flow of data. This chart can help identify congestion in the network and potentially prevent issues before they occur.",
+    "dimension_descriptions": [
+        {
+            "InNoECTPkts": "The number of incoming packets with ECN set per second."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "net.carrier",
+    "chart_description": "The `net.carrier` chart displays the physical link state of the network interface. This state indicates whether the interface is up or down. A physical link state of up means the interface is connected and operational, while a state of down means the interface is disconnected or experiencing issues.",
+    "dimension_descriptions": [
+        {
+            "down": "The number of times the physical link state of the interface has been down.",
+            "up": "The number of times the physical link state of the interface has been up."
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "chart_id": "ipv4.udperrors",
+    "chart_description": "This chart displays the rate of UDP errors on the IPv4 network layer of the system. Various types of UDP errors that occur on the system are shown on this chart, including ignored multicast, checksum errors, receive buffer errors, send buffer errors, and more.",
+    "dimension_descriptions": [
+        {
+            "IgnoredMulti": "This dimension shows the rate of ignored multicast packets due to lack of matching socket for the received packet.",
+            "InCsumErrors": "This dimension counts the number of incoming packets that were rejected due to checksum errors in the UDP headers.",
+            "InErrors": "This dimension shows the number of incoming packets that could not be successfully processed further by the system and were discarded.",
+            "NoPorts": "This dimension corresponds to the number of incoming UDP packets not matching any existing ports.",
+            "RcvbufErrors": "This dimension displays the number of dropped packets due to issues with the receive buffer.",
+            "SndbufErrors": "This dimension shows the number of dropped packets due to issues with the send buffer."
+        }
+    ]
+}

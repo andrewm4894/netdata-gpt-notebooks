@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv4.icmpmsg",
+    "chart_description": "This chart displays the rate of incoming and outgoing Internet Control Message Protocol (ICMP) messages on IPv4. ICMP messages are used by network devices to communicate error messages and operational information.",
+    "dimension_descriptions": [
+        {
+            "InType0": "This dimension shows the rate of incoming ICMP Echo Request messages. These messages are sent from one device to another to check if the receiving device is available on the network.",
+            "OutType8": "This dimension shows the rate of outgoing ICMP Echo Reply messages. These messages are sent in response to ICMP Echo Request messages to indicate that the receiving device is available on the network."
+        }
+    ]
+}

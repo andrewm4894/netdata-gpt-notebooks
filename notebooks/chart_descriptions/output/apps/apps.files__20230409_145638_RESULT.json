@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.files",
+    "chart_description": "This chart displays the number of open files by different apps and services in the system.",
+    "dimension_descriptions": [
+        {
+            "VMs": "The name of the virtual machine hosting the app or service.",
+            "agent_sd": "The name of the agent responsible for collecting the data.",
+            "apps.plugin": "Name of the application plugin.",
+            "containers": "The name of the container running the app or service.",
+            "ebpf.plugin": "Name of the eBPF plugin.",
+            "go.d.plugin": "Name of the Go plugin.",
+            "httpd": "The name of the HTTP server.",
+            "kernel": "The operating system kernel.",
+            "kube-proxy": "The Kubernetes proxy service.",
+            "kubelet": "The Kubernetes worker node agent.",
+            "metrics-server": "The Kubernetes metrics-server.",
+            "netdata": "The Netdata daemon.",
+            "nosql": "Name of the NoSQL database.",
+            "other": "Any other application or service not covered by the other dimensions.",
+            "sql": "Name of the SQL database.",
+            "system": "The system files and processes.",
+            "tc-qos-helper": "The name of the tc-qos-helper service when available."
+        }
+    ]
+}

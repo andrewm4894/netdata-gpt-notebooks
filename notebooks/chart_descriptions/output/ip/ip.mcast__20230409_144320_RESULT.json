@@ -1,0 +1,10 @@
+{
+    "chart_id": "ip.mcast",
+    "chart_description": "The IP Multicast Bandwidth chart shows the amount of traffic sent and received by a multicast group in kilobits per second.",
+    "dimension_descriptions": [
+        {
+            "InMcastOctets": "The amount of traffic received by the multicast group in kilobits per second.",
+            "OutMcastOctets": "The amount of traffic sent by the multicast group in kilobits per second."
+        }
+    ]
+}

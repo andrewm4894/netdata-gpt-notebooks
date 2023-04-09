@@ -1,0 +1,9 @@
+{
+    "chart_id": "services.throttle_io_write",
+    "chart_description": "This chart displays the throttled disk write bandwidth of Systemd Services in KiB/s. Throttling occurs when a service exceeds its allocated disk bandwidth. ",
+    "dimension_descriptions": [
+        {
+            "system-slice_systemd-journald-service": "This dimension refers to the Systemd slice corresponding to the journald service. It helps identify the specific service being throttled."
+        }
+    ]
+}

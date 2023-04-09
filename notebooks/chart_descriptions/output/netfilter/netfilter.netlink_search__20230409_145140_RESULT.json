@@ -1,0 +1,9 @@
+{
+    "chart_id": "netfilter.netlink_search",
+    "chart_description": "The 'Connection Tracker Searches' chart displays the number of times the netfilter kernel module performed a search through the connection tracker tables per second. This chart can help identify whether the system is experiencing an abnormal number of searches through the connection tracker tables.",
+    "dimension_descriptions": [
+        {
+            "search_restart": "The 'search_restart' dimension indicates the number of times the kernel module restarted a search through the connection tracker tables because the timestamp of the current search record was earlier than the timestamp of the previous search record. A high value indicates that there are frequent changes to the tracked connections or an overload in the connection tracker tables."
+        }
+    ]
+}

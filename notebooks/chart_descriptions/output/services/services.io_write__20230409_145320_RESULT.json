@@ -1,0 +1,9 @@
+{
+    "chart_id": "services.io_read",
+    "chart_description": "The `services.io_read` chart measures the disk read bandwidth of Systemd services. It helps determine if a particular service is causing a high disk I/O load on the system.",
+    "dimension_descriptions": [
+        {
+            "system-slice_netdata-service": "This dimension shows the name of the Systemd service that is being monitored for disk read bandwidth."
+        }
+    ]
+}

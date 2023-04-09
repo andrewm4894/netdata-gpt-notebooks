@@ -1,0 +1,14 @@
+{
+    "chart_id": "ipv4.errors",
+    "chart_description": "The IPv4 Errors chart displays the error rate, measured in packets per second, for different types of IPv4 errors.",
+    "dimension_descriptions": [
+        {
+            "InAddrErrors": "The number of input datagrams discarded because the IPv4 address in their IP header's destination field was not a valid address.",
+            "InDiscards": "The number of input IPv4 datagrams that were discarded due to resource limitations.",
+            "InHdrErrors": "The number of input IPv4 datagrams discarded due to errors in their IP headers.",
+            "InUnknownProtos": "The number of locally delivered IPv4 datagrams with unknown protocols in the payload or that have Destination Address or Option Type options that do not contain a recognized IPv4 option.",
+            "OutDiscards": "The number of output IPv4 datagrams discarded due to the lack of buffers, congestion avoidance, or other network-management reasons.",
+            "OutNoRoutes": "The number of locally generated IPv4 datagrams discarded because no route could be found to transmit them to their destination."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netfilter.conntrack_search",
+    "chart_description": "This chart displays the number of connection tracker searches per second in the netfilter subsystem. It helps in monitoring the performance of the conntrack feature used by iptables to track connections and to filter based on connection state.",
+    "dimension_descriptions": [
+        {
+            "found": "This dimension shows the number of search requests that resulted in found entries in the connection tracking table. A high value indicates that the use of conntrack is effective and efficient.",
+            "restarted": "This dimension displays the number of times conntrack had to restart the search process to lookup an entry. A high value indicates that conntrack is not able to keep up with the traffic load or that there are too many entries in the connection tracking table."
+        }
+    ]
+}

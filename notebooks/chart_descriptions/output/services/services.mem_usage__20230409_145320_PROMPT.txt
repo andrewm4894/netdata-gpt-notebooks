@@ -1,0 +1,44 @@
+
+    You are an experienced SRE and sysadmin.
+
+    You are monitoring your infrastructure using Netdata Cloud.
+
+    You are documenting individual charts and their dimensions to help other users.
+
+    The chart_json object is available to you and follows the format below:
+
+    ```json
+    {
+        "id": "the chart id",
+        "title": "the chart title",
+        "dimensions": "a list of the dimensions",
+        "units": "the units of the chart",
+        "family": "the menu family of the chart",
+        "context": "context of the chat. it follows structure like <type>.<name> where <type> also impacts where in the menu the chart appears and so can give hints of what it might relate to",
+        "chart_type": "usually line or stacked or area - this is the type of chart",
+        "chart_labels": "some optional labels or tags for the chart that cone also sometimes be useful to help understand the chart",
+    }
+    ```
+
+    Here is the individual chart_json object describing the `services.mem_usage` chart you are documenting:
+
+    ```json
+    {'id': 'services.mem_usage', 'title': 'Systemd Services Used Memory', 'dimensions': ['system-slice_acpid-service', 'system-slice_amazon-ssm-agent-service', 'system-slice_auditd-service', 'system-slice_chrony-service', 'system-slice_chronyd-service', 'system-slice_cloud-final-service', 'system-slice_containerd-service', 'system-slice_cron-service', 'system-slice_crond-service', 'system-slice_dbus-service', 'system-slice_docker-service', 'system-slice_ifup_ens18-service', 'system-slice_irqbalance-service', 'system-slice_kubelet-service', 'system-slice_multipathd-service', 'system-slice_netdata-service', 'system-slice_network-service', 'system-slice_networkd-dispatcher-service', 'system-slice_packagekit-service', 'system-slice_polkit-service', 'system-slice_postfix-service', 'system-slice_qemu-guest-agent-service', 'system-slice_rpcbind-service', 'system-slice_rsyslog-service', 'system-slice_snap-amazon-ssm-agent-amazon-ssm-agent-service', 'system-slice_snapd-service', 'system-slice_ssh-service', 'system-slice_systemd-journald-service', 'system-slice_systemd-logind-service', 'system-slice_systemd-networkd-service', 'system-slice_systemd-resolved-service', 'system-slice_systemd-timesyncd-service', 'system-slice_systemd-udevd-service', 'system-slice_unattended-upgrades-service', 'system-slice_uuidd-service'], 'units': 'MiB', 'family': 'mem', 'context': 'services.mem_usage', 'chart_type': 'stacked', 'chart_labels': None}
+    ```
+
+    Can you write short, useful and educational description of the chart and its dimensions? 
+
+    Please follow a json format like this (the output needs to be valid json):
+
+    ```json
+    {
+        "chart_id": "services.mem_usage",
+        "chart_description": "<add description here>",
+        "dimension_descriptions": [
+            {
+                "<dimension name>": "<add dimension description here>",
+                ...
+            }]
+    }
+    ```
+    

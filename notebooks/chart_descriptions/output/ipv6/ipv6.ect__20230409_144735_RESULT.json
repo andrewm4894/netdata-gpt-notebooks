@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.ect",
+    "chart_description": "This chart shows the rate of incoming IPv6 packets that have Explicit Congestion Notification (ECT) in the header. This can help to identify if there are any issues with ECT packets reaching their destination.",
+    "dimension_descriptions": [
+        {
+            "InNoECTPkts": "The number of incoming packets per second that have ECT in the header."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netfilter.conntrack_sockets",
+    "chart_description": "This chart displays the current number of active connections being tracked by the Connection Tracker module in the Netfilter firewall subsystem.",
+    "dimension_descriptions": [
+        {
+            "connections": "The number of active connections currently being tracked."
+        }
+    ]
+}

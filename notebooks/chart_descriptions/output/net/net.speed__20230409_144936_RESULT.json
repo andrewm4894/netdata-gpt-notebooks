@@ -1,0 +1,9 @@
+{
+    "chart_id": "net.speed",
+    "chart_description": "The `net.speed` chart shows the speed of the network interfaces in the system.",
+    "dimension_descriptions": [
+        {
+            "speed": "The speed dimension indicates the speed at which data is transmitted in kilobits per second (kbps) for each network interface. This can help identify if any interfaces are experiencing high traffic or if a specific interface is not performing as expected."
+        }
+    ]
+}

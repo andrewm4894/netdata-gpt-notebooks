@@ -1,0 +1,12 @@
+{
+    "chart_id": "ipv4.packets",
+    "chart_description": "This chart shows the rate of IPv4 packets transmitted and received per second on the network. It is useful in identifying network congestion and potential issues with packet loss or delays.",
+    "dimension_descriptions": [
+        {
+            "ForwDatagrams": "The number of datagrams that were successfully forwarded to a neighboring router or host.",
+            "InDelivers": "The number of input datagrams delivered to IP user-protocols.",
+            "InReceives": "The number of input datagrams received, including those received in error. This counts only datagrams received on interfaces for which IP is enabled, and excludes those received on IP addresses that were not enabled.",
+            "OutRequests": "The number of IP datagrams that local applications have asked to be transmitted."
+        }
+    ]
+}

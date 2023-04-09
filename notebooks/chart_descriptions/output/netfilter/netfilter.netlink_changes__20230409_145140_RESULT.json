@@ -1,0 +1,11 @@
+{
+    "chart_id": "netfilter.netlink_changes",
+    "chart_description": "This chart displays the rate of changes to the connection tracker maintained by netfilter through netlink. It provides insight into the frequency of updates to the connection tracker which can help identify potential performance issues or changes in network behavior.",
+    "dimension_descriptions": [
+        {
+            "delete": "The rate of connections deleted from the connection tracker.",
+            "delete_list": "The rate of connections deleted from the delete list in the connection tracker.",
+            "insert": "The rate of new connections inserted into the connection tracker."
+        }
+    ]
+}

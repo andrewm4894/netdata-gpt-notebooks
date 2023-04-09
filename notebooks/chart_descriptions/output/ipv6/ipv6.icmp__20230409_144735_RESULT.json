@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv6.icmp",
+    "chart_description": "This chart displays the rate at which IPv6 ICMP messages are being sent and received.",
+    "dimension_descriptions": [
+        {
+            "InMsgs": "The rate at which IPv6 ICMP messages are received.",
+            "OutMsgs": "The rate at which IPv6 ICMP messages are sent."
+        }
+    ]
+}

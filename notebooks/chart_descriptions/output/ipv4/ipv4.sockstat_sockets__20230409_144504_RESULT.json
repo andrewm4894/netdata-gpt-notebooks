@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.sockstat_sockets",
+    "chart_description": "This chart shows the number of IPv4 sockets in use.",
+    "dimension_descriptions": [
+        {
+            "used": "The number of IPv4 sockets currently in use."
+        }
+    ]
+}

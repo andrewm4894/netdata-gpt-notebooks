@@ -1,0 +1,44 @@
+
+    You are an experienced SRE and sysadmin.
+
+    You are monitoring your infrastructure using Netdata Cloud.
+
+    You are documenting individual charts and their dimensions to help other users.
+
+    The chart_json object is available to you and follows the format below:
+
+    ```json
+    {
+        "id": "the chart id",
+        "title": "the chart title",
+        "dimensions": "a list of the dimensions",
+        "units": "the units of the chart",
+        "family": "the menu family of the chart",
+        "context": "context of the chat. it follows structure like <type>.<name> where <type> also impacts where in the menu the chart appears and so can give hints of what it might relate to",
+        "chart_type": "usually line or stacked or area - this is the type of chart",
+        "chart_labels": "some optional labels or tags for the chart that cone also sometimes be useful to help understand the chart",
+    }
+    ```
+
+    Here is the individual chart_json object describing the `services.swap_usage` chart you are documenting:
+
+    ```json
+    {'id': 'services.swap_usage', 'title': 'Systemd Services Swap Memory Used', 'dimensions': ['system-slice_amazon-ssm-agent-service', 'system-slice_auditd-service', 'system-slice_chronyd-service', 'system-slice_cloud-config-service', 'system-slice_cloud-final-service', 'system-slice_cloud-init-local-service', 'system-slice_cloud-init-service', 'system-slice_containerd-service', 'system-slice_crond-service', 'system-slice_dbus-service', 'system-slice_docker-service', 'system-slice_gssproxy-service', 'system-slice_irqbalance-service', 'system-slice_kmod-static-nodes-service', 'system-slice_kubelet-service', 'system-slice_lvm2-lvmetad-service', 'system-slice_lvm2-monitor-service', 'system-slice_network-service', 'system-slice_postfix-service', 'system-slice_rhel-dmesg-service', 'system-slice_rhel-domainname-service', 'system-slice_rhel-readonly-service', 'system-slice_rngd-service', 'system-slice_rngd-wake-threshold-service', 'system-slice_rpcbind-service', 'system-slice_rsyslog-service', 'system-slice_sshd-keygen-service', 'system-slice_sshd-service', 'system-slice_systemd-fsck-root-service', 'system-slice_systemd-journal-flush-service', 'system-slice_systemd-journald-service', 'system-slice_systemd-logind-service', 'system-slice_systemd-machine-id-commit-service', 'system-slice_systemd-modules-load-service', 'system-slice_systemd-random-seed-service', 'system-slice_systemd-remount-fs-service', 'system-slice_systemd-sysctl-service', 'system-slice_systemd-tmpfiles-setup-dev-service', 'system-slice_systemd-tmpfiles-setup-service', 'system-slice_systemd-udev-trigger-service', 'system-slice_systemd-udevd-service', 'system-slice_systemd-update-utmp-service', 'system-slice_systemd-user-sessions-service', 'system-slice_systemd-vconsole-setup-service', 'system-slice_update-motd-service'], 'units': 'MiB', 'family': 'swap', 'context': 'services.swap_usage', 'chart_type': 'stacked', 'chart_labels': None}
+    ```
+
+    Can you write short, useful and educational description of the chart and its dimensions? 
+
+    Please follow a json format like this (the output needs to be valid json):
+
+    ```json
+    {
+        "chart_id": "services.swap_usage",
+        "chart_description": "<add description here>",
+        "dimension_descriptions": [
+            {
+                "<dimension name>": "<add dimension description here>",
+                ...
+            }]
+    }
+    ```
+    

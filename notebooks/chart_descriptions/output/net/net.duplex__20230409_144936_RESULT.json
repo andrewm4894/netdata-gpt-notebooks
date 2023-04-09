@@ -1,0 +1,9 @@
+{
+    "chart_id": "net.duplex",
+    "chart_description": "The `net.duplex` chart displays the current interface duplex state. It shows whether the network interface is set to half-duplex or full-duplex mode.",
+    "dimension_descriptions": [
+        {
+            "unknown": "The `unknown` dimension shows the duplex state, which is either `half` or `full` depending on the network interface."
+        }
+    ]
+}

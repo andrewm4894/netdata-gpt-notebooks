@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv4.udppackets",
+    "chart_description": "The IPv4 UDP Packets chart shows the rate of incoming and outgoing UDP packets on the IPv4 network protocol.",
+    "dimension_descriptions": [
+        {
+            "InDatagrams": "The number of UDP packets received per second on the IPv4 network protocol.",
+            "OutDatagrams": "The number of UDP packets sent per second on the IPv4 network protocol."
+        }
+    ]
+}

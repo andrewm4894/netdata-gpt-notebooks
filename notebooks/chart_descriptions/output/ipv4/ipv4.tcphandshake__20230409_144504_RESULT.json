@@ -1,0 +1,11 @@
+{
+    "chart_id": "ipv4.tcphandshake",
+    "chart_description": "The IPv4 TCP Handshake Issues chart tracks the number of TCP handshake attempts that fail or are reset after the connection is established. This chart can help detect connectivity and performance issues in the TCP protocol.",
+    "dimension_descriptions": [
+        {
+            "AttemptFails": "The number of failed TCP handshake attempts where a TCP SYN is sent but no SYN-ACK is received in response. This can indicate network connectivity issues or high traffic load on the target host.",
+            "EstabResets": "The number of TCP connections that were successfully established but then reset abruptly. This can indicate problems with server configuration, network latency or packet loss.",
+            "OutRsts": "The number of TCP reset packets sent from the local host. This can indicate software bugs or issues with a network device."
+        }
+    ]
+}

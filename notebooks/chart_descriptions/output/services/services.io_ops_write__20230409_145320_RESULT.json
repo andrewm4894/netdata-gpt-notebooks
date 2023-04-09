@@ -1,0 +1,10 @@
+{
+    "chart_id": "services.io_ops_write",
+    "chart_description": "This chart tracks the disk write operations per second for systemd services on the system and snap-amazon-ssm-agent-amazon-ssm-agent-service slices. This metric is useful for monitoring the write activity of services running on the system.",
+    "dimension_descriptions": [
+        {
+            "system-slice_netdata-service": "This dimension represents the systemd slice where services that are not part of snap packages are running.",
+            "system-slice_snap-amazon-ssm-agent-amazon-ssm-agent-service": "This dimension represents the systemd slice where the snap package amazon-ssm-agent is running."
+        }
+    ]
+}

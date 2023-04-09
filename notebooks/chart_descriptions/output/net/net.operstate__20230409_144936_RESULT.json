@@ -1,0 +1,10 @@
+{
+    "chart_id": "net.operstate",
+    "chart_description": "This chart shows the operational state of network interfaces on the system. The dimensions represent the number of interfaces that are either in the 'up' or 'down' state.",
+    "dimension_descriptions": [
+        {
+            "down": "The number of network interfaces that are currently in the 'down' state.",
+            "up": "The number of network interfaces that are currently in the 'up' state."
+        }
+    ]
+}

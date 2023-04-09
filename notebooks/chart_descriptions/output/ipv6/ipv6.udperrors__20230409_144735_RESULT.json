@@ -1,0 +1,14 @@
+{
+    "chart_id": "ipv6.udperrors",
+    "chart_description": "The IPv6 UDP Errors chart displays the count of UDP errors per second for a given network interface in an IPv6 network. These errors can include multi-casting ignored, checksum errors, input errors, no ports available, buffer receive and send errors. Monitoring this chart can help detect and diagnose network errors related to UDP traffic in an IPv6 environment.",
+    "dimension_descriptions": [
+        {
+            "IgnoredMulti": "The number of UDP packets that were ignored due to multicast filtering.",
+            "InCsumErrors": "The number of inbound UDP packets that failed the checksum verification.",
+            "InErrors": "The number of inbound UDP packets that encountered an error other than checksum verification failure or malformed packets.",
+            "NoPorts": "The number of UDP packets received that did not have a destination port assigned, and hence were discarded.",
+            "RcvbufErrors": "The number of inbound UDP packets dropped because of insufficient buffer space in the receiving application.",
+            "SndbufErrors": "The number of outbound UDP packets dropped because of insufficient buffer space in the transmitting application."
+        }
+    ]
+}

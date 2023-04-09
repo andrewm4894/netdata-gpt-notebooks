@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.cpu_user",
+    "chart_description": "This chart shows the percentage of CPU time used by different applications on the server, with 100% equaling the time used by one core. It helps in identifying which applications are using the most CPU time and optimizing their usage to prevent overloading the system.",
+    "dimension_descriptions": [
+        {
+            "VMs": "The name of the virtual machine to which the CPU usage belongs.",
+            "agent_sd": "The name of the Agent sender (SD) that sent the data.",
+            "apps.plugin": "The name of the Netdata plugin that provided the data.",
+            "containers": "The name of the container where the application is running.",
+            "ebpf.plugin": "The name of the eBPF plugin that provided the data.",
+            "go.d.plugin": "The name of the custom Go program that provided the data.",
+            "httpd": "The name of the Apache HTTP Server.",
+            "kernel": "The name of the kernel process that provided the data.",
+            "kube-proxy": "The name of the Kubernetes proxy server.",
+            "kubelet": "The name of the Kubernetes Node Agent (kubelet).",
+            "metrics-server": "The name of the Kubernetes Metrics Server.",
+            "netdata": "The name of the Netdata daemon.",
+            "nosql": "The name of the NoSQL database process that provided the data.",
+            "other": "The name of the process that generated this data, but does not belong to any other category.",
+            "sql": "The name of the SQL database process that provided the data.",
+            "system": "The name of the system process that provided the data.",
+            "tc-qos-helper": "The name of the TC-QoS helper process that provided the data."
+        }
+    ]
+}

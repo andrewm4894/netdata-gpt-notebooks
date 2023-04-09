@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipvs.packets",
+    "chart_description": "The IPVS Packets chart displays the rate of IPVS packets being received and sent per second.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate of IPVS packets being received per second.",
+            "sent": "The rate of IPVS packets being sent per second."
+        }
+    ]
+}

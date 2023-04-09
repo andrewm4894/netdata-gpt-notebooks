@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.sockstat_udp_sockets",
+    "chart_description": "The IPv4 UDP Sockets chart provides information on the current number of UDP sockets in use.",
+    "dimension_descriptions": [
+        {
+            "inuse": "The number of UDP sockets that are currently in use."
+        }
+    ]
+}

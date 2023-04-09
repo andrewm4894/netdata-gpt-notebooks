@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.sockstat6_udp_sockets",
+    "chart_description": "This chart displays the number of in-use IPv6 UDP sockets.",
+    "dimension_descriptions": [
+        {
+            "inuse": "This dimension represents the number of IPv6 UDP sockets that are currently in use."
+        }
+    ]
+}

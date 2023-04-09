@@ -1,0 +1,18 @@
+{
+    "chart_id": "ipv6.icmptypes",
+    "chart_description": "This chart displays the rate of incoming and outgoing ICMPv6 messages for various types.",
+    "dimension_descriptions": [
+        {
+            "InType1": "The rate of incoming Echo Reply messages.",
+            "InType128": "The rate of incoming Echo Request messages.",
+            "InType129": "The rate of incoming Multicast Listener Query messages.",
+            "InType136": "The rate of incoming Router Solicitation messages.",
+            "OutType1": "The rate of outgoing Echo Reply messages.",
+            "OutType128": "The rate of outgoing Echo Request messages.",
+            "OutType129": "The rate of outgoing Multicast Listener Query messages.",
+            "OutType133": "The rate of outgoing Router Solicitation messages.",
+            "OutType135": "The rate of outgoing Neighbor Advertisement messages.",
+            "OutType143": "The rate of outgoing Router Advertisement messages."
+        }
+    ]
+}

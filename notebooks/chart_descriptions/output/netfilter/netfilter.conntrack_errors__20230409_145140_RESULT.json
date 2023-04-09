@@ -1,0 +1,12 @@
+{
+    "chart_id": "netfilter.conntrack_errors",
+    "chart_description": "This chart displays the number of connection tracker errors per second on the system. These errors can indicate issues with network connections and can impact system performance.",
+    "dimension_descriptions": [
+        {
+            "drop": "The number of connections dropped by the connection tracker due to errors.",
+            "early_drop": "The number of connections dropped by the connection tracker that were detected to be invalid early in the connection process.",
+            "icmp_error": "The number of ICMP packets that caused errors in connection tracking.",
+            "insert_failed": "The number of connection insertion attempts that failed due to an error in connection tracking."
+        }
+    ]
+}

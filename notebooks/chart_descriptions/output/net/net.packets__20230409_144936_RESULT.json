@@ -1,0 +1,10 @@
+{
+    "chart_id": "net.packets",
+    "chart_description": "The net.packets chart displays the rate at which packets are either received or sent on the network interface.",
+    "dimension_descriptions": [
+        {
+            "received": "This dimension shows the rate at which packets are received on the network interface.",
+            "sent": "This dimension shows the rate at which packets are sent on the network interface."
+        }
+    ]
+}

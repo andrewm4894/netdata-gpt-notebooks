@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv4.tcperrors",
+    "chart_description": "This chart shows the rate of TCP errors in IPv4 network traffic. Errors may occur due to packet loss, retransmission, or other issues that affect the reliability of the TCP protocol.",
+    "dimension_descriptions": [
+        {
+            "RetransSegs": "The number of TCP retransmitted segments per second. This dimension provides insight into the frequency of packet loss or data corruption, which can impact network performance and reliability."
+        }
+    ]
+}

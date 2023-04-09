@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipvs.sockets",
+    "chart_description": "This chart shows the number of new connections made to IPVS (IP Virtual Server) sockets per second.",
+    "dimension_descriptions": [
+        {
+            "connections": "The number of new connections made to IPVS (IP Virtual Server) sockets per second."
+        }
+    ]
+}

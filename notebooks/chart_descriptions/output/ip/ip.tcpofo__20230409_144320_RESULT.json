@@ -1,0 +1,9 @@
+{
+    "chart_id": "ip.tcpofo",
+    "chart_description": "The TCP Out-Of-Order Queue chart shows the rate of packets per second that arrive out of order and are queued by the TCP protocol.",
+    "dimension_descriptions": [
+        {
+            "TCPOFOQueue": "The number of packets in the TCP Out-Of-Order Queue at any given time, indicating how many packets need to be reordered before they can be properly processed by the receiving end."
+        }
+    ]
+}

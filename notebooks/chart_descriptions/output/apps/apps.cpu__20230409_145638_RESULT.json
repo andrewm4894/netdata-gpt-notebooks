@@ -1,0 +1,30 @@
+{
+    "chart_id": "apps.cpu",
+    "chart_description": "This chart displays the percentage of CPU time used by applications running on the system. The total CPU time available is considered as 100% or 1 core.",
+    "dimension_descriptions": [
+        {
+            "VMs": "Displays the CPU time used by virtual machines running on the system.",
+            "agent_sd": "Displays the CPU time used by agent_sd, a Netdata service that collects data from other agents on the system.",
+            "apps.plugin": "Displays the CPU time used by apps.plugin, a Netdata plugin that monitors application processes.",
+            "containers": "Displays the CPU time used by containers running on the system.",
+            "ebpf.plugin": "Displays the CPU time used by ebpf.plugin, a Netdata plugin that monitors system calls and kernel events.",
+            "go.d.plugin": "Displays the CPU time used by go.d.plugin, a Netdata plugin that monitors Go language applications.",
+            "httpd": "Displays the CPU time used by the Apache HTTP server.",
+            "kernel": "Displays the CPU time used by the kernel processes.",
+            "kube-proxy": "Displays the CPU time used by the Kubernetes proxy process.",
+            "kubelet": "Displays the CPU time used by the Kubernetes node agent process.",
+            "logs": "Displays the CPU time used by the Netdata log daemon.",
+            "metrics-server": "Displays the CPU time used by the Kubernetes metrics server.",
+            "mta": "Displays the CPU time used by the Mail Transfer Agent.",
+            "netdata": "Displays the CPU time used by the Netdata monitoring agent.",
+            "nfacct.plugin": "Displays the CPU time used by nfacct.plugin, a Netdata plugin that monitors network traffic.",
+            "nosql": "Displays the CPU time used by NoSQL databases.",
+            "other": "Displays the CPU time used by other processes not covered by the other dimensions.",
+            "packagemanager": "Displays the CPU time used by the package manager on the system.",
+            "python.d.plugin": "Displays the CPU time used by python.d.plugin, a Netdata plugin that monitors Python language applications.",
+            "sql": "Displays the CPU time used by SQL databases.",
+            "system": "Displays the CPU time used by the system processes and services.",
+            "tc-qos-helper": "Displays the CPU time used by the Traffic Control Quality of Service helper."
+        }
+    ]
+}

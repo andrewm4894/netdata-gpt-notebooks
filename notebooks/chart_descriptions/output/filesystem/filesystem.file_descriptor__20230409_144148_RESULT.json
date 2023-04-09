@@ -1,0 +1,10 @@
+{
+    "chart_id": "filesystem.file_descriptor",
+    "chart_description": "This chart shows the rate of open and close calls made for files on the system, indicating the usage of file descriptors.",
+    "dimension_descriptions": [
+        {
+            "__close_fd": "The rate of close calls made for file descriptors.",
+            "do_sys_open": "The rate of open calls made for files or devices on the system."
+        }
+    ]
+}

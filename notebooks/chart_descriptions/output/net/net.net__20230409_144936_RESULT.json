@@ -1,0 +1,10 @@
+{
+    "chart_id": "net.net",
+    "chart_description": "The bandwidth chart displays the received and sent network traffic in kilobits per second.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of network traffic received in kilobits per second.",
+            "sent": "The amount of network traffic sent in kilobits per second."
+        }
+    ]
+}

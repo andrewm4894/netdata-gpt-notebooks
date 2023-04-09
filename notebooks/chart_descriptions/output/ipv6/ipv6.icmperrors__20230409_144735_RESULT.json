@@ -1,0 +1,19 @@
+{
+    "chart_id": "ipv6.icmperrors",
+    "chart_description": "This chart displays the rate of IPv6 ICMP errors per second.",
+    "dimension_descriptions": [
+        {
+            "InCsumErrors": "The number of inbound packets with checksum errors.",
+            "InDestUnreachs": "The number of inbound packets that could not reach their destination.",
+            "InErrors": "The number of inbound packets with errors other than checksum and destination unreachable.",
+            "InParmProblems": "The number of inbound packets with parameter problems.",
+            "InPktTooBigs": "The number of inbound packets that are too big to handle.",
+            "InTimeExcds": "The number of inbound packets with time exceeded errors.",
+            "OutDestUnreachs": "The number of outbound packets that could not reach their destination.",
+            "OutErrors": "The number of outbound packets with errors.",
+            "OutParmProblems": "The number of outbound packets with parameter problems.",
+            "OutPktTooBigs": "The number of outbound packets that are too big to handle.",
+            "OutTimeExcds": "The number of outbound packets with time exceeded errors."
+        }
+    ]
+}

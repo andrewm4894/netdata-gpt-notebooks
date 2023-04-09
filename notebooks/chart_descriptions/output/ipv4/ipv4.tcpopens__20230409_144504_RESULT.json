@@ -1,0 +1,10 @@
+{
+    "chart_id": "ipv4.tcpopens",
+    "chart_description": "This chart tracks the rate of TCP connections being opened on the IPv4 protocol. It includes both active and passive opens.",
+    "dimension_descriptions": [
+        {
+            "ActiveOpens": "The number of TCP connections initiated by this system that have not yet been completed. A high number of ActiveOpens indicates active clients connecting to the system.",
+            "PassiveOpens": "The number of TCP connections initiated by remote clients that have been accepted by this system. A high number of PassiveOpens indicates high volumes of incoming connections."
+        }
+    ]
+}

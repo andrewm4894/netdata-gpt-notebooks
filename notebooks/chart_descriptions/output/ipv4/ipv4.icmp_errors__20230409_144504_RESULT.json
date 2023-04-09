@@ -1,0 +1,11 @@
+{
+    "chart_id": "ipv4.icmp_errors",
+    "chart_description": "This chart shows the rate of IPv4 ICMP errors, which are errors caused by the Internet Control Message Protocol (ICMP) in IPv4 packets. These errors can include checksum errors, input errors, and output errors.",
+    "dimension_descriptions": [
+        {
+            "InCsumErrors": "This dimension shows the rate of incoming IPv4 packets with checksum errors, which occur when the 16-bit checksum value of the packet does not match the computed checksum value.",
+            "InErrors": "This dimension shows the rate of incoming IPv4 packets with errors other than checksum errors.",
+            "OutErrors": "This dimension shows the rate of outgoing IPv4 packets with errors."
+        }
+    ]
+}

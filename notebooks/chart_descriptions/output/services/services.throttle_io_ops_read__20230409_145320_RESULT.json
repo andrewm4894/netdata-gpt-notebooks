@@ -1,0 +1,13 @@
+{
+    "chart_id": "services.throttle_io_ops_read",
+    "chart_description": "This chart provides information on the rate at which disk read operations are being throttled by various systemd services on the system.",
+    "dimension_descriptions": [
+        {
+            "system-slice_amazon-ssm-agent-service": "This dimension shows the rate at which disk read operations are being throttled by the Amazon SSM agent service.",
+            "system-slice_containerd-service": "This dimension shows  the rate at which disk read operations are being throttled by the Containerd service.",
+            "system-slice_docker-service": "This dimension shows the rate at which disk read operations are being throttled by the Docker service.",
+            "system-slice_kubelet-service": "This dimension shows the rate at which disk read operations are being throttled by the Kubelet service.",
+            "system-slice_systemd-journald-service": "This dimension shows the rate at which disk read operations are being throttled by the systemd-journald service."
+        }
+    ]
+}

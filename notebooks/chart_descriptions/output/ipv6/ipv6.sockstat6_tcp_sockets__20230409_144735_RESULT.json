@@ -1,0 +1,9 @@
+{
+    "chart_id": "ipv6.sockstat6_tcp_sockets",
+    "chart_description": "This chart provides information about the number of IPv6 TCP sockets in use.",
+    "dimension_descriptions": [
+        {
+            "inuse": "This dimension represents the number of TCP sockets that are currently in use."
+        }
+    ]
+}

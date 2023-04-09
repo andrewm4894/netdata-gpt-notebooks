@@ -1,0 +1,13 @@
+{
+    "chart_id": "services.throttle_io_read",
+    "chart_description": "This chart monitors the disk read bandwidth of various systemd services including amazon-ssm-agent-service, containerd-service, docker-service, kubelet-service, and systemd-journald-service. It provides insights into the I/O read performance of these services and helps in identifying any bottlenecks in disk read operations.",
+    "dimension_descriptions": [
+        {
+            "system-slice_amazon-ssm-agent-service": "This dimension tracks the I/O read bandwidth of the Amazon SSM Agent service on the system slice.",
+            "system-slice_containerd-service": "This dimension tracks the I/O read bandwidth of the Containerd service on the system slice.",
+            "system-slice_docker-service": "This dimension tracks the I/O read bandwidth of the Docker service on the system slice.",
+            "system-slice_kubelet-service": "This dimension tracks the I/O read bandwidth of the Kubelet service on the system slice.",
+            "system-slice_systemd-journald-service": "This dimension tracks the I/O read bandwidth of the Systemd Journald service on the system slice."
+        }
+    ]
+}
