@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.cpu_limit",
+    "chart_description": "This chart shows the percentage of CPU used within the specified limits of a Kubernetes cgroup. The cgroup is a Linux kernel feature used for implementing resource management on processes and groups of processes.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of CPU used by the container within the specified limits."
+        }
+    ]
+}

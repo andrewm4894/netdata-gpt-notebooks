@@ -1,0 +1,31 @@
+{
+    "chart_id": "users.rss",
+    "chart_description": "This chart shows the Resident Set Size of memory usage (including shared memory) for each user or system process on the system in MiB. It helps to identify which process is using the most memory and may need to be optimized or investigated further.",
+    "dimension_descriptions": [
+        {
+            "1000": "Resident Set Size of memory usage (including shared memory) for user with UID 1000.",
+            "1001": "Resident Set Size of memory usage (including shared memory) for user with UID 1001.",
+            "32": "Resident Set Size of memory usage (including shared memory) for user with UID 32.",
+            "65532": "Resident Set Size of memory usage (including shared memory) for user with UID 65532.",
+            "65535": "Resident Set Size of memory usage (including shared memory) for user with UID 65535.",
+            "81": "Resident Set Size of memory usage (including shared memory) for user with UID 81.",
+            "998": "Resident Set Size of memory usage (including shared memory) for user with UID 998.",
+            "999": "Resident Set Size of memory usage (including shared memory) for user with UID 999.",
+            "_chrony": "Resident Set Size of memory usage (including shared memory) for the chrony service.",
+            "cm": "Resident Set Size of memory usage (including shared memory) for the cluster manager service.",
+            "messagebus": "Resident Set Size of memory usage (including shared memory) for the message bus service.",
+            "netdata": "Resident Set Size of memory usage (including shared memory) for the Netdata monitoring service.",
+            "nobody": "Resident Set Size of memory usage (including shared memory) for user with UID nobody.",
+            "nut": "Resident Set Size of memory usage (including shared memory) for the UPS monitoring service.",
+            "root": "Resident Set Size of memory usage (including shared memory) for user with UID root.",
+            "syslog": "Resident Set Size of memory usage (including shared memory) for the syslog service.",
+            "systemd-coredump": "Resident Set Size of memory usage (including shared memory) for the systemd-coredump service.",
+            "systemd-network": "Resident Set Size of memory usage (including shared memory) for the systemd-network service.",
+            "systemd-resolve": "Resident Set Size of memory usage (including shared memory) for the systemd-resolve service.",
+            "systemd-timesync": "Resident Set Size of memory usage (including shared memory) for the systemd-timesync service.",
+            "uuidd": "Resident Set Size of memory usage (including shared memory) for the uuid service.",
+            "vpopmail": "Resident Set Size of memory usage (including shared memory) for the vpopmail service.",
+            "xfs": "Resident Set Size of memory usage (including shared memory) for the xfs file system service."
+        }
+    ]
+}

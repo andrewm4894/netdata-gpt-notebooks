@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.throttled_duration",
+    "chart_description": "CPU Throttled Time Duration is a line chart that shows the amount of time in milliseconds that a task spends with limited CPU resources due to cgroup CPU throttling. It can help identify if any tasks are being disproportionately affected by CPU throttle.",
+    "dimension_descriptions": [
+        {
+            "duration": "The duration dimension represents the time interval in milliseconds for which the task has been throttled due to CPU usage exceeding the configured threshold. The longer the duration, the more severe the impact of CPU throttling on the task."
+        }
+    ]
+}

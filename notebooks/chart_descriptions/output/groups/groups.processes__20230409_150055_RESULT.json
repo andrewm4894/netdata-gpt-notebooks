@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.processes",
+    "chart_description": "This chart shows the number of processes running in different user groups. The stacked chart helps to visualize the distribution of processes across different user groups.",
+    "dimension_descriptions": [
+        {
+            "1000": "Processes running as user with ID 1000",
+            "32": "Processes running as user with ID 32",
+            "65532": "Processes running as user with ID 65532",
+            "65535": "Processes running as user with ID 65535",
+            "81": "Processes running as user with ID 81",
+            "996": "Processes running as user with ID 996",
+            "997": "Processes running as user with ID 997",
+            "_chrony": "Processes running under the chrony user/group",
+            "cm": "Processes running under the cm user/group",
+            "libvirt": "Processes running under the libvirt user/group",
+            "messagebus": "Processes running under the messagebus user/group",
+            "netdata": "Processes running under the netdata user/group",
+            "nobody": "Processes running under the nobody user/group",
+            "root": "Processes running under the root user/group",
+            "syslog": "Processes running under the syslog user/group",
+            "systemd-coredump": "Processes running under the systemd-coredump user/group",
+            "systemd-journal": "Processes running under the systemd-journal user/group",
+            "systemd-network": "Processes running under the systemd-network user/group",
+            "systemd-resolve": "Processes running under the systemd-resolve user/group",
+            "systemd-timesync": "Processes running under the systemd-timesync user/group",
+            "uuidd": "Processes running under the uuidd user/group",
+            "vpopmail": "Processes running under the vpopmail user/group",
+            "xfs": "Processes running under the xfs user/group"
+        }
+    ]
+}

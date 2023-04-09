@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.net_net",
+    "chart_description": "The Bandwidth chart provides information on the amount of data that 'eth0' network interface is sending and receiving within the Kubernetes container group.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate at which data is being received (in kilobits per second) on the 'eth0' network interface.",
+            "sent": "The rate at which data is being sent (in kilobits per second) on the 'eth0' network interface."
+        }
+    ]
+}

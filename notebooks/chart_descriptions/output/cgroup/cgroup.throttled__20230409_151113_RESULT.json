@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.throttled",
+    "chart_description": "This chart measures the percentage of time that the CPU is throttled due to runnable task limits set by Cgroups. A high percentage shows that the CPU is being constrained and not able to run at full capacity.",
+    "dimension_descriptions": [
+        {
+            "throttled": "The percentage of time that tasks in the cgroup are throttled due to runnable task limits. This value is equal to the ratio of the throttle time (when tasks are forced to sleep) to total time. A high value indicates that the CPU is constrained and not able to run at full capacity."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.io",
+    "chart_description": "The I/O Bandwidth chart measures the rate of data reads and writes across all disks in the system. It is useful for detecting performance bottlenecks and identifying any disks that may be overutilized.",
+    "dimension_descriptions": [
+        {
+            "read": "Measures the rate of data reads across all disks in the system, expressed in kilobytes per second (KiB/s). High read values may indicate high disk usage or heavy data access by applications.",
+            "write": "Measures the rate of data writes across all disks in the system, expressed in kilobytes per second (KiB/s). High write values may indicate high disk usage or heavy data generation by applications."
+        }
+    ]
+}

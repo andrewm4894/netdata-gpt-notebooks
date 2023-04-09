@@ -1,0 +1,14 @@
+{
+    "chart_id": "users.pwrites",
+    "chart_description": "The Users Disk Writes chart shows the amount of data in KiB/s that different system users are writing to disk. It is useful for identifying which users are consuming the most disk resources and may help in troubleshooting disk usage issues.",
+    "dimension_descriptions": [
+        {
+            "1001": "The amount of data in KiB/s that is being written to disk by the user with the UID 1001.",
+            "999": "The amount of data in KiB/s that is being written to disk by the user with the UID 999.",
+            "netdata": "The amount of data in KiB/s that is being written to disk by the Netdata system user.",
+            "nut": "The amount of data in KiB/s that is being written to disk by the Network UPS Tools system user.",
+            "root": "The amount of data in KiB/s that is being written to disk by the root system user.",
+            "xfs": "The amount of data in KiB/s that is being written to disk by the XFS filesystem."
+        }
+    ]
+}

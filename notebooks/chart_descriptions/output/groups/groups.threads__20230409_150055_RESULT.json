@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.threads",
+    "chart_description": "This chart shows the number of threads running in each user group. Threads are the smallest units of processing in a system and too many of them can lead to performance degradation or even system crashes.  Monitoring this chart can help identify potential issues and optimize system performance.",
+    "dimension_descriptions": [
+        {
+            "1000": "Number of threads in the group with numerical ID 1000.",
+            "32": "Number of threads in the group with numerical ID 32.",
+            "65532": "Number of threads in the group with numerical ID 65532.",
+            "65535": "Number of threads in the group with numerical ID 65535.",
+            "81": "Number of threads in the group with numerical ID 81.",
+            "996": "Number of threads in the group with numerical ID 996.",
+            "997": "Number of threads in the group with numerical ID 997.",
+            "_chrony": "Number of threads in the group named _chrony.",
+            "cm": "Number of threads in the group named cm.",
+            "libvirt": "Number of threads in the group named libvirt.",
+            "messagebus": "Number of threads in the group named messagebus.",
+            "netdata": "Number of threads in the group named netdata.",
+            "nobody": "Number of threads in the group named nobody.",
+            "root": "Number of threads in the group named root.",
+            "syslog": "Number of threads in the group named syslog.",
+            "systemd-coredump": "Number of threads in the group named systemd-coredump.",
+            "systemd-journal": "Number of threads in the group named systemd-journal.",
+            "systemd-network": "Number of threads in the group named systemd-network.",
+            "systemd-resolve": "Number of threads in the group named systemd-resolve.",
+            "systemd-timesync": "Number of threads in the group named systemd-timesync.",
+            "uuidd": "Number of threads in the group named uuidd.",
+            "vpopmail": "Number of threads in the group named vpopmail.",
+            "xfs": "Number of threads in the group named xfs."
+        }
+    ]
+}

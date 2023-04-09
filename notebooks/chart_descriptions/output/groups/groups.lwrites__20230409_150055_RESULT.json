@@ -1,0 +1,19 @@
+{
+    "chart_id": "groups.lreads",
+    "chart_description": "The User Groups Disk Logical Reads chart shows the amount of logical disk reads in KiB/s for each user group. The chart displays data for different users and processes accessing the disk. Logical reads are the number of reads from the disk's buffer cache, and they include reads for cached data as well as those from other processes.",
+    "dimension_descriptions": [
+        {
+            "1000": "Logical disk reads for the user with the user ID 1000.",
+            "65532": "Logical disk reads for the user with the user ID 65532.",
+            "81": "Logical disk reads for the user with the user ID 81.",
+            "libvirt": "Logical disk reads for the libvirt process.",
+            "netdata": "Logical disk reads for the netdata process.",
+            "nobody": "Logical disk reads for the nobody user.",
+            "root": "Logical disk reads for the root user.",
+            "systemd-coredump": "Logical disk reads for the systemd-coredump process.",
+            "systemd-timesync": "Logical disk reads for the systemd-timesync process.",
+            "vpopmail": "Logical disk reads for the vpopmail user.",
+            "xfs": "Logical disk reads for the XFS file system."
+        }
+    ]
+}

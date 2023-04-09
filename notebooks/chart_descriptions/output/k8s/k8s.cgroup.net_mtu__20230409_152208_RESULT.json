@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.net_mtu",
+    "chart_description": "The Interface MTU chart measures the Maximum Transmission Unit (MTU) for a network interface on a Kubernetes cluster node. This reflects the largest packet size that can be transmitted on the interface without fragmentation.",
+    "dimension_descriptions": [
+        {
+            "mtu": "The MTU dimension represents the size of the largest packet that can be transmitted on the interface. It is measured in octets (bytes)."
+        }
+    ]
+}

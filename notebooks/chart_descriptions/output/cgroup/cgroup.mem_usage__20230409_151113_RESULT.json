@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.mem_usage",
+    "chart_description": "The 'Used Memory' chart shows the amount of memory used by the system, in MiB, based on cgroup metrics. This chart is useful for monitoring memory usage and detecting any potential memory leaks or spikes.",
+    "dimension_descriptions": [
+        {
+            "ram": "The 'ram' dimension represents the memory usage in the system's RAM memory. This dimension can be useful for identifying specific processes or applications that are consuming large amounts of memory."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.mem_usage",
+    "chart_description": "This chart displays the amount of RAM memory that is currently being used by the Kubernetes cgroup. It is helpful for monitoring the health and performance of the cluster's memory usage.",
+    "dimension_descriptions": [
+        {
+            "ram": "The amount of memory used by the cgroup, measured in mebibytes (MiB)."
+        }
+    ]
+}

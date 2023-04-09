@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.cpu_shares",
+    "chart_description": "The CPU Time Relative Share chart shows the relative share of CPU time consumed by the specified cgroup compared to the overall CPU usage of the system. It is measured in shares.",
+    "dimension_descriptions": [
+        {
+            "shares": "The number of CPU time shares assigned to the cgroup. Shares represent the proportional weight of CPU time the cgroup can use. Higher shares mean more CPU usage."
+        }
+    ]
+}

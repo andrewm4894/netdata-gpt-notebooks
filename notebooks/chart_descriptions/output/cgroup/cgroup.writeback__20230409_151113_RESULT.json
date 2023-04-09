@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.writeback",
+    "chart_description": "The Writeback Memory chart shows the amount of memory marked as dirty and actively being written to disk, as well as the amount of memory being written back to disk from memory that has been previously marked as dirty.",
+    "dimension_descriptions": [
+        {
+            "dirty": "The amount of memory currently marked as dirty and actively being written to disk, in MiB.",
+            "writeback": "The amount of memory being written back to disk from memory that has been previously marked as dirty, in MiB."
+        }
+    ]
+}

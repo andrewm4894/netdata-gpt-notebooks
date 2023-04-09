@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.io_some_pressure_stall_time",
+    "chart_description": "This chart shows the amount of time (in milliseconds) a task waits due to I/O pressure on some type of storage device. I/O pressure happens when the operating system tries to allocate more than the available resources of a device or file system, causing it to stall and increase the task wait time.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension represents the I/O stall time for tasks that waited 10-20% of the observed time.",
+            "some 300": "This dimension represents the I/O stall time for tasks that waited 200-300% of the observed time.",
+            "some 60": "This dimension represents the I/O stall time for tasks that waited 50-60% of the observed time."
+        }
+    ]
+}

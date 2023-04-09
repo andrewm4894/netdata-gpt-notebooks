@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.cpu_some_pressure_stall_time",
+    "chart_description": "This chart displays the amount of time in milliseconds that the CPU is under some pressure to complete a task, but the task is stalled, meaning it cannot continue until a specific event occurs.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension captures the amount of time the CPU is stalled when the average number of tasks in the cgroup's run queue exceeds 10.",
+            "some 300": "This dimension captures the amount of time the CPU is stalled when the average number of tasks in the cgroup's run queue exceeds 300.",
+            "some 60": "This dimension captures the amount of time the CPU is stalled when the average number of tasks in the cgroup's run queue exceeds 60."
+        }
+    ]
+}

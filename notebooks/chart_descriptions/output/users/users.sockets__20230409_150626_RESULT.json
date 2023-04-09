@@ -1,0 +1,30 @@
+{
+    "chart_id": "users.sockets",
+    "chart_description": "This chart displays the number of open sockets for each user on the system. It can help identify which users or processes are consuming the most network resources.",
+    "dimension_descriptions": [
+        {
+            "1000": "Number of open sockets for user with UID 1000.",
+            "1001": "Number of open sockets for user with UID 1001.",
+            "32": "Number of open sockets for user with UID 32.",
+            "65532": "Number of open sockets for user with UID 65532.",
+            "81": "Number of open sockets for user with UID 81.",
+            "998": "Number of open sockets for user with UID 998.",
+            "999": "Number of open sockets for user with UID 999.",
+            "_chrony": "Number of open sockets for the chrony network time protocol daemon.",
+            "cm": "Number of open sockets for the Cluster Manager daemon.",
+            "messagebus": "Number of open sockets for the D-Bus message bus system.",
+            "netdata": "Number of open sockets for the Netdata monitoring system.",
+            "nobody": "Number of open sockets for user 'nobody'.",
+            "nut": "Number of open sockets for the Network UPS Tools.",
+            "root": "Number of open sockets for user 'root'.",
+            "syslog": "Number of open sockets for the syslog daemon.",
+            "systemd-coredump": "Number of open sockets for the systemd coredump service.",
+            "systemd-network": "Number of open sockets for the systemd-networkd daemon.",
+            "systemd-resolve": "Number of open sockets for the systemd-resolved DNS resolver.",
+            "systemd-timesync": "Number of open sockets for the systemd-timesyncd NTP client.",
+            "uuidd": "Number of open sockets for the UUID generator daemon.",
+            "vpopmail": "Number of open sockets for the vpopmail mail system.",
+            "xfs": "Number of open sockets for the XFS filesystem."
+        }
+    ]
+}

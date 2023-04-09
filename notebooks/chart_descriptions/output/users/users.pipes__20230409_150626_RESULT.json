@@ -1,0 +1,21 @@
+{
+    "chart_id": "users.pipes",
+    "chart_description": "The Users Pipes chart shows the total number of open pipes for each user. A pipe is a communication mechanism between processes that allows data to be passed between them.",
+    "dimension_descriptions": [
+        {
+            "1000": "The number of open pipes for the user with UID 1000 (usually the first non-root user).",
+            "1001": "The number of open pipes for the user with UID 1001.",
+            "65532": "The number of open pipes for the user with UID 65532 (usually the nobody user).",
+            "65535": "The number of open pipes for the user with UID 65535 (usually the guest user).",
+            "cm": "The number of open pipes for the cm user (used by the Continuent Tungsten clustering software).",
+            "netdata": "The number of open pipes for the netdata user (used by the Netdata monitoring software).",
+            "nobody": "The number of open pipes for the nobody user (usually used for unprivileged processes).",
+            "nut": "The number of open pipes for the nut user (used by the Network UPS Tools software).",
+            "root": "The number of open pipes for the root user (the superuser).",
+            "systemd-coredump": "The number of open pipes for the systemd-coredump user (used by the systemd crash dump handling software).",
+            "systemd-network": "The number of open pipes for the systemd-network user (used by the systemd network management software).",
+            "vpopmail": "The number of open pipes for the vpopmail user (used by the VPOP3 email server software).",
+            "xfs": "The number of open pipes for the xfs user (used by the XFS file system)."
+        }
+    ]
+}

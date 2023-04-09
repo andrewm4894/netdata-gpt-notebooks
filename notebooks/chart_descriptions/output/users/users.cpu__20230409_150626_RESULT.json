@@ -1,0 +1,20 @@
+{
+    "chart_id": "users.cpu",
+    "chart_description": "This chart displays the CPU usage of different users, as a percentage of total CPU usage.",
+    "dimension_descriptions": [
+        {
+            "1000": "CPU usage of the user with the Linux ID 1000. This is typically the first non-root user created on a Linux system.",
+            "1001": "CPU usage of the user with the Linux ID 1001.",
+            "65532": "CPU usage of the user with the Linux ID 65532. This is typically the user used by the lighttpd web server.",
+            "81": "CPU usage of the user with the Linux ID 81. This is typically the user used by the cron daemon.",
+            "messagebus": "CPU usage of the user used by the D-Bus system message bus.",
+            "netdata": "CPU usage of the netdata system monitoring daemon.",
+            "nobody": "CPU usage of the 'nobody' user, which is used as a placeholder user with minimal privileges.",
+            "nut": "CPU usage of the Network UPS Tools daemon, which provides UPS monitoring and control software.",
+            "root": "CPU usage of the root user, which has superuser privileges.",
+            "systemd-coredump": "CPU usage of the systemd-coredump process, which provides coredump storage and retrieval.",
+            "systemd-resolve": "CPU usage of the systemd-resolve process, which provides DNS resolving services.",
+            "xfs": "CPU usage of the XFS file system maintenance daemon, which provides file system maintenance services."
+        }
+    ]
+}

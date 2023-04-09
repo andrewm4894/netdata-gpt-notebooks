@@ -1,0 +1,33 @@
+{
+    "chart_id": "users.swap",
+    "chart_description": "This chart shows the swap memory used by different users on the system, measured in MiB. The stacked chart represents the total swap memory used by each user, with each dimension representing a different user.",
+    "dimension_descriptions": [
+        {
+            "1000": "User ID 1000",
+            "1001": "User ID 1001",
+            "32": "User ID 32",
+            "65532": "User ID 65532",
+            "65535": "User ID 65535",
+            "81": "User ID 81",
+            "998": "User ID 998",
+            "999": "User ID 999",
+            "_apt": "The apt package manager user",
+            "_chrony": "The chrony NTP daemon user",
+            "cm": "The Connection Manager user",
+            "man": "The man page rendering user",
+            "messagebus": "The message bus user for inter-process communication",
+            "netdata": "The Netdata monitoring user",
+            "nobody": "The user with no privileges",
+            "nut": "The UPS power management user",
+            "root": "The root user",
+            "syslog": "The system log user",
+            "systemd-coredump": "The coredump service user",
+            "systemd-network": "The systemd network service user",
+            "systemd-resolve": "The DNS resolve service user",
+            "systemd-timesync": "The time synchronization service user",
+            "uuidd": "The UUID generation service user",
+            "vpopmail": "The vpopmail user for virtual emails",
+            "xfs": "The XFS file system user"
+        }
+    ]
+}

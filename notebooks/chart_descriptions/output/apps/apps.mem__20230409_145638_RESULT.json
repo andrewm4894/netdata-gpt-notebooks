@@ -1,0 +1,16 @@
+{
+    "chart_id": "apps.mem",
+    "chart_description": "The 'Apps Real Memory (w/o shared)' chart visualizes the memory usage of applications running on the system, excluding shared memory with other processes. This helps identify memory usage patterns on the system that are specific to these applications.",
+    "dimension_descriptions": [
+        {
+            "agent_sd": "Memory consumption by the Netdata Agent's self-monitoring processes.",
+            "containers": "Memory consumption by applications running in containers.",
+            "go.d.plugin": "Memory consumed by the go.d.plugin, which is used to collect data from various sources like databases, servers, etc.",
+            "kube-proxy": "Memory consumption by the Kubernetes proxy, which manages network connectivity to services in the cluster.",
+            "kubelet": "Memory consumption by the Kubernetes node agent, which manages the state of the node and ensures containers are running properly.",
+            "other": "Memory consumption by other miscellaneous applications running on the system.",
+            "sql": "Memory consumption by SQL databases running on the system.",
+            "system": "Memory consumption by the system's kernel and other system processes."
+        }
+    ]
+}

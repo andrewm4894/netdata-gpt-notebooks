@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.throttle_io",
+    "chart_description": "This chart displays the throttled input/output bandwidth (in kilobytes/second) for all disks in Kubernetes control groups.",
+    "dimension_descriptions": [
+        {
+            "read": "Displays the throttled input (read) bandwidth in kilobytes/second.",
+            "write": "Displays the throttled output (write) bandwidth in kilobytes/second."
+        }
+    ]
+}

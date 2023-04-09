@@ -1,0 +1,31 @@
+{
+    "chart_id": "users.uptime",
+    "chart_description": "The Users Carried Over Uptime chart tracks the amount of time that certain system users have been continuously running on the system without being terminated or logged out. This can help identify which users are utilizing the system over a longer period of time.",
+    "dimension_descriptions": [
+        {
+            "1000": "The UID for the 'sshd' user.",
+            "1001": "The UID for the 'ntp' user.",
+            "32": "The UID for the 'syslog' user.",
+            "65532": "The UID for the 'messagebus' user.",
+            "65535": "The UID for the 'nobody' user.",
+            "81": "The UID for the 'ntpsec' user.",
+            "998": "The UID for the 'nut' user.",
+            "999": "The UID for the 'vpopmail' user.",
+            "_chrony": "The '_chrony' user is used by the Chrony NTP client.",
+            "cm": "The 'cm' user is used by the Cluster Manager daemon.",
+            "messagebus": "The 'messagebus' user is used by the D-Bus message bus system.",
+            "netdata": "The 'netdata' user is used by the Netdata monitoring software.",
+            "nobody": "The 'nobody' user is used when no other user account is appropriate for a process.",
+            "nut": "The 'nut' user is used by the Network UPS Tools.",
+            "root": "The 'root' user has full system access.",
+            "syslog": "The 'syslog' user is used by the syslog daemon.",
+            "systemd-coredump": "The 'systemd-coredump' user is used by the systemd-coredump service.",
+            "systemd-network": "The 'systemd-network' user is used by the systemd-networkd service.",
+            "systemd-resolve": "The 'systemd-resolve' user is used by the systemd-resolved service.",
+            "systemd-timesync": "The 'systemd-timesync' user is used by the systemd-timesyncd service.",
+            "uuidd": "The 'uuidd' user is used by the UUID generator daemon.",
+            "vpopmail": "The 'vpopmail' user is used by the vpopmail mail server software.",
+            "xfs": "The 'xfs' user is used by the XFS filesystem management software."
+        }
+    ]
+}

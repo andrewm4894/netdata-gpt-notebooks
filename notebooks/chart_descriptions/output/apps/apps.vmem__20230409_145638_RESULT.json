@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.vmem",
+    "chart_description": "This chart displays the virtual memory size of processes associated with applications running on the system.",
+    "dimension_descriptions": [
+        {
+            "containers": "Displays the virtual memory size of containers associated with applications.",
+            "go.d.plugin": "Displays the virtual memory size of the Go.d plugin.",
+            "kube-proxy": "Displays the virtual memory size of the kube-proxy process.",
+            "kubelet": "Displays the virtual memory size of the kubelet process.",
+            "netdata": "Displays the virtual memory size of the Netdata monitoring tool.",
+            "other": "Displays the virtual memory size of other processes associated with applications.",
+            "sql": "Displays the virtual memory size of SQL databases associated with applications.",
+            "system": "Displays the virtual memory size of system processes associated with applications.",
+            "tc-qos-helper": "Displays the virtual memory size of the tc-qos-helper process."
+        }
+    ]
+}

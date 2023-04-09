@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.io_full_pressure_stall_time",
+    "chart_description": "The 'I/O full pressure stall time' chart measures the length of time in milliseconds that I/O (input/output) operations are not served due to a lack of available resources.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The amount of time blocked I/O operations spend waiting after the disk gets 10% full.",
+            "full 300": "The amount of time blocked I/O operations spend waiting after the disk gets 300% full.",
+            "full 60": "The amount of time blocked I/O operations spend waiting after the disk gets 60% full."
+        }
+    ]
+}

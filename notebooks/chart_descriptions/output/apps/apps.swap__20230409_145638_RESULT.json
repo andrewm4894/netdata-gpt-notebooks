@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.swap",
+    "chart_description": "This chart shows the memory usage of the swap space by different applications on the system.",
+    "dimension_descriptions": [
+        {
+            "containers": "The amount of memory used by containers on the system\u2019s swap space.",
+            "go.d.plugin": "The amount of memory used by the go.d.plugin.",
+            "kube-proxy": "The amount of memory used by the kube-proxy.",
+            "kubelet": "The amount of memory used by the kubelet.",
+            "netdata": "The amount of memory used by the Netdata daemon.",
+            "other": "The amount of memory used by other applications that are not captured in the other dimensions.",
+            "sql": "The amount of memory used by SQL-related processes.",
+            "system": "The amount of memory used by system processes.",
+            "tc-qos-helper": "The amount of memory used by the traffic control helper."
+        }
+    ]
+}

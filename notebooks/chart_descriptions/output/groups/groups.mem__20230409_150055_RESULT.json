@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.mem",
+    "chart_description": "The user groups' real memory usage (excluding shared memory) is shown in this stacked chart. It helps understand the memory usage distribution among different user groups.",
+    "dimension_descriptions": [
+        {
+            "1000": "Memory usage of the user group with ID 1000.",
+            "32": "Memory usage of the user group with ID 32.",
+            "65532": "Memory usage of the user group with ID 65532.",
+            "65535": "Memory usage of the user group with ID 65535.",
+            "81": "Memory usage of the user group with ID 81.",
+            "996": "Memory usage of the user group with ID 996.",
+            "997": "Memory usage of the user group with ID 997.",
+            "_chrony": "Memory usage of the user group with ID _chrony.",
+            "cm": "Memory usage of the user group with ID cm.",
+            "libvirt": "Memory usage of the user group with ID libvirt.",
+            "messagebus": "Memory usage of the user group with ID messagebus.",
+            "netdata": "Memory usage of the user group with ID netdata.",
+            "nobody": "Memory usage of the user group with ID nobody.",
+            "root": "Memory usage of the root user group.",
+            "syslog": "Memory usage of the user group with ID syslog.",
+            "systemd-coredump": "Memory usage of the user group with ID systemd-coredump.",
+            "systemd-journal": "Memory usage of the user group with ID systemd-journal.",
+            "systemd-network": "Memory usage of the user group with ID systemd-network.",
+            "systemd-resolve": "Memory usage of the user group with ID systemd-resolve.",
+            "systemd-timesync": "Memory usage of the user group with ID systemd-timesync.",
+            "uuidd": "Memory usage of the user group with ID uuidd.",
+            "vpopmail": "Memory usage of the user group with ID vpopmail.",
+            "xfs": "Memory usage of the user group with ID xfs."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "chart_id": "users.lwrites",
+    "chart_description": "The Users I/O Logical Writes chart displays the rate of logical data blocks written to disk per second in kilobytes (KB/s) by various system users.",
+    "dimension_descriptions": [
+        {
+            "1000": "The user ID number associated with the user who owns the process of writing logical data blocks. User ID 1000 is usually the system administrator or superuser.",
+            "1001": "The user ID number associated with the user who is the owner of the process of writing logical data blocks. User ID 1001 is usually the first regular user account created on most Linux systems.",
+            "65532": "The user ID number associated with the nobody user account. This is a special user account that exists on most Linux systems and is used to run programs with no associated user information.",
+            "999": "The user ID number associated with the user who owns the process of writing logical data blocks. User ID 999 is usually the NFS (Network File System) shared file system user.",
+            "netdata": "The user ID number associated with the Netdata daemon user account. Netdata is an advanced, highly optimized, and highly configurable real-time performance monitoring solution that helps troubleshoot slowdowns and reliability issues across IT infrastructure components and applications.",
+            "nobody": "The user ID number associated with the nobody user account. This is a special user account that exists on most Linux systems and is used to run programs with no associated user information.",
+            "nut": "The user ID number associated with the Network UPS Tools (NUT) daemon user account. This is a service that monitors power devices, primarily Uninterruptable Power Supplies (UPSes), and provides information about battery levels and other health information.",
+            "root": "The user ID number associated with the root user account. This is the superuser or system administrator account that has access to all files and commands on a Linux system.",
+            "systemd-resolve": "The user ID number associated with the systemd-resolve daemon user account. This is a service that provides DNS and other name resolution services to the system.",
+            "vpopmail": "The user ID number associated with the vpopmail daemon user account. This is a service that provides email management to servers running the vpopmail service.",
+            "xfs": "The user ID number associated with the xfs daemon user account. This is a service that provides support for the XFS file system."
+        }
+    ]
+}

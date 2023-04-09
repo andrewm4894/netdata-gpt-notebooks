@@ -1,0 +1,15 @@
+{
+    "chart_id": "users.minor_faults",
+    "chart_description": "The Users Minor Page Faults chart provides information about the number of minor page faults incurred by system users. A minor page fault refers to a page fault that can be resolved without having to read data from the disk.",
+    "dimension_descriptions": [
+        {
+            "1000": "The number of minor page faults incurred by user ID 1000.",
+            "1001": "The number of minor page faults incurred by user ID 1001.",
+            "65532": "The number of minor page faults incurred by the user with the ID 65532.",
+            "netdata": "The number of minor page faults incurred by the Netdata system user.",
+            "nobody": "The number of minor page faults incurred by the nobody user.",
+            "root": "The number of minor page faults incurred by the root user.",
+            "xfs": "The number of minor page faults incurred by the XFS file system."
+        }
+    ]
+}

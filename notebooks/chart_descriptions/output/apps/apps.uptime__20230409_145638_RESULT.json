@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.uptime",
+    "chart_description": "The Apps Carried Over Uptime chart shows the uptime of containers and various system processes that are involved in carrying over the applications that run on the infrastructure.",
+    "dimension_descriptions": [
+        {
+            "containers": "The uptime of containers that are running the applications.",
+            "go.d.plugin": "The uptime of the Go.d plugin, which provides the monitoring metrics for netdata.",
+            "kube-proxy": "The uptime of the Kube-proxy, which manages network traffic in a Kubernetes cluster.",
+            "kubelet": "The uptime of the Kubelet, which ensures that containers are running and healthy on a Kubernetes node.",
+            "netdata": "The uptime of Netdata, which is a monitoring agent.",
+            "other": "The uptime of other processes that are involved in carrying the applications.",
+            "sql": "The uptime of SQL processes.",
+            "system": "The uptime of other system processes.",
+            "tc-qos-helper": "The uptime of the Traffic Control Quality of Service helper, which is used to implement QoS in Linux."
+        }
+    ]
+}

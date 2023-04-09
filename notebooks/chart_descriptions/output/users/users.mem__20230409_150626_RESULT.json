@@ -1,0 +1,11 @@
+{
+    "chart_id": "users.major_faults",
+    "chart_description": "This chart tracks the number of major page faults that occurred due to memory pages being swapped in from disk. Major faults typically lead to disk I/O operations and can cause a significant impact on system performance.",
+    "dimension_descriptions": [
+        {
+            "1000": "The number of events measured in thousands.",
+            "netdata": "The user or system the data is collected from.",
+            "root": "The specific process or resource the data is collected from."
+        }
+    ]
+}

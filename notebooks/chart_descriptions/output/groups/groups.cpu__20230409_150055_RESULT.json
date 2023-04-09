@@ -1,0 +1,19 @@
+{
+    "chart_id": "groups.cpu",
+    "chart_description": "This chart displays the CPU time usage (in percentage) of different user groups on the system. The chart shows the total amount of CPU time used by each group, with 100% representing 1 core.",
+    "dimension_descriptions": [
+        {
+            "1000": "CPU time usage by the user with UID 1000.",
+            "65532": "CPU time usage by the user with UID 65532.",
+            "81": "CPU time usage by the user with UID 81.",
+            "_chrony": "CPU time usage by the chrony system service.",
+            "libvirt": "CPU time usage by the libvirt system service.",
+            "messagebus": "CPU time usage by the messagebus system service.",
+            "netdata": "CPU time usage by the netdata system service.",
+            "nobody": "CPU time usage by the nobody user.",
+            "root": "CPU time usage by the root user.",
+            "systemd-coredump": "CPU time usage by the systemd-coredump system service.",
+            "xfs": "CPU time usage by the xfs system service."
+        }
+    ]
+}

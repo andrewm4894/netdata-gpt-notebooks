@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.net_packets",
+    "chart_description": "The `k8s.cgroup.net_packets` chart shows the number of network packets sent and received per second in a Kubernetes pod. This chart helps to monitor the network traffic in a pod and can be useful in troubleshooting networking issues.",
+    "dimension_descriptions": [
+        {
+            "received": "The number of network packets received per second in a Kubernetes pod. This dimension shows the incoming network traffic to the pod.",
+            "sent": "The number of network packets sent per second in a Kubernetes pod. This dimension shows the outgoing network traffic from the pod."
+        }
+    ]
+}

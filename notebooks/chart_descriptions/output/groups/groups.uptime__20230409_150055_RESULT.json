@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.uptime",
+    "chart_description": "The User Groups Carried Over Uptime chart displays the amount of time (in seconds) that user groups have been logged in and active on the system. This can help to monitor system usage and identify any users or groups that may be overloading the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Time spent by processes that have specifically been granted access to the Real-time FIFO and Round-robin (RR) scheduling policies.",
+            "32": "Time spent by processes with real-time priority tasks.",
+            "65532": "Time spent by processes with the maximum nice value (lowest priority).",
+            "65535": "Time spent by Idle (without I/O) Tasks.",
+            "81": "Time spent by Interrupts.",
+            "996": "Time spent in the kernel accessing NFS file systems.",
+            "997": "Time spent by the kernel performing Xen virtualization.",
+            "_chrony": "Time spent by chronyd, the NTP daemon.",
+            "cm": "Time spent by Cluster Manager.",
+            "libvirt": "Time spent by processes managing virtual machines in libvirt.",
+            "messagebus": "Time spent by processes that use dbus-daemon.",
+            "netdata": "Time spent by the netdata process.",
+            "nobody": "Time spent by processes that have no assigned user.",
+            "root": "Time spent by processes running under the root user.",
+            "syslog": "Time spent by the syslog daemon.",
+            "systemd-coredump": "Time spent by the systemd-coredump process.",
+            "systemd-journal": "Time spent by the systemd-journal process.",
+            "systemd-network": "Time spent by the systemd-network process.",
+            "systemd-resolve": "Time spent by the systemd-resolve process.",
+            "systemd-timesync": "Time spent by the systemd-timesync process.",
+            "uuidd": "Time spent by the UUID daemon.",
+            "vpopmail": "Time spent by vpopmaild, the vpopmail daemon.",
+            "xfs": "Time spent by XFS filesystem activity."
+        }
+    ]
+}

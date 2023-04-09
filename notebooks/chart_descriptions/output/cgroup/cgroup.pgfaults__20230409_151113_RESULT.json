@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.pgfaults",
+    "chart_description": "This chart is used to monitor the memory page faults of a specific control group (cgroup). When a process attempts to access a page of memory that is not currently in physical RAM, it results in a page fault. If the page is not found in the memory cache, it is retrieved from the hard disk. This process can result in a major page fault which is much more expensive.",
+    "dimension_descriptions": [
+        {
+            "pgfault": "The number of memory page faults per second for the control group.",
+            "pgmajfault": "The number of major (hard) page faults per second for the control group."
+        }
+    ]
+}

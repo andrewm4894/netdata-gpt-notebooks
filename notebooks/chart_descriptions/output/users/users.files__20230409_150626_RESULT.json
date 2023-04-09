@@ -1,0 +1,31 @@
+{
+    "chart_id": "users.files",
+    "chart_description": "The Users Open Files chart displays the number of open files per user on the system. This can be helpful for identifying users with high file usage or potential issues related to file limits.",
+    "dimension_descriptions": [
+        {
+            "1000": "Number of open files for user with uid 1000.",
+            "1001": "Number of open files for user with uid 1001.",
+            "32": "Number of open files for user with uid 32.",
+            "65532": "Number of open files for user with uid 65532.",
+            "65535": "Number of open files for user with uid 65535.",
+            "81": "Number of open files for user with uid 81.",
+            "998": "Number of open files for user with uid 998.",
+            "999": "Number of open files for user with uid 999.",
+            "_chrony": "Number of open files for the chrony user.",
+            "cm": "Number of open files for the cm user.",
+            "messagebus": "Number of open files for the messagebus user.",
+            "netdata": "Number of open files for the netdata user.",
+            "nobody": "Number of open files for the nobody user.",
+            "nut": "Number of open files for the nut user.",
+            "root": "Number of open files for the root user.",
+            "syslog": "Number of open files for the syslog user.",
+            "systemd-coredump": "Number of open files for the systemd-coredump user.",
+            "systemd-network": "Number of open files for the systemd-network user.",
+            "systemd-resolve": "Number of open files for the systemd-resolve user.",
+            "systemd-timesync": "Number of open files for the systemd-timesync user.",
+            "uuidd": "Number of open files for the uuidd user.",
+            "vpopmail": "Number of open files for the vpopmail user.",
+            "xfs": "Number of open files for the xfs user."
+        }
+    ]
+}

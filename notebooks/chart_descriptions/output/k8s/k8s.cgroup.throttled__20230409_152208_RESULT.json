@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.throttled",
+    "chart_description": "The CPU Throttled Runnable Periods chart displays the percentage of time a container running on Kubernetes has been throttled due to exceeding its maximum CPU usage quota.",
+    "dimension_descriptions": [
+        {
+            "throttled": "The percentage of time a container has been throttled due to exceeding its maximum CPU usage quota."
+        }
+    ]
+}

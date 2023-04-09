@@ -1,0 +1,16 @@
+{
+    "chart_id": "apps.major_faults",
+    "chart_description": "This chart displays the major page faults caused by applications. It gives an insight into how often applications are experiencing swap reads, which can be an indication of inefficient use of system memory.",
+    "dimension_descriptions": [
+        {
+            "agent_sd": "This dimension refers to the Netdata agent self-monitoring. It provides data related to the health of the agent itself.",
+            "containers": "This dimension refers to application containers. It provides data related to the health and performance of individual containers.",
+            "go.d.plugin": "This dimension refers to the Go programming language performance monitoring plugin. It provides data related to the performance of Go applications.",
+            "kube-proxy": "This dimension refers to the Kubernetes proxy. It provides data related to the networking performance of Kuberneres.",
+            "kubelet": "This dimension refers to the Kubernetes agent. It provides data related to the operation and performance of Kubernetes agents.",
+            "other": "This dimension provides data related to other miscellaneous processes that are not categorized in other dimensions.",
+            "sql": "This dimension refers to SQL databases. It provides data related to the performance of SQL queries and transactions.",
+            "system": "This dimension refers to the system as a whole. It provides data related to the overall health and performance of the system."
+        }
+    ]
+}

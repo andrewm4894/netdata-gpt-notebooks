@@ -1,0 +1,20 @@
+{
+    "chart_id": "groups.pipes",
+    "chart_description": "The User Groups Pipes chart displays the number of open pipes for each user group. A pipe is a communication channel between processes, allowing data to be passed between them.",
+    "dimension_descriptions": [
+        {
+            "1000": "The user group with ID 1000.",
+            "65532": "The user group with ID 65532.",
+            "65535": "The user group with ID 65535.",
+            "cm": "The user group representing the connection manager daemon.",
+            "libvirt": "The user group used by the libvirt virtualization daemon.",
+            "netdata": "The user group used by the Netdata monitoring daemon.",
+            "nobody": "The unprivileged user group used by many daemons and services.",
+            "root": "The root user group.",
+            "systemd-coredump": "The user group used by the systemd coredump service.",
+            "systemd-journal": "The user group used by the systemd journal service.",
+            "vpopmail": "The user group used by the vpopmail mail server.",
+            "xfs": "The user group used by the XFS filesystem daemon."
+        }
+    ]
+}

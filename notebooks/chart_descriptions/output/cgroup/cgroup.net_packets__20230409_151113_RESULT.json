@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.net_packets",
+    "chart_description": "The cgroup.net_packets chart monitors the network packet traffic on the system. It provides information on the number of multicast, received and sent packets per second.",
+    "dimension_descriptions": [
+        {
+            "multicast": "The number of multicast packets per second.",
+            "received": "The number of received packets per second.",
+            "sent": "The number of sent packets per second."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.net_operstate",
+    "chart_description": "This chart displays the operational state of the network interface in Kubernetes cgroup hierarchy. It helps monitor the connectivity status of network interfaces such as Ethernet or Wi-Fi.",
+    "dimension_descriptions": [
+        {
+            "up": "This dimension reports the binary status of the interface's link. It has the value of 1 if the interface's link is up, or 0 if it is down."
+        }
+    ]
+}

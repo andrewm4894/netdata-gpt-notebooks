@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.cpu_some_pressure",
+    "chart_description": "This chart measures the percentage of CPU time spent on tasks influenced by some pressure controllers in the Control Groups (cgroups) subsystem of the kernel. Some pressure controllers add constraints to tasks based on available system resources, causing delays or reduced performance in tasks. This chart indicates the amount of pressure on the CPU caused by these controllers.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension measures the percentage of time the CPU spends on tasks influenced by some pressure controllers within a 10-second time window.",
+            "some 300": "This dimension measures the percentage of time the CPU spends on tasks influenced by some pressure controllers within a 300-second time window.",
+            "some 60": "This dimension measures the percentage of time the CPU spends on tasks influenced by some pressure controllers within a 60-second time window."
+        }
+    ]
+}

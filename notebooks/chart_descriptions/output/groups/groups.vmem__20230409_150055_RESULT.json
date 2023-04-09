@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.vmem",
+    "chart_description": "This chart displays the virtual memory size, in MiB, used by different user groups on the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Virtual memory size used by user with the ID of 1000.",
+            "32": "Virtual memory size used by user with the ID of 32.",
+            "65532": "Virtual memory size used by user with the ID of 65532.",
+            "65535": "Virtual memory size used by user with the ID of 65535.",
+            "81": "Virtual memory size used by user with the ID of 81.",
+            "996": "Virtual memory size used by user with the ID of 996.",
+            "997": "Virtual memory size used by user with the ID of 997.",
+            "_chrony": "Virtual memory size used by the chrony system service.",
+            "cm": "Virtual memory size used by the Connection Manager system service.",
+            "libvirt": "Virtual memory size used by the libvirt system service.",
+            "messagebus": "Virtual memory size used by the Message Bus system service.",
+            "netdata": "Virtual memory size used by the netdata system service.",
+            "nobody": "Virtual memory size used by the nobody user.",
+            "root": "Virtual memory size used by the root user.",
+            "syslog": "Virtual memory size used by the syslog system service.",
+            "systemd-coredump": "Virtual memory size used by the systemd-coredump system service.",
+            "systemd-journal": "Virtual memory size used by the systemd-journal system service.",
+            "systemd-network": "Virtual memory size used by the systemd-network system service.",
+            "systemd-resolve": "Virtual memory size used by the systemd-resolve system service.",
+            "systemd-timesync": "Virtual memory size used by the systemd-timesync system service.",
+            "uuidd": "Virtual memory size used by the UUID generator system service.",
+            "vpopmail": "Virtual memory size used by the vpopmail system service.",
+            "xfs": "Virtual memory size used by the XFS file system service."
+        }
+    ]
+}

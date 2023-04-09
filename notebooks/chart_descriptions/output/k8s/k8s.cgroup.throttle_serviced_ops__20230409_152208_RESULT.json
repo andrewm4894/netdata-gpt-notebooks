@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.throttle_serviced_ops",
+    "chart_description": "This chart displays the number of I/O operations that have been throttled per second across all disks in a Kubernetes cgroup. Throttling can occur when a cgroup exceeds its allocated resources, such as when a pod tries to perform too many disk I/O operations.",
+    "dimension_descriptions": [
+        {
+            "read": "The number of throttled read operations per second.",
+            "write": "The number of throttled write operations per second."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.mem_usage_limit",
+    "chart_description": "The 'cgroup.mem_usage_limit' chart describes the amount of RAM used within the defined limits set by configuring cgroups. The chart reflects if the assigned allowed RAM is sufficient for the processes running within the cgroups.",
+    "dimension_descriptions": [
+        {
+            "available": "This dimension indicates the amount of RAM available within the defined limits, which can be used by the processes running within the cgroup.",
+            "used": "This dimension indicates the amount of RAM currently in use by the processes running within the cgroup. If the 'used' value is larger than the 'available' value, it indicates that the processes are exceeding the allowed memory limits."
+        }
+    ]
+}

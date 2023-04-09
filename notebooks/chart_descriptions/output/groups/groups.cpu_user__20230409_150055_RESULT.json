@@ -1,0 +1,19 @@
+{
+    "chart_id": "groups.cpu_user",
+    "chart_description": "This chart shows the CPU usage of different user groups on the system, where 100% equals one core. The stacked design allows for easy comparison between groups.",
+    "dimension_descriptions": [
+        {
+            "1000": "CPU usage of user with UID 1000.",
+            "65532": "CPU usage of user with UID 65532.",
+            "81": "CPU usage of user with UID 81.",
+            "_chrony": "CPU usage of the Chrony NTP daemon.",
+            "libvirt": "CPU usage of the libvirt virtual machine management service.",
+            "messagebus": "CPU usage of the D-Bus message bus.",
+            "netdata": "CPU usage of the Netdata monitoring daemon.",
+            "nobody": "CPU usage of the nobody user.",
+            "root": "CPU usage of the root user.",
+            "systemd-coredump": "CPU usage of the systemd-coredump crash handling process.",
+            "xfs": "CPU usage of the XFS filesystem."
+        }
+    ]
+}

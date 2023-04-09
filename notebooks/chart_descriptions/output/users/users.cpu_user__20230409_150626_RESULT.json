@@ -1,0 +1,19 @@
+{
+    "chart_id": "users.cpu_user",
+    "chart_description": "This chart displays the percentage of CPU user time used by processes owned by regular users. The total CPU usage is scaled to 100% = 1 core. This chart allows you to monitor how much of the available CPU is being used by regular users on the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "User with UID 1000",
+            "1001": "User with UID 1001",
+            "65532": "User with UID 65532",
+            "81": "User with UID 81",
+            "messagebus": "DBus message bus daemon",
+            "netdata": "Netdata monitoring agent",
+            "nobody": "User with UID nobody (usually used for unprivileged processes)",
+            "nut": "Network UPS Tools",
+            "root": "Superuser (UID 0)",
+            "systemd-coredump": "systemd-coredump service",
+            "xfs": "XFS filesystem I/O"
+        }
+    ]
+}

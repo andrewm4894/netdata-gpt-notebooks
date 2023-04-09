@@ -1,0 +1,18 @@
+{
+    "chart_id": "groups.cpu_system",
+    "chart_description": "This chart shows the percentage of system CPU time used by each user group. The total system CPU usage is represented by 100%, which is equivalent to the usage of 1 core. This includes all CPU time spent executing kernel code and device drivers on behalf of user processes.",
+    "dimension_descriptions": [
+        {
+            "1000": "User ID 1000 represents the first user account created on the system. This dimension shows the CPU time used by processes belonging to this user.",
+            "65532": "User ID 65532 represents the 'nobody' account, which is commonly used by system processes that do not require user privileges. This dimension shows the CPU time used by processes belonging to this user.",
+            "_chrony": "This dimension shows the CPU time used by processes related to the chrony service, which is a program that maintains the system clock synchronization.",
+            "libvirt": "This dimension shows the CPU time used by processes related to libvirt, which is a virtualization API used by applications like KVM and QEMU.",
+            "messagebus": "This dimension shows the CPU time used by processes related to the messagebus service, which is a system message bus that allows applications to communicate with each other.",
+            "netdata": "This dimension shows the CPU time used by processes related to Netdata itself.",
+            "nobody": "This dimension shows the CPU time used by processes that do not belong to any user or group.",
+            "root": "This dimension shows the CPU time used by processes running with root privileges.",
+            "systemd-coredump": "This dimension shows the CPU time used by the systemd-coredump service, which is responsible for processing core dumps and generating backtraces.",
+            "xfs": "This dimension shows the CPU time used by processes related to the XFS file system, which is commonly used on Linux systems."
+        }
+    ]
+}

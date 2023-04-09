@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.net_mtu",
+    "chart_description": "The Interface MTU chart displays the maximum transmission unit (MTU) of the network interface. MTU defines the maximum size of a data packet that can be transmitted over the network. If the MTU is too large for the network, packets may be fragmented causing delays and performance issues. If the MTU is too small, it can lead to increased network overhead and reduced throughput.",
+    "dimension_descriptions": [
+        {
+            "mtu": "The MTU dimension represents the numerical value of the maximum transmission unit for the interface being monitored."
+        }
+    ]
+}

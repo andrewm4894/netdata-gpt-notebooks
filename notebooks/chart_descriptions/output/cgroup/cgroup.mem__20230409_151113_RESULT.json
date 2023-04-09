@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.mem",
+    "chart_description": "The Memory Usage chart provides information on the memory usage of the cgroup subsystem. This chart displays the memory usage of different categories of memory pages.",
+    "dimension_descriptions": [
+        {
+            "anon": "The amount of memory used by anonymous pages (pages containing program data and not linked to a file).",
+            "kernel_stack": "The amount of memory used by kernel stacks.",
+            "slab": "The amount of memory used by the kernel's slab allocator, which manages memory allocation for kernel objects."
+        }
+    ]
+}

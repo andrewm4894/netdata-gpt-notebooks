@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.io_full_pressure",
+    "chart_description": "The I/O full pressure chart displays the percentage of time the I/O system is stressed due to high demand for I/O resources. A high percentage indicates that the system is struggling to meet the I/O needs of the applications running on it, which can result in slow disk operations and potentially even system instability.",
+    "dimension_descriptions": [
+        {
+            "full 10": "Percentage of time the I/O system was at full pressure for at least 10 seconds.",
+            "full 300": "Percentage of time the I/O system was at full pressure for at least 5 minutes.",
+            "full 60": "Percentage of time the I/O system was at full pressure for at least 1 minute."
+        }
+    ]
+}

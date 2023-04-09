@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.minor_faults",
+    "chart_description": "This chart displays the minor page faults per second (page faults that could be resolved with the disk cache) for different applications running on the infrastructure.",
+    "dimension_descriptions": [
+        {
+            "agent_sd": "The agent subdaemon associated with the node reporting the data.",
+            "apps.plugin": "The application plugin reporting the data.",
+            "containers": "The container reporting the data.",
+            "ebpf.plugin": "The eBPF plugin reporting the data.",
+            "go.d.plugin": "The go.plugin reporting the data.",
+            "httpd": "The Apache HTTP server reporting the data.",
+            "kube-proxy": "The Kubernetes proxy reporting the data.",
+            "kubelet": "The Kubernetes agent reporting the data.",
+            "logs": "The log reporter reporting the data.",
+            "metrics-server": "The Kubernetes server that provides resource utilization API reporting the data.",
+            "netdata": "The Netdata instance reporting the data.",
+            "nosql": "The NoSQL database reporting the data.",
+            "other": "Other miscellaneous data sources that could not be categorized.",
+            "python.d.plugin": "The Python plugin reporting the data.",
+            "sql": "The SQL database reporting the data.",
+            "system": "The system process reporting the data.",
+            "tc-qos-helper": "The tc-qos-helper process reporting the data."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.serviced_ops",
+    "chart_description": "This chart displays the rate of serviced input/output (I/O) operations for all disks. It helps to monitor how much I/O activity is occurring on the system.",
+    "dimension_descriptions": [
+        {
+            "read": "This dimension represents the rate of read I/O operations. It indicates the speed at which data is being read from disks.",
+            "write": "This dimension represents the rate of write I/O operations. It indicates the speed at which data is being written to disks."
+        }
+    ]
+}

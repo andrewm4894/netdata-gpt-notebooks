@@ -1,0 +1,20 @@
+{
+    "chart_id": "users.lreads",
+    "chart_description": "This chart displays the amount of logical reads on the disk, in KiB/s, for each user on the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Logical reads in KiB/s for user with user ID 1000.",
+            "1001": "Logical reads in KiB/s for user with user ID 1001.",
+            "65532": "Logical reads in KiB/s for user with user ID 65532.",
+            "netdata": "Logical reads in KiB/s for the Netdata daemon.",
+            "nobody": "Logical reads in KiB/s for the 'nobody' user.",
+            "nut": "Logical reads in KiB/s for the Network UPS Tools user.",
+            "root": "Logical reads in KiB/s for the root user.",
+            "systemd-coredump": "Logical reads in KiB/s for the systemd-coredump system service.",
+            "systemd-network": "Logical reads in KiB/s for the systemd-network system service.",
+            "systemd-timesync": "Logical reads in KiB/s for the systemd-timesyncd system service.",
+            "vpopmail": "Logical reads in KiB/s for the vpopmail user.",
+            "xfs": "Logical reads in KiB/s for the XFS file system."
+        }
+    ]
+}

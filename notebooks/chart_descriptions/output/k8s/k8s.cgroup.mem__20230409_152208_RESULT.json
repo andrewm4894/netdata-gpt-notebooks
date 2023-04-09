@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s.cgroup.mem",
+    "chart_description": "The Memory Usage chart displays the memory utilization of a Kubernetes container and its subsystems, including cache, mapped files, resident set size (RSS), and the RSS huge page.",
+    "dimension_descriptions": [
+        {
+            "cache": "The amount of memory used by the cache subsystem, which is responsible for caching file data for quicker access.",
+            "mapped_file": "The amount of memory used by the mapped file subsystem, which maps files from disk into memory for faster access.",
+            "rss": "The amount of memory used by the resident set size of the container, which is the part of memory that belongs exclusively to a process and is not shared with other processes.",
+            "rss_huge": "The amount of memory used by the resident set size of the container for huge pages. Huge pages are used to reduce the number of pages needed for memory allocation, increasing the efficiency of the memory management."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.mem_usage_limit",
+    "chart_description": "The `k8s.cgroup.mem_usage_limit` chart displays the amount of RAM used by a container. It compares the amount of RAM available to the container against the amount of RAM actually used within those limits.",
+    "dimension_descriptions": [
+        {
+            "available": "This dimension displays the amount of memory available to the container in Mebibytes. If the container tries to use more memory than this limit, it will be terminated.",
+            "used": "This dimension displays the amount of memory actually used by the container in Mebibytes. If the used amount approaches or exceeds the available limit, it may indicate a memory leak or other issue in the container that requires investigation."
+        }
+    ]
+}

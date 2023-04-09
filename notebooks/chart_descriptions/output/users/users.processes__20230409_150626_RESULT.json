@@ -1,0 +1,31 @@
+{
+    "chart_id": "users.processes",
+    "chart_description": "This chart shows the number of processes that are being run by each user on the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Processes run by user id 1000.",
+            "1001": "Processes run by user id 1001.",
+            "32": "Processes run by user id 32.",
+            "65532": "Processes run by user id 65532.",
+            "65535": "Processes run by user id 65535.",
+            "81": "Processes run by user id 81.",
+            "998": "Processes run by user id 998.",
+            "999": "Processes run by user id 999.",
+            "_chrony": "Processes run by chrony user.",
+            "cm": "Processes run by cm user.",
+            "messagebus": "Processes run by message bus user.",
+            "netdata": "Processes run by netdata user.",
+            "nobody": "Processes run by nobody user.",
+            "nut": "Processes run by Network UPS Tools user.",
+            "root": "Processes run by root user.",
+            "syslog": "Processes run by syslog user.",
+            "systemd-coredump": "Processes run by systemd coredump user.",
+            "systemd-network": "Processes run by systemd network user.",
+            "systemd-resolve": "Processes run by systemd resolve user.",
+            "systemd-timesync": "Processes run by systemd timesync user.",
+            "uuidd": "Processes run by uuidd user.",
+            "vpopmail": "Processes run by vpopmail user.",
+            "xfs": "Processes run by xfs user."
+        }
+    ]
+}

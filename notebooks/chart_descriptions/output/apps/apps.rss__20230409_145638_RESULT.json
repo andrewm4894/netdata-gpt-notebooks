@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.rss",
+    "chart_description": "The Apps Resident Set Size (w/shared) chart shows the amount of memory used by the resident set of memory for all applications and services running on the monitored system, including shared libraries. This chart helps identify memory utilization trends and pinpoint memory-hogging applications or services.",
+    "dimension_descriptions": [
+        {
+            "containers": "The amount of memory being utilized by containers running on the monitored system.",
+            "go.d.plugin": "The amount of memory being utilized by the go.d.plugin Netdata module on the monitored system.",
+            "kube-proxy": "The amount of memory being utilized by the kube-proxy Kubernetes component on the monitored system.",
+            "kubelet": "The amount of memory being utilized by the kubelet Kubernetes component on the monitored system.",
+            "netdata": "The amount of memory being utilized by the Netdata monitoring agent on the monitored system.",
+            "other": "The amount of memory being utilized by other processes and applications not specifically listed.",
+            "sql": "The amount of memory being utilized by SQL database processes on the monitored system.",
+            "system": "The amount of memory being utilized by the system kernel and its components on the monitored system.",
+            "tc-qos-helper": "The amount of memory being utilized by the tc-qos-helper Netdata module on the monitored system."
+        }
+    ]
+}

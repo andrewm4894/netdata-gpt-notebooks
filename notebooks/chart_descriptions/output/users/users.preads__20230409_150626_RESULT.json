@@ -1,0 +1,11 @@
+{
+    "chart_id": "users.preads",
+    "chart_description": "The Users Disk Reads chart shows the rate at which data is read from the disk by user processes. It helps identify if high disk reads are affecting system performance.",
+    "dimension_descriptions": [
+        {
+            "1001": "This dimension represents the disk device being used by the user process.",
+            "netdata": "This dimension represents the user running the process, identified by their username.",
+            "root": "This dimension represents the folder or directory in which the user process is reading data from."
+        }
+    ]
+}

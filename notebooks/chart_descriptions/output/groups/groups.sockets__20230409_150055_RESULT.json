@@ -1,0 +1,29 @@
+{
+    "chart_id": "groups.sockets",
+    "chart_description": "This chart displays the total number of open sockets per user group on the system. It helps to identify which user groups are responsible for the most open sockets, which can impact the overall performance and stability of the system.",
+    "dimension_descriptions": [
+        {
+            "1000": "Sockets opened by the daemon user group. This group is used by system daemons that don't require elevated privileges.",
+            "32": "Sockets opened by the www-data user group. This group is used by web servers.",
+            "65532": "Sockets opened by the nobody user group. This group is used for unprivileged processes that don't require access to any system files.",
+            "81": "Sockets opened by the sshd user group. This group is used by the OpenSSH server.",
+            "996": "Sockets opened by the dhcp user group. This group is used by the DHCP client.",
+            "997": "Sockets opened by the named user group. This group is used by the BIND DNS server.",
+            "_chrony": "Sockets opened by the chrony user group. This group is used by the chrony NTP client.",
+            "cm": "Sockets opened by the cm user group. This group is used by the Cluster Manager (Pacemaker).",
+            "libvirt": "Sockets opened by the libvirt-qemu user group. This group is used by the libvirt virtualization platform.",
+            "messagebus": "Sockets opened by the messagebus user group. This group is used by the D-Bus message bus daemon.",
+            "netdata": "Sockets opened by the netdata user group. This group is used by the Netdata monitoring agent.",
+            "root": "Sockets opened by the root user.",
+            "syslog": "Sockets opened by the syslog user group. This group is used by the syslogd system log daemon.",
+            "systemd-coredump": "Sockets opened by the systemd-coredump user group. This group is used by the systemd-coredump service to capture core dumps.",
+            "systemd-journal": "Sockets opened by the systemd-journal user group. This group is used by the systemd-journald service to collect system logs.",
+            "systemd-network": "Sockets opened by the systemd-network user group. This group is used by the systemd-networkd service to manage network configuration.",
+            "systemd-resolve": "Sockets opened by the systemd-resolve user group. This group is used by the systemd-resolved service to resolve domain names.",
+            "systemd-timesync": "Sockets opened by the systemd-timesync user group. This group is used by the systemd-timesyncd service to synchronize the system clock.",
+            "uuidd": "Sockets opened by the uuidd user group. This group is used by the UUID generator daemon.",
+            "vpopmail": "Sockets opened by the vpopmail user group. This group is used by the vpopmail service to manage virtual email domains.",
+            "xfs": "Sockets opened by the xfs user group. This group is used by the X Font Server"
+        }
+    ]
+}

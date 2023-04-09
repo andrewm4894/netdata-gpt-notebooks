@@ -1,0 +1,25 @@
+{
+    "chart_id": "apps.lwrites",
+    "chart_description": "The Apps I/O Logical Writes chart is a stacked line chart that shows the amount of logical writes in KiB/s for various applications running on your infrastructure.",
+    "dimension_descriptions": [
+        {
+            "VMs": "Displays the logical writes in KiB/s for each VM running on your infrastructure.",
+            "agent_sd": "Displays the logical writes in KiB/s for each agent_sd instance on your infrastructure.",
+            "apps.plugin": "Displays the logical writes in KiB/s for each application plugin running on your infrastructure.",
+            "containers": "Displays the logical writes in KiB/s for each container running on your infrastructure.",
+            "ebpf.plugin": "Displays the logical writes in KiB/s for each ebpf plugin running on your infrastructure.",
+            "go.d.plugin": "Displays the logical writes in KiB/s for each go.d plugin running on your infrastructure.",
+            "httpd": "Displays the logical writes in KiB/s for the httpd application running on your infrastructure.",
+            "kernel": "Displays the logical writes in KiB/s for the kernel of your infrastructure.",
+            "kube-proxy": "Displays the logical writes in KiB/s for each kube-proxy instance on your Kubernetes infrastructure.",
+            "kubelet": "Displays the logical writes in KiB/s for each kubelet instance on your Kubernetes infrastructure.",
+            "metrics-server": "Displays the logical writes in KiB/s for the metrics-server application running on your infrastructure.",
+            "netdata": "Displays the logical writes in KiB/s for each Netdata instance on your infrastructure.",
+            "nosql": "Displays the logical writes in KiB/s for each nosql database running on your infrastructure.",
+            "other": "Displays the logical writes in KiB/s for any other application or dimension not defined in the other categories.",
+            "sql": "Displays the logical writes in KiB/s for each SQL database running on your infrastructure.",
+            "system": "Displays the logical writes in KiB/s for the system components of your infrastructure.",
+            "tc-qos-helper": "Displays the logical writes in KiB/s for each tc-qos-helper instance on your infrastructure."
+        }
+    ]
+}

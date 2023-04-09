@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.preads",
+    "chart_description": "This chart shows the disk read activity of various applications on the system in kilobits per second (KiB/s). The stacked chart type presents the individual contribution of each application to the overall disk read activity.",
+    "dimension_descriptions": [
+        {
+            "containers": "The amount of disk reads requested by applications running inside containers.",
+            "go.d.plugin": "The amount of disk reads performed by the go.d.plugin Netdata plugin.",
+            "kube-proxy": "The amount of disk reads requested by the Kubernetes proxy component.",
+            "kubelet": "The amount of disk reads requested by the Kubernetes node agent.",
+            "netdata": "The amount of disk reads performed by the Netdata monitoring agent itself.",
+            "other": "The amount of disk reads performed by other (non-categorized) processes or applications.",
+            "sql": "The amount of disk reads requested by SQL databases or applications.",
+            "system": "The amount of disk reads requested by the operating system processes.",
+            "tc-qos-helper": "The amount of disk reads performed by the Netdata tc-qos-helper component, which applies Quality of Service (QoS) to network traffic."
+        }
+    ]
+}

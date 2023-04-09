@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.memory_full_pressure_stall_time",
+    "chart_description": "The Memory full pressure stall time chart shows the amount of time, in milliseconds, that the system has to wait under memory pressure before it can allocate memory requests. This metric indicates how long the system is stalling when there is not enough memory available.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The amount of time the system has to wait when 10% or more memory is in use and there is not enough memory available for new requests.",
+            "full 300": "The amount of time the system has to wait when 300% or more memory is in use and there is not enough memory available for new requests.",
+            "full 60": "The amount of time the system has to wait when 60% or more memory is in use and there is not enough memory available for new requests."
+        }
+    ]
+}

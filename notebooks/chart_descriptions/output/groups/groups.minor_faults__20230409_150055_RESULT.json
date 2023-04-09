@@ -1,0 +1,12 @@
+{
+    "chart_id": "groups.minor_faults",
+    "chart_description": "The User Groups Minor Page Faults chart tracks the number of page faults per second that occur when accessing memory that is not currently in use by the kernel. These faults are considered minor, as the missing data can be quickly obtained from disk or other sources.",
+    "dimension_descriptions": [
+        {
+            "65532": "Page faults caused by processes running with UID or GID 65532.",
+            "netdata": "Page faults caused by processes running under the 'netdata' user.",
+            "root": "Page faults caused by processes running under the 'root' user.",
+            "xfs": "Page faults caused by processes accessing XFS filesystems."
+        }
+    ]
+}

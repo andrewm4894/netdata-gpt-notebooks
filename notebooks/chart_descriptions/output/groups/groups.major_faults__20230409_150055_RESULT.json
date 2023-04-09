@@ -1,0 +1,10 @@
+{
+    "chart_id": "groups.major_faults",
+    "chart_description": "This chart displays the major page faults (swap read) per second for user groups. Page faults occur when a process requests a page that is not in memory and needs to be fetched from the disk. Major page faults occur when the requested page is not in memory and needs to be read from the disk. This can cause a significant delay in the process execution.",
+    "dimension_descriptions": [
+        {
+            "netdata": "This dimension represents the user groups in the Netdata monitoring system. It provides insight into which groups are experiencing major page faults.",
+            "root": "This dimension represents the root user group in the Netdata monitoring system. It is primarily included to show the difference in major page faults between normal user groups and the root user group."
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.rss",
+    "chart_description": "This chart displays the Resident Set Size (RSS) for each user group on the system. RSS is the portion of a process's memory that is held in RAM while it is running. This chart includes shared memory.",
+    "dimension_descriptions": [
+        {
+            "1000": "The dimension for the user group with the ID 1000.",
+            "32": "The dimension for the user group with the ID 32.",
+            "65532": "The dimension for the user group with the ID 65532.",
+            "65535": "The dimension for the user group with the ID 65535.",
+            "81": "The dimension for the user group with the ID 81.",
+            "996": "The dimension for the user group with the ID 996.",
+            "997": "The dimension for the user group with the ID 997.",
+            "_chrony": "The dimension for the user group with the ID _chrony.",
+            "cm": "The dimension for the user group with the ID cm.",
+            "libvirt": "The dimension for the user group with the ID libvirt.",
+            "messagebus": "The dimension for the user group with the ID messagebus.",
+            "netdata": "The dimension for the user group with the ID netdata.",
+            "nobody": "The dimension for the user group with the ID nobody.",
+            "root": "The dimension for the user group with the ID root.",
+            "syslog": "The dimension for the user group with the ID syslog.",
+            "systemd-coredump": "The dimension for the user group with the ID systemd-coredump.",
+            "systemd-journal": "The dimension for the user group with the ID systemd-journal.",
+            "systemd-network": "The dimension for the user group with the ID systemd-network.",
+            "systemd-resolve": "The dimension for the user group with the ID systemd-resolve.",
+            "systemd-timesync": "The dimension for the user group with the ID systemd-timesync.",
+            "uuidd": "The dimension for the user group with the ID uuidd.",
+            "vpopmail": "The dimension for the user group with the ID vpopmail.",
+            "xfs": "The dimension for the user group with the ID xfs."
+        }
+    ]
+}

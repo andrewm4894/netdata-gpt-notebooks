@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s.cgroup.cpu_per_core",
+    "chart_description": "This chart shows the CPU usage in percentage for each core of a Kubernetes container. The chart allows you to monitor the performance of an application running on a container and identify CPU usage patterns.",
+    "dimension_descriptions": [
+        {
+            "cpu0": "The CPU usage percentage for core 0 in the Kubernetes container.",
+            "cpu1": "The CPU usage percentage for core 1 in the Kubernetes container.",
+            "cpu2": "The CPU usage percentage for core 2 in the Kubernetes container.",
+            "cpu3": "The CPU usage percentage for core 3 in the Kubernetes container."
+        }
+    ]
+}

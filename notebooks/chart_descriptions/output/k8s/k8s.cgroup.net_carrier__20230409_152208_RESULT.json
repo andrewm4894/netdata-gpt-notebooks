@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.net_carrier",
+    "chart_description": "This chart displays the physical link state of the network interface in a Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "up": "Indicates whether the network interface is up or not. A value of 1 means the interface is up, while a value of 0 means the interface is down."
+        }
+    ]
+}

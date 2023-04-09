@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.processes",
+    "chart_description": "The Apps Processes chart provides a stacked view of the number of processes running on your system by container, plugin, Kubernetes processes (kube-proxy and kubelet), other processes, SQL processes, Netdata processes, system processes, and tc-qos-helper processes.",
+    "dimension_descriptions": [
+        {
+            "containers": "Number of processes running inside Docker containers",
+            "go.d.plugin": "Processes from the go.d.plugin sub-process",
+            "kube-proxy": "Number of Kubernetes proxy processes",
+            "kubelet": "Number of Kubernetes node agent processes",
+            "netdata": "Number of Netdata internal processes required for core functionality",
+            "other": "Number of other processes running on the system",
+            "sql": "Number of processes running SQL databases",
+            "system": "Number of system processes running",
+            "tc-qos-helper": "Number of qdisc/Traffic Control processes"
+        }
+    ]
+}

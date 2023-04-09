@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.sockets",
+    "chart_description": "The `apps.sockets` chart tracks the number of open sockets for various applications running on the system.",
+    "dimension_descriptions": [
+        {
+            "containers": "The number of open sockets for containers.",
+            "go.d.plugin": "The number of open sockets for go.d.plugin.",
+            "kube-proxy": "The number of open sockets for kube-proxy.",
+            "kubelet": "The number of open sockets for kubelet.",
+            "netdata": "The number of open sockets for netdata itself.",
+            "other": "The number of open sockets for other applications.",
+            "sql": "The number of open sockets for SQL databases.",
+            "system": "The number of open sockets for system processes.",
+            "tc-qos-helper": "The number of open sockets for tc-qos-helper."
+        }
+    ]
+}

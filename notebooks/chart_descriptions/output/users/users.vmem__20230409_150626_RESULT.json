@@ -1,0 +1,29 @@
+{
+    "chart_id": "users.vmem",
+    "chart_description": "The users.vmem chart displays the virtual memory size (in MiB) used by individual system users.",
+    "dimension_descriptions": {
+        "1000": "User ID 1000",
+        "1001": "User ID 1001",
+        "32": "User ID 32",
+        "65532": "User ID 65532",
+        "65535": "User ID 65535",
+        "81": "User ID 81",
+        "998": "User ID 998",
+        "999": "User ID 999",
+        "_chrony": "chrony user",
+        "cm": "cm user",
+        "messagebus": "message bus user",
+        "netdata": "netdata user",
+        "nobody": "nobody user",
+        "nut": "nut user",
+        "root": "root user",
+        "syslog": "system logging user",
+        "systemd-coredump": "systemd coredump user",
+        "systemd-network": "systemd network user",
+        "systemd-resolve": "systemd resolve user",
+        "systemd-timesync": "systemd timesync user",
+        "uuidd": "UUID generator user",
+        "vpopmail": "vpopmail user",
+        "xfs": "XFS filesystem user"
+    }
+}

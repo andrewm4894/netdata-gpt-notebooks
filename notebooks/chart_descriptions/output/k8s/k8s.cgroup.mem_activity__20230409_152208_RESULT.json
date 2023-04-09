@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.mem_activity",
+    "chart_description": "The Memory Activity chart tracks the input and output of pages per second (pgpgin and pgpgout) for memory processes within Kubernetes cgroups. This is useful for monitoring the system memory usage and determining if there are any bottlenecks or issues with memory paging.",
+    "dimension_descriptions": [
+        {
+            "pgpgin": "The number of pages paged in from disk per second. This indicates how often the system needs to read data from the swap file due to insufficient RAM.",
+            "pgpgout": "The number of pages paged out to disk per second. This indicates how often the system is writing data to the swap file due to insufficient RAM."
+        }
+    ]
+}

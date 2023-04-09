@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.threads",
+    "chart_description": "This chart shows the total number of threads used by different processes in the system, with each process dimension broken down by its own thread count. The 'stacked' chart type shows the relative contribution of each process to the total thread count.",
+    "dimension_descriptions": [
+        {
+            "containers": "The number of threads used by the container runtime.",
+            "go.d.plugin": "The number of threads used by the Netdata data collection daemon.",
+            "kube-proxy": "The number of threads used by the Kubernetes Proxy process.",
+            "kubelet": "The number of threads used by the Kubernetes runtime.",
+            "netdata": "The number of threads used by the Netdata monitoring agent.",
+            "other": "Threads used by any other type of processes not explicitly listed.",
+            "sql": "The number of threads used by database processes.",
+            "system": "The number of threads used by kernel/system processes.",
+            "tc-qos-helper": "The number of threads used by network tc (traffic control) QoS."
+        }
+    ]
+}

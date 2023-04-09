@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.throttled_duration",
+    "chart_description": "This chart measures the duration of CPU throttling for containers deployed in a Kubernetes cluster. CPU throttling occurs when a container is consuming more CPU resources than it has been allocated, and it is a mechanism to limit the container's resource usage to its allocated share. This chart helps to identify if a container is experiencing resource constraints and if adjustments need to be made to its resource allocation or application settings to optimize its performance.",
+    "dimension_descriptions": [
+        {
+            "duration": "The duration in milliseconds of the CPU throttling event for a particular container."
+        }
+    ]
+}

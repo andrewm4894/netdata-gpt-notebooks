@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s.cgroup.mem_utilization",
+    "chart_description": "The `k8s.cgroup.mem_utilization` chart measures the percentage of memory utilization in a Kubernetes cgroup. This chart is useful to identify any memory issues within a specific cgroup.",
+    "dimension_descriptions": [
+        {
+            "utilization": "This dimension represents the percentage of memory utilization within the specified cgroup. A value of 100% indicates that the memory allocated to the cgroup is full, while a lower value suggests that there is still some memory available."
+        }
+    ]
+}

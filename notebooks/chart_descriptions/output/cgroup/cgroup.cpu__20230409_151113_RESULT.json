@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.cpu",
+    "chart_description": "The cgroup.cpu chart displays the CPU usage of the system and user processes, where 100% represents 1 core. This chart helps to identify if the CPU usage is evenly distributed among system and user processes or if one side is using more resources than the other.",
+    "dimension_descriptions": [
+        {
+            "system": "The percentage of CPU usage used by the system processes.",
+            "user": "The percentage of CPU usage used by the user processes."
+        }
+    ]
+}

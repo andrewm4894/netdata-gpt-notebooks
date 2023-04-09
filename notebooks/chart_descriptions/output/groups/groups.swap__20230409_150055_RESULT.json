@@ -1,0 +1,33 @@
+{
+    "chart_id": "groups.swap",
+    "chart_description": "The 'groups.swap' chart shows the swap memory used by user groups.",
+    "dimension_descriptions": [
+        {
+            "1000": "Swap memory used by 'systemd-coredump' group.",
+            "32": "Swap memory used by 'xfs' group.",
+            "65532": "Swap memory used by 'uuidd' group.",
+            "65535": "Swap memory used by 'vpopmail' group.",
+            "81": "Swap memory used by 'netdata' group.",
+            "996": "Swap memory used by 'systemd-timesync' group.",
+            "997": "Swap memory used by 'systemd-network' group.",
+            "_chrony": "Swap memory used by '_chrony' user.",
+            "adm": "Swap memory used by 'adm' group.",
+            "cm": "Swap memory used by 'cm' group.",
+            "libvirt": "Swap memory used by 'libvirt' group.",
+            "man": "Swap memory used by 'man' group.",
+            "messagebus": "Swap memory used by 'messagebus' group.",
+            "nobody": "Swap memory used by 'nobody' user.",
+            "nogroup": "Swap memory used by 'nogroup' user.",
+            "root": "Swap memory used by 'root' user.",
+            "syslog": "Swap memory used by 'syslog' user.",
+            "systemd-coredump": "Swap memory used by 'systemd-coredump' user.",
+            "systemd-journal": "Swap memory used by 'systemd-journal' user.",
+            "systemd-network": "Swap memory used by 'systemd-network' user.",
+            "systemd-resolve": "Swap memory used by 'systemd-resolve' user.",
+            "systemd-timesync": "Swap memory used by 'systemd-timesync' user.",
+            "uuidd": "Swap memory used by 'uuidd' user.",
+            "vpopmail": "Swap memory used by 'vpopmail' user.",
+            "xfs": "Swap memory used by 'xfs' user."
+        }
+    ]
+}

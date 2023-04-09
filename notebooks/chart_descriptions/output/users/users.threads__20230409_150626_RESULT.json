@@ -1,0 +1,29 @@
+{
+    "chart_id": "users.threads",
+    "chart_description": "The Users Threads chart displays the number of threads for each user on the system.",
+    "dimension_descriptions": {
+        "1000": "The number of threads for the user with the UID 1000",
+        "1001": "The number of threads for the user with the UID 1001",
+        "32": "The number of threads for the user with the UID 32",
+        "65532": "The number of threads for the user with the UID 65532",
+        "65535": "The number of threads for the user with the UID 65535",
+        "81": "The number of threads for the user with the UID 81",
+        "998": "The number of threads for the user with the UID 998",
+        "999": "The number of threads for the user with the UID 999",
+        "_chrony": "The number of threads for the user '_chrony'",
+        "cm": "The number of threads for the user 'cm'",
+        "messagebus": "The number of threads for the user 'messagebus'",
+        "netdata": "The number of threads for the user 'netdata'",
+        "nobody": "The number of threads for the user 'nobody'",
+        "nut": "The number of threads for the user 'nut'",
+        "root": "The number of threads for the user 'root'",
+        "syslog": "The number of threads for the user 'syslog'",
+        "systemd-coredump": "The number of threads for the user 'systemd-coredump'",
+        "systemd-network": "The number of threads for the user 'systemd-network'",
+        "systemd-resolve": "The number of threads for the user 'systemd-resolve'",
+        "systemd-timesync": "The number of threads for the user 'systemd-timesync'",
+        "uuidd": "The number of threads for the user 'uuidd'",
+        "vpopmail": "The number of threads for the user 'vpopmail'",
+        "xfs": "The number of threads for the user 'xfs'"
+    }
+}

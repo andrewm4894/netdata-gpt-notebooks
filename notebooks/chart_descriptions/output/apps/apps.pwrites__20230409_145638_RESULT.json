@@ -1,0 +1,17 @@
+{
+    "chart_id": "apps.pwrites",
+    "chart_description": "The 'Apps Disk Writes' chart displays the rate of writes to disk, in kilobytes per second, for various applications running on the server.",
+    "dimension_descriptions": [
+        {
+            "containers": "The rate of disk writes for containerized applications.",
+            "go.d.plugin": "The rate of disk writes for the 'go.d' plugin.",
+            "kube-proxy": "The rate of disk writes for the 'kube-proxy' service.",
+            "kubelet": "The rate of disk writes for the 'kubelet' service.",
+            "netdata": "The rate of disk writes for the Netdata daemon and its associated plugins.",
+            "other": "The rate of disk writes for other miscellaneous applications.",
+            "sql": "The rate of disk writes for SQL databases.",
+            "system": "The rate of disk writes for system-level operations and services.",
+            "tc-qos-helper": "The rate of disk writes for the 'tc-qos-helper' service."
+        }
+    ]
+}

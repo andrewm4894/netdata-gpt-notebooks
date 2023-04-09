@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.io_some_pressure",
+    "chart_description": "This chart displays the percentage of time the IO subsystem is under some pressure, where some pressure means that at least one task is waiting for IO to complete.",
+    "dimension_descriptions": [
+        {
+            "some 10": "The chart shows the percentage of time the IO subsystem was under some pressure during the 10s interval.",
+            "some 300": "The chart shows the percentage of time the IO subsystem was under some pressure during the 5min interval.",
+            "some 60": "The chart shows the percentage of time the IO subsystem was under some pressure during the 1min interval."
+        }
+    ]
+}

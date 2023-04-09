@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.cpu",
+    "chart_description": "The CPU usage chart for a Kubernetes container group, measured in percentage. The chart shows the CPU usage split between system and user. It is important to monitor CPU usage to ensure that the application is not bottlenecked by CPU.",
+    "dimension_descriptions": [
+        {
+            "system": "The CPU time spent by the operating system on behalf of the container group.",
+            "user": "The CPU time spent executing application code within the container group."
+        }
+    ]
+}

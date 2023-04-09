@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.memory_full_pressure",
+    "chart_description": "This chart represents the percentage of memory full pressure on the system. Memory full pressure refers to the amount of memory available to the system as it nears its limit.",
+    "dimension_descriptions": [
+        {
+            "full 10": "The percentage of memory full pressure when there is 10% memory left.",
+            "full 300": "The percentage of memory full pressure when there is 300% memory left.",
+            "full 60": "The percentage of memory full pressure when there is 60% memory left."
+        }
+    ]
+}

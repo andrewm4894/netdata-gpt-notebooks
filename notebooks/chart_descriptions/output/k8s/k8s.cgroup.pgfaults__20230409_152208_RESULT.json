@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.pgfaults",
+    "chart_description": "This chart shows the memory page faults of Kubernetes containers measured in MiB per second. Page fault occurs when a process tries to reference a memory page that is not in its working set. This chart helps to identify memory-related issues in Kubernetes infrastructure.",
+    "dimension_descriptions": [
+        {
+            "pgfault": "The number of minor page faults per second, which occur when a process references a memory page that is in memory but not in its working set.",
+            "pgmajfault": "The number of major page faults per second, which occur when a process references a memory page that is not in memory and must be fetched from disk first."
+        }
+    ]
+}

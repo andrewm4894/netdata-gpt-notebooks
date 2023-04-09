@@ -1,0 +1,13 @@
+{
+    "chart_id": "groups.pwrites",
+    "chart_description": "The User Groups Disk Writes chart shows the amount of data written to disk in kilobytes per second (KiB/s) by various user groups. This can help identify which user groups are using the most disk resources and potentially optimize their usage for better performance.",
+    "dimension_descriptions": [
+        {
+            "997": "The amount of data written to disk by user group 997.",
+            "libvirt": "The amount of data written to disk by user group libvirt.",
+            "netdata": "The amount of data written to disk by user group netdata.",
+            "root": "The amount of data written to disk by user group root.",
+            "xfs": "The amount of data written to disk by user group xfs."
+        }
+    ]
+}

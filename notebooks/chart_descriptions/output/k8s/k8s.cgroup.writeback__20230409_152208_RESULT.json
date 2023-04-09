@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s.cgroup.writeback",
+    "chart_description": "This chart shows the amount of memory being written back from the cache to the disk, and the amount of dirty pages in the memory cache waiting to be written back to the disk. These values give insight into the overall memory usage and performance of the Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "dirty": "The amount of memory that contains modifications and needs to be written back to the disk.",
+            "writeback": "The amount of memory that is currently being written back from the cache to the disk."
+        }
+    ]
+}

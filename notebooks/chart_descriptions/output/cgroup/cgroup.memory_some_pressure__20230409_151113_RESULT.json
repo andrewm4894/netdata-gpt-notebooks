@@ -1,0 +1,11 @@
+{
+    "chart_id": "cgroup.memory_some_pressure",
+    "chart_description": "This chart shows the percentage of memory pages that are being reclaimed by the kernel. When the value is high, it indicates that the system is under memory pressure and may start swapping to disk or killing processes to free up memory.",
+    "dimension_descriptions": [
+        {
+            "some 10": "This dimension shows memory pressure in the last 10 seconds.",
+            "some 300": "This dimension shows memory pressure in the last 5 minutes.",
+            "some 60": "This dimension shows memory pressure in the last 1 minute."
+        }
+    ]
+}

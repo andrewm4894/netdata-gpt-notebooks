@@ -1,0 +1,30 @@
+{
+    "chart_id": "apps.pipes",
+    "chart_description": "This chart displays the number of open pipes of various plugins, containers, and system components in the server.",
+    "dimension_descriptions": [
+        {
+            "agent_sd": "Number of open pipes created by the agent.",
+            "apps.plugin": "Number of open pipes created by plugins for specific apps.",
+            "auth": "Number of open pipes created by authentication processes.",
+            "containers": "Number of open pipes created by containers.",
+            "dhcp": "Number of open pipes created by the DHCP process.",
+            "ebpf.plugin": "Number of open pipes created by the eBPF plugin.",
+            "go.d.plugin": "Number of open pipes created by the Go.D plugin.",
+            "gui": "Number of open pipes created by the GUI processes.",
+            "httpd": "Number of open pipes created by the HTTPD server process.",
+            "kernel": "Number of open pipes created by the kernel processes.",
+            "kube-proxy": "Number of open pipes created by the Kube-proxy process.",
+            "kubelet": "Number of open pipes created by the Kubelet process.",
+            "metrics-server": "Number of open pipes created by the Metrics server.",
+            "mta": "Number of open pipes created by the mail transfer agent.",
+            "netdata": "Number of open pipes created by the Netdata daemon.",
+            "nfacct.plugin": "Number of open pipes created by the NFACCT plugin.",
+            "nosql": "Number of open pipes created by NoSQL processes.",
+            "other": "Number of open pipes created by other miscellaneous processes.",
+            "packagemanager": "Number of open pipes created by package management processes.",
+            "python.d.plugin": "Number of open pipes created by the Python.D plugin.",
+            "sql": "Number of open pipes created by SQL processes.",
+            "tc-qos-helper": "Number of open pipes created by the TC-QoS helper process."
+        }
+    ]
+}

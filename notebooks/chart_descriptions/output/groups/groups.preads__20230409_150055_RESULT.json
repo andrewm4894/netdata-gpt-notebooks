@@ -1,0 +1,10 @@
+{
+    "chart_id": "groups.preads",
+    "chart_description": "The 'groups.preads' chart displays the average number of kilobytes per second (KiB/s) that all processes in the group 'root' read (from) the hard disk. This chart can help identify which user groups are consuming the most disk reads.",
+    "dimension_descriptions": [
+        {
+            "netdata": "This is a system dimension that indicates the source or origin of the data being monitored, in this case, the system itself.",
+            "root": "This is a group dimension that represents the root user or administrator, which refers to all processes running with superuser privileges. This group can indicate which system-level processes are consuming the most disk reads."
+        }
+    ]
+}

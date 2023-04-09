@@ -1,0 +1,10 @@
+{
+    "chart_id": "cgroup.net_net",
+    "chart_description": "This chart provides insight into the bandwidth usage for network interfaces that are assigned to a cgroup. It displays the received and sent bandwidth in kilobits per second.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of incoming bandwidth expressed in kilobits per second.",
+            "sent": "The amount of outgoing bandwidth expressed in kilobits per second."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "cgroup.net_operstate",
+    "chart_description": "This chart displays the operational state of network interfaces, indicating whether they are currently up or down.",
+    "dimension_descriptions": [
+        {
+            "up": "Indicates whether the network interface is up or not. This can be useful for troubleshooting network connectivity issues."
+        }
+    ]
+}

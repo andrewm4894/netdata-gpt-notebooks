@@ -1,0 +1,31 @@
+{
+    "chart_id": "groups.files",
+    "chart_description": "This chart shows the number of open files per user group. It can help to identify which user groups have more files open, and may help in tuning system limits for file handles or identifying processes that open too many files.",
+    "dimension_descriptions": [
+        {
+            "1000": "Files open by user accounts with UID from 1000 to 1999",
+            "32": "Files open by accounts with UID less than 1000",
+            "65532": "Files open by accounts with UID greater than or equal to 65532",
+            "65535": "Files open by accounts with UID greater than or equal to 65535",
+            "81": "Files open by accounts with UID from 81 to 999",
+            "996": "Files open by the 'nogroup' group",
+            "997": "Files open by the 'nobody' user",
+            "_chrony": "Files open by the 'chrony' user",
+            "cm": "Files open by the 'conman' group",
+            "libvirt": "Files open by the 'libvirt' group",
+            "messagebus": "Files open by the 'messagebus' user",
+            "netdata": "Files open by the 'netdata' user",
+            "nobody": "Files open by the 'nobody' user",
+            "root": "Files open by the 'root' user",
+            "syslog": "Files open by the 'syslog' user",
+            "systemd-coredump": "Files open by the 'systemd-coredump' user",
+            "systemd-journal": "Files open by the 'systemd-journal' user",
+            "systemd-network": "Files open by the 'systemd-network' user",
+            "systemd-resolve": "Files open by the 'systemd-resolve' user",
+            "systemd-timesync": "Files open by the 'systemd-timesync' user",
+            "uuidd": "Files open by the 'uuidd' user",
+            "vpopmail": "Files open by the 'vpopmail' group",
+            "xfs": "Files open by the 'xfs' user"
+        }
+    ]
+}
