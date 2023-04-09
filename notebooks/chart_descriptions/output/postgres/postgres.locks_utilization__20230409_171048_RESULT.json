@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.locks_utilization",
+    "chart_description": "The Acquired locks utilization chart shows the percentage of locks currently being used in the PostgreSQL database system. This metric is important to monitor as high lock utilization can lead to decreased system performance and slow down queries.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of acquired locks currently being used in the PostgreSQL database system."
+        }
+    ]
+}

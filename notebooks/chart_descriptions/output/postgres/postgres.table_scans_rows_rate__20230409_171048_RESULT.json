@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_scans_rows_rate",
+    "chart_description": "This chart displays the rate at which the live rows are fetched by Scans from a Postgres database table.",
+    "dimension_descriptions": [
+        {
+            "index": "This dimension represents the index of the table being scanned. It helps to analyze which index is being scanned and whether it is optimal for the query. A high number of scans on a single index may indicate a need to create a new index, while no scans on an existing index may indicate that the index is not being utilized effectively."
+        }
+    ]
+}

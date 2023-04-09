@@ -1,0 +1,9 @@
+{
+    "chart_id": "docker.unhealthy_containers",
+    "chart_description": "This chart displays the number of containers that are currently unhealthy in the Docker environment.",
+    "dimension_descriptions": [
+        {
+            "unhealthy": "A binary value representing the health status of the container. A value of 1 indicates that the container is unhealthy while a value of 0 indicates that it is healthy."
+        }
+    ]
+}

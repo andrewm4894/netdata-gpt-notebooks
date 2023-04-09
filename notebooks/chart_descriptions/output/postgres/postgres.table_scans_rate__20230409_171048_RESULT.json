@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_scans_rate",
+    "chart_description": "Table scans chart shows the rate at which tables are scanned by PostgreSQL indexes. A table scan happens when PostgreSQL reads through every row of a table to find matching rows. This chart can help in identifying tables that are being used inefficiently and that may require optimization",
+    "dimension_descriptions": [
+        {
+            "index": "The name of the index. Indexes in PostgreSQL are used for faster searching and sorting of data. This dimension shows the table scan rate for each index"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.ssl_session_reuses_rate",
+    "chart_description": "This chart shows the rate of SSL session reuses during the SSL handshake process for the Nginx Plus server. A SSL session is considered to be reused if a new SSL connection is initiated using the same session ID as an already established connection.",
+    "dimension_descriptions": [
+        {
+            "ssl_session": "This dimension represents the SSL session ID that is being reused during the SSL handshake process."
+        }
+    ]
+}

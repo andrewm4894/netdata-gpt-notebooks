@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.client_connections_count",
+    "chart_description": "This chart shows the number of client connections to the Nginx Plus server. The chart distinguishes between two types of connections: active and idle. The active connections are those where client requests are currently being processed by the server, while idle connections are those where no requests are being processed. The chart can help SREs and sysadmins monitor the overall health and load of the Nginx Plus server.",
+    "dimension_descriptions": [
+        {
+            "active": "This dimension shows the number of currently active client connections to the Nginx Plus server. These are the connections where client requests are currently being processed by the server. A high number of active connections may indicate a heavy load on the server or potentially indicate a problem with request processing.",
+            "idle": "This dimension shows the number of idle client connections to the Nginx Plus server. These are the connections where no requests are currently being processed by the server. A high number of idle connections may indicate that clients are having trouble establishing a connection with the server or indicate a potential problem with client request processing."
+        }
+    ]
+}

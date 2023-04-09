@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_server_zone_requests_discarded_rate",
+    "chart_description": "This chart shows the rate of discarded HTTP requests in a specific server zone of NGINX Plus. Discarded requests are those that were not completed due to errors or congestion in the server zone.",
+    "dimension_descriptions": [
+        {
+            "discarded": "This dimension indicates the rate of discarded requests in requests per second (RPS)."
+        }
+    ]
+}

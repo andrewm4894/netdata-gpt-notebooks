@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.wal_archiving_files_count",
+    "chart_description": "This chart displays the number of Write-Ahead Log (WAL) files that have been archived and are ready for archival. It helps in monitoring the archiving process and ensuring that enough WAL files are being generated.",
+    "dimension_descriptions": [
+        {
+            "done": "The number of WAL files that have been successfully archived and are no longer needed for the replication process.",
+            "ready": "The number of WAL files that are waiting to be archived. These files are still needed for the replication process, but will eventually become 'done' once they are successfully archived. "
+        }
+    ]
+}

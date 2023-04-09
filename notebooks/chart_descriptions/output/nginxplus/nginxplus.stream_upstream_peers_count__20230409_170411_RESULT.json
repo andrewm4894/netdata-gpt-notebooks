@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_peers_count",
+    "chart_description": "This chart represents the number of peers that are currently connected to the stream upstream server in real-time. The chart helps in monitoring the health of the upstream server and the connections that it is making.",
+    "dimension_descriptions": [
+        {
+            "peers": "This dimension represents the number of connected peers at any given point in time. It helps in monitoring the load and usage of the upstream server and taking appropriate actions if required."
+        }
+    ]
+}

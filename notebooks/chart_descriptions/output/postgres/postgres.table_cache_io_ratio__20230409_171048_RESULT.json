@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_bloat_size_perc",
+    "chart_description": "The `postgres.table_bloat_size_perc` chart displays the percentage of bloat size for tables in the PostgreSQL database. Bloat is the wasted space in the database caused by fragmentation, inefficient inserts, updates or deletes, among other things. A high bloat percentage can cause slow query performance and decreased database efficiency.",
+    "dimension_descriptions": [
+        {
+            "bloat": "The `bloat` dimension refers to the amount of wasted space in the PostgreSQL database caused by fragmentation, inefficient inserts, updates or deletes, among other things. It is measured in percentage and displayed on the `postgres.table_bloat_size_perc` chart to help identify tables in the database that have high bloat percentages and might require optimization."
+        }
+    ]
+}

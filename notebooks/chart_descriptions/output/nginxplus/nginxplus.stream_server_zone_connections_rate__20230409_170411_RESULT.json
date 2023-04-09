@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_server_zone_connections_rate",
+    "chart_description": "This chart tracks the rate at which connections are being accepted by the server zone in the NGINX Plus Stream module. It gives insight into the incoming connections per second, which is a critical metric for stream applications that rely on real-time performance and reliability.",
+    "dimension_descriptions": [
+        {
+            "accepted": "The total number of outgoing connections that have been accepted by the server zone per second."
+        }
+    ]
+}

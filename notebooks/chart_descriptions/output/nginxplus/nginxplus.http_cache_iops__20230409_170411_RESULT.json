@@ -1,0 +1,11 @@
+{
+    "chart_id": "nginxplus.http_cache_iops",
+    "chart_description": "This chart displays the rate of responses per second related to HTTP cache. It may help to identify potential performance bottlenecks and optimize caching strategies.",
+    "dimension_descriptions": [
+        {
+            "bypassed": "The rate of responses per second bypassed by the cache due to either a miss or a stale cache entry.",
+            "served": "The rate of responses per second served by the cache.",
+            "written": "The rate of responses per second that have been written to the cache since the last restart or cache purge."
+        }
+    ]
+}

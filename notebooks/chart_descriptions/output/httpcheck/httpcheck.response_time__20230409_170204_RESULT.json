@@ -1,0 +1,9 @@
+{
+    "chart_id": "httpcheck.response_time",
+    "chart_description": "HTTP Response Time chart shows the average time taken by the server to respond to HTTP requests.",
+    "dimension_descriptions": [
+        {
+            "length": "Shows response times in milliseconds (ms) for each HTTP request made to the server."
+        }
+    ]
+}

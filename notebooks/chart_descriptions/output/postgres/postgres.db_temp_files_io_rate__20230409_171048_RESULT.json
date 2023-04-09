@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_temp_files_io_rate",
+    "chart_description": "This chart displays the rate at which temporary files are written to disk in bytes per second by a Postgres database. This can be useful for monitoring disk usage and identifying potential performance bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "written": "The amount of data that is being written to temporary files on disk per second."
+        }
+    ]
+}

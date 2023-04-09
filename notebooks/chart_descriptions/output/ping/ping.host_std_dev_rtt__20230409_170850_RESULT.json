@@ -1,0 +1,9 @@
+{
+    "chart_id": "ping.host_std_dev_rtt",
+    "chart_description": "The Ping round-trip time standard deviation chart shows the variation in the time it takes for packets to go from the local machine to a remote host and back. A high standard deviation indicates that packets are taking different paths and experiencing different levels of latency, which can impact network performance.",
+    "dimension_descriptions": [
+        {
+            "std_dev": "The standard deviation dimension shows the statistical measure of the amount of variation or dispersion in the ping round-trip time. A high standard deviation value indicates that the ping times vary greatly, while a low value indicates that the ping times are relatively consistent."
+        }
+    ]
+}

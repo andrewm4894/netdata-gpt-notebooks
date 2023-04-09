@@ -1,0 +1,11 @@
+{
+    "chart_id": "postgres.db_locks_held_count",
+    "chart_description": "The `postgres.db_locks_held_count` chart shows the number of locks being held in a PostgreSQL database. This can provide insights into potential performance issues or deadlocks within the database.",
+    "dimension_descriptions": [
+        {
+            "access_share": "The number of locks being held for read access.",
+            "exclusive": "The number of locks being held for write access.",
+            "row_exclusive": "The number of locks being held for write access to a specific row."
+        }
+    ]
+}

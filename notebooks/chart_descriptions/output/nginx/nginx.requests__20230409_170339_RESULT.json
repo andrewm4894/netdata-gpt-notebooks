@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginx.requests",
+    "chart_description": "The nginx.requests chart displays the rate of requests per second made by clients to the nginx server.",
+    "dimension_descriptions": [
+        {
+            "requests": "The 'requests' dimension represents the number of HTTP requests received by the nginx server per second."
+        }
+    ]
+}

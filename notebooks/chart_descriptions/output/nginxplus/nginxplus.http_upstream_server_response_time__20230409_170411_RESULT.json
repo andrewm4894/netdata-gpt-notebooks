@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_response_time",
+    "chart_description": "This chart shows the average response time of upstream servers for HTTP requests served by Nginx Plus. A high response time could indicate that the servers are taking longer to process requests or that there may be network latency issues.",
+    "dimension_descriptions": [
+        {
+            "response": "The response dimension represents the upstream server response time in milliseconds."
+        }
+    ]
+}

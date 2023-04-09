@@ -1,0 +1,11 @@
+{
+    "chart_id": "nginxplus.resolver_zone_responses_rate",
+    "chart_description": "The `nginxplus.resolver_zone_responses_rate` chart measures the rate of DNS resolver responses per second by status code (noerror, nxdomain, refused) for the nginxplus server.",
+    "dimension_descriptions": [
+        {
+            "noerror": "The rate of successful (no error) DNS resolver responses per second.",
+            "nxdomain": "The rate of response for non-existent domain (nxdomain) DNS queries per second.",
+            "refused": "The rate of refused DNS resolver responses per second."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.wal_io_rate",
+    "chart_description": "The Write-Ahead Log (WAL) is a standard feature of PostgreSQL used to ensure data durability. It consists of a series of files that log changes made to the database. This chart shows the rate at which data is being written to the WAL. A spike in this rate may indicate a high volume of write operations, while a sustained high rate may suggest a problem with the WAL or file system performance.",
+    "dimension_descriptions": [
+        {
+            "written": "The amount of data being written to the WAL per second, in bytes (B)."
+        }
+    ]
+}

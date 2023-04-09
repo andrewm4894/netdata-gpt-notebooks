@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_server_zone_connections_processing_count",
+    "chart_description": "This chart shows the number of connections processed by each processing state of the NGINX Plus stream server zone. The processing state can be one of the following: pre-accepted, accepted, handled, or active. This chart can help identify bottlenecks or issues in the stream server processing pipeline.",
+    "dimension_descriptions": [
+        {
+            "processing": " The processing dimension refers to the state of the connection process. The NGINX Plus stream server zone uses a variety of processing states, including pre-accepted, accepted, handled, and active. By measuring the connections processed by each state, you can see which state is taking the most time to process and identify issues in the processing pipeline."
+        }
+    ]
+}

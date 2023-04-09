@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.checkpoints_time",
+    "chart_description": "This chart shows the time taken for Postgres checkpoints to complete, categorized by the type of checkpoint being performed and whether the data was written to disk or not. Checkpoints are a necessary maintenance task in Postgres to force dirty data from memory to disk and prevent data loss in case of a crash or other failure. Longer checkpoint times can indicate a need for optimization of the server's configuration and resources.",
+    "dimension_descriptions": [
+        {
+            "sync": "The time taken for synchronous checkpoints to complete. Synchronous checkpoints ensure that all data that has been written to memory is persisted to disk before the checkpoint is considered complete, providing added data durability but with potentially longer checkpoint times.",
+            "write": "The time taken for asynchronous checkpoints to complete. Asynchronous checkpoints do not wait for all writes to be persisted to disk before completing the checkpoint, offering faster performance but with less data durability."
+        }
+    ]
+}

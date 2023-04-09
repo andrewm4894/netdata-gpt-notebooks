@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_traffic_rate",
+    "chart_description": "This chart displays the traffic rate in bytes per second for each upstream server in an Nginx HTTP server group. It is useful for monitoring and balancing the traffic across multiple servers in a group.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of traffic received by each upstream server in the group, in bytes per second.",
+            "sent": "The amount of traffic sent by each upstream server in the group, in bytes per second."
+        }
+    ]
+}

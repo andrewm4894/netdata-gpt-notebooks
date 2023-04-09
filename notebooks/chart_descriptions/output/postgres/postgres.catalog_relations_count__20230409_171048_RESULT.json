@@ -1,0 +1,12 @@
+{
+    "chart_id": "postgres.catalog_relations_count",
+    "chart_description": "This chart shows the count of various relation types in the Postgres catalog. Relations refer to database objects such as tables, views, etc.",
+    "dimension_descriptions": [
+        {
+            "index": "The count of indexes in the catalog.",
+            "ordinary_table": "The count of ordinary tables in the catalog.",
+            "toast_table": "The count of TOAST tables (tables used to store large values) in the catalog.",
+            "view": "The count of views in the catalog."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_requests_rate",
+    "chart_description": "This chart shows the rate of HTTP requests per second for the nginxplus component. It is a useful indicator of how much traffic the nginxplus is receiving and handling.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension represents the number of HTTP requests per second."
+        }
+    ]
+}

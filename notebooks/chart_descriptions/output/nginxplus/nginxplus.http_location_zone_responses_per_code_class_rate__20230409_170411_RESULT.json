@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_location_zone_responses_per_code_class_rate",
+    "chart_description": "This chart displays the rate of HTTP responses per second for a particular 2xx code class within an Nginx Plus HTTP location zone.",
+    "dimension_descriptions": [
+        {
+            "2xx": "This dimension represents the specific 2xx response code class, indicating that the chart is displaying the rate of successful responses per second."
+        }
+    ]
+}

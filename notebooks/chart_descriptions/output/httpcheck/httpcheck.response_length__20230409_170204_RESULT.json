@@ -1,0 +1,9 @@
+{
+    "chart_id": "httpcheck.response_length",
+    "chart_description": "This chart shows the length of the body of HTTP responses received by the system through the httpcheck module. It can help identify potential issues with the size of response data being transmitted, which in turn can be indicative of network congestion, server overload, or other performance issues.",
+    "dimension_descriptions": [
+        {
+            "length": "The length of the HTTP response body in characters."
+        }
+    ]
+}

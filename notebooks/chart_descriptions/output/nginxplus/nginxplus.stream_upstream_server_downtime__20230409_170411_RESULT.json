@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_downtime",
+    "chart_description": "This Netdata chart shows the downtime experienced by each server in an Nginx Plus Stream Upstream group. It provides insights into which servers are having the most downtime and can help identify potential issues before they cause major problems.",
+    "dimension_descriptions": [
+        {
+            "downtime": "This dimension shows the downtime experienced by each server in the upstream group in seconds. It is a measure of the time during which the server was offline or unavailable to serve requests. A higher value indicates that the server is experiencing more downtime and may need to be investigated to identify the underlying causes."
+        }
+    ]
+}

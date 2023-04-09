@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.queries_duration",
+    "chart_description": "The `postgres.queries_duration` chart displays the observed active queries time in PostgreSQL. It shows how long each query is taking to execute, and whether it falls within the 100ms or 500ms range. The unit of measurement is queries per second. This chart can be used to identify slow running queries and optimize their performance.",
+    "dimension_descriptions": [
+        {
+            "100ms": "The number of queries that completed within 100ms.",
+            "500ms": "The number of queries that took longer than 100ms, but less than or equal to 500ms."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_server_zone_requests_rate",
+    "chart_description": "The HTTP Server Zone requests rate chart displays the rate of requests to the server zones in an Nginx Plus environment. It helps to identify the zones that have a higher request rate than others, allowing for better resource allocation and performance monitoring.",
+    "dimension_descriptions": [
+        {
+            "requests": "The 'requests' dimension measures the number of requests per second for each server zone. It indicates the overall traffic load and helps identify the server zones that are receiving the most traffic."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.buffers_allocated_rate",
+    "chart_description": "The `postgres.buffers_allocated_rate` chart measures the rate at which buffers are allocated in bytes per second by the Postgres database server. It helps monitor the efficiency of the buffer allocation process and reveals potential performance and memory issues that are impacting the database server's performance.",
+    "dimension_descriptions": [
+        {
+            "allocated": "The `allocated` dimension measures the total number of Postgres buffers that have been allocated in bytes per second. This dimension can help isolate bottleneck areas within the database server where buffers are being over-allocated and may require optimization."
+        }
+    ]
+}

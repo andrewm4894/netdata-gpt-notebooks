@@ -1,0 +1,11 @@
+{
+    "chart_id": "nginxplus.http_cache_io",
+    "chart_description": "The HTTP Cache IO chart provides insights into the traffic and data moving through the HTTP cache on an Nginx Plus server.",
+    "dimension_descriptions": [
+        {
+            "bypassed": "The amount of data that bypassed the HTTP cache and went directly to the backend servers.",
+            "served": "The amount of data that was served from the HTTP cache.",
+            "written": "The amount of data that was written to the HTTP cache."
+        }
+    ]
+}

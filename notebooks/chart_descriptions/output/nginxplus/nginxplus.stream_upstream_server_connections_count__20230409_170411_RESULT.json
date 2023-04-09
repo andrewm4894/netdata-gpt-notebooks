@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_connections_count",
+    "chart_description": "This Netdata chart shows the current number of connections to each active stream upstream server in Nginx Plus. It helps monitor the load and performance of upstream servers and identify potential bottlenecks or issues with server connectivity.",
+    "dimension_descriptions": [
+        {
+            "active": "The only dimension available in this chart describes connections to active upstream servers. As connections are established to these servers, this dimension indicates the number of active connections at the time of monitoring."
+        }
+    ]
+}

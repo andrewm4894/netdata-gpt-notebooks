@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.uptime",
+    "chart_description": "The uptime chart for PostgreSQL database returns the amount of time for which the PostgreSQL server has been running continuously. This chart is useful to understand the stability and health of the system. A higher uptime indicates that the database has been available for a more extended period without any interruptions.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The amount of time for which the PostgreSQL server has been running continuously, measured in seconds."
+        }
+    ]
+}

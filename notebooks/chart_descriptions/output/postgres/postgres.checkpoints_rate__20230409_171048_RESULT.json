@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.checkpoints_rate",
+    "chart_description": "This chart shows the rate at which PostgreSQL checkpoints are happening per second. Checkpoints are a critical part of maintaining data consistency and reducing data recovery time in the event of a crash.",
+    "dimension_descriptions": [
+        {
+            "requested": "The number of requested checkpoints per second."
+        }
+    ]
+}

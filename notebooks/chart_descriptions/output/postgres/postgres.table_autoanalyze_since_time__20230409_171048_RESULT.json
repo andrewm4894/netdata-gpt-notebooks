@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_autoanalyze_since_time",
+    "chart_description": "This chart shows the time in seconds since the last automatic ANALYZE operation was performed on a database table in Postgres. ANALYZE is a command that updates the statistics of a table used by the query planner to determine the most efficient execution plan.",
+    "dimension_descriptions": [
+        {
+            "100ms": "The time since last auto ANALYZE for tables that took between 0 and 100 milliseconds.",
+            "500ms": "The time since last auto ANALYZE for tables that took between 100 and 500 milliseconds."
+        }
+    ]
+}

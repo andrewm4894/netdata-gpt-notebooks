@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_ops_rows_hot_rate",
+    "chart_description": "This chart monitors the rate of updates to Heap Only Tuples (HOT) in a PostgreSQL database table. HOT refers to a mechanism used by the database management system to keep the table clean and avoid table bloat. Updates to already-existing rows in the table can result in increased table bloat. However, HOT updates avoid this problem by updating only the required fields of the table rows. High HOT update rates may indicate a need for table maintenance or optimization.",
+    "dimension_descriptions": [
+        {
+            "hot": "The number of Heap Only Tuple (HOT) updates, which take place when a row is updated or its visibility information is changed without actually modifying its contents."
+        }
+    ]
+}

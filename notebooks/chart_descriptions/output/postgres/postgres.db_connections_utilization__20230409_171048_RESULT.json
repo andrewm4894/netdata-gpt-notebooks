@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_connections_utilization",
+    "chart_description": "The Database connections utilization chart is used to monitor the percentage of used connections in your PostgreSQL database. This chart helps to ensure that sufficient connections are available for the application to function optimally.",
+    "dimension_descriptions": [
+        {
+            "used": "The percentage of total connections currently in use by the database."
+        }
+    ]
+}

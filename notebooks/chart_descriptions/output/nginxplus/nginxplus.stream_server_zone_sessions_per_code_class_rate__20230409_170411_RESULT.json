@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_server_zone_sessions_per_code_class_rate",
+    "chart_description": "This chart shows the rate of sessions per second for each 2xx response code class in the stream server zone of NGINX Plus.",
+    "dimension_descriptions": [
+        {
+            "2xx": "The number of sessions per second with a 2xx response code class."
+        }
+    ]
+}

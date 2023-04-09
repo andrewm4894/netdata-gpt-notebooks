@@ -1,0 +1,9 @@
+{
+    "chart_id": "logind.sessions",
+    "chart_description": "The `logind.sessions` chart represents the number of active sessions on the local machine managed and tracked by systemd-logind. It provides insights into the usage and load of the system, especially from a user perspective. By monitoring this chart, administrators can ensure that the system is not overloaded with too many user sessions, leading to resource starvation or security issues.",
+    "dimension_descriptions": [
+        {
+            "local": "The `local` dimension in this chart indicates the number of sessions for local users. It includes active user sessions on the machine console or physical terminals connected to the system. This dimension represents physical access and usage of the system and can help identify unauthorized access or usage of the machine."
+        }
+    ]
+}

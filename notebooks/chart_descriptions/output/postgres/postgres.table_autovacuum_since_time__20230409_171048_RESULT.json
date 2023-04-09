@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_autovacuum_since_time",
+    "chart_description": "This chart shows the time elapsed since the last automatic vacuum for each table in your PostgreSQL database. Vacuuming helps to reclaim dead space occupied by outdated or deleted rows, improving performance and disk space usage. Lack of regular vacuuming can lead to bloated tables, affecting query performance and stability.",
+    "dimension_descriptions": [
+        {
+            "100ms": "Time elapsed since the last vacuum in intervals of 100 milliseconds.",
+            "500ms": "Time elapsed since the last vacuum in intervals of 500 milliseconds."
+        }
+    ]
+}

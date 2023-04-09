@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.http_server_zone_traffic_rate",
+    "chart_description": "The HTTP Server Zone traffic chart shows the rate of bytes received and sent by the NGINX Plus HTTP load balancer from all client connections over a given time period. It is useful to monitor the amount of traffic to and from NGINX Plus to optimize performance and troubleshoot potential issues.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate of bytes received by NGINX Plus from all client connections over a given time period. This metric is useful to monitor the volume of incoming traffic to NGINX Plus.",
+            "sent": "The rate of bytes sent by NGINX Plus to all client connections over a given time period. This metric is useful to monitor the volume of outgoing traffic from NGINX Plus."
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "chart_id": "nginxplus.ssl_verification_errors_rate",
+    "chart_description": "The SSL verification errors rate chart shows the rate at which SSL verification errors occur on the Nginx Plus server. SSL verification errors occur when the SSL/TLS certificate validation fails during an SSL/TLS handshake",
+    "dimension_descriptions": [
+        {
+            "expired_cert": "The number of SSL verification errors caused by an expired SSL/TLS certificate on the server",
+            "hostname_mismatch": "The number of SSL verification errors caused by a mismatch between the server hostname and the hostname on the SSL/TLS certificate",
+            "no_cert": "The number of SSL verification errors caused by the absence of an SSL/TLS certificate on the server",
+            "other": "The number of SSL verification errors caused by other reasons not covered by the other dimensions",
+            "revoked_cert": "The number of SSL verification errors caused by a revoked SSL/TLS certificate on the server"
+        }
+    ]
+}

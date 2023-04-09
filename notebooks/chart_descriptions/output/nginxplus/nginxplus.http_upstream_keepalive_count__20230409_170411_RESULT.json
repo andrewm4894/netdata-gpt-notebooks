@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_keepalive_count",
+    "chart_description": "This chart displays the number of active upstream connections that are kept alive by the HTTP upstream module of Nginx Plus over a specific time period. It can help to monitor the number of long-lived connections and optimize the server's resource usage.",
+    "dimension_descriptions": [
+        {
+            "keepalive": "The number of idle connections that are kept alive by the upstream module. A high value may indicate that there are many persistent connections or connections that are not efficiently reused."
+        }
+    ]
+}

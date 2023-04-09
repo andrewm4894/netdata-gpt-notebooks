@@ -1,0 +1,9 @@
+{
+    "chart_id": "docker.images_size",
+    "chart_description": "This chart monitors the size of Docker images on the system. It helps to identify the size of the images, which can affect system performance and storage usage. The chart provides the total size in bytes of all existing images on the system.",
+    "dimension_descriptions": [
+        {
+            "size": "This dimension measures the total size in bytes of all existing Docker images on the system. It helps to determine the amount of storage used by Docker images and can assist in optimizing disk usage."
+        }
+    ]
+}

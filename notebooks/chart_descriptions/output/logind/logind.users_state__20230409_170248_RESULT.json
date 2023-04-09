@@ -1,0 +1,9 @@
+{
+    "chart_id": "logind.users_state",
+    "chart_description": "The Logind Users By State chart displays the number of active users on the system in different user states. User state corresponds to the session state, such as running, sleeping, waiting, or stopped.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of users that are currently active and logged in."
+        }
+    ]
+}

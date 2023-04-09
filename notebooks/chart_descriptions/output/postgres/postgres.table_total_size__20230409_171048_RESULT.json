@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_total_size",
+    "chart_description": "The `postgres.table_total_size` chart displays the total size of all tables in a Postgres database.",
+    "dimension_descriptions": [
+        {
+            "size": "The size of the tables in bytes."
+        }
+    ]
+}

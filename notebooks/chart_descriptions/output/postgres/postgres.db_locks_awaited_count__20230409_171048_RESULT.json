@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_locks_awaited_count",
+    "chart_description": "The `postgres.db_locks_awaited_count` chart shows the number of locks requested in a PostgreSQL database that could not be immediately granted, leading to a waiting state known as `awaited`. This can indicate contention for a resource or a poorly performing query that is holding locks for too long.",
+    "dimension_descriptions": [
+        {
+            "exclusive": "This dimension shows the number of locks that are exclusively awaited, meaning no other queries or transactions can proceed until these locks are released."
+        }
+    ]
+}

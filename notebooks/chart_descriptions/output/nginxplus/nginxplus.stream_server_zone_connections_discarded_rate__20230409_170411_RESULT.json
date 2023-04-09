@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_server_zone_connections_discarded_rate",
+    "chart_description": "This chart displays the rate of discarded connections in the stream server zone of Nginx Plus.",
+    "dimension_descriptions": [
+        {
+            "discarded": "The number of connections that have been discarded from the stream server zone per second."
+        }
+    ]
+}

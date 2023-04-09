@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.resolver_zone_requests_rate",
+    "chart_description": "This chart shows the rate of DNS resolver requests handled by the Nginx Plus server for different DNS zones. It helps to monitor the DNS resolution performance of the server.",
+    "dimension_descriptions": [
+        {
+            "name": "The name of the DNS zone.",
+            "srv": "The SRV record for the DNS zone."
+        }
+    ]
+}

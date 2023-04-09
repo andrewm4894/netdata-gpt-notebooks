@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_vacuum_since_time",
+    "chart_description": "The `postgres.table_vacuum_since_time` chart shows the time elapsed since the last manual VACUUM operation was performed on each table in the PostgreSQL database. It helps in determining when tables were last vacuumed and thus identifying which tables may need more frequent maintenance. The chart shows the data in seconds.",
+    "dimension_descriptions": [
+        {
+            "size": "This dimension represents the size of each table in the PostgreSQL database. By monitoring this dimension, users can identify which tables are growing in size and may require more frequent vacuuming."
+        }
+    ]
+}

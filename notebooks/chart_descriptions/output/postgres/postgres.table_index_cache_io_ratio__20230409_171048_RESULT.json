@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_index_cache_io_ratio",
+    "chart_description": "The 'Table index I/O cache miss ratio' chart shows the percentage of times when Postgres had to access indexes that were not present in the cache, resulting in I/O operations to fetch them from the disk. Higher values indicate a larger cache miss ratio, leading to slower query performance.",
+    "dimension_descriptions": [
+        {
+            "miss": "This dimension shows the percentage of cache misses for the table index, indicating how often Postgres had to access indexes not currently present in the cache. A higher percentage means more frequent cache misses which, in turn, result in higher I/O operations and slower query performance."
+        }
+    ]
+}

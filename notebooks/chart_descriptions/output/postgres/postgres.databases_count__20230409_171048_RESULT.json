@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.databases_count",
+    "chart_description": "This chart displays the total number of databases available in the PostgreSQL database management system.",
+    "dimension_descriptions": [
+        {
+            "databases": "The number of databases in the PostgreSQL system."
+        }
+    ]
+}

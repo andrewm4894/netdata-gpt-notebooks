@@ -1,0 +1,11 @@
+{
+    "chart_id": "ping.host_rtt",
+    "chart_description": "This chart displays the round-trip time of ping requests sent to a specified host. The round-trip time is the amount of time it takes for a ping to go to the host and back to the sender.",
+    "dimension_descriptions": [
+        {
+            "avg": "The average round-trip time for pings sent to the host.",
+            "max": "The maximum round-trip time for pings sent to the host.",
+            "min": "The minimum round-trip time for pings sent to the host."
+        }
+    ]
+}

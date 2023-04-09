@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_cache_state",
+    "chart_description": "This chart displays the current HTTP cache state of the NGINX Plus server. The HTTP cache stores content from responses for later use, which can improve response times and reduce server load.",
+    "dimension_descriptions": [
+        {
+            "warm": "Indicates whether the cache is currently warm, meaning the stored content is still valid and can be used for subsequent requests."
+        }
+    ]
+}

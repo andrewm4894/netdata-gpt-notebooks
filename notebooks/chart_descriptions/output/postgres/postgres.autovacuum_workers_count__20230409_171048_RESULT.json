@@ -1,0 +1,13 @@
+{
+    "chart_id": "postgres.autovacuum_workers_count",
+    "chart_description": "This chart tracks the number of autovacuum workers running in PostgreSQL database during different maintenance tasks such as analyze, brin_summarize, vacuum, vacuum_analyze, and vacuum_freeze. Autovacuum is a process that removes dead rows, updates statistics and reclaims disk space to improve database performance.",
+    "dimension_descriptions": [
+        {
+            "analyze": "The number of autovacuum workers running during analyze process. Analyze process is a background process that analyzes tables and indexes to update the statistics that the query planner uses to create query plans.",
+            "brin_summarize": "The number of autovacuum workers running during brin_summarize process. BRIN indexes summarize large ranges of data into a smaller list of value-tuples. BRIN summarization improves performance of queries that aggregate large amounts of data.",
+            "vacuum": "The number of autovacuum workers running during vacuum process. Vacuum process remove dead rows and reclaim space from the table. It scans the table and indexes to remove the data that is no longer needed.",
+            "vacuum_analyze": "The number of autovacuum workers running during vacuum_analyze process. This process performs both vacuum and analyze operations.",
+            "vacuum_freeze": "The number of autovacuum workers running during vacuum_freeze process. This process freezes the transaction ID wraparound in case of a long running transaction that prevents the wraparound from proceeding."
+        }
+    ]
+}

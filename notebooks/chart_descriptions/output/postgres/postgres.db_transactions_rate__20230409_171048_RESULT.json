@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_transactions_rate",
+    "chart_description": "This chart displays the rate at which transactions are being committed to the database.",
+    "dimension_descriptions": [
+        {
+            "committed": "The number of transactions that have been successfully committed to the database in the given time frame."
+        }
+    ]
+}

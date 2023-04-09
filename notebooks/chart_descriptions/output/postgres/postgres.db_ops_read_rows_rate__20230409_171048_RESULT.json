@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.db_ops_read_rows_rate",
+    "chart_description": "This chart monitors the rate at which rows are read from a PostgreSQL database. It measures the number of rows read per second.",
+    "dimension_descriptions": [
+        {
+            "fetched": "This dimension measures the number of rows retrieved from a query. It reflects the number of rows that meet the query criteria.",
+            "returned": "This dimension measures the number of rows returned to the client application. It reflects the number of rows actually returned to the requesting application."
+        }
+    ]
+}

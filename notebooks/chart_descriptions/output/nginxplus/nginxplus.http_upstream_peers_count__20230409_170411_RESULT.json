@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_peers_count",
+    "chart_description": "This chart displays the number of active peers in the upstream group for Nginx Plus HTTP load balancer. It helps to monitor the health of the upstream servers and detect any potential issues with load balancing.",
+    "dimension_descriptions": [
+        {
+            "peers": "The number of active peers in the upstream group. This dimension indicates the current capacity of the load balancer and helps to identify any potential bottlenecks."
+        }
+    ]
+}

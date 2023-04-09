@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_ops_rows_rate",
+    "chart_description": "The `postgres.table_ops_rows_rate` chart shows the rate of rows being inserted and updated per second in Postgres tables. This chart helps to understand the table throughput and can be used to identify any performance issues related to inserts or updates in specific tables.",
+    "dimension_descriptions": [
+        {
+            "inserted": "The rate at which rows are being inserted into Postgres tables per second, measured in rows/s.",
+            "updated": "The rate at which rows are being updated in Postgres tables per second, measured in rows/s."
+        }
+    ]
+}

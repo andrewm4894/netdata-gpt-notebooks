@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.http_server_zone_responses_per_code_class_rate",
+    "chart_description": "The HTTP Server Zone responses rate chart displays the rate at which various HTTP response codes are returned from the server. It is a stacked chart that allows you to see the rate of each response code type in isolation or together. This is useful for identifying spikes or drops in response rates, which can indicate performance issues or changes in user behavior.",
+    "dimension_descriptions": [
+        {
+            "2xx": "The rate at which successful responses (HTTP status codes in the range 200-299) are returned from the server.",
+            "3xx": "The rate at which redirection responses (HTTP status codes in the range 300-399) are returned from the server."
+        }
+    ]
+}

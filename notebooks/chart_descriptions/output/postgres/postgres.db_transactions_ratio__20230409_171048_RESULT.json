@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_transactions_ratio",
+    "chart_description": "The Database transactions ratio chart shows the percentage of transactions committed in a PostgreSQL database. It helps to understand the database workload and usage patterns.",
+    "dimension_descriptions": [
+        {
+            "committed": "The number of committed transactions in the database. This dimension can be used to identify trends in committed transactions over time and any outliers that may indicate issues with database performance."
+        }
+    ]
+}

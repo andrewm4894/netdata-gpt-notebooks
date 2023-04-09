@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_requests_rate",
+    "chart_description": "The HTTP Upstream Server requests chart shows the rate of requests received by each server in the selected upstream group over time.",
+    "dimension_descriptions": [
+        {
+            "requests": "The number of requests made to the server per second during the time interval."
+        }
+    ]
+}

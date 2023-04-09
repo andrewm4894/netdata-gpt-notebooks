@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.stream_server_zone_traffic_rate",
+    "chart_description": "This chart shows the rate of traffic received and sent by different server zones in the Nginx Plus stream module.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate of traffic received by the server zones.",
+            "sent": "The rate of traffic sent by the server zones."
+        }
+    ]
+}

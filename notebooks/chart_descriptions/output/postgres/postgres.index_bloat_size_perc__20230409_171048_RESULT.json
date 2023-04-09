@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.index_bloat_size_perc",
+    "chart_description": "The Index bloat size percentage chart measures the degree of index bloat in PostgreSQL, which occurs when the size of the index becomes larger than necessary. It is important to manage index bloat in order to improve query performance and save storage space. This chart displays the percentage of index bloat over time.",
+    "dimension_descriptions": [
+        {
+            "bloat": "The dimension 'bloat' denotes the extent of index bloat, which is measured by comparing the size of an index to its optimal size. A bloat value of 100 indicates that the index is as large as it could be. A lower bloat value indicates that the index is smaller than its optimal size."
+        }
+    ]
+}

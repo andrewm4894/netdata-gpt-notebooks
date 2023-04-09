@@ -1,0 +1,12 @@
+{
+    "chart_id": "nginxplus.ssl_handshakes_failures_rate",
+    "chart_description": "This chart measures the rate of SSL handshakes that fail on Nginx Plus servers. Any failure in SSL handshakes can lead to session drops or service disruptions. This chart helps identify the types of SSL handshake failures and their occurrence rate, enabling proactive identification and mitigation of potential issues. The chart is displayed in stacked format, allowing for easy comparison of failed SSL handshakes across different dimensions.",
+    "dimension_descriptions": [
+        {
+            "no_common_cipher": "The rate of SSL handshake failures due to no mutually supported cipher suite.",
+            "no_common_protocol": "The rate of SSL handshake failures due to no mutually supported protocol version.",
+            "peer_rejected_cert": "The rate of SSL handshake failures due to rejecting the server certificate.",
+            "timeout": "The rate of SSL handshake failures due to timing out during the SSL handshake process."
+        }
+    ]
+}

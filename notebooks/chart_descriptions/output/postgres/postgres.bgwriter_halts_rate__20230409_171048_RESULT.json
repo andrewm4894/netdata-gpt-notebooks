@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.bgwriter_halts_rate",
+    "chart_description": "The `postgres.bgwriter_halts_rate` chart measures the number of times the background writer has halted because the maximum number of dirty buffers it's allowed to write has been reached.",
+    "dimension_descriptions": [
+        {
+            "maxwritten": "The maximum number of dirty buffers the background writer is allowed to write before it halts."
+        }
+    ]
+}

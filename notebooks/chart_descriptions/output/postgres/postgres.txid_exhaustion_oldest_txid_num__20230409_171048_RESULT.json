@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.txid_exhaustion_oldest_txid_num",
+    "chart_description": "The `postgres.txid_exhaustion_oldest_txid_num` chart displays the oldest transaction XID stored in the PostgreSQL database. This chart is useful in monitoring transaction ID exhaustion, which can lead to database crashes or corruption.",
+    "dimension_descriptions": [
+        {
+            "xid": "The XID (transaction ID) is a unique identifier assigned to each transaction in the PostgreSQL database. This dimension tracks the oldest transaction XID stored, which can helpful in detecting potential issues with transaction ID exhaustion."
+        }
+    ]
+}

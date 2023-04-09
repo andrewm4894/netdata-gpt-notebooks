@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_zombies_count",
+    "chart_description": "This chart shows the number of zombie servers in an HTTP upstream group in Nginx Plus. Zombie servers are those that are no longer considered healthy by Nginx Plus but still receive requests.",
+    "dimension_descriptions": [
+        {
+            "zombie": "A dimension of value '1' indicates that the server is a zombie server in the upstream group. This dimension helps in identifying the number of zombie servers in the group."
+        }
+    ]
+}

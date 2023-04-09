@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_response_header_time",
+    "chart_description": "This chart displays the average response time of the HTTP upstream server headers, in milliseconds. It helps to identify any slow server responses affecting the website performance.",
+    "dimension_descriptions": [
+        {
+            "header": "This dimension represents the name of the HTTP header in the request/response cycle. Examples include 'accept-encoding', 'user-agent', 'content-type', etc. Monitoring this dimension helps in identifying which headers are causing delays in the response time."
+        }
+    ]
+}

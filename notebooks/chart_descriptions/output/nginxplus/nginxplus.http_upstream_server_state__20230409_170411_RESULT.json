@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_state",
+    "chart_description": "This chart displays the state of the HTTP upstream servers in the nginxplus environment. The state can be one of the following: 1 (up), 2 (draining), or 4 (down).",
+    "dimension_descriptions": [
+        {
+            "up": "The dimension refers to the upstream server's state, which can be one of the following: 1 (up), 2 (draining), or 4 (down)."
+        }
+    ]
+}

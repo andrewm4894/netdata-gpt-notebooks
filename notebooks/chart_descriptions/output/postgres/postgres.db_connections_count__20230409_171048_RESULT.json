@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_connections_count",
+    "chart_description": "This chart tracks the number of active connections to a PostgreSQL database.",
+    "dimension_descriptions": [
+        {
+            "connections": "The number of active database connections."
+        }
+    ]
+}

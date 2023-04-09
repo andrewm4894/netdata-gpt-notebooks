@@ -1,0 +1,7 @@
+{
+    "chart_id": "postgres.connections_utilization",
+    "chart_description": "The Connections Utilization chart shows the percentage of the total number of available database connections that are currently in use.",
+    "dimension_descriptions": {
+        "used": "The number of database connections that are currently in use."
+    }
+}

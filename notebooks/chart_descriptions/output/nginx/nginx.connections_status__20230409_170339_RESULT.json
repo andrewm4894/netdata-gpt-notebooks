@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginx.connections_status",
+    "chart_description": "The `nginx.connections_status` chart displays the number of active connections per status. This chart is useful for monitoring the status and health of the Nginx web server.",
+    "dimension_descriptions": [
+        {
+            "idle": "The number of idle connections in the server. These are connections that are currently not receiving or sending any data.",
+            "writing": "The number of connections that are currently sending data to the client."
+        }
+    ]
+}

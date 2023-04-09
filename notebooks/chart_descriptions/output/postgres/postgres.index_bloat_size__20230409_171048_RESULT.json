@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.index_bloat_size",
+    "chart_description": "This chart measures index bloat size in bytes for PostgreSQL databases. Index bloat occurs when an index grows too large due to excessive data modifications or lack of maintenance, resulting in slower database operations. Monitoring index bloat size can help identify and address these issues.",
+    "dimension_descriptions": [
+        {
+            "bloat": "The amount of bloat in bytes for the index being monitored."
+        }
+    ]
+}

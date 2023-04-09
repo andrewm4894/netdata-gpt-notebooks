@@ -1,0 +1,9 @@
+{
+    "chart_id": "logind.sessions_state",
+    "chart_description": "The 'Logind Sessions By State' chart shows the number of sessions in different states such as active, inactive, running, etc.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of sessions that are currently active and logged in."
+        }
+    ]
+}

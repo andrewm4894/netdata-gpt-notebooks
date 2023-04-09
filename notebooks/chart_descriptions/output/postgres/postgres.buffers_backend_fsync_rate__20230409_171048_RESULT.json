@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.buffers_backend_fsync_rate",
+    "chart_description": "This chart measures the rate at which PostgreSQL backend buffers are persisted to disk via fsync calls. These calls ensure that the contents of the buffer are written out to disk and synced with the operating system's buffer cache.",
+    "dimension_descriptions": [
+        {
+            "fsync": "This is the only dimension for this chart and measures the number of fsync calls made per second."
+        }
+    ]
+}

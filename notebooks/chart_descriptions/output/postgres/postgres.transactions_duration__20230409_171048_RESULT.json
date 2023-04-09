@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.transactions_duration",
+    "chart_description": "This chart displays the observed transactions time in transactions per second. It is used to monitor and optimize the performance of PostgreSQL database transactions.",
+    "dimension_descriptions": [
+        {
+            "100ms": "This dimension represents the number of transactions that completed within 100ms.",
+            "500ms": "This dimension represents the number of transactions that completed between 100ms and 500ms."
+        }
+    ]
+}

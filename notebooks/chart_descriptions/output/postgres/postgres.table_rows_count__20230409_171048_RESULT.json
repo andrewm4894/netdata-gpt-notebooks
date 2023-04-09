@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_rows_count",
+    "chart_description": "The `postgres.table_rows_count` chart shows the total number of rows in a PostgreSQL database table, broken down by their state.",
+    "dimension_descriptions": [
+        {
+            "dead": "The number of rows that have been deleted or removed from the table.",
+            "live": "The number of rows that are currently active and present in the table."
+        }
+    ]
+}

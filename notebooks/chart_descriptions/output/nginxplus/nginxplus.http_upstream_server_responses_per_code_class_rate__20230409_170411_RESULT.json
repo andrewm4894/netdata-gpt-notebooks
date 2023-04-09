@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_responses_per_code_class_rate",
+    "chart_description": "This chart shows the rate of HTTP responses per second from upstream servers categorized by the response code class. The response classes included in this chart are those with a 2xx code, indicating a successful response.",
+    "dimension_descriptions": [
+        {
+            "2xx": "The number of HTTP responses per second categorized by response code 2xx, indicating a successful response."
+        }
+    ]
+}

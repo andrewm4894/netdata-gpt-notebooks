@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_rows_dead_ratio",
+    "chart_description": "This chart displays the ratio of dead rows to total rows in a PostgreSQL database table. Dead rows are rows that have been marked for deletion but have not yet been physically removed from the table. This chart can provide insight into the overall health and maintenance needs of the table.",
+    "dimension_descriptions": [
+        {
+            "dead": "The percentage of dead rows in the table."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_downtime",
+    "chart_description": "This chart displays the amount of time in seconds that an HTTP upstream server has been offline or unresponsive. It helps to monitor the downtime of the upstream server.",
+    "dimension_descriptions": [
+        {
+            "downtime": "The amount of time in seconds that the upstream server has been down or unresponsive. A higher value indicates a longer downtime."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "docker.images",
+    "chart_description": "This chart depicts the number of images present in the Docker container runtime environment. It helps in identifying the usage and trends of Docker images over time.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of active images (that are currently in use) in the Docker environment."
+        }
+    ]
+}

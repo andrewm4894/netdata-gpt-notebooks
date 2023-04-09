@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_state",
+    "chart_description": "This chart displays the state of each server in an NGINX Plus stream upstream group. It can help identify servers that are down and potentially impacting the availability of the upstream service.",
+    "dimension_descriptions": [
+        {
+            "up": "The number of servers in the upstream group that are currently considered 'up' and available to serve traffic.",
+            "down": "The number of servers in the upstream group that are currently considered 'down' and unavailable to serve traffic. This may indicate a server that needs to be restarted or replaced."
+        }
+    ]
+}

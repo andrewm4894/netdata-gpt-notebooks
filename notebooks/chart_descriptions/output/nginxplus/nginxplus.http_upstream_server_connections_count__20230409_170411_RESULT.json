@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_upstream_server_connections_count",
+    "chart_description": "This chart displays the number of active connections to each upstream server in the HTTP upstream connections family of Nginx Plus. It provides an overview of server load and can be used to troubleshoot issues related to server connections and performance.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of active connections to the upstream server at the time of monitoring. This can indicate current server load and be used to identify potential performance issues."
+        }
+    ]
+}

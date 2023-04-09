@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_cache_size",
+    "chart_description": "This chart shows the size of the HTTP cache used by NGINX Plus. The cache stores frequently accessed resources, which helps in reducing the time taken to serve requests from client browsers. A larger cache size means more cached resources and more frequent cache hits, resulting in improved website response times.",
+    "dimension_descriptions": [
+        {
+            "size": "This is the dimension that shows the size of the HTTP cache in bytes. Generally, the cache should be large enough to store commonly accessed resources, but not so large that it impacts server performance. It's important to regularly monitor and adjust the cache size as website traffic patterns change over time."
+        }
+    ]
+}

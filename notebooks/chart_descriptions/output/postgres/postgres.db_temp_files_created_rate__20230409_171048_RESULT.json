@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_temp_files_created_rate",
+    "chart_description": "This chart displays the rate at which temporary files are created in the PostgreSQL database. Temporary files are created during operations such as sorting and joining large data sets.",
+    "dimension_descriptions": [
+        {
+            "created": "The rate at which temporary files are created, measured in files per second."
+        }
+    ]
+}

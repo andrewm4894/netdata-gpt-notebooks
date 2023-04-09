@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_bloat_size",
+    "chart_description": "The Table bloat size chart shows the amount of space that a given table in a Postgres database is consuming on disk due to internal fragmentation. It helps you identify potential issues that could affect database performance, such as tables that are becoming too large or poorly managed.",
+    "dimension_descriptions": [
+        {
+            "bloat": "This dimension specifies the type of bloat that is being measured, such as live tuples, empty space or dead tuples. The values of this dimension are counted in bytes."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.index_size",
+    "chart_description": "This chart shows the size of indexes of PostgreSQL database. Indexes are data structures used by databases to improve query performance. The chart helps to monitor the growth of total index data size over time.",
+    "dimension_descriptions": [
+        {
+            "size": "The size of the indexes in bytes."
+        }
+    ]
+}

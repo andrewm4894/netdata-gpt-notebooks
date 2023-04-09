@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_io_rate",
+    "chart_description": "This chart displays the rate of input/output operations (I/O) for database tables in bytes per second. It helps to monitor and troubleshoot the I/O usage and performance of the PostgreSQL database server.",
+    "dimension_descriptions": [
+        {
+            "disk": "This dimension represents the storage device where the table data is being read from or written to. It helps to identify any disk-related performance issues that might affect the I/O rate.",
+            "memory": "This dimension represents the amount of memory used by the PostgreSQL server for caching data. It helps to understand how the memory usage affects the I/O rate and whether the cache is effective or not."
+        }
+    ]
+}

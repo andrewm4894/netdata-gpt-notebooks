@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.wal_files_count",
+    "chart_description": "The `postgres.wal_files_count` chart displays the number of Write-Ahead Log (WAL) files created by the PostgreSQL database. WAL files are used to ensure the durability of the database, as all changes to the database must be written to the WAL before they are applied to the actual data files.",
+    "dimension_descriptions": [
+        {
+            "written": "The number of WAL files created by the database."
+        }
+    ]
+}

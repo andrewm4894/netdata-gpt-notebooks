@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.http_location_zone_traffic_rate",
+    "chart_description": "This chart displays the rate at which HTTP traffic is received and sent in bytes per second, across all zones in a specified location in Nginx Plus. The chart is useful for monitoring the traffic volume and identifying any spikes or drops in traffic rates that may indicate issues or anomalies in the system.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate at which HTTP traffic is received in bytes per second for the specified location in Nginx Plus.",
+            "sent": "The rate at which HTTP traffic is sent in bytes per second for the specified location in Nginx Plus."
+        }
+    ]
+}

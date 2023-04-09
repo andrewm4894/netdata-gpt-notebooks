@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_ops_fetched_rows_ratio",
+    "chart_description": "This chart shows the ratio of rows fetched per operation in the Postgres database. It provides insights into query efficiency, as a high number of fetched rows per operation can indicate inefficient queries, causing performance issues and slow response times.",
+    "dimension_descriptions": [
+        {
+            "fetched": "The number of rows fetched per operation in the Postgres database."
+        }
+    ]
+}

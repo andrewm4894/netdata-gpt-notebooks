@@ -1,0 +1,10 @@
+{
+    "chart_id": "httpcheck.status",
+    "chart_description": "The HTTP Check Status chart displays the status of HTTP checks performed on a web server. It helps to monitor the success rate of HTTP checks and provides insights into errors and bad content loaded.",
+    "dimension_descriptions": [
+        {
+            "bad_content": "Displays the number of requests with bad content that were rejected by the web server.",
+            "success": "Displays the number of successful HTTP check requests sent by the monitoring system."
+        }
+    ]
+}

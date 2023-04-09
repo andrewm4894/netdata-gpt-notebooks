@@ -1,0 +1,9 @@
+{
+    "chart_id": "docker.healthy_containers",
+    "chart_description": "The 'docker.healthy_containers' chart shows the number of healthy containers in the Docker environment. This value indicates the number of running containers that are not experiencing any issues or abnormalities.",
+    "dimension_descriptions": [
+        {
+            "healthy": "Indicates the number of running Docker containers that are currently in a healthy state. This means there are currently no issues or abnormalities with the container's functioning."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "httpcheck.in_state",
+    "chart_description": "This chart displays the duration of the current HTTP state. It shows how long a website has been in an unhealthy state, meaning the website is down or not responding properly.",
+    "dimension_descriptions": [
+        {
+            "unhealthy": "This dimension represents the amount of time the website has been in an unhealthy state. The duration is measured in seconds and provides valuable information to identify and troubleshoot issues affecting the website."
+        }
+    ]
+}

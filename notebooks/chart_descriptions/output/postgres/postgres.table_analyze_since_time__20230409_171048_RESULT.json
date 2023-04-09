@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_analyze_since_time",
+    "chart_description": "This chart displays the time since the last manual ANALYZE performed on a PostgreSQL table. ANALYZE is a maintenance operation that updates the query planner statistics of a table, which can improve query performance. The longer the time since the last ANALYZE, the more likely it is that the query planner statistics are out of date and query performance may be impacted.",
+    "dimension_descriptions": [
+        {
+            "100ms": "This dimension represents the time since last manual ANALYZE in increments of 100 milliseconds.",
+            "500ms": "This dimension represents the time since last manual ANALYZE in increments of 500 milliseconds."
+        }
+    ]
+}

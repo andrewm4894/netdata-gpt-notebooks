@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_cache_io_ratio",
+    "chart_description": "The Database buffer cache miss ratio chart measures the ratio of buffer cache misses to the total number of requests from the database. Buffer cache is an area in memory where frequently accessed data is stored so that it can be readily accessed when needed. When a query is executed and the required data is not available in the buffer cache, it is fetched from disk which is a much slower process. This chart provides insight into whether there is enough memory allocated to the buffer cache in order to reduce the amount of disk I/O and improve the database performance.",
+    "dimension_descriptions": [
+        {
+            "miss": "Percentage of misses in the buffer cache. Indicates the percentage of requests that resulted in a cache miss and required data to be fetched from disk."
+        }
+    ]
+}

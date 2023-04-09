@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginx.connections",
+    "chart_description": "This chart shows the number of active client connections to the Nginx server, including waiting connections.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of active client connections, including those currently waiting for a response."
+        }
+    ]
+}

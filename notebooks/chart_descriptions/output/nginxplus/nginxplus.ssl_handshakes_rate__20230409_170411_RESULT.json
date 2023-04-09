@@ -1,0 +1,8 @@
+{
+    "chart_id": "nginxplus.ssl_handshakes_rate",
+    "chart_description": "The SSL handshakes rate chart measures the number of SSL handshakes successfully established and the number of SSL handshakes that have failed per second on the NGINX Plus server. SSL handshakes are a crucial part of HTTPS and are necessary for establishing a secure connection between the client and the server. Monitoring this chart can give insight into the health and performance of the SSL connections on your NGINX Plus server.",
+    "dimension_descriptions": {
+        "failed": "The number of SSL handshakes that failed per second.",
+        "successful": "The number of SSL handshakes that were successfully established per second."
+    }
+}

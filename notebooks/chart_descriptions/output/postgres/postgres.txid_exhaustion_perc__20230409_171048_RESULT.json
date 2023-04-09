@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.txid_exhaustion_perc",
+    "chart_description": "This chart monitors the percentage of transaction identifiers (txid) used towards reaching PostgreSQL's transaction ID wraparound limit, which is when txids reach their maximum value and loop back to 0. When this limit is met, transactions may fail or result in data corruption.",
+    "dimension_descriptions": [
+        {
+            "txid_exhaustion": "This dimension measures the percentage of txids used towards reaching the wraparound limit. The closer this value gets to 100%, the closer the database is to hitting the limit and potentially encountering issues."
+        }
+    ]
+}

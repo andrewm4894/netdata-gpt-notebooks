@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_null_columns_count",
+    "chart_description": "This chart displays the number of null/empty columns in a table in a PostgreSQL database over time. It helps to identify tables that require maintenance to remove null values or update them with meaningful data.",
+    "dimension_descriptions": [
+        {
+            "null": "The number of null/empty columns in the table."
+        }
+    ]
+}

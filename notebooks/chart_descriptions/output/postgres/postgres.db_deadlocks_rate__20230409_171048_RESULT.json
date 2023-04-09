@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_deadlocks_rate",
+    "chart_description": "The Database deadlocks chart shows the rate of deadlocks occurring in the PostgreSQL database. Deadlocks occur when two or more processes are waiting to acquire a lock that the other has already acquired. This can cause performance issues and impact application functionality.",
+    "dimension_descriptions": [
+        {
+            "deadlocks": "The number of deadlocks occurring per second in the PostgreSQL database."
+        }
+    ]
+}

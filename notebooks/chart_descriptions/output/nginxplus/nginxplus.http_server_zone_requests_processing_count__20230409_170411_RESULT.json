@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_server_zone_requests_processing_count",
+    "chart_description": "This chart monitors the number of HTTP requests currently being processed in the specified server zones of Nginx Plus.",
+    "dimension_descriptions": [
+        {
+            "processing": "This dimension identifies the specific server zone being monitored for currently processed requests."
+        }
+    ]
+}

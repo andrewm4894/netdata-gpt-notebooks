@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_requests_count",
+    "chart_description": "This chart provides information regarding the total number of HTTP requests made to the Nginx Plus server.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension represents the total number of requests made to the server."
+        }
+    ]
+}

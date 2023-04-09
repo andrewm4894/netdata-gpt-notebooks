@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginx.connections_accepted_handled",
+    "chart_description": "This chart represents the trend of connections accepted and handled by the Nginx server over time. It helps in monitoring the server's performance and detecting abnormal behavior or changes in traffic patterns.",
+    "dimension_descriptions": [
+        {
+            "accepted": "The number of connections accepted by the Nginx server per second.",
+            "handled": "The number of connections handled by the Nginx server per second."
+        }
+    ]
+}

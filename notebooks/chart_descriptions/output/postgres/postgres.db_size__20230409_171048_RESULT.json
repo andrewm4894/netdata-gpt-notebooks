@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.db_size",
+    "chart_description": "The database size chart shows the total size of the PostgreSQL database in bytes. It includes all tables, indexes, and other objects in the database.",
+    "dimension_descriptions": [
+        {
+            "size": "The size dimension measures the total size of the PostgreSQL database in bytes."
+        }
+    ]
+}

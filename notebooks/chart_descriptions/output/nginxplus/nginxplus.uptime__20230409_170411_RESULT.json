@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.uptime",
+    "chart_description": "The `nginxplus.uptime` chart tracks the uptime of the NGINX Plus server, indicating how long it has been running without any interruption.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The duration of time in seconds that NGINX Plus server has been running continuously without any interruption."
+        }
+    ]
+}

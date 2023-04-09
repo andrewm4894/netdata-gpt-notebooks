@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_connections_rate",
+    "chart_description": "This chart monitors the rate of connections made to the upstream server in the nginx stream module. It measures the number of connections per second.",
+    "dimension_descriptions": [
+        {
+            "forwarded": "This dimension indicates the upstream server the connection is being forwarded to."
+        }
+    ]
+}

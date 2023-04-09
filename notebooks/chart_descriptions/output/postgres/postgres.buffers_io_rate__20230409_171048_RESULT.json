@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.buffers_io_rate",
+    "chart_description": "This chart displays the rate at which buffers are being written by the PostgreSQL buffer cache manager, also known as the background writer. The buffer cache manager writes dirty buffers from shared memory to disk in order to free up memory for new data.",
+    "dimension_descriptions": [
+        {
+            "bgwriter": "This dimension represents the identity of the background writer process. If there are multiple background writer processes, each process will have a unique value for this dimension."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "nginxplus.http_location_zone_requests_discarded_rate",
+    "chart_description": "This chart displays the rate at which HTTP requests to a particular location zone in the NGINX Plus server are being discarded due to various reasons such as invalid requests or server congestion. It helps in monitoring and troubleshooting issues related to discarded requests in a specific location zone.",
+    "dimension_descriptions": [
+        {
+            "discarded": "This dimension represents the number of HTTP requests that are being discarded in the specified location zone per second. It indicates the rate at which requests are being rejected due to different factors."
+        }
+    ]
+}

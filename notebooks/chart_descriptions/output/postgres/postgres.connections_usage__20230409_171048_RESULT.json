@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.connections_usage",
+    "chart_description": "This chart shows the usage of database connections in PostgreSQL. It displays two dimensions, 'available' and 'used', in a stacked format. The 'available' dimension represents the total number of connections available to the database, while the 'used' dimension indicates the number of connections currently in use.",
+    "dimension_descriptions": [
+        {
+            "available": "The number of connections available to the PostgreSQL database. This is determined by the maximum number of connections set in the database configuration.",
+            "used": "The number of connections currently being used by clients to interact with the PostgreSQL database."
+        }
+    ]
+}

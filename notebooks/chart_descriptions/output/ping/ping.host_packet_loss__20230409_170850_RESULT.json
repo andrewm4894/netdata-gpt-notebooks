@@ -1,0 +1,9 @@
+{
+    "chart_id": "ping.host_packet_loss",
+    "chart_description": "This chart measures the packet loss percentage of pings to a specific host. High packet loss can indicate network congestion or connectivity issues.",
+    "dimension_descriptions": [
+        {
+            "loss": "The percentage of packets lost in pings to the specified host."
+        }
+    ]
+}

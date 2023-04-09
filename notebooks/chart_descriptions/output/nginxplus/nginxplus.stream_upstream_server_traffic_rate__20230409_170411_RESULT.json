@@ -1,0 +1,10 @@
+{
+    "chart_id": "nginxplus.stream_upstream_server_traffic_rate",
+    "chart_description": "This chart displays the rate of traffic in bytes per second for each server in an upstream group. It includes both received and sent traffic.",
+    "dimension_descriptions": [
+        {
+            "received": "The rate of received traffic in bytes per second for each server in the upstream group.",
+            "sent": "The rate of sent traffic in bytes per second for each server in the upstream group."
+        }
+    ]
+}

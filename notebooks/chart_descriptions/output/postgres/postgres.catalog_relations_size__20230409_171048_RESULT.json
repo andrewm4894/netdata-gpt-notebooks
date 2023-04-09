@@ -1,0 +1,11 @@
+{
+    "chart_id": "postgres.catalog_relations_size",
+    "chart_description": "The `postgres.catalog_relations_size` chart tracks the size of database relations. The chart shows the relation size in bytes for three types of relations: index, ordinary table, and toast table. By tracking the size of the tables and indexes, the chart helps in identifying the potential performance issues that could arise due to the growth of the tables and indexes.",
+    "dimension_descriptions": [
+        {
+            "index": "The size of the indexes used in the database.",
+            "ordinary_table": "The size of ordinary tables used in the database.",
+            "toast_table": "The size of Variable-length columns (such as text, varchar, and bytea) moved out-of-line to a toast table to reduce the size of the row in the main relation."
+        }
+    ]
+}

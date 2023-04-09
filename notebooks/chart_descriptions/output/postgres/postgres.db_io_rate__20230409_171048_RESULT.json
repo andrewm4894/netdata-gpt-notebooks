@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.db_io_rate",
+    "chart_description": "The Database reads chart displays the rate of bytes read from the database. It is a useful metric to monitor the load on the database server, as high read rates can indicate heavy usage or data retrieval from the database.",
+    "dimension_descriptions": [
+        {
+            "disk": "This dimension represents the disk space used by the database. Monitoring this dimension can help you identify disk space constraints, which can impact the performance of the database server.",
+            "memory": "This dimension represents the memory used by the database. Monitoring this dimension can help you identify memory constraints, which can impact the performance of the database server."
+        }
+    ]
+}

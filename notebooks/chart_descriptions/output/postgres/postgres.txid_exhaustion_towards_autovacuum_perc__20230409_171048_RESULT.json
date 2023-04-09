@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.txid_exhaustion_towards_autovacuum_perc",
+    "chart_description": "This chart displays the percentage of transaction identifier (txid) exhaustion towards emergency autovacuum in PostgreSQL. When the number of unvacuumed dead rows reaches a certain threshold, an emergency autovacuum is triggered to prevent transaction ID wraparound. This chart helps track the frequency of emergency autovacuum triggered due to txid exhaustion.",
+    "dimension_descriptions": [
+        {
+            "emergency_autovacuum": "Emergency autovacuum is a feature in PostgreSQL that triggers an autovacuum when the number of unvacuumed dead rows reaches a certain threshold."
+        }
+    ]
+}

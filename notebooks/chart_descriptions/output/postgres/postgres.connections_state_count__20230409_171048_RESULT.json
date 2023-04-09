@@ -1,0 +1,11 @@
+{
+    "chart_id": "postgres.connections_state_count",
+    "chart_description": "This chart displays the number of connections in each state in the Postgres database. It can be used to monitor the usage of database connections and identify potential bottlenecks or performance issues.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of connections that are currently executing queries.",
+            "idle": "The number of connections that are idle and waiting for a query.",
+            "idle_in_transaction": "The number of connections that are idle and in a transaction."
+        }
+    ]
+}

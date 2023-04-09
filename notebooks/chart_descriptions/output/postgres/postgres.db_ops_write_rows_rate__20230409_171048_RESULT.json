@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.db_ops_write_rows_rate",
+    "chart_description": "This chart shows the rate at which rows are being written to a PostgreSQL database. This can be useful for monitoring the performance of write operations on the database.",
+    "dimension_descriptions": [
+        {
+            "inserted": "The number of rows that are being inserted into the database per second.",
+            "updated": "The number of rows that are being updated in the database per second."
+        }
+    ]
+}

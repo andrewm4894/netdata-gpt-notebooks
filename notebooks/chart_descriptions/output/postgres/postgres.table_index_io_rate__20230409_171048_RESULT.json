@@ -1,0 +1,10 @@
+{
+    "chart_id": "postgres.table_index_io_rate",
+    "chart_description": "This chart tracks the input/output rate of table indexes in bytes per second. It helps to identify disk or memory constraints affecting database performance.",
+    "dimension_descriptions": [
+        {
+            "disk": "This dimension represents the disk usage of the table index input/output. Disk performance is often a bottleneck for database performance.",
+            "memory": "This dimension represents the memory usage of the table index input/output. High memory usage can also negatively impact database performance."
+        }
+    ]
+}

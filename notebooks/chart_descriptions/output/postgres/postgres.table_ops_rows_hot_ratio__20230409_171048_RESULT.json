@@ -1,0 +1,9 @@
+{
+    "chart_id": "postgres.table_ops_rows_hot_ratio",
+    "chart_description": "The `postgres.table_ops_rows_hot_ratio` chart measures the ratio of HOT updates for PostgreSQL tables. HOT updates (Heap-Only Tuples) occur when a row is updated in place without triggering an index update. This chart helps track whether the table is performing HOT updates efficiently.",
+    "dimension_descriptions": [
+        {
+            "hot": "This dimension measures the ratio of HOT updates. A higher ratio indicates efficient HOT updates as a larger portion of updates can be done without logging any physical changes to the table's indexes."
+        }
+    ]
+}
