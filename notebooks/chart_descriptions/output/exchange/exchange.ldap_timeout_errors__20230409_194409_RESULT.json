@@ -1,0 +1,5 @@
+{
+    "chart_id": "exchange.ldap_timeout_errors",
+    "chart_description": "This chart displays the rate of LDAP timeout errors in the Exchange environment. These errors can occur when the LDAP server takes too long to respond to a request, causing a timeout. This chart can help identify patterns and trends in timeout errors, allowing for proactive measures to be taken to prevent them.",
+    "dimension_descriptions": []
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "ad.dra_replication_intrasite_compressed_traffic",
+    "chart_description": "This chart shows the amount of compressed traffic between sites for the DRA (Directory Replication Agent) service in bytes per second.",
+    "dimension_descriptions": [
+        {
+            "inbound": "The amount of compressed traffic coming into the site from other sites for the DRA service in bytes per second.",
+            "outbound": "The amount of compressed traffic leaving the site and going to other sites for the DRA service in bytes per second."
+        }
+    ]
+}

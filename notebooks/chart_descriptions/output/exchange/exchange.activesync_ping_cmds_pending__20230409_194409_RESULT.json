@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.activesync_ping_cmds_pending",
+    "chart_description": "This chart displays the number of ping commands that are pending in the queue for ActiveSync on an Exchange server. Ping commands are used to maintain the connection between the client and the server.",
+    "dimension_descriptions": [
+        {
+            "pending": "This dimension indicates the number of ping commands that are still waiting to be processed by the server. A high value for this dimension could indicate that the server is overloaded or having difficulty processing the commands."
+        }
+    ]
+}

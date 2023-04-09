@@ -1,0 +1,12 @@
+{
+    "chart_id": "ad.database_operations",
+    "chart_description": "This chart displays the number of database operations performed per second in Active Directory (AD). It shows the rate of add, delete, modify, and recycle operations on the AD database.",
+    "dimension_descriptions": [
+        {
+            "add": "The number of add operations performed per second on the AD database.",
+            "delete": "The number of delete operations performed per second on the AD database.",
+            "modify": "The number of modify operations performed per second on the AD database.",
+            "recycle": "The number of recycle operations performed per second on the AD database. This dimension represents the number of objects that were deleted and then restored from the AD recycle bin."
+        }
+    ]
+}

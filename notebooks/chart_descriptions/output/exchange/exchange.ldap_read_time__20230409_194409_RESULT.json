@@ -1,0 +1,5 @@
+{
+    "chart_id": "exchange.ldap_read_time",
+    "chart_description": "This chart measures the time taken to send an LDAP read request and receive the response. It helps monitor the performance and efficiency of LDAP queries in the Exchange service.",
+    "dimension_descriptions": []
+}

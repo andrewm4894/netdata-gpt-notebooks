@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_requests",
+    "chart_description": "This chart displays the number of client requests currently being processed by the exchange's RPC system. It shows the current load on the system and can help identify potential bottlenecks or issues with RPC processing.",
+    "dimension_descriptions": [
+        {
+            "processed": "The dimension 'processed' represents the number of client requests that are currently being processed by the RPC system at the time the chart is generated. This dimension can help track the load on the system and identify any spikes or drops in processing activity."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "ad.dra_replication_intersite_compressed_traffic",
+    "chart_description": "This chart shows the compressed traffic of Directory Replication Agent (DRA) between sites. It measures the amount of compressed data transferred between sites, providing insights into the replication bandwidth utilization.",
+    "dimension_descriptions": [
+        {
+            "inbound": "Measures the incoming compressed traffic towards the destination site.",
+            "outbound": "Measures the outgoing compressed traffic towards the source site."
+        }
+    ]
+}

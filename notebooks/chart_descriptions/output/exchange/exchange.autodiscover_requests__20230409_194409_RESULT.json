@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.autodiscover_requests",
+    "chart_description": "This chart shows the rate at which Autodiscover service requests are processed by the Exchange server over time. Autodiscover is a service that allows Outlook clients to automatically discover settings for connecting to the Exchange server. This chart can be used to monitor the performance of the Autodiscover service and identify any potential issues.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of Autodiscover service requests processed per second."
+        }
+    ]
+}

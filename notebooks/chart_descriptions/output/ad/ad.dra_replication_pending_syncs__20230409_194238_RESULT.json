@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_pending_syncs",
+    "chart_description": "This chart shows the number of pending synchronization tasks in DRA (Directory Replication Agent), which is responsible for replicating directory data between domain controllers. Higher values on this chart may indicate replication delays or connectivity issues between domain controllers.",
+    "dimension_descriptions": [
+        {
+            "pending": "The number of pending synchronization tasks in DRA."
+        }
+    ]
+}

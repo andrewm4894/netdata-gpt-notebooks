@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.ds_threads",
+    "chart_description": "The Directory Service threads chart displays the number of threads used by Active Directory Domain Services. This chart is useful for monitoring the health of the directory service and detecting potential issues such as inefficient resource utilization.",
+    "dimension_descriptions": [
+        {
+            "in_use": "The number of threads currently in use by the directory service."
+        }
+    ]
+}

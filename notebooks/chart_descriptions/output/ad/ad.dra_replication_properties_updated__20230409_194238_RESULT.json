@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_properties_updated",
+    "chart_description": "This chart shows the rate at which DRA replication properties are updated for inbound connections.",
+    "dimension_descriptions": [
+        {
+            "inbound": "This is the dimension that specifies the inbound connection being monitored for DRA replication properties updates. The chart provides a view of the rate at which properties are updated for inbound connections."
+        }
+    ]
+}

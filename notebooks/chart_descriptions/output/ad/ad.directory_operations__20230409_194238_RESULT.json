@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.directory_operations",
+    "chart_description": "This chart shows the rate of active directory (AD) directory operations per second.",
+    "dimension_descriptions": [
+        {
+            "search": "This dimension shows the rate of searches being performed on the AD directory."
+        }
+    ]
+}

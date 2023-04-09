@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_sync_requests",
+    "chart_description": "This chart displays the rate of synchronization requests for Active Directory (AD) Domain Replication Agent (DRA). It indicates how often requests are sent to synchronize changes between domain controllers.",
+    "dimension_descriptions": [
+        {
+            "request": "A dimension that represents the type of synchronization request made by the AD DRA tool. It could be any of the following: update request, add request, modify request, delete request or search request."
+        }
+    ]
+}

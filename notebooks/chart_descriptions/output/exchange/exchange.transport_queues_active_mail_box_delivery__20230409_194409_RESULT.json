@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_active_mail_box_delivery",
+    "chart_description": "This chart displays the length of the active mailbox delivery queue in messages. This metric is relevant for Exchange servers where messages are delivered to user mailboxes.",
+    "dimension_descriptions": [
+        {
+            "high": "The number of messages in the queue that have a high priority.",
+            "low": "The number of messages in the queue that have a low priority.",
+            "none": "The number of messages in the queue that have no priority.",
+            "normal": "The number of messages in the queue that have a normal priority."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.owa_current_unique_users",
+    "chart_description": "This chart displays the number of unique users that are currently logged on to Outlook Web App.",
+    "dimension_descriptions": [
+        {
+            "logged-in": "This dimension represents whether the user is currently logged in or not."
+        }
+    ]
+}

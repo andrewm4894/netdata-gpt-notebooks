@@ -1,0 +1,10 @@
+{
+    "chart_id": "ad.atq_average_request_latency",
+    "chart_description": "The 'Average request processing time' chart measures the average duration, in seconds, taken to process a request by the server's AtQueue daemon/worker.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "This dimension represents requests made via IPv4 address.",
+            "ipv6": "This dimension represents requests made via IPv6 address."
+        }
+    ]
+}

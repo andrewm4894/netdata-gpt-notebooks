@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_properties_filtered",
+    "chart_description": "This chart displays the filtered DRA (Directory Replication Agent) replication properties in properties/s (properties per second). The chart is useful for monitoring the replication performance of Active Directory and identifying any replication issues.",
+    "dimension_descriptions": [
+        {
+            "inbound": "The 'inbound' dimension represents the number of properties replicated by the DRA from a source domain controller to this domain controller. It can be used to monitor and troubleshoot replication issues related to inbound replication traffic."
+        }
+    ]
+}

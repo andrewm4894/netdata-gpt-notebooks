@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.name_cache_lookups",
+    "chart_description": "The `Name cache lookups` chart represents the number of times the server looked up a name in the security principal name cache. The security principal name cache is used to optimize name resolution of Active Directory account names, group names, and computer names in the domain. It helps in reducing the time taken for authentication and authorization processes. The values on this chart can indicate whether there are too many cache misses, which can cause an increase in network traffic and authentication latency, or too many hits, which can cause the cache to grow too large and negatively impact memory usage.",
+    "dimension_descriptions": [
+        {
+            "lookups": "The number of looked up names in the cache per second."
+        }
+    ]
+}

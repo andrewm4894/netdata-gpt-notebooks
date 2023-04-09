@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_internal_largest_delivery",
+    "chart_description": "This chart tracks the length of the largest delivery queue for messages in the internal transport queues of the RabbitMQ exchange. It helps to monitor the message processing capability of the exchange.",
+    "dimension_descriptions": [
+        {
+            "high": "The highest length of the delivery queue recorded in the high priority queue.",
+            "low": "The lowest length of the delivery queue recorded in the low priority queue.",
+            "none": "The number of messages in the delivery queue with no priority assigned.",
+            "normal": "The number of messages in the delivery queue with normal priority assigned."
+        }
+    ]
+}

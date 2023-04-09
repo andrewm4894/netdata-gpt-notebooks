@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.name_cache_hits",
+    "chart_description": "The `ad.name_cache_hits` chart shows the number of successful hits to the name cache per second. This can be a useful metric for identifying the efficiency of the name cache in resolving domain names.",
+    "dimension_descriptions": [
+        {
+            "hits": "The `hits` dimension represents the number of successful hits to the name cache per second."
+        }
+    ]
+}

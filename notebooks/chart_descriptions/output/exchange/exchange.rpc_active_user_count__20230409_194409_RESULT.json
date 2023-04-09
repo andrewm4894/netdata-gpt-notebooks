@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_active_user_count",
+    "chart_description": "This chart shows the number of unique users who have interacted with the RPC (Remote Procedure Call) layer within the last 2 minutes on the exchange. This can be useful for monitoring the usage and load on the RPC layer, which is responsible for allowing clients to communicate with the exchange server.",
+    "dimension_descriptions": [
+        {
+            "active": "This dimension tracks whether the user has actively interacted with the RPC layer within the last 2 minutes. If the user has, they are counted as active, otherwise they are not."
+        }
+    ]
+}

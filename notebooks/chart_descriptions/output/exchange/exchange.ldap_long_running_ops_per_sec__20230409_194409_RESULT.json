@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.ldap_long_running_ops_per_sec",
+    "chart_description": "This chart shows the number of Long Running LDAP operations per second for an Exchange server.",
+    "dimension_descriptions": [
+        {
+            "N/A": "This chart has no dimensions."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.activesync_sync_cmds",
+    "chart_description": "The `exchange.activesync_sync_cmds` chart provides information on the number of ActiveSync synchronization commands processed per second.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of ActiveSync synchronization commands processed per second."
+        }
+    ]
+}

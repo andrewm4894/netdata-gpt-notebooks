@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_sync_objects_remaining",
+    "chart_description": "This chart shows the number of objects remaining to be synchronized during a full replication sync in DRA (Directory Replication Agent) for the specified inbound dimension. The replication process in DRA involves copying Active Directory objects between domain controllers and the inbound dimension represents the target domain controller for replication.",
+    "dimension_descriptions": [
+        {
+            "inbound": "Specifies the domain controller that is the target of replication. This dimension indicates the remaining number of objects pending synchronization during a full replication sync in DRA."
+        }
+    ]
+}

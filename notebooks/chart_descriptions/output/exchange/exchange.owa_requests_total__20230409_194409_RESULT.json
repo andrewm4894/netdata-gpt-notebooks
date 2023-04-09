@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.owa_requests_total",
+    "chart_description": "This chart displays the total number of requests handled by Outlook Web App (OWA) per second.",
+    "dimension_descriptions": [
+        {
+            "handled": "Indicates whether the request was handled successfully or not. When the dimension value is 1, it indicates that the request was handled successfully."
+        }
+    ]
+}

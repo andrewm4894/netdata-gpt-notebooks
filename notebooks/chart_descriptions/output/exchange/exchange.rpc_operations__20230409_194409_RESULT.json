@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_operations",
+    "chart_description": "This chart displays the rate of Remote Procedure Call (RPC) operations per second on the exchange platform.",
+    "dimension_descriptions": [
+        {
+            "operations": "The type of RPC operation being measured (e.g., request, response, error)."
+        }
+    ]
+}

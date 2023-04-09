@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_connection_count",
+    "chart_description": "This chart displays the number of client connections to the RPC service for the exchange.",
+    "dimension_descriptions": [
+        {
+            "connections": "This dimension represents the number of active client connections to the RPC service."
+        }
+    ]
+}

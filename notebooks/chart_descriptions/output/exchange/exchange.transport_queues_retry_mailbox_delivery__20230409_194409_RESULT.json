@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_retry_mailbox_delivery",
+    "chart_description": "This chart tracks the length of the Internal Active Remote Delivery Queue in terms of the number of messages that have been tried to be delivered but remained in the queue due to unsuccessful delivery attempts.",
+    "dimension_descriptions": [
+        {
+            "high": "The number of messages in the queue that require high priority delivery and have not been delivered yet.",
+            "low": "The number of messages in the queue that require low priority delivery and have not been delivered yet.",
+            "none": "The number of messages in the queue that do not have any priority set and have not been delivered yet.",
+            "normal": "The number of messages in the queue that require normal priority delivery and have not been delivered yet."
+        }
+    ]
+}

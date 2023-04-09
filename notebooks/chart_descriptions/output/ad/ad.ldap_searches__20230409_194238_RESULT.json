@@ -1,0 +1,7 @@
+{
+    "chart_id": "ad.ldap_searches",
+    "chart_description": "The `ad.ldap_searches` chart measures the rate at which LDAP client search operations are performed.",
+    "dimension_descriptions": {
+        "searches": "This dimension measures the number of LDAP client search operations per second."
+    }
+}

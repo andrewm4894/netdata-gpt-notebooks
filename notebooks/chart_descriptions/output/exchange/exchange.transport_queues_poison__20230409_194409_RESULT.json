@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_poison",
+    "chart_description": "This chart shows the length of the poison queue, which contains messages that caused an error during processing.",
+    "dimension_descriptions": [
+        {
+            "high": "The number of messages in the poison queue is higher than the configured value of high watermark.",
+            "low": "The number of messages in the poison queue is lower than the configured value of low watermark.",
+            "none": "There are no messages in the poison queue.",
+            "normal": "The number of messages in the poison queue is between the configured values of low and high watermarks."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_internal_active_remote_delivery",
+    "chart_description": "This chart shows the length of the internal active remote delivery queue of the Exchange transport. The queue length is measured in messages.",
+    "dimension_descriptions": [
+        {
+            "high": "The number of messages in the queue that are in the high priority state.",
+            "low": "The number of messages in the queue that are in the low priority state.",
+            "none": "The number of messages in the queue that are not in any priority state.",
+            "normal": "The number of messages in the queue that are in the normal priority state."
+        }
+    ]
+}

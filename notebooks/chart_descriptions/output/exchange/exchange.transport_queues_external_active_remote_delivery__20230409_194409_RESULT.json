@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_external_active_remote_delivery",
+    "chart_description": "This chart displays the length of the external active remote delivery queue in the messaging system. This queue is responsible for holding messages that are being delivered to remote hosts outside of the local datacenter.",
+    "dimension_descriptions": [
+        {
+            "high": "The number of messages in the queue that have a high priority assigned to them.",
+            "low": "The number of messages in the queue that have a low priority assigned to them.",
+            "none": "The number of messages in the queue that have no priority assigned to them.",
+            "normal": "The number of messages in the queue that have a normal priority assigned to them."
+        }
+    ]
+}

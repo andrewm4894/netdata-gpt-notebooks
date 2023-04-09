@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_avg_latency",
+    "chart_description": "The `exchange.rpc_avg_latency` chart measures the average amount of time taken by RPC (Remote Procedure Call) requests to complete in seconds. This metric is important for monitoring the health and responsiveness of the RPC service, and can help identify potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "latency": "The `latency` dimension represents the time taken to complete an RPC request, in seconds. This dimension can be useful for identifying performance bottlenecks and latency issues within the RPC service."
+        }
+    ]
+}

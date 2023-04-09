@@ -1,0 +1,5 @@
+{
+    "chart_id": "exchange.ldap_write_time",
+    "chart_description": "The `exchange.ldap_write_time` chart measures the time taken to send an LDAP search request and receive a response. A higher value may indicate a bottleneck in the LDAP service, network latency, or a large number of requests being processed.",
+    "dimension_descriptions": []
+}

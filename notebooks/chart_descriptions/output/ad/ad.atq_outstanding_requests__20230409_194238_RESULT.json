@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.atq_outstanding_requests",
+    "chart_description": "This chart displays the number of outstanding requests in the queue. Outstanding requests are those that have been sent to the server, but the server has not yet responded back.",
+    "dimension_descriptions": [
+        {
+            "outstanding": "Number of outstanding requests in the queue at a given time."
+        }
+    ]
+}

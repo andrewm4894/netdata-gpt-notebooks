@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.activesync_requests",
+    "chart_description": "This chart shows the rate of HTTP requests received from ASP.NET in the Exchange environment. It can be used to monitor the overall health and performance of ActiveSync requests.",
+    "dimension_descriptions": [
+        {
+            "received": "The number of HTTP requests received per second by the ASP.NET on the Exchange server."
+        }
+    ]
+}

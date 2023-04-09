@@ -1,0 +1,9 @@
+{
+    "chart_id": "exchange.rpc_user_count",
+    "chart_description": "This chart shows the number of users accessing the Remote Procedure Call (RPC) service for the exchange server. RPC is a protocol used by Microsoft Windows clients and servers to allow remote access to network services. This chart helps to monitor the usage of the service over time and identify any trends or anomalies.",
+    "dimension_descriptions": [
+        {
+            "users": "This dimension represents the number of users accessing the RPC service. It shows how many users are actively using the service at any given time, and can help to identify any spikes or drops in usage that may need to be investigated further."
+        }
+    ]
+}

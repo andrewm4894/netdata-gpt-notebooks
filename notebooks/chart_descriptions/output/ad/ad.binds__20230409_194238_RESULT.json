@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.binds",
+    "chart_description": "The `ad.binds` chart displays the number of successful binds per second for Active Directory. This information can help identify if there are any authentication issues or if the system is experiencing high levels of traffic.",
+    "dimension_descriptions": [
+        {
+            "binds": "The `binds` dimension refers to the number of successful authentication attempts made each second. This dimension is helpful for troubleshooting authentication issues and identifying any spikes in traffic that may affect system performance."
+        }
+    ]
+}

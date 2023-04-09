@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.dra_replication_objects_filtered",
+    "chart_description": "This chart shows the filtered DRA replication objects per second received by the server for a specific dimension, which is inbound. DRA replication is a method of replicating directory data across multiple domain controllers in a Microsoft Active Directory environment.",
+    "dimension_descriptions": [
+        {
+            "inbound": "The inbound dimension represents the number of replication objects per second received by the server from another domain controller. Inbound replication is used to synchronize data from one domain controller to another."
+        }
+    ]
+}

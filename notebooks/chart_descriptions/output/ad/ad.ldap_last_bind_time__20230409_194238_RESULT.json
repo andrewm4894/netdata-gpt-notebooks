@@ -1,0 +1,9 @@
+{
+    "chart_id": "ad.ldap_last_bind_time",
+    "chart_description": "This chart displays the last successful bind time for LDAP authentication for the Active Directory (AD) system.",
+    "dimension_descriptions": [
+        {
+            "last_bind": "The time taken from the last successful bind for LDAP authentication for the AD system."
+        }
+    ]
+}

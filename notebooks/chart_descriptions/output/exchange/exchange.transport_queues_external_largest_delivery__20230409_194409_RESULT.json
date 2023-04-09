@@ -1,0 +1,12 @@
+{
+    "chart_id": "exchange.transport_queues_external_largest_delivery",
+    "chart_description": "This chart displays the length of the largest delivery queue for messages being sent to external systems. It provides insights into the performance and efficiency of the system's external message delivery process.",
+    "dimension_descriptions": [
+        {
+            "high": "The queue length when it is above the warning threshold.",
+            "low": "The queue length when it is below the warning threshold.",
+            "none": "The queue length when there are no messages in the queue.",
+            "normal": "The queue length when it is within the normal range."
+        }
+    ]
+}
