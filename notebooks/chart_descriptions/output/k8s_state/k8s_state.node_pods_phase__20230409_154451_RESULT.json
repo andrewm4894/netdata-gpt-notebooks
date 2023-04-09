@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_pods_phase",
+    "chart_description": "The Pods phase chart displays the number of Pods that are either running or have succeeded on a Kubernetes node.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of Pods that are running smoothly without any errors.",
+            "succeeded": "The number of Pods that have completed successfully and exited."
+        }
+    ]
+}

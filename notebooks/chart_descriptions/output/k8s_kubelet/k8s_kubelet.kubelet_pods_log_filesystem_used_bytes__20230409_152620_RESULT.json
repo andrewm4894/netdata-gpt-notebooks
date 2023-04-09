@@ -1,0 +1,40 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_pods_log_filesystem_used_bytes",
+    "chart_description": "This chart shows the amount of file system space used by pod logs in bytes. It can help identify pods that are generating excessive amounts of log data.",
+    "dimension_descriptions": [
+        {
+            "apache-0": "The amount of space used by the Apache pod logs.",
+            "apache-bench-7f8545dcbf-5hv6z": "The amount of space used by the Apache Bench pod logs.",
+            "aws-load-balancer-controller-7d864696bc-qqphg": "The amount of space used by the AWS Load Balancer Controller pod logs.",
+            "aws-node-crc78": "The amount of space used by the AWS Node CRC78 pod logs.",
+            "aws-node-mlpld": "The amount of space used by the AWS Node MLPLD pod logs.",
+            "aws-node-nn44j": "The amount of space used by the AWS Node NN44J pod logs.",
+            "cluster-autoscaler-aws-cluster-autoscaler-59698dd548-jqhff": "The amount of space used by the Cluster Autoscaler AWS Cluster Autoscaler pod logs.",
+            "coredns-66cb55d4f4-lt72k": "The amount of space used by the CoreDNS pod logs.",
+            "coredns-66cb55d4f4-t768n": "The amount of space used by the CoreDNS pod logs.",
+            "ebs-csi-controller-db78cfff4-4q26w": "The amount of space used by the EBS CSI Controller pod logs.",
+            "ebs-csi-controller-db78cfff4-bxpcq": "The amount of space used by the EBS CSI Controller pod logs.",
+            "ebs-csi-node-fd4bs": "The amount of space used by the EBS CSI Node pod logs.",
+            "ebs-csi-node-jcn88": "The amount of space used by the EBS CSI Node pod logs.",
+            "ebs-csi-node-xwb7k": "The amount of space used by the EBS CSI Node pod logs.",
+            "kube-proxy-8dtkq": "The amount of space used by the kube-proxy pod logs.",
+            "kube-proxy-p6cg8": "The amount of space used by the kube-proxy pod logs.",
+            "kube-proxy-wl95d": "The amount of space used by the kube-proxy pod logs.",
+            "kubed-7b4c5fbd67-t4p7d": "The amount of space used by the kubed pod logs.",
+            "metrics-server-7f55478956-mt2nc": "The amount of space used by the Metrics Server pod logs.",
+            "netdata-child-24qp5": "The amount of space used by the Netdata Child pod logs.",
+            "netdata-child-7kr65": "The amount of space used by the Netdata Child pod logs.",
+            "netdata-child-k2q7f": "The amount of space used by the Netdata Child pod logs.",
+            "netdata-collectors-0": "The amount of space used by the Netdata Collectors pod logs.",
+            "netdata-k8s-state-8858f6cc5-tj29s": "The amount of space used by the Netdata K8s State pod logs.",
+            "netdata-parent-5d78d89d46-5qwk5": "The amount of space used by the Netdata Parent pod logs.",
+            "nginx-0": "The amount of space used by the NGINX pod logs.",
+            "nginx-bench-5dd6cfd8ff-rqn6m": "The amount of space used by the NGINX Bench pod logs.",
+            "pgbench-65c6ff5ff7-ctbl9": "The amount of space used by the pgbench pod logs.",
+            "postgresql-0": "The amount of space used by the PostgreSQL pod logs.",
+            "redis-master-0": "The amount of space used by the Redis Master pod logs.",
+            "redisbench-7d85b5fd7c-gh69r": "The amount of space used by the RedisBench pod logs.",
+            "velero-6d7dbc4647-6fr28": "The amount of space used by the Velero pod logs."
+        }
+    ]
+}

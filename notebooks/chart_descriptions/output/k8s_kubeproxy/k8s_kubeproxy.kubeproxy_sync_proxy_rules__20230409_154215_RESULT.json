@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubeproxy.kubeproxy_sync_proxy_rules",
+    "chart_description": "The Sync Proxy Rules chart shows the rate at which kube-proxy rules are synchronized across the Kubernetes cluster. This chart can help identify synchronization issues with kube-proxy and monitor the health of the Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "sync proxy rules": "The number of kube-proxy synchronization events per second."
+        }
+    ]
+}

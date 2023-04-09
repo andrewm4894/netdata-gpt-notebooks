@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_cpu_requests_used",
+    "chart_description": "This chart shows the amount of CPU resources requested versus the amount of CPU resources actually used by pods in a Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "requests": "The CPU resources requested by a pod in millicpu units."
+        }
+    ]
+}

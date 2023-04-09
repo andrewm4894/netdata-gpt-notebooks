@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_container_readiness_state",
+    "chart_description": "This chart displays the readiness state of containers within a pod in a Kubernetes cluster. The readiness state determines whether a container is ready to accept network traffic.",
+    "dimension_descriptions": [
+        {
+            "ready": "This dimension indicates whether a container is ready to accept network traffic. A value of 1 indicates that the container is ready, while a value of 0 indicates that it is not."
+        }
+    ]
+}

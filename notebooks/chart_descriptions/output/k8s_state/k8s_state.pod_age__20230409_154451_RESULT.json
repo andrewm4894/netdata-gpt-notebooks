@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_age",
+    "chart_description": "The 'Age' chart tracks the age in seconds of Kubernetes pods running on the infrastructure.",
+    "dimension_descriptions": [
+        {
+            "age": "The time elapsed in seconds since the pod was started."
+        }
+    ]
+}

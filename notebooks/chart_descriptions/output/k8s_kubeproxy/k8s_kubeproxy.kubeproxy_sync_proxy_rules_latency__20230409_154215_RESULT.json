@@ -1,0 +1,24 @@
+{
+    "chart_id": "k8s_kubeproxy.kubeproxy_sync_proxy_rules_latency",
+    "chart_description": "This chart shows the percentage latency of sync proxy rules in Kubernetes Kubeproxy. Sync Proxy Rules refer to the synchronization of the proxy rules across different nodes in the cluster.",
+    "dimension_descriptions": [
+        {
+            "+Inf": "The maximum observed latency",
+            "0.001 sec": "Latency between 0ms and 1ms",
+            "0.002 sec": "Latency between 1ms and 2ms",
+            "0.004 sec": "Latency between 2ms and 4ms",
+            "0.008 sec": "Latency between 4ms and 8ms",
+            "0.016 sec": "Latency between 8ms and 16ms",
+            "0.032 sec": "Latency between 16ms and 32ms",
+            "0.064 sec": "Latency between 32ms and 64ms",
+            "0.128 sec": "Latency between 64ms and 128ms",
+            "0.256 sec": "Latency between 128ms and 256ms",
+            "0.512 sec": "Latency between 256ms and 512ms",
+            "1.024 sec": "Latency between 512ms and 1.024s",
+            "16.384 sec": "Latency between 1.024s and 16.384s",
+            "2.048 sec": "Latency between 16.384s and 2.048s",
+            "4.096 sec": "Latency between 2.048s and 4.096s",
+            "8.192 sec": "Latency between 4.096s and 8.192s"
+        }
+    ]
+}

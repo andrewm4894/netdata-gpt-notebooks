@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.apiserver_audit_requests_rejected",
+    "chart_description": "This chart displays the rate of API server audit requests that were rejected by the kubelet.",
+    "dimension_descriptions": [
+        {
+            "rejected": "The number of rejected API server audit requests per second. This can indicate potential security issues or misconfigurations in the Kubernetes cluster."
+        }
+    ]
+}

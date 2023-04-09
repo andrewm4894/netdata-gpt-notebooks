@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.pod_containers_state",
+    "chart_description": "The Containers state chart provides a stacked view of the number of running and terminated containers in each pod. This helps SREs and sysadmins to quickly identify issues with the containers and take necessary actions.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of containers that are currently running in each pod.",
+            "terminated": "The number of containers that have exited or been terminated in each pod."
+        }
+    ]
+}

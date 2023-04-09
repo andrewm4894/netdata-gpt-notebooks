@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubeproxy.rest_client_requests_by_method",
+    "chart_description": "This chart tracks the rate of HTTP requests made to the Kubernetes API server by Kubeproxy rest client, broken down by HTTP method (GET, POST).",
+    "dimension_descriptions": [
+        {
+            "GET": "The rate at which HTTP GET requests are made to the Kubernetes API server by Kubeproxy rest client.",
+            "POST": "The rate at which HTTP POST requests are made to the Kubernetes API server by Kubeproxy rest client."
+        }
+    ]
+}

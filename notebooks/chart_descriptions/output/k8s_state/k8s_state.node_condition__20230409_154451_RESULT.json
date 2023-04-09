@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_condition",
+    "chart_description": "This chart shows the status of different node conditions in a Kubernetes cluster. The Ready dimension indicates whether a node is ready to handle workloads.",
+    "dimension_descriptions": [
+        {
+            "Ready": "Indicates whether a node is ready to handle workloads. A value of 1 indicates that the node is ready, while a value of 0 indicates that the node is not ready."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "k8s_kubeproxy.http_request_duration",
+    "chart_description": "This chart displays the duration of HTTP requests made within the Kubernetes cluster via the kube-proxy component. It helps to monitor the response time of the cluster's HTTP traffic.",
+    "dimension_descriptions": [
+        {
+            "0.5": "The 50th percentile of HTTP request duration, which represents the median response time of HTTP requests.",
+            "0.9": "The 90th percentile of HTTP request duration, which represents response times that are slower than the majority of requests.",
+            "0.99": "The 99th percentile of HTTP request duration, which represents the slowest response times in the cluster. Monitoring this dimension can help identify outliers and issues with specific applications or pods."
+        }
+    ]
+}

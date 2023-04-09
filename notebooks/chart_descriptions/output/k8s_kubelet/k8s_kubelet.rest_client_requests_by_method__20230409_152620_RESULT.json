@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.rest_client_requests_by_method",
+    "chart_description": "This chart shows the rate of HTTP requests made by different methods (such as POST and PUT) in the Kubernetes kubelet's REST client.",
+    "dimension_descriptions": [
+        {
+            "POST": "The rate of HTTP POST requests made by the Kubernetes kubelet's REST client.",
+            "PUT": "TThe rate of HTTP PUT requests made by the Kubernetes kubelet's REST client."
+        }
+    ]
+}

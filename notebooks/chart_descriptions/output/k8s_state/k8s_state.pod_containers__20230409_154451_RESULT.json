@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.pod_containers",
+    "chart_description": "This chart displays the number of containers and init containers in a Kubernetes pod over time. It helps to monitor the containerization of pods and how many containers are running within a pod over time.",
+    "dimension_descriptions": [
+        {
+            "containers": "The number of running containers within the pod.",
+            "init_containers": "The number of initiated containers within the pod. These containers are executed to completion before the main container(s) are initiated."
+        }
+    ]
+}

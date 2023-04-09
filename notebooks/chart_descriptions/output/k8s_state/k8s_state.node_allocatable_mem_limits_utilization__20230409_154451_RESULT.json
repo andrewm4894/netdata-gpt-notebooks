@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_mem_limits_utilization",
+    "chart_description": "This chart shows the utilization of memory limits on a node in percent. The memory limits specify the maximum amount of memory that a Kubernetes node can allocate for containers.",
+    "dimension_descriptions": [
+        {
+            "limits": "The memory limits of a node i.e., the maximum amount of memory that a Kubernetes node can allocate for containers."
+        }
+    ]
+}

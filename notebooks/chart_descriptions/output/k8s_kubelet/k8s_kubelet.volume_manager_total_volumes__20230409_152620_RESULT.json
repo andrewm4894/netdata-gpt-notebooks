@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.volume_manager_total_volumes",
+    "chart_description": "This chart shows the total states (actual and desired) of the world for the Volume Manager plugin kubernetes.io/projected used in Kubernetes kubelet.",
+    "dimension_descriptions": [
+        {
+            "actual": "The actual state of the volume manager.",
+            "desired": "The desired state of the volume manager."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_runtime_operations_errors",
+    "chart_description": "This chart displays the rate of runtime operation errors for the kubelet process in Kubernetes clusters, broken down by type of operation. The dimensions represent the different types of runtime operations that can generate errors.",
+    "dimension_descriptions": [
+        {
+            "container_status": "The rate of errors generated when checking the status of a container.",
+            "exec_sync": "The rate of errors generated when synchronizing an exec process running in a container with the kubelet process.",
+            "remove_container": "The rate of errors generated when removing a container.",
+            "stop_container": "The rate of errors generated when stopping a container."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_pods_readiness_state",
+    "chart_description": "The 'Pods readiness state' chart displays the current readiness status of all pods running on a Kubernetes node in your cluster.",
+    "dimension_descriptions": [
+        {
+            "ready": "The number of pods that are ready to serve requests.",
+            "unready": "The number of pods that are not ready to serve requests due to various reasons such as container readiness, liveness probe failures, etc."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_docker_operations",
+    "chart_description": "This chart tracks the rate of different Docker operations performed by the kubelet agent in a Kubernetes cluster. It is useful to get insights into the Docker runtime operations and their frequency in a cluster.",
+    "dimension_descriptions": [
+        {
+            "inspect_image": "The rate at which the kubelet inspects Docker images for container creation or updates.",
+            "list_containers": "The rate at which the kubelet lists Docker containers to check their status.",
+            "list_images": "The rate at which the kubelet lists Docker images.",
+            "version": "The rate at which the kubelet checks the Docker version."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_cpu_limits_used",
+    "chart_description": "This chart displays the amount of CPU limits that are currently being used by nodes in the Kubernetes cluster. It provides visibility into how much of the allocated CPU limits are being used.",
+    "dimension_descriptions": [
+        {
+            "limits": "The amount of CPU limits being used by nodes in the Kubernetes cluster, measured in millicpu."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_containers",
+    "chart_description": "This chart shows the number of containers and init containers currently running on each node in the Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "containers": "The number of regular containers currently running on the node.",
+            "init_containers": "The number of init containers currently running on the node. These are containers that are designed to run and complete before the main application containers start."
+        }
+    ]
+}

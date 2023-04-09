@@ -1,0 +1,11 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_pleg_relist_latency_microseconds",
+    "chart_description": "The PLEG Relisting Latency Summary chart provides information on the time it takes to complete PLEG (Pod Lifecycle Event Generator) relisting operations. This chart is useful in identifying potential issues in Kubernetes worker nodes that may cause pod crashes or system instabilities.",
+    "dimension_descriptions": [
+        {
+            "0.5": "The 50th percentile (or median) of PLEG relisting latency values.",
+            "0.9": "The 90th percentile of PLEG relisting latency values.",
+            "0.99": "The 99th percentile of PLEG relisting latency values."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_pods_utilization",
+    "chart_description": "This chart shows the percentage of pods allocated on a node compared to the total amount of pods the node can allocate.",
+    "dimension_descriptions": [
+        {
+            "allocated": "The amount of pods that are currently allocated on the node."
+        }
+    ]
+}

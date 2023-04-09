@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_node_config_error",
+    "chart_description": "The `k8s_kubelet.kubelet_node_config_error` chart measures if a node is experiencing any configuration error related to kubelet, which is the primary node agent that runs on each node in a Kubernetes cluster. The chart can be used to proactively monitor and identify configuration errors that can impact the overall performance and stability of the cluster.",
+    "dimension_descriptions": [
+        {
+            "experiencing_error": "A boolean dimension that indicates whether the node is experiencing a configuration error related to kubelet. A value of 1 indicates that the node is experiencing the error, while a value of 0 indicates that it is not."
+        }
+    ]
+}

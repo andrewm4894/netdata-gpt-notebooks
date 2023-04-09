@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_token_requests",
+    "chart_description": "This chart displays the rate at which the Kubelet requests a token from an alternate token source. The alternate token source is used when the Kubelet does not have a valid token for accessing the API server. This chart helps in monitoring the token requests from the Kubelet and identifying any issues with the authentication process.",
+    "dimension_descriptions": [
+        {
+            "failed": "The number of token requests from the Kubelet that failed due to authentication issues.",
+            "total": "The total number of token requests made by the Kubelet to the alternate token source."
+        }
+    ]
+}

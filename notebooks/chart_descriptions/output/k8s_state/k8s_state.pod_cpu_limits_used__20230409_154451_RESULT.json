@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_cpu_limits_used",
+    "chart_description": "This chart shows the amount of CPU resources used by Kubernetes pods compared to the specified CPU limits. It helps to identify pods that are reaching or exceeding the allocated CPU limits, which can affect the overall cluster performance and stability.",
+    "dimension_descriptions": [
+        {
+            "limits": "The CPU limit set for the pod, which determines the maximum amount of CPU resources that the pod can use. This dimension is particularly useful to identify pods that are exceeding their CPU limits and need to be optimized or scaled."
+        }
+    ]
+}

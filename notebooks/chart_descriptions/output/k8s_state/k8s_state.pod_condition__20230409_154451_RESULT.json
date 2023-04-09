@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_state.pod_condition",
+    "chart_description": "This chart provides an overview of the condition of Kubernetes pods in terms of their readiness, initialization, scheduling, and container status.",
+    "dimension_descriptions": [
+        {
+            "containers_ready": "Displays the number of containers that have passed their readiness probe.",
+            "pod_initialized": "Displays whether a pod has been initialized successfully.",
+            "pod_ready": "Displays whether the pod is ready to start accepting traffic.",
+            "pod_scheduled": "Displays whether the pod has been scheduled to run on a Kubernetes node."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_container_terminated_state_reason",
+    "chart_description": "This chart shows the reason for a container in a Kubernetes pod being terminated. It helps identify any issues with containers that may cause unexpected shutdowns.",
+    "dimension_descriptions": [
+        {
+            "Completed": "This dimension indicates whether the container was terminated successfully or terminated with an error."
+        }
+    ]
+}

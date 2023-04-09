@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_kubeproxy.rest_client_requests_by_code",
+    "chart_description": "This chart shows the number of HTTP requests by status code for the Kubernetes kube-proxy component, which facilitates communication between services within a cluster. The chart is stacked and shows two dimensions - the 200 status code and the 201 status code, both of which represent successful requests.",
+    "dimension_descriptions": [
+        {
+            "200": "The number of HTTP requests successfully responded with a 200 status code per second."
+        },
+        {
+            "201": "The number of HTTP requests successfully responded with a 201 status code per second."
+        }
+    ]
+}

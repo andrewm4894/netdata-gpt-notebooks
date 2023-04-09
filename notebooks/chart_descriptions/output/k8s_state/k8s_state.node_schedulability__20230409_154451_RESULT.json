@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_schedulability",
+    "chart_description": "The Schedulability chart shows the status of the nodes in the Kubernetes cluster, indicating whether they are currently schedulable or not. A node is considered unschedulable if it does not meet the resource requirements of the running pods or if it is undergoing maintenance.",
+    "dimension_descriptions": [
+        {
+            "schedulable": "This dimension indicates whether the node is currently schedulable or not. A value of 1 represents that the node is schedulable, whereas a value of 0 indicates that it is currently unschedulable."
+        }
+    ]
+}

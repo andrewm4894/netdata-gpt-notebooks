@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_pods_readiness",
+    "chart_description": "The Pods readiness chart represents the percentage of pods that are currently in a Ready state on a Kubernetes node. A pod is considered ready when all its containers are up and running and have passed their readiness probes.",
+    "dimension_descriptions": [
+        {
+            "ready": "The percentage of pods that have passed their readiness probes and are ready to serve traffic."
+        }
+    ]
+}

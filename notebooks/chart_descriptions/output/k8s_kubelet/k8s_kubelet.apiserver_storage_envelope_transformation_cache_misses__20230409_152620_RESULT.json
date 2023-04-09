@@ -1,0 +1,22 @@
+{
+    "chart_id": "k8s_kubelet.apiserver_storage_data_key_generation_latencies_percent",
+    "chart_description": "This chart shows the percentage distribution of latencies for Data Encryption Key(DEK) Generation Operations in Kubernetes API Server. These latencies indicate the time taken by the API server to generate a new DEK for storing secrets in etcd datastore. Higher percentage values in a specific latency range may indicate potential bottlenecks or performance issues in API server - etcd communication or etcd storage.",
+    "dimension_descriptions": [
+        {
+            "+Inf": "The percentage of operations that took longer than the maximum measured latency.",
+            "10 \u00b5s": "The percentage of operations that took less than 10 microseconds.",
+            "20 \u00b5s": "The percentage of operations that took between 10 and 20 microseconds.",
+            "40 \u00b5s": "The percentage of operations that took between 20 and 40 microseconds.",
+            "80 \u00b5s": "The percentage of operations that took between 40 and 80 microseconds.",
+            "160 \u00b5s": "The percentage of operations that took between 80 and 160 microseconds.",
+            "320 \u00b5s": "The percentage of operations that took between 160 and 320 microseconds.",
+            "640 \u00b5s": "The percentage of operations that took between 320 and 640 microseconds.",
+            "1280 \u00b5s": "The percentage of operations that took between 640 and 1280 microseconds.",
+            "2560 \u00b5s": "The percentage of operations that took between 1280 and 2560 microseconds.",
+            "5120 \u00b5s": "The percentage of operations that took between 2560 and 5120 microseconds.",
+            "10240 \u00b5s": "The percentage of operations that took between 5120 and 10240 microseconds.",
+            "20480 \u00b5s": "The percentage of operations that took between 10240 and 20480 microseconds.",
+            "40960 \u00b5s": "The percentage of operations that took between 20480 and 40960 microseconds."
+        }
+    ]
+}

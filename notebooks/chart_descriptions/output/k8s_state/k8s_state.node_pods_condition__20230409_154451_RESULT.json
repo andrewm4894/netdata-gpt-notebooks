@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_state.node_pods_condition",
+    "chart_description": "This chart displays the condition of all pods running on a Kubernetes node, based on various criteria.",
+    "dimension_descriptions": [
+        {
+            "containers_ready": "The number of pods that have all containers reporting as ready.",
+            "pod_initialized": "The number of pods on the node that have been created and initialized.",
+            "pod_ready": "The number of pods on the node that have a Ready status.",
+            "pod_scheduled": "The number of pods that have been scheduled onto the node."
+        }
+    ]
+}

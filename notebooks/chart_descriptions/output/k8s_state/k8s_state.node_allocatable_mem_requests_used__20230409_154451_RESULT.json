@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_mem_requests_used",
+    "chart_description": "This chart displays the memory requests used by a node in a Kubernetes cluster. The chart helps administrators monitor the memory usage of nodes and identify potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension represents the amount of memory allocated to the pod requests. It shows how much memory is currently in use on the node."
+        }
+    ]
+}

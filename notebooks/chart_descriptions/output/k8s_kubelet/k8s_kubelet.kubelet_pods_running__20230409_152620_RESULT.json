@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_pods_running",
+    "chart_description": "The 'Number Of Pods Currently Running' chart displays the total number of pods currently running in the Kubernetes cluster. This chart helps you monitor the stability and health of your Kubernetes environment.",
+    "dimension_descriptions": [
+        {
+            "total": "This is the total number of pods currently running in the cluster."
+        }
+    ]
+}

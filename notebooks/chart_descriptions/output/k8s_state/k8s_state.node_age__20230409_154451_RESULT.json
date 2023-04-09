@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_age",
+    "chart_description": "The k8s_state.node_age chart displays the age of nodes in a Kubernetes cluster in seconds. It helps the user monitor the age of the nodes and detect any unusual upticks or drops that could indicate issues with the cluster.",
+    "dimension_descriptions": [
+        {
+            "age": "This dimension indicates the age of each node in the Kubernetes cluster, measured in seconds. It helps the user track the time since the node was last created, and detect any issues related to longevity or potential outdated nodes."
+        }
+    ]
+}

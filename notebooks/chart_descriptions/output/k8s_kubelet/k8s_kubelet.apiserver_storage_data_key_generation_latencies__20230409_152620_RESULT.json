@@ -1,0 +1,23 @@
+{
+    "chart_id": "k8s_kubelet.apiserver_storage_data_key_generation_latencies",
+    "chart_description": "This chart shows the latencies (in microseconds) of API server operations related to data encryption key generation. The latency ranges are divided into different dimensions.",
+    "dimension_descriptions": [
+        {
+            "+Inf": "The maximum latency recorded.",
+            "10 \u00b5s": "Latency within the range of 0 to 10 microseconds.",
+            "10240 \u00b5s": "Latency within the range of 10240 to 20480 microseconds.",
+            "1280 \u00b5s": "Latency within the range of 1280 to 2560 microseconds.",
+            "160 \u00b5s": "Latency within the range of 160 to 320 microseconds.",
+            "20 \u00b5s": "Latency within the range of 20 to 40 microseconds.",
+            "20480 \u00b5s": "Latency within the range of 20480 to 40960 microseconds.",
+            "2560 \u00b5s": "Latency within the range of 2560 to 5120 microseconds.",
+            "320 \u00b5s": "Latency within the range of 320 to 640 microseconds.",
+            "40 \u00b5s": "Latency within the range of 40 to 80 microseconds.",
+            "40960 \u00b5s": "Latency within the range of 40960 to the highest latency recorded.",
+            "5 \u00b5s": "Latency within the range of 0 to 5 microseconds.",
+            "5120 \u00b5s": "Latency within the range of 5120 to 10240 microseconds.",
+            "640 \u00b5s": "Latency within the range of 640 to 1280 microseconds.",
+            "80 \u00b5s": "Latency within the range of 80 to 160 microseconds."
+        }
+    ]
+}

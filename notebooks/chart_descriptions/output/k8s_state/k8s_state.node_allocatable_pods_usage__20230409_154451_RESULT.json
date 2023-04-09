@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_allocatable_pods_usage",
+    "chart_description": "The Pods resource usage chart shows the allocated and available number of pods within a Kubernetes node that have been assigned resources (CPU and memory). This chart can help identify if pods are being over-provisioned, leading to resource contention and potential application issues or if there are concerns over node saturation.",
+    "dimension_descriptions": [
+        {
+            "allocated": "The total number of pods assigned resources on the Kubernetes node.",
+            "available": "The number of pods that can be assigned resources on the Kubernetes node."
+        }
+    ]
+}

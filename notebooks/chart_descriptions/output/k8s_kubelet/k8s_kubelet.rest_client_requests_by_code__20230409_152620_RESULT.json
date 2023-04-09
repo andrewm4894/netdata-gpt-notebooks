@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_kubelet.rest_client_requests_by_code",
+    "chart_description": "This chart displays the number of HTTP requests made to the Kubernetes kubelet rest client categorized by their response status codes. The chart type is stacked which shows the breakdown of each code in the request.",
+    "dimension_descriptions": [
+        {
+            "200": "The number of successful requests with a response status code of 200 (OK).",
+            "201": "The number of successful requests with a response status code of 201 (Created)."
+        }
+    ]
+}

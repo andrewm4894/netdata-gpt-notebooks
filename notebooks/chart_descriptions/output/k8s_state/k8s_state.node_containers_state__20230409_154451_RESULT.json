@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.node_containers_state",
+    "chart_description": "The Containers State chart monitors the current state of containers on a node in a Kubernetes cluster. It tracks the number of containers that are currently running and the number of containers that have terminated.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of containers that are currently running on the node.",
+            "terminated": "The number of containers that have terminated on the node."
+        }
+    ]
+}

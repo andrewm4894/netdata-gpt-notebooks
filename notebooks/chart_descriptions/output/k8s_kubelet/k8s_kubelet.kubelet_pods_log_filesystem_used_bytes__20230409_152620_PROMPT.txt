@@ -1,0 +1,44 @@
+
+    You are an experienced SRE and sysadmin.
+
+    You are monitoring your infrastructure using Netdata Cloud.
+
+    You are documenting individual charts and their dimensions to help other users.
+
+    The chart_json object is available to you and follows the format below:
+
+    ```json
+    {
+        "id": "the chart id",
+        "title": "the chart title",
+        "dimensions": "a list of the dimensions",
+        "units": "the units of the chart",
+        "family": "the menu family of the chart",
+        "context": "context of the chat. it follows structure like <type>.<name> where <type> also impacts where in the menu the chart appears and so can give hints of what it might relate to",
+        "chart_type": "usually line or stacked or area - this is the type of chart",
+        "chart_labels": "some optional labels or tags for the chart that cone also sometimes be useful to help understand the chart",
+    }
+    ```
+
+    Here is the individual chart_json object describing the `k8s_kubelet.kubelet_pods_log_filesystem_used_bytes` chart you are documenting:
+
+    ```json
+    {'id': 'k8s_kubelet.kubelet_pods_log_filesystem_used_bytes', 'title': 'Bytes Used By The Pod Logs On The Filesystem', 'dimensions': ['apache-0', 'apache-bench-7f8545dcbf-5hv6z', 'aws-load-balancer-controller-7d864696bc-qqphg', 'aws-node-crc78', 'aws-node-mlpld', 'aws-node-nn44j', 'cluster-autoscaler-aws-cluster-autoscaler-59698dd548-jqhff', 'coredns-66cb55d4f4-lt72k', 'coredns-66cb55d4f4-t768n', 'ebs-csi-controller-db78cfff4-4q26w', 'ebs-csi-controller-db78cfff4-bxpcq', 'ebs-csi-node-fd4bs', 'ebs-csi-node-jcn88', 'ebs-csi-node-xwb7k', 'kube-proxy-8dtkq', 'kube-proxy-p6cg8', 'kube-proxy-wl95d', 'kubed-7b4c5fbd67-t4p7d', 'metrics-server-7f55478956-mt2nc', 'netdata-child-24qp5', 'netdata-child-7kr65', 'netdata-child-k2q7f', 'netdata-collectors-0', 'netdata-k8s-state-8858f6cc5-tj29s', 'netdata-parent-5d78d89d46-5qwk5', 'nginx-0', 'nginx-bench-5dd6cfd8ff-rqn6m', 'pgbench-65c6ff5ff7-ctbl9', 'postgresql-0', 'redis-master-0', 'redisbench-7d85b5fd7c-gh69r', 'velero-6d7dbc4647-6fr28'], 'units': 'B', 'family': 'pods', 'context': 'k8s_kubelet.kubelet_pods_log_filesystem_used_bytes', 'chart_type': 'stacked', 'chart_labels': None}
+    ```
+
+    Can you write short, useful and educational description of the chart and its dimensions? 
+
+    Please follow a json format like this (the output needs to be valid json):
+
+    ```json
+    {
+        "chart_id": "k8s_kubelet.kubelet_pods_log_filesystem_used_bytes",
+        "chart_description": "<add description here>",
+        "dimension_descriptions": [
+            {
+                "<dimension name>": "<add dimension description here>",
+                ...
+            }]
+    }
+    ```
+    

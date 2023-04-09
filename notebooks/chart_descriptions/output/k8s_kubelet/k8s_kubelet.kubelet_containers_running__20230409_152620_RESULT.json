@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_containers_running",
+    "chart_description": "This chart displays the total number of currently running containers within the kubelet service in a Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "total": "This is the only dimension for this chart, representing the total number of running containers in the kubelet service."
+        }
+    ]
+}

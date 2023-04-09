@@ -1,0 +1,12 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_docker_operations_errors",
+    "chart_description": "This chart displays the number of errors that occur during Docker operations, such as container inspection, image inspection, container removal, and container stopping.",
+    "dimension_descriptions": [
+        {
+            "inspect_container": "The number of errors that occurred while inspecting a container.",
+            "inspect_image": "The number of errors that occurred while inspecting an image.",
+            "remove_container": "The number of errors that occurred while removing a container.",
+            "stop_container": "The number of errors that occurred while stopping a container."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_mem_requests_utilization",
+    "chart_description": "This chart shows the utilization percentage of memory requests on the nodes in a Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "requests": "The specific type of memory resource being requested by the pods running on the nodes."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_kubelet.apiserver_storage_data_key_generation_failures",
+    "chart_description": "This chart shows the rate of failed data encryption key (DEK) generation operations in the API server storage by the Kubelet. A high value can indicate issues with the encryption or decryption of secrets and sensitive data in the Kubernetes cluster.",
+    "dimension_descriptions": [
+        {
+            "failures": "The number of failed data encryption key generation operations in the API server storage per second."
+        }
+    ]
+}

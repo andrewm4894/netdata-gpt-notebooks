@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_init_containers_state",
+    "chart_description": "This chart shows the state of the init containers in a Kubernetes pod. Init containers are used for pre-initializing a pod before its main containers start running.",
+    "dimension_descriptions": [
+        {
+            "terminated": "This dimension represents the number of init containers that have terminated (successfully or not) in the pod."
+        }
+    ]
+}

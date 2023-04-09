@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_container_restarts",
+    "chart_description": "This chart shows the number of times a container within a pod has been restarted.",
+    "dimension_descriptions": [
+        {
+            "restarts": "The total number of restarts for a container within a pod over time."
+        }
+    ]
+}

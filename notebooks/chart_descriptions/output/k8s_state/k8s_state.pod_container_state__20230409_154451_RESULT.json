@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.pod_container_state",
+    "chart_description": "The Container state chart displays the running and terminated states of containers within a pod in a Kubernetes environment.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of containers in the running state.",
+            "terminated": "The number of containers in the terminated state."
+        }
+    ]
+}

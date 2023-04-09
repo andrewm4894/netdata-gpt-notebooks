@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_cpu_requests_used",
+    "chart_description": "This chart shows the amount of CPU requests used by nodes in the Kubernetes cluster, as a fraction of the total CPU allocatable on the node.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension represents the type of CPU resource being requested by the nodes in the cluster. It is measured in millicpu (1/1000 of a CPU core)."
+        }
+    ]
+}

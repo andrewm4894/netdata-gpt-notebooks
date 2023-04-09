@@ -1,0 +1,11 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_pleg_relist_interval_microseconds",
+    "chart_description": "This chart provides a summary of the PLEG (Pod Lifecycle Event Generator) relisting interval in microseconds. It helps in identifying if any issues are causing delays in PLEG's detection of pod status changes.",
+    "dimension_descriptions": [
+        {
+            "0.5": "The value below which 50% of the observed intervals fall. This provides a measure of the median relisting interval.",
+            "0.9": "The value below which 90% of the observed intervals fall. This helps identify the upper limit of the majority of the intervals.",
+            "0.99": "The value below which 99% of the observed intervals fall. This helps identify the extreme upper range of the intervals, useful for detecting any potential outliers in the data."
+        }
+    ]
+}

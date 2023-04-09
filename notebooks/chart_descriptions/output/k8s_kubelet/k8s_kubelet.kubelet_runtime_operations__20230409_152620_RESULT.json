@@ -1,0 +1,15 @@
+{
+    "chart_id": "k8s_kubelet.kubelet_runtime_operations",
+    "chart_description": "This chart displays the rate of runtime operations performed by the Kubelet component in a Kubernetes cluster. The dimensions represent different types of operations such as executing synchronous commands, checking image status, listing containers, images, and pod sandboxes, and checking the status and version of Kubernetes.",
+    "dimension_descriptions": [
+        {
+            "exec_sync": "The rate at which synchronous commands are executed by the kubelet.",
+            "image_status": "The rate at which Kubernetes checks the status of images.",
+            "list_containers": "The rate at which containers are listed.",
+            "list_images": "The rate at which images are listed.",
+            "list_podsandbox": "The rate at which Kubernetes lists pod sandboxes.",
+            "status": "The rate at which Kubernetes checks the status of the Kubelet component.",
+            "version": "The rate at which Kubernetes checks the version of the Kubelet component."
+        }
+    ]
+}

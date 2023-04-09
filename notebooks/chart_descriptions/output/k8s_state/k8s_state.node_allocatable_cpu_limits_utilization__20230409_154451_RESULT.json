@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_cpu_limits_utilization",
+    "chart_description": "This chart shows the percentage of CPU limits that are currently being utilized by nodes in a Kubernetes cluster. It provides insight into the resource allocation and usage of CPU limits in the cluster.",
+    "dimension_descriptions": [
+        {
+            "limits": "The CPU limits dimension indicates the maximum amount of CPU resources assigned to a Kubernetes node."
+        }
+    ]
+}

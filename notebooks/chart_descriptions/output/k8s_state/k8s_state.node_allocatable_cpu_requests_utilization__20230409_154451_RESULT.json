@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.node_allocatable_cpu_requests_utilization",
+    "chart_description": "This chart displays the percentage of CPU requests utilized by the cluster's nodes. It helps monitor the CPU resource utilization of the cluster and ensure that nodes are not over-allocated or underutilized.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension refers to the amount of CPU requests made by a pod in the cluster. It helps in identifying which pods are consuming the most CPU resources and their impact on node utilization."
+        }
+    ]
+}
