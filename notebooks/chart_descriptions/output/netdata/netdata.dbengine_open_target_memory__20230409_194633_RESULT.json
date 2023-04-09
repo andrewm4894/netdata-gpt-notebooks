@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_open_target_memory",
+    "chart_description": "This chart shows the target cache memory utilization of the Netdata open database engine, which is a key-value store that stores performance metrics. The chart indicates whether the target memory is being fully utilized or not.",
+    "dimension_descriptions": [
+        {
+            "current": "Amount of memory currently in use by the cache.",
+            "dirty max": "Maximum amount of dirty memory that the cache can have.",
+            "hot": "Amount of memory in the cache that is used recently or frequently.",
+            "hot max": "Maximum amount of hot memory that the cache can have.",
+            "wanted": "Amount of memory that the cache wants to keep open."
+        }
+    ]
+}

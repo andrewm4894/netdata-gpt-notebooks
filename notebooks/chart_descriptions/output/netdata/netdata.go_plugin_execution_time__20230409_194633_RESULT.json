@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.go_plugin_execution_time",
+    "chart_description": "The netdata.go_plugin_execution_time chart displays the execution time of Go plugins in milliseconds. It is useful for monitoring the performance of Go plugins and detecting any anomalies or inefficiencies. The chart shows the running and total time for the plugins.",
+    "dimension_descriptions": [
+        {
+            "running": "The running dimension represents the current execution time of the Go plugins in milliseconds. It indicates the time it takes for the plugins to process data and perform their intended functions.",
+            "total": "The total dimension represents the cumulative execution time of the Go plugins in milliseconds. It indicates the overall load on the plugins and their efficiency over time."
+        }
+    ]
+}

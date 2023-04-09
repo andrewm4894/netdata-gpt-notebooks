@@ -1,0 +1,14 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_workers",
+    "chart_description": "This chart shows the number of cache workers that are currently open in the database engine. These workers handle tasks such as adding items to the cache, evicting items from the cache, flushing items to disk, and searching the cache for items.",
+    "dimension_descriptions": [
+        {
+            "adders": "The number of workers responsible for adding items to the cache.",
+            "evictors": "The number of workers responsible for evicting items from the cache to make room for new ones.",
+            "flushers": "The number of workers responsible for flushing items from the cache to disk.",
+            "hot2dirty": "The number of workers responsible for transitioning items from the hot cache to the dirty cache, where they will later be flushed to disk.",
+            "jv2 flushers": "The number of workers responsible for flushing items from the JVM cache to disk.",
+            "searchers": "The number of workers responsible for searching the cache for items when they are requested."
+        }
+    ]
+}

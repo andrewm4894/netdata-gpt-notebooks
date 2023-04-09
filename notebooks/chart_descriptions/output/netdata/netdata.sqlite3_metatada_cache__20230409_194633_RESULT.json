@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.sqlite3_metatada_cache",
+    "chart_description": "Netdata SQLite3 metadata cache chart shows the number of cache hits and cache writes per second on the metadata cache of SQLite3 database.",
+    "dimension_descriptions": [
+        {
+            "cache_hit": "Number of cache hits per second on the metadata cache.",
+            "cache_write": "Number of cache writes per second on the metadata cache."
+        }
+    ]
+}

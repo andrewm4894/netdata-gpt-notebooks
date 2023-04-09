@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_prep_timings",
+    "chart_description": "The Netdata Query Preparation Timings chart displays the time it takes for each step of the query preparation process in the Netdata dbengine system. The query preparation process involves several steps, including journaling, caching, and routing.",
+    "dimension_descriptions": [
+        {
+            "journal v2": "The time it takes for journaling the database queries.",
+            "main cache": "The time it takes for caching the database queries in the main cache.",
+            "open cache": "The time it takes for caching the database queries in the open cache.",
+            "pass4": "The time it takes for the pass4 cache.",
+            "routing": "The time it takes for routing the database queries to the appropriate server."
+        }
+    ]
+}

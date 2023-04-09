@@ -1,0 +1,15 @@
+{
+    "chart_id": "netdata.statsd_useful_metrics",
+    "chart_description": "This chart shows useful metrics in the netdata statsd database. The chart is stacked with individual dimensions corresponding to the different types of metrics tracked by netdata.statsd. The chart helps in tracking the overall metric count for each type by showing metrics across all dimensions. This helps in understanding the volume of metrics being collected in the different categories.",
+    "dimension_descriptions": [
+        {
+            "counters": "This dimension shows the total number of times the value of a metric has been incremented.",
+            "dictionaries": "This dimension shows the size of the hash tables used to store the values of a metric.",
+            "gauges": "This dimension shows the current value of a metric.",
+            "histograms": "This dimension shows distribution of a metric values.",
+            "meters": "This dimension shows the rate of events (e.g. HTTP requests) per second.",
+            "sets": "This dimension counts the cardinality of unique values of a metric.",
+            "timers": "This dimension shows the distribution of time taken by events (e.g. database queries)."
+        }
+    ]
+}

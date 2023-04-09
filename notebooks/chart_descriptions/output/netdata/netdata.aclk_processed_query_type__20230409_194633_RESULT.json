@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.aclk_processed_query_type",
+    "chart_description": "This chart displays the number of commands processed per second by query threads, categorized by their type. It helps to identify which queries are consuming the most system resources and may need optimization.",
+    "dimension_descriptions": [
+        {
+            "http_api_request_v2": "The type of query processed by the query thread."
+        }
+    ]
+}

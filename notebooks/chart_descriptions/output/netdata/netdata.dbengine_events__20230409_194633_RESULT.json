@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_events",
+    "chart_description": "This chart shows the number of database events per second for journal v2 mapped and unmapped query router. Database events include database read, write and delete operations.",
+    "dimension_descriptions": [
+        {
+            "journal v2 mapped": "Number of database events per second for journal v2 mapped query router.",
+            "journal v2 unmapped": "Number of database events per second for journal v2 unmapped query router."
+        }
+    ]
+}

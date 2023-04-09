@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.metric_types",
+    "chart_description": "This chart displays the distribution of metrics into two categories: constant and variable. Constant metrics represent a fixed value, such as the number of CPU cores, while variable metrics change over time, such as CPU usage.",
+    "dimension_descriptions": [
+        {
+            "constant": "Metrics that have a fixed or static value. Examples include the number of CPU cores, amount of RAM, or the number of disks.",
+            "variable": "Metrics that change over time. Examples include CPU usage, memory usage, or network traffic."
+        }
+    ]
+}

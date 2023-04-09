@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.private_charts",
+    "chart_description": "This chart displays private metric charts created by the Netdata statsd server.",
+    "dimension_descriptions": [
+        {
+            "charts": "The number of private metric charts created by the Netdata statsd server."
+        }
+    ]
+}

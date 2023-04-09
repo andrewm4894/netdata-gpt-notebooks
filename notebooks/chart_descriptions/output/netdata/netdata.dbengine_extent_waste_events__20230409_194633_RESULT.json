@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_extent_waste_events",
+    "chart_description": "This chart tracks the number of extent waste events of the database engine. These events occur when a data block is removed from the cache even though it still has data that has not yet been written to disk. The evict spins dimension indicates the number of times the thread responsible for evicting blocks from the cache had to wait for a lock on the block before being able to remove it. A high number of evict spins indicates contention and could be a performance bottleneck.",
+    "dimension_descriptions": [
+        {
+            "evict spins": "The number of times the thread responsible for evicting blocks from the cache had to wait for a lock on a block before being able to remove it."
+        }
+    ]
+}

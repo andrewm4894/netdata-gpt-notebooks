@@ -1,0 +1,16 @@
+{
+    "chart_id": "netdata.dictionaries.category.ops",
+    "chart_description": "This chart displays the rate of dictionary operations per second, including creations, deletes, destructions, garbage collections, inserts, searches, traversals, and walkthroughs.",
+    "dimension_descriptions": [
+        {
+            "creations": "The rate at which dictionary entries are created.",
+            "deletes": "The rate at which dictionary entries are deleted.",
+            "destructions": "The rate at which the dictionary itself is destroyed.",
+            "garbage_collections": "The rate at which the dictionary is cleaned up by removing unused entries.",
+            "inserts": "The rate at which new entries are added to the dictionary.",
+            "searches": "The rate at which entries are searched for in the dictionary.",
+            "traversals": "The rate at which all entries in the dictionary are traversed.",
+            "walkthroughs": "The rate at which all entries in the dictionary are walked through in depth-first order."
+        }
+    ]
+}

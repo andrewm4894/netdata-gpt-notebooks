@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_queries",
+    "chart_description": "This chart displays the number of queries per second for Netdata's dbengine query router. It shows the different categories of queries executed, including those with gaps, planned with gaps, total queries, as well as those associated with the journal v2 and open cache.",
+    "dimension_descriptions": [
+        {
+            "executed with gaps": "Queries executed with gaps in between.",
+            "journal v2": "Queries related to journal v2.",
+            "open cache": "Queries that utilize the open cache.",
+            "planned with gaps": "Queries planned with gaps in between.",
+            "total": "Total number of queries regardless of category."
+        }
+    ]
+}

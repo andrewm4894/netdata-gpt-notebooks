@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.uptime",
+    "chart_description": "The netdata.uptime chart displays the uptime of the Netdata system in seconds. It is a helpful metric to evaluate system stability and reliability.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The uptime dimension measures the amount of time the system has been running without failure, measured in seconds."
+        }
+    ]
+}

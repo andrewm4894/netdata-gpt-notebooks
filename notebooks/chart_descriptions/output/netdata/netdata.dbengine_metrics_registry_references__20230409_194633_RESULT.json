@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_metrics_registry_references",
+    "chart_description": "This chart displays the number of times a metric registered with Netdata's Metrics Registry is referenced by other metrics. It can help identify frequently used metrics and potential areas of optimization or concern.",
+    "dimension_descriptions": [
+        {
+            "references": "The number of times a metric registered with Netdata's Metrics Registry is referenced by other metrics."
+        }
+    ]
+}

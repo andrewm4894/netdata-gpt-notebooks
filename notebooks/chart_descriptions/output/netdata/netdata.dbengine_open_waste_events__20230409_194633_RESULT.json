@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_open_waste_events",
+    "chart_description": "This chart monitors the rate of open waste events in the Netdata open cache for the database engine. An open waste event occurs when an item in the cache cannot be evicted due to contention from multiple threads. This can lead to reduced cache effectiveness and potentially slow down database queries.",
+    "dimension_descriptions": [
+        {
+            "evict spins": "The number of CPU cycles spent spinning while trying to evict an item from the cache. High values indicate contention and potential performance issues."
+        }
+    ]
+}

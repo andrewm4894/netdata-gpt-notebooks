@@ -1,0 +1,12 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_pages",
+    "chart_description": "This chart monitors the number of pages in the Netdata main cache, which is used to temporarily store pages of data that have been requested from the disk. It provides insight into how efficiently the cache is being used, as well as the overall health and performance of the system.",
+    "dimension_descriptions": [
+        {
+            "clean": "The number of clean pages in the cache, which have not been modified since being loaded into the cache.",
+            "dirty": "The number of dirty pages in the cache, which have been modified since being loaded into the cache but not yet written back to disk.",
+            "hot": "The number of hot pages in the cache, which have been accessed frequently and are therefore more likely to be accessed again soon.",
+            "referenced": "The number of referenced pages in the cache, which have been accessed at least once since being loaded into the cache."
+        }
+    ]
+}

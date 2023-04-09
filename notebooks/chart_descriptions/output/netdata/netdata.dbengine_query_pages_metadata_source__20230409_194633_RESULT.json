@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dbengine_query_pages_metadata_source",
+    "chart_description": "The Netdata Query Pages Metadata Source chart displays the rate at which the Netdata database engine retrieves metadata about pages from various sources.",
+    "dimension_descriptions": [
+        {
+            "cache hit": "The rate at which metadata is retrieved from the cache.",
+            "journal v2 scan": "The rate at which metadata is retrieved by scanning the journal version 2.",
+            "open journal": "The rate at which metadata is retrieved from an open journal."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.training_status",
+    "chart_description": "This chart displays the status of the dimensions in the machine learning model. It shows the number of dimensions in the model that are pending with the model and the number of dimensions that have been trained.",
+    "dimension_descriptions": [
+        {
+            "pending-with-model": "The number of dimensions in the machine learning model that are still pending and have not yet been trained.",
+            "trained": "The number of dimensions in the machine learning model that have been trained and are ready to use."
+        }
+    ]
+}

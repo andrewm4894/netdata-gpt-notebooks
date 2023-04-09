@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.training_usage",
+    "chart_description": "This chart shows the resource usage, in milliseconds per second, of the training machine learning models running on the infrastructure.",
+    "dimension_descriptions": [
+        {
+            "N/A": "There are no dimensions associated with this chart."
+        }
+    ]
+}

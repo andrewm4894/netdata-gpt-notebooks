@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.workers.aclkquery.threads",
+    "chart_description": "The 'netdata.workers.aclkquery.threads' chart displays the number of threads used by the asynchronous clickhouse query worker process.",
+    "dimension_descriptions": [
+        {
+            "free": "The number of idle threads available for new queries to be assigned to."
+        }
+    ]
+}

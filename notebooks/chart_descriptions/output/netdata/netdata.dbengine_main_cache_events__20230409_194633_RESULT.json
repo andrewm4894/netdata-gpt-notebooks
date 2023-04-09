@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_events",
+    "chart_description": "This chart displays the number of cache events per second in the main database engine cache of the Netdata system. The cache events include aggressive and critical evictions, as well as critical flushes.",
+    "dimension_descriptions": [
+        {
+            "evictions aggressive": "The number of cache entries evicted aggressively per second. This happens when the available space in the cache is limited and there is a need to free up some space.",
+            "evictions critical": "The number of cache entries evicted critically per second. This happens when the available space in the cache is very limited and there is a need to free up a lot of space at once.",
+            "flushes critical": "The number of cache entries flushed critically per second. This happens when there is a critical error in the cache and it needs to be cleared completely to prevent data corruption."
+        }
+    ]
+}

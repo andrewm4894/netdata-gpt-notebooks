@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.workers.aclkquery.time",
+    "chart_description": "The Netdata Workers Busy Time chart shows the percentage of time all workers are busy processing ACLK queries. ACLK is a clickstream processing and analysis tool built on top of Netdata.",
+    "dimension_descriptions": [
+        {
+            "average": "The average busy time percentage of all workers during the sampling interval.",
+            "max": "The maximum busy time percentage among all workers during the sampling interval.",
+            "min": "The minimum busy time percentage among all workers during the sampling interval."
+        }
+    ]
+}

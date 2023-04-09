@@ -1,0 +1,21 @@
+{
+    "chart_id": "netdata.dbengine_buffers",
+    "chart_description": "The Netdata DB Buffers chart shows the amount of memory used by various buffers in the Netdata DB, which is used to monitor system performance.",
+    "dimension_descriptions": [
+        {
+            "deol": "The amount of memory used by event log buffers.",
+            "descriptors": "The amount of memory used by descriptor buffers.",
+            "epdl": "The amount of memory used by error message buffers.",
+            "extent buffers": "The amount of memory used by extent buffers.",
+            "extent io": "The amount of memory used by extent IO buffers.",
+            "mrg": "The amount of memory used by merge buffers.",
+            "opcodes": "The amount of memory used by opcode buffers.",
+            "pd": "The amount of memory used by point data buffers.",
+            "pdc": "The amount of memory used by point data cache buffers.",
+            "pgc": "The amount of memory used by page cache buffers.",
+            "query handles": "The amount of memory used by query handle buffers.",
+            "wal": "The amount of memory used by write-ahead log buffers.",
+            "workers": "The amount of memory used by worker buffers."
+        }
+    ]
+}

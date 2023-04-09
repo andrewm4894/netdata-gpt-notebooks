@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_memory_changes",
+    "chart_description": "The Netdata open Cache Memory Changes chart displays the rate of changes in the memory usage of the open cache in the database engine. This chart helps to monitor the memory usage and optimize database caching for better performance.",
+    "dimension_descriptions": [
+        {
+            "evictions": "The rate of evictions in the open cache memory. The higher the eviction rate, the more often cache entries are being removed due to lack of space.",
+            "new clean": "The rate of new clean entries added to the cache memory. Clean entries are created when a new cache entry is added and has not been accessed or modified yet.",
+            "new hot": "The rate of new hot entries added to the cache memory. Hot entries are cache entries that have been recently accessed or modified."
+        }
+    ]
+}

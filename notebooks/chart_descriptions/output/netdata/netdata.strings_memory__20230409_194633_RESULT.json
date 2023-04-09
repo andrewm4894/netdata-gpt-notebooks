@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.strings_memory",
+    "chart_description": "The Strings memory chart displays the amount of memory used by the system to store strings (textual data), such as usernames and log messages.",
+    "dimension_descriptions": [
+        {
+            "memory": "The amount of memory used in bytes."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.heartbeat",
+    "chart_description": "This chart displays the jitter of the system clock, which is the variation in time between the actual time and the expected time. A higher value indicates a less accurate clock.",
+    "dimension_descriptions": [
+        {
+            "average": "The average clock jitter over the specified time period.",
+            "max": "The maximum clock jitter recorded during the specified time period.",
+            "min": "The minimum clock jitter recorded during the specified time period."
+        }
+    ]
+}

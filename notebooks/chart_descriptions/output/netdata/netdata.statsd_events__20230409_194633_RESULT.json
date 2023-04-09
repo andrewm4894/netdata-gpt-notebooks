@@ -1,0 +1,17 @@
+{
+    "chart_id": "netdata.statsd_events",
+    "chart_description": "This chart shows the number of events processed per second by the netdata statsd server. Events can be one of nine types: counters, dictionaries, errors, gauges, histograms, meters, sets, timers or unknown. These types reflect the different types of data collected by netdata's statsd server.",
+    "dimension_descriptions": [
+        {
+            "counters": "The number of counter events processed per second.",
+            "dictionaries": "The number of dictionary events processed per second.",
+            "errors": "The number of error events processed per second.",
+            "gauges": "The number of gauge events processed per second.",
+            "histograms": "The number of histogram events processed per second.",
+            "meters": "The number of meter events processed per second.",
+            "sets": "The number of set events processed per second.",
+            "timers": "The number of timer events processed per second.",
+            "unknown": "The number of unknown events processed per second."
+        }
+    ]
+}

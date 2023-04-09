@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_query_timings",
+    "chart_description": "The Netdata Query Timings chart displays the timings of various stages in a query execution pipeline of the Netdata database engine. These timings may help in identifying which stages of the pipeline are taking longer to complete and might be causing performance issues.",
+    "dimension_descriptions": [
+        {
+            "init": "The time taken for initializing a query.",
+            "next page disk fast": "The time taken for fetching the next page of data from disk when the read operation is performed from a fast disk.",
+            "next page disk slow": "The time taken for fetching the next page of data from disk when the read operation is performed from a slow disk.",
+            "next page preload fast": "The time taken for prefetching the next page of data from disk when the read operation is performed from a fast disk.",
+            "prep wait": "The time taken to prepare a query before executing it."
+        }
+    ]
+}

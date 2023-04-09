@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_events",
+    "chart_description": "This chart displays the number of open cache events in the Netdata database engine. The events tracked by this chart include evictions and aggressive events. This chart can be used to monitor the performance of the open cache in the database engine.",
+    "dimension_descriptions": [
+        {
+            "evictions": "This dimension represents the number of cache evictions that occurred in the database engine. A cache eviction occurs when a cached item is removed from the cache before it expires.",
+            "aggressive": "This dimension represents the number of aggressive cache events that occurred in the database engine. Aggressive events are cache operations that bypass the normal cache behavior and directly access the storage layer. These events can have a significant impact on performance and should be monitored closely."
+        }
+    ]
+}

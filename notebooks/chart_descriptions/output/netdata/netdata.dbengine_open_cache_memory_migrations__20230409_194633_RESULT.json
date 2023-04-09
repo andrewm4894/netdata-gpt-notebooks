@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_memory_migrations",
+    "chart_description": "This chart displays the rate at which data is being migrated between different levels of the open cache memory of the database engine on the server. This helps to identify whether the open cache memory is functioning efficiently or if it is causing bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "dirty to clean": "The rate at which dirty block pages in the open cache memory are being migrated to clean cache pages.",
+            "hot to dirty": "The rate at which hot block pages in the open cache memory are being migrated to dirty cache pages. Hot block pages refer to frequently accessed data."
+        }
+    ]
+}

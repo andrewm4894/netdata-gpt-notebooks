@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_memory",
+    "chart_description": "This chart displays the memory usage of the Netdata database engine, including the buffers, extent cache, main cache, metrics registry, and open cache.",
+    "dimension_descriptions": [
+        {
+            "buffers": "The amount of memory allocated to the buffer cache, which can store frequently accessed database pages.",
+            "extent cache": "The amount of memory allocated to the extent cache, which stores metadata about the extents (contiguous blocks of disk space) used by the database.",
+            "main cache": "The amount of memory allocated to the database's main cache, which stores frequently accessed data pages.",
+            "metrics registry": "The memory used by the database's metrics registry, which stores information about the monitored metrics.",
+            "open cache": "The amount of memory allocated to the database's open file cache, which stores metadata about open files for faster access."
+        }
+    ]
+}

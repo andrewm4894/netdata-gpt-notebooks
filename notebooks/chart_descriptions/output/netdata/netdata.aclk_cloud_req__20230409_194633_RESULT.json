@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.aclk_cloud_req",
+    "chart_description": "This chart shows the number of requests per second received from the Netdata Cloud.",
+    "dimension_descriptions": [
+        {
+            "received": "This dimension measures the number of requests received by the Netdata Cloud per second."
+        }
+    ]
+}

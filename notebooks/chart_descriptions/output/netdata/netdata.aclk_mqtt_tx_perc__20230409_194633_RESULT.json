@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.aclk_mqtt_tx_perc",
+    "chart_description": "This chart shows the actively used percentage of the MQTT Transmission Buffer. It helps monitor the efficiency of sending messages using the MQTT protocol.",
+    "dimension_descriptions": [
+        {
+            "used": "This dimension represents the percentage of the MQTT Transmission Buffer that is currently in use."
+        }
+    ]
+}

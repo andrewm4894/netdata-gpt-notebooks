@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.statsd_reads",
+    "chart_description": "This chart displays the number of read operations made by the netdata statsd server, showing performance of inbound and outbound data over the TCP and UDP protocols.",
+    "dimension_descriptions": [
+        {
+            "tcp": "The number of read operations made over the TCP protocol.",
+            "udp": "The number of read operations made over the UDP protocol."
+        }
+    ]
+}

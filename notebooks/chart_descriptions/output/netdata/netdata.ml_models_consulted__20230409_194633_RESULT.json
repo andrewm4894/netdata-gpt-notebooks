@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.ml_models_consulted",
+    "chart_description": "This chart displays the number of KMeans models consulted for prediction.",
+    "dimension_descriptions": [
+        {
+            "num_models_consulted": "The number of KMeans models consulted for prediction. This metric can be used to monitor the amount of machine learning activity in the infrastructure."
+        }
+    ]
+}

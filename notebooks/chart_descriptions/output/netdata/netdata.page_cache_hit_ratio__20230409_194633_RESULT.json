@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.net",
+    "chart_description": "The Netdata Network Traffic chart displays the incoming and outgoing traffic in kilobits per second for all network interfaces of the monitored system.",
+    "dimension_descriptions": [
+        {
+            "in": "Displays the incoming network traffic in kilobits per second for all network interfaces of the monitored system.",
+            "out": "Displays the outgoing network traffic in kilobits per second for all network interfaces of the monitored system."
+        }
+    ]
+}

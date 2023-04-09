@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.strings_entries",
+    "chart_description": "This chart displays the number of entries in the kernel string cache and the number of times these entries were referenced.",
+    "dimension_descriptions": [
+        {
+            "entries": "The number of entries in the kernel string cache.",
+            "references": "The number of times each entry in the kernel string cache was referenced by the system."
+        }
+    ]
+}

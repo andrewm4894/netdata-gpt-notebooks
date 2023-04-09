@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.page_cache_stats",
+    "chart_description": "This chart displays the statistics regarding the system's page cache used by the Netdata dbengine family. It shows the number of cached pages currently utilized by the system, as well as the ones that have been read and written. The chart provides insight into the performance of the dbengine and the responsiveness of the disk I/O operations.",
+    "dimension_descriptions": [
+        {
+            "No dimensions available.": "This chart has no dimensions."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dictionaries.category.items",
+    "chart_description": "The 'Dictionary Items' chart displays the number of items in the different categories of dictionaries.",
+    "dimension_descriptions": [
+        {
+            "active": "The number of active items in the dictionary category.",
+            "deleted": "The number of deleted items in the dictionary category.",
+            "referenced": "The number of items in the dictionary category that are referenced by other items."
+        }
+    ]
+}

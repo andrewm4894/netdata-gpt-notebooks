@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.aclk_protobuf_rx_types",
+    "chart_description": "The netdata.aclk_protobuf_rx_types chart shows the count of received new cloud architecture messages by their type, measured in messages per second.",
+    "dimension_descriptions": [
+        {
+            "cmd": "The type of the received message, such as stream or event."
+        }
+    ]
+}

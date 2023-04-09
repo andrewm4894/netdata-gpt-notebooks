@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.ebpf_kernel_memory",
+    "chart_description": "This chart displays the memory allocated for hash tables in the kernel space. The hash tables let the kernel look up information quickly and efficiently, and thus they are widely used in network and storage plugins. It is an important metric to monitor the health of the kernel, as excessive usage may indicate a memory leak or other issues.",
+    "dimension_descriptions": [
+        {
+            "memory_locked": "Memory locked by the kernel page tables. This is the amount of memory that cannot be paged out to disk and can be used to hold sensitive data, e.g. cryptographic keys, since it is not written to disk and cannot be swapped out. Excessive memory locking may lead to memory pressure and fragmentation."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.ebpf_threads",
+    "chart_description": "This chart provides information on the number of running and total threads in the system, monitored by the eBPF collector plugin of Netdata. The chart can help identify thread-related issues in the system, such as high CPU usage or resource contention.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of currently running threads in the system.",
+            "total": "The total number of threads in the system."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.training_stats",
+    "chart_description": "The Training thread CPU usage chart tracks the CPU usage of your machine during training of machine learning models.",
+    "dimension_descriptions": [
+        {
+            "<empty>": "This chart does not have any dimensions."
+        }
+    ]
+}

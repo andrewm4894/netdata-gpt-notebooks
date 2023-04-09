@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.pythond_runtime",
+    "chart_description": "The `netdata.pythond_runtime` chart measures the execution time of Python scripts in milliseconds. This chart is useful for monitoring and optimizing the performance of Python-based applications.",
+    "dimension_descriptions": [
+        {
+            "run_time": "The total runtime of Python scripts in milliseconds. This dimension can be used to identify performance bottlenecks and optimize script execution time."
+        }
+    ]
+}

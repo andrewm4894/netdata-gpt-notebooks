@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.tcp_connects",
+    "chart_description": "This chart shows the number of TCP connects and disconnects made to the statsd server over time.",
+    "dimension_descriptions": [
+        {
+            "connects": "The number of times a connection was established to the statsd server.",
+            "disconnects": "The number of times a connection to the statsd server was disconnected."
+        }
+    ]
+}

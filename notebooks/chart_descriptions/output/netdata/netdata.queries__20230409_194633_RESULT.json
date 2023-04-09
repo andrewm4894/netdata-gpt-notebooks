@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.queries",
+    "chart_description": "The Netdata DB Queries chart displays the number of database queries per second for the Netdata monitoring system. This chart is useful to understand the overall database load and identify potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "/api/v1/data": "The API path used for the data queries.",
+            "health": "The health of the database.",
+            "ml": "The machine learning usage for troubleshooting."
+        }
+    ]
+}

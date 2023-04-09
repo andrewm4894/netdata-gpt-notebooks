@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_metrics_registry_operations",
+    "chart_description": "This chart shows the number of search operations performed on the Netdata metrics registry. The metrics registry is responsible for keeping track of metrics metadata that Netdata collects, analyzes, and visualizes. The chart can be used to monitor the load on the metrics registry and detect any unusual spikes or drops in search activity.",
+    "dimension_descriptions": [
+        {
+            "search": "The number of times the Netdata metrics registry was searched. This dimension can help you identify which parts of your infrastructure are generating the most search requests, and may help you optimize the search functionality or prioritize certain metrics for collection."
+        }
+    ]
+}

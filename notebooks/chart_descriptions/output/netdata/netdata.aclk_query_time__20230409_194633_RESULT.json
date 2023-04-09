@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.aclk_query_time",
+    "chart_description": "This chart displays the time it took to process cloud requested DB queries. It helps identify any performance bottlenecks and aids in monitoring the efficiency of query processing in the cloud environment.",
+    "dimension_descriptions": [
+        {
+            "avg": "The average query processing time over the selected period.",
+            "max": "The maximum query processing time recorded over the selected period.",
+            "total": "The total query processing time over the selected period."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.db_points_results",
+    "chart_description": "The Netdata Points in Query Results chart shows the number of data points returned in query results handled by the Netdata database. This chart helps monitor database performance and identify queries that may take longer time to execute.",
+    "dimension_descriptions": [
+        {
+            "/api/v1/data": "This dimension represents the API endpoint used to retrieve the data.",
+            "health": "This dimension provides an indication of the health of the data points. It could be 'ok' or 'alarm'.",
+            "ml": "This dimension is a boolean flag indicating if the data is accessed from machine learning models."
+        }
+    ]
+}

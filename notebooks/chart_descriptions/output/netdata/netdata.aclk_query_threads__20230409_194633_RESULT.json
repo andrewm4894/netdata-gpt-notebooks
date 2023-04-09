@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.aclk_query_threads",
+    "chart_description": "This chart shows the number of queries processed per thread in the aclk family. It provides insight into how efficiently the thread is handling requests.",
+    "dimension_descriptions": [
+        {
+            "Query 0": "The number of queries processed by the first thread.",
+            "Query 1": "The number of queries processed by the second thread."
+        }
+    ]
+}

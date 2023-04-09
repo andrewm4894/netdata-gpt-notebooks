@@ -1,0 +1,8 @@
+{
+    "chart_id": "netdata.dbengine_query_next_page",
+    "chart_description": "This chart shows the rate at which the Netdata Query Router is able to load the next page of results from the database, for both fast and slow queries.",
+    "dimension_descriptions": {
+        "loaded fast": "The rate at which next pages of results are loaded for queries that take a short amount of time",
+        "loaded slow": "The rate at which next pages of results are loaded for queries that take a long amount of time"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.db_points",
+    "chart_description": "The Netdata API Points chart displays the rate of API calls made to the Netdata database. This chart can help you identify periods of high API usage and potential performance issues.",
+    "dimension_descriptions": [
+        {
+            "N/A": "There are no dimensions for this chart."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_long_term_page_stats",
+    "chart_description": "This chart displays the number of pages used by the Netdata dbengine over a long period of time. Pages are basic storage units used by most database management systems to store data. By monitoring page statistics, you can detect any potential issues with the disk usage and query performance in your database system.",
+    "dimension_descriptions": [
+        {
+            "N/A": "This chart has no dimensions."
+        }
+    ]
+}

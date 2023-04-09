@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.aclk_mqtt_tx_queue",
+    "chart_description": "The chart shows the state of the transmit MQTT queue in bytes. It indicates how much data is ready to be sent via the MQTT protocol in the queue.",
+    "dimension_descriptions": [
+        {
+            "free": "The amount of free space in the transmit MQTT queue.",
+            "reclaimable": "The amount of space that can be reclaimed by unloading inactive transactions from the transmit MQTT queue.",
+            "size": "The total size of the transmit MQTT queue.",
+            "usable": "The amount of space that can be used for new transactions in the transmit MQTT queue.",
+            "used": "The amount of space that is currently occupied by transactions in the transmit MQTT queue."
+        }
+    ]
+}

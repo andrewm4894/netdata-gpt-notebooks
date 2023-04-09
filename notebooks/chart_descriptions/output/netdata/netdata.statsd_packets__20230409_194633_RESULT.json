@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.statsd_packets",
+    "chart_description": "This chart shows the number of network packets processed by the Netdata statsd server per second, broken down by the TCP and UDP protocols.",
+    "dimension_descriptions": [
+        {
+            "tcp": "The number of TCP packets processed by the Netdata statsd server per second.",
+            "udp": "The number of UDP packets processed by the Netdata statsd server per second."
+        }
+    ]
+}

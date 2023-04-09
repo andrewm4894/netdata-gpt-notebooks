@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_main_waste_events",
+    "chart_description": "This chart displays the rate of waste events for the main cache of Netdata's DB engine. Waste events indicate when an in-memory object is evicted or flushed from the cache due to full memory usage.",
+    "dimension_descriptions": [
+        {
+            "evict spins": "The rate at which objects are evicted from the cache due to full memory usage.",
+            "flush spins": "The rate at which objects are flushed from the cache due to full memory usage."
+        }
+    ]
+}

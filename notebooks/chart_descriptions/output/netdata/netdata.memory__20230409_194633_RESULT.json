@@ -1,0 +1,23 @@
+{
+    "chart_id": "netdata.memory",
+    "chart_description": "The Netdata Memory chart provides insights into the memory usage of your system. It shows the total amount of memory used by different processes, such as collectors, RRDset rrddim, and workers.",
+    "dimension_descriptions": [
+        {
+            "aral": "The amount of memory used by Aral, the memory allocator used by Netdata.",
+            "buffers": "The amount of memory used by kernel buffers.",
+            "collectors": "The amount of memory used by collectors, which gather metrics from different sources.",
+            "contexts": "The amount of memory used by contexts, which are Netdata plugins that perform math operations on metrics.",
+            "db": "The amount of memory used by the RRD database, which stores performance data and graphs.",
+            "functions": "The amount of memory used by functions, which are Netdata plugins that perform various data processing operations.",
+            "health": "The amount of memory used by health checks that monitor system health and send alerts when issues arise.",
+            "hosts": "The amount of memory used by host data, which is metadata collected from the host system.",
+            "judy": "The amount of memory used by the Judy arrays, which are used by Netdata to efficiently store and retrieve data.",
+            "labels": "The amount of memory used by labels, which are user-defined metadata used to group and filter metrics.",
+            "other": "The amount of memory used by other Netdata components that do not fit into the other dimensions.",
+            "rrdset rrddim": "The amount of memory used by different RRDsets and RRDDIMs, which are used to store and graph various metrics.",
+            "streaming": "The amount of memory used by the streaming component, which is responsible for sending metrics to other systems.",
+            "strings": "The amount of memory used by strings, which are used by Netdata to store various string data.",
+            "workers": "The amount of memory used by worker threads, which are used by Netdata to perform various tasks in parallel."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.prediction_stats",
+    "chart_description": "The `netdata.prediction_stats` chart provides information about the CPU usage of the prediction thread in the machine learning (ML) module of Netdata. This chart helps to ensure that the performance of the ML module is optimized, allowing it to make timely and accurate predications.",
+    "dimension_descriptions": [
+        {
+            "No dimensions available": "This chart does not have any available dimensions."
+        }
+    ]
+}

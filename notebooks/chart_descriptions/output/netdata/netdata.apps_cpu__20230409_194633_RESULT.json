@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.apps_cpu",
+    "chart_description": "This chart displays the percentage of CPU time consumed by the applications running in the system. It helps in identifying the CPU usage pattern of the applications running on the system.",
+    "dimension_descriptions": [
+        {
+            "system": "The portion of CPU time consumed by the system-level processes or kernel. This includes the time spent in handling interrupts, servicing system calls, and carrying out other kernel-level activities.",
+            "user": "The portion of CPU time consumed by user-level or application-level processes. This includes the time spent in executing user-level instructions and performing other application-level activities."
+        }
+    ]
+}

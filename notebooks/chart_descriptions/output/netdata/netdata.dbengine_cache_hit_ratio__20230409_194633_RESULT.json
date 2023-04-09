@@ -1,0 +1,12 @@
+{
+    "chart_id": "netdata.dbengine_cache_hit_ratio",
+    "chart_description": "The Netdata Queries Cache Hit Ratio chart shows the percentage of cache hits for database engine queries over time. Higher values generally indicate that the cache is being used effectively and that queries are not having to hit the database as frequently. Lower values may indicate that the cache needs tuning or that queries are not being optimized properly.",
+    "dimension_descriptions": [
+        {
+            "extent cache": "The percentage of cache hits for extent cache.",
+            "extent merge": "The percentage of cache hits for extent merge.",
+            "main cache": "The percentage of cache hits for main cache.",
+            "overall": "Overall percentage of cache hits for all dimensions."
+        }
+    ]
+}

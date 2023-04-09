@@ -1,0 +1,14 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_workers",
+    "chart_description": "The Netdata Extent Cache Workers chart displays the number of workers in the extent cache subsystem responsible for caching extents (portions of a file that have been allocated to a process) used by the disk database engine. It can help you identify and troubleshoot issues related to lack of caching, cache eviction or cache flushing.",
+    "dimension_descriptions": [
+        {
+            "adders": "The number of threads adding, updating or extending extents in the extent cache.",
+            "evictors": "The number of threads responsible for evicting extents from the cache when it gets full in order to make room for new extents.",
+            "flushers": "The number of threads responsible for flushing changes in the extent cache to disk.",
+            "hot2dirty": "The number of extents converted by a process from hot state (frequently accessed) to dirty state (modified).",
+            "jv2 flushers": "The number of threads responsible for flushing jitted views from the extent cache to disk.",
+            "searchers": "The number of threads searching in the extent cache for a specific extent needed by a process."
+        }
+    ]
+}

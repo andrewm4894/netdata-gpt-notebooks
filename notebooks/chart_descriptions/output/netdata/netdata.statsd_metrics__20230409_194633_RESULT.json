@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.statsd_metrics",
+    "chart_description": "The netdata.statsd_metrics chart displays the number of metrics in the netdata statsd database, broken down by type.",
+    "dimension_descriptions": {
+        "counters": "Counters are metrics that count the number of times an event has occurred, such as the number of requests to a web server.",
+        "dictionaries": "Dictionaries are metrics that store data as key-value pairs, allowing for more complex data structures to be tracked.",
+        "gauges": "Gauges track a current value, such as server load or available disk space.",
+        "histograms": "Histograms track the distribution of values over a period of time, allowing for analysis of data patterns.",
+        "meters": "Meters track rates, such as the number of requests per second to a web server.",
+        "sets": "Sets track unique values, such as the number of unique visitors to a website.",
+        "timers": "Timers track the duration of events, such as the time it takes a web page to load."
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "chart_id": "netdata.dbengine_ram",
+    "chart_description": "The netdata.dbengine_ram chart shows the amount of RAM used by the Netdata database engine. This includes the memory used by the SQLite database engine and the memory used by the database cache.",
+    "dimension_descriptions": []
+}

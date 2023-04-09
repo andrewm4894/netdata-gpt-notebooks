@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.ebpf_hash_tables_count",
+    "chart_description": "This chart displays the number of currently loaded hash tables in the eBPF subsystem.",
+    "dimension_descriptions": [
+        {
+            "hash_table": "This dimension specifies the name of the hash table being monitored."
+        }
+    ]
+}

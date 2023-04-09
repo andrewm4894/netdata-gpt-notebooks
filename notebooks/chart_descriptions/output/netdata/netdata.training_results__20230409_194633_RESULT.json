@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.training_results",
+    "chart_description": "This chart displays the training results of a machine learning model, showing the number of events that are categorized as 'ok'.",
+    "dimension_descriptions": [
+        {
+            "ok": "The dimension 'ok' represents the number of training events that were successful or produced valid results, according to the machine learning model's criteria."
+        }
+    ]
+}

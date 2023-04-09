@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_pages",
+    "chart_description": "This chart shows the number of pages currently held in the cache for the Netdata extent. This cache stores information about the database's extents that have been recently accessed or modified. Tracking these pages can help identify performance issues related to the database cache.",
+    "dimension_descriptions": [
+        {
+            "clean": "This dimension shows the number of pages that have been cleaned or recycled in the cache. Pages that are no longer in active use by the database are recycled and made available for new data to be stored. Monitoring this value can aid in understanding the amount of space being used by the cache, and if it needs to be adjusted for better performance."
+        }
+    ]
+}

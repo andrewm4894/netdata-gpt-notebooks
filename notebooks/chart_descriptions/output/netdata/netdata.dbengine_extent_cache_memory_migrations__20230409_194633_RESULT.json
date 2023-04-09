@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_memory_migrations",
+    "chart_description": "This chart monitors the migrations of memory pages between different states of extents cache in the database engine. It helps to understand how much data is being migrated between different cache states and detect potential memory bottlenecks. The chart shows the migration rates in bytes per second over time.",
+    "dimension_descriptions": [
+        {
+            "dirty to clean": "This dimension measures the migration of dirty memory pages to clean memory pages. Dirty pages are pages that have been modified in memory and are waiting to be written to disk. Clean pages, on the other hand, have not been modified in memory and can be evicted from memory without needing to be written to disk. This dimension helps to understand how much eviction is happening and how soon dirty pages are cleaned up to free memory for new pages to be loaded.",
+            "hot to dirty": "This dimension measures the migration of hot memory pages to dirty memory pages. Hot pages are the most frequently accessed pages in the cache, while dirty pages are the ones that have been modified and need to be written to disk. This dimension helps to understand how much memory is being used for dirty pages and how much for hot pages. It also helps to identify if there are too many hot pages or too few dirty pages, which may impact the performance of the database engine."
+        }
+    ]
+}

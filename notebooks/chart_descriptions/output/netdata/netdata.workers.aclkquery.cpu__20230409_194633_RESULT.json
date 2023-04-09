@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.workers.aclkquery.cpu",
+    "chart_description": "This chart shows the CPU utilization of Netdata workers running the aclkquery module. It indicates how busy the workers are, with 100% representing all workers being fully utilized.",
+    "dimension_descriptions": [
+        {
+            "average": "The average CPU utilization of the Netdata workers running the aclkquery module.",
+            "max": "The maximum CPU utilization of the Netdata workers running the aclkquery module.",
+            "min": "The minimum CPU utilization of the Netdata workers running the aclkquery module."
+        }
+    ]
+}

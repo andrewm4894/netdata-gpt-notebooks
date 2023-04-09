@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.aclk_mqtt_wss_time",
+    "chart_description": "This chart shows the time spent for handling MQTT, WSS, SSL and network communication related operations for the Netdata Active Clock (aclk) module.",
+    "dimension_descriptions": [
+        {
+            "keep-alive": "The time spent for keep-alive operations in microseconds. Keep-alive is a mechanism used to maintain active network connections between the client and the server.",
+            "process_mqtt": "The time spent for processing MQTT messages in microseconds. MQTT is a lightweight messaging protocol used for machine-to-machine communication.",
+            "process_websocket": "The time spent for processing WebSocket messages in microseconds. WebSocket is a protocol used for real-time communication between a client and a server.",
+            "socket_read_ssl": "The time spent for reading data from a SSL socket in microseconds. SSL (Secure Socket Layer) is a protocol used for securing communication over the internet.",
+            "socket_write_ssl": "The time spent for writing data to a SSL socket in microseconds. SSL (Secure Socket Layer) is a protocol used for securing communication over the internet."
+        }
+    ]
+}

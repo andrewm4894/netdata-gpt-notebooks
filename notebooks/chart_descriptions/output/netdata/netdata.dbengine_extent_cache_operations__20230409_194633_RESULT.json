@@ -1,0 +1,14 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_operations",
+    "chart_description": "This chart measures the operations performed on the extent cache of the Netdata database engine. The extent cache is a type of memory cache used to cache the pages on disk. The chart allows you to monitor the efficiency of the cache operations and identify potential bottlenecks or issues affecting the cache performance.",
+    "dimension_descriptions": [
+        {
+            "acquires": "The number of times netdata has acquired an extent cache lock.",
+            "add clean": "The number of times netdata has added an extent to the cache as a clean object.",
+            "del acquires": "The number of times netdata has acquired an extent cache lock when deleting an extent.",
+            "evictions": "The number of extents evicted from the cache.",
+            "releases": "The number of times netdata has released an extent lock.",
+            "search exact": "The number of times netdata has looked up an extent in the extent cache."
+        }
+    ]
+}

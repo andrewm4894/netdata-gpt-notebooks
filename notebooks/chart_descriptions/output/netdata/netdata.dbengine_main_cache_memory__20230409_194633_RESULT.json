@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_memory",
+    "chart_description": "This chart shows the usage of memory in the main cache of Netdata's database engine. The memory is divided into the dimensions of `clean`, `dirty`, `free`, `hot`, and `index`.",
+    "dimension_descriptions": [
+        {
+            "clean": "The amount of memory used for clean data blocks in the cache.",
+            "dirty": "The amount of memory used for dirty data blocks in the cache.",
+            "free": "The amount of free memory available in the cache.",
+            "hot": "The amount of memory used for hot data blocks in the cache.",
+            "index": "The amount of memory used for index blocks in the cache."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_query_pages_disk_load",
+    "chart_description": "This chart displays the number of pages loaded from disk per second for queries executed by the Netdata database engine. It can be used to monitor the performance of disk reads for queries and help identify potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "extent merged": "The number of pages that were read from disk and merged with existing pages in memory before being used for a query.",
+            "ok compressed": "The number of pages that were read from disk and used directly for a query without being merged with existing pages in memory."
+        }
+    ]
+}

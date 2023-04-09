@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.apps_children_fix",
+    "chart_description": "The 'Apps Plugin Exited Children Normalization Ratios' chart displays the percentage of time spent by application child processes in different system calls that have exited. This chart helps you monitor how resources are being utilized by application child processes and identify any abnormal activity.",
+    "dimension_descriptions": [
+        {
+            "cgtime": "The percentage of time spent by child processes in system call 'cgtime'.",
+            "cmajflt": "The percentage of time spent by child processes in system call 'cmajflt'.",
+            "cminflt": "The percentage of time spent by child processes in system call 'cminflt'.",
+            "cstime": "The percentage of time spent by child processes in system call 'cstime'.",
+            "cutime": "The percentage of time spent by child processes in system call 'cutime'."
+        }
+    ]
+}

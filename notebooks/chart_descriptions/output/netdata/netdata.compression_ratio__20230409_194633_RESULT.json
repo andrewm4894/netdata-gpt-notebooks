@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.compression_ratio",
+    "chart_description": "The Netdata API Responses Compression Savings Ratio chart measures the compression savings achieved by the Netdata API responses in percentage. A high compression savings ratio indicates that Netdata is efficient in compressing the API responses, which reduces network bandwidth and improves the API's response time.",
+    "dimension_descriptions": [
+        {
+            "savings": "The savings dimension represents the ratio of the uncompressed data size to the compressed data size in percentage."
+        }
+    ]
+}

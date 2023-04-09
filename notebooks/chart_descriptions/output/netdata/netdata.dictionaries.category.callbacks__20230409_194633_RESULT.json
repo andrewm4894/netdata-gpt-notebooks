@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dictionaries.category.callbacks",
+    "chart_description": "This chart displays the number of callbacks per second for various operations on the dictionary data structure. Callbacks occur when a specific event takes place and the corresponding registered function is executed. This chart helps in analyzing the performance of dictionary operations.",
+    "dimension_descriptions": [
+        {
+            "conflicts": "The number of callbacks per second for dictionary conflicts, i.e., when two or more elements try to acquire the same position in the dictionary.",
+            "deletes": "The number of callbacks per second for dictionary deletions, i.e., when an element is removed from the dictionary.",
+            "inserts": "The number of callbacks per second for dictionary insertions, i.e., when a new element is added to the dictionary."
+        }
+    ]
+}

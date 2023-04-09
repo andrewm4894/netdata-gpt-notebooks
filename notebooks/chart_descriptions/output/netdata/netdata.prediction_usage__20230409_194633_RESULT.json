@@ -1,0 +1,5 @@
+{
+    "chart_id": "netdata.prediction_usage",
+    "chart_description": "This chart displays the resource usage in milliseconds per second for predictions made by Netdata's machine learning algorithms.",
+    "dimension_descriptions": []
+}

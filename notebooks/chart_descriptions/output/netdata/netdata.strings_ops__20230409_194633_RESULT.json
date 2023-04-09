@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.strings_ops",
+    "chart_description": "The `netdata.strings_ops` chart shows the number of string operations performed per second on the system. String operations refer to actions such as insertions, deletions, duplications, searches, and releases of strings within the system. This chart helps to monitor the performance of string operations and identify potential issues related to slow or inefficient string processing.",
+    "dimension_descriptions": [
+        {
+            "deletes": "The number of string deletion operations performed per second.",
+            "duplications": "The number of times a string is duplicated or copied within the system per second.",
+            "inserts": "The number of string insertion operations performed per second.",
+            "releases": "The number of string release or deallocation operations performed per second.",
+            "searches": "The number of times a string is searched for within the system per second."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_events",
+    "chart_description": "The Netdata extent Cache Events chart displays the rate of extent cache events occurring in the database engine. This can help track the performance of the cache and identify any issues.",
+    "dimension_descriptions": [
+        {
+            "evictions aggressive": "The number of extent cache evictions that are deemed aggressive. Aggressive evictions occur when the cache is running out of space and needs to free up memory quickly. A high number of aggressive evictions could indicate that the cache is undersized or that there is a heavy load on the database.",
+            "evictions critical": "The number of extent cache evictions that are deemed critical. Critical evictions occur when the cache is almost out of space and needs to free up memory immediately. A high number of critical evictions could indicate that the cache is severely undersized or that there is a very heavy load on the database."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.response_time",
+    "chart_description": "The Netdata API Response Time chart shows the average and maximum response time of the Netdata API for each request made. This chart is useful for monitoring the performance of the Netdata API and identifying potential bottlenecks in the system.",
+    "dimension_descriptions": [
+        {
+            "average": "The average response time of the Netdata API for each request made in milliseconds.",
+            "max": "The maximum response time of the Netdata API for each request made in milliseconds."
+        }
+    ]
+}

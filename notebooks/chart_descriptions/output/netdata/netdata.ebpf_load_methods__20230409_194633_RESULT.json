@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.ebpf_load_methods",
+    "chart_description": "This chart shows the number of eBPF load methods in use on the system. eBPF load methods are used to load eBPF programs into the kernel. A higher number of load methods may indicate a more complex configuration or heavier usage of eBPF.",
+    "dimension_descriptions": [
+        {
+            "co-re": "The number of load methods using the Co-RE (Compile Once - Run Everywhere) framework. The Co-RE framework enables eBPF programs to be compiled once and then run across multiple kernel versions and configurations.",
+            "legacy": "The number of load methods using the legacy method. This is the traditional method for loading eBPF programs and can require recompilation for each kernel version and configuration."
+        }
+    ]
+}

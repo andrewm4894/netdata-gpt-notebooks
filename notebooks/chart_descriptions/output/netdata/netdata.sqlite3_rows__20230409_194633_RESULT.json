@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.sqlite3_rows",
+    "chart_description": "Netdata SQLite3 Rows chart measures the number of SQL rows returned per second by SQLite3 database queries on the system. This chart helps to identify performance-related issues with SQLite3 queries.",
+    "dimension_descriptions": [
+        {
+            "ok": "The number of SQLite3 rows returned per second by successful database queries."
+        }
+    ]
+}

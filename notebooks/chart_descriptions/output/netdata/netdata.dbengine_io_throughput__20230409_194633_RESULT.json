@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_io_throughput",
+    "chart_description": "This chart displays the throughput of reads and writes of the Netdata DB engine in unit of MiB/s. It helps to monitor and optimize data operations in the database engine.",
+    "dimension_descriptions": [
+        {
+            "reads": "The amount of data being read per second from the Netdata DB engine in unit of MiB/s.",
+            "writes": "The amount of data being written per second to the Netdata DB engine in unit of MiB/s."
+        }
+    ]
+}

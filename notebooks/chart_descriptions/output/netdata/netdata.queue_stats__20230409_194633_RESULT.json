@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.queue_stats",
+    "chart_description": "The Training Queue Stats chart tracks the number of items popped and the size of the queue in the machine learning family. It helps to monitor how efficiently the processing of training data is being done.",
+    "dimension_descriptions": [
+        {
+            "popped_items": "The number of items that have been removed from the queue for processing.",
+            "queue_size": "The current size of the queue, including items waiting for processing."
+        }
+    ]
+}

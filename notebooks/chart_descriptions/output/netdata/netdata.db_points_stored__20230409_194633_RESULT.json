@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.db_points_stored",
+    "chart_description": "This chart displays the rate at which data points are being stored in the Netdata database. It helps monitor the performance of the database and can be used to proactively detect any potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "tier0": "This dimension represents the number of data points stored in the database that belong to the top tier. This can be useful in identifying which data sources are contributing the most to the total number of stored data points.",
+            "tier1": "This dimension represents the number of data points stored in the database that belong to the lower tier. This can be useful in identifying which data sources are contributing the least to the total number of stored data points."
+        }
+    ]
+}

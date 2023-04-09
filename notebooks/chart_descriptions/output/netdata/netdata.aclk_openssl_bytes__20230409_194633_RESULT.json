@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.aclk_openssl_bytes",
+    "chart_description": "This chart shows the amount of bytes received and sent by the OpenSSL library in bytes per second. It provides insights into the network traffic of the OpenSSL library, which is a widely used cryptographic library that implements Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of bytes received by the OpenSSL library in bytes per second. This dimension can help identify potential network issues such as high traffic volumes or network congestion.",
+            "sent": "The amount of bytes sent by the OpenSSL library in bytes per second. This dimension can help identify potential security issues such as unauthorized data transmissions or potential data leaks."
+        }
+    ]
+}

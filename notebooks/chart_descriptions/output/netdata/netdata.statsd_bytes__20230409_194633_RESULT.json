@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.statsd_bytes",
+    "chart_description": "The `netdata.statsd_bytes` chart shows the amount of bytes the netdata statsd server reads, separated by the TCP and UDP protocols. This chart helps in monitoring the incoming traffic from different sources to the statsd server.",
+    "dimension_descriptions": [
+        {
+            "tcp": "The amount of bytes read by the statsd server through the TCP protocol.",
+            "udp": "The amount of bytes read by the statsd server through the UDP protocol."
+        }
+    ]
+}

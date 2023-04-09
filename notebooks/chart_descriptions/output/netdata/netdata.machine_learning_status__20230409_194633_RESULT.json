@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.machine_learning_status",
+    "chart_description": "This chart provides the status of machine learning on the monitored system. It tracks the status of disabled and enabled SP (Static Prediction) and UE (User-defined Events). If SP and UE are both disabled, then Machine Learning is not enabled on the monitored system.",
+    "dimension_descriptions": [
+        {
+            "disabled-sp": "The number of disabled Static Prediction rules.",
+            "disabled-ue": "The number of disabled User-defined Events that are used in Machine Learning.",
+            "enabled": "The number of enabled Machine Learning algorithms on the system. A value of '0' indicates that Machine Learning is not enabled."
+        }
+    ]
+}

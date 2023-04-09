@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_queries_running",
+    "chart_description": "This chart shows the number of queries currently running in Netdata's database engine. It can be helpful in monitoring the performance of the database engine and identifying any potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "queries": "The number of queries currently running in the database engine."
+        }
+    ]
+}

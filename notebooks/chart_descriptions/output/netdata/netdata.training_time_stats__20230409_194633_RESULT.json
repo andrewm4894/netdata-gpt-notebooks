@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.training_time_stats",
+    "chart_description": "This chart displays the time taken for training in the machine learning process. It shows the time allotted for training, the time consumed and the remaining time for training.",
+    "dimension_descriptions": [
+        {
+            "allotted": "This dimension shows the time allotted for training in milliseconds.",
+            "consumed": "This dimension shows the time taken for training in milliseconds.",
+            "remaining": "This dimension shows the time remaining for training in milliseconds."
+        }
+    ]
+}

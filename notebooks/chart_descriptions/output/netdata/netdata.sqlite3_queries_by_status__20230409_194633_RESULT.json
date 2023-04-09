@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.sqlite3_queries_by_status",
+    "chart_description": "This chart displays the rate of SQLite3 queries grouped by their status. It shows the number of queries that have completed successfully (ok) per second.",
+    "dimension_descriptions": [
+        {
+            "ok": "The number of SQLite3 queries that completed successfully per second."
+        }
+    ]
+}

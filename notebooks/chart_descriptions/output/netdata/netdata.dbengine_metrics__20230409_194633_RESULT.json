@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.dbengine_metrics",
+    "chart_description": "This chart displays the number of metrics in the Netdata Metrics Registry, categorized by whether they have been acquired, collected, or retained.",
+    "dimension_descriptions": [
+        {
+            "acquired": "The number of metrics that have been acquired and are currently in the Metrics Registry.",
+            "all": "The total number of metrics available in the Metrics Registry, regardless of whether they have been acquired or retained.",
+            "collected": "The number of metrics that have been collected and are currently in the Metrics Registry.",
+            "with retention": "The number of metrics that have been retained and are currently in the Metrics Registry.",
+            "without retention": "The number of metrics that have not been retained and are not currently in the Metrics Registry."
+        }
+    ]
+}

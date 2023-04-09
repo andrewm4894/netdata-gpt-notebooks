@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_memory_changes",
+    "chart_description": "This chart shows the changes in memory usage for the database engine's extent cache, which manages the space used by data on disk in MongoDB. The chart displays the rate at which evictions and new clean bytes are added to the cache memory.",
+    "dimension_descriptions": [
+        {
+            "evictions": "The rate at which data is removed from the cache due to space constraints. A high eviction rate can indicate that the cache is not large enough for the workload, leading to reduced performance.",
+            "new clean": "The rate at which new data is added to the cache, which is clean (not modified) and has no previous entry in the cache. This helps to reduce disk input/output and improve query response time."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.workers.aclkquery.jobs_started_by_type",
+    "chart_description": "This chart shows the number of jobs started by workers that handle ad-click queries, categorized by the type of HTTP API request sent to Netdata in version 2.0 format. This can help identify areas where resources are being heavily utilized or where performance issues may arise.",
+    "dimension_descriptions": [
+        {
+            "http_api_request_v2": "The type of HTTP API request sent to Netdata in version 2.0 format. This can include requests for metrics, alarms, or other services that may be offered by Netdata. By tracking the number of jobs started for each type of request, you can gain insight into which services are being heavily used or where additional resources may need to be allocated."
+        }
+    ]
+}

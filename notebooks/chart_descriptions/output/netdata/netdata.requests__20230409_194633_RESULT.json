@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.requests",
+    "chart_description": "This chart displays the rate of web requests processed by Netdata.",
+    "dimension_descriptions": [
+        {
+            "requests": "The number of requests received by Netdata web server per second."
+        }
+    ]
+}

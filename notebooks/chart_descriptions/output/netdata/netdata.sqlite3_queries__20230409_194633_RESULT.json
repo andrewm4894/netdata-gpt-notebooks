@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.sqlite3_queries",
+    "chart_description": "This chart shows the rate of SQLite3 queries per second on the system being monitored. It helps identify how often the SQLite3 database is being called, and can help pinpoint performance issues related to SQLite3 usage.",
+    "dimension_descriptions": [
+        {
+            "queries": "The number of queries per second executed by SQLite3 on the system being monitored."
+        }
+    ]
+}

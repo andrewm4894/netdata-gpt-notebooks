@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.workers.aclkquery.time_by_type",
+    "chart_description": "The Netdata Workers Busy Time by Type chart displays the amount of time that Netdata workers spend processing requests from the Aclkquery HTTP API, categorized by the request type. This chart helps to identify the workload of the workers, enabling optimizations to be made to maximize resource allocation.",
+    "dimension_descriptions": [
+        {
+            "http_api_request_v2": "The different types of HTTP API requests made to the Aclkquery Netdata workers. Requests may include things such as small queries or large continuous queries, with varying levels of complexity and required processing time."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_memory_changes",
+    "chart_description": "This chart tracks changes in the main cache memory of the Netdata database engine. It shows the rate at which data is being evicted from the cache, as well as the rate of newly added clean and hot data in the cache. This can be useful in understanding the cache performance and identifying any potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "evictions": "The rate at which data is being evicted from the cache, measured in bytes per second.",
+            "new clean": "The rate at which newly added clean data is being added to the cache, measured in bytes per second.",
+            "new hot": "The rate at which newly added hot data is being added to the cache, measured in bytes per second."
+        }
+    ]
+}

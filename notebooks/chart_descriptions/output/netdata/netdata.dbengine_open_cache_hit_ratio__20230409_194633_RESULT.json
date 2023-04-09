@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_hit_ratio",
+    "chart_description": "This chart displays the percentage of cache hits in the open cache of the Netdata database engine. The open cache stores metadata about all the metrics Netdata collects. A high cache hit ratio indicates that most metadata queries are served from the cache, resulting in faster query responses.",
+    "dimension_descriptions": [
+        {
+            "closest": "The time, in seconds, of the closest available data point to the current moment.",
+            "exact": "The exact time, in seconds, the metadata for the metrics was last cached."
+        }
+    ]
+}

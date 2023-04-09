@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.aclk_status",
+    "chart_description": "This chart tracks the status of the connection between Netdata and the Netdata Cloud server. It shows whether or not the connection is currently active, and is an indicator of whether or not data is being sent to the cloud.",
+    "dimension_descriptions": [
+        {
+            "online": "This dimension shows whether or not the Netdata Cloud connection is currently active. If the value is 1, the connection is active, and if it is 0, the connection is inactive."
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.db_points_read",
+    "chart_description": "The Netdata DB Points Query Read chart measures the rate at which Netdata is reading information points from the database. This chart can be useful for identifying potential performance issues caused by slow database reads.",
+    "dimension_descriptions": [
+        {
+            "/api/v1/data": "Indicates the endpoint Netdata is querying to pull data from the database.",
+            "health": "Indicates the health status of the database. Values can be 'up', 'down', or 'unknown'.",
+            "ml": "Indicates the machine learning anomaly detection state of the database. Values can be 'normal', 'breach', or 'critical'."
+        }
+    ]
+}

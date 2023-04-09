@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dictionaries.category.memory",
+    "chart_description": "This chart provides information about the memory usage of dictionary data structures, which are used to store variable-length key-value pairs.",
+    "dimension_descriptions": [
+        {
+            "data": "Indicates the type of memory being used: physical, virtual, shared, or active.",
+            "index": "Indicates the index of the dictionary that is being monitored.",
+            "structures": "Indicates the type of dictionary structure being used: radix, rrd, or tree."
+        }
+    ]
+}

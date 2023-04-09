@@ -1,0 +1,14 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_workers",
+    "chart_description": "This chart shows the number of cache workers in various cache operations in the Netdata main cache of the database engine. These operations include adders, evictors, flushers, hot2dirty, jv2 flushers, and searchers. A cache worker is a worker thread that performs a specific cache operation. The chart helps in monitoring the load on the cache and identifies any bottlenecks that may arise due to insufficient cache workers.",
+    "dimension_descriptions": [
+        {
+            "adders": "The number of cache worker threads responsible for adding data to the cache. If this dimension has value spikes, it could indicate that data addition is occurring at a high rate, causing an increased load on the cache.",
+            "evictors": "The number of cache worker threads responsible for evicting data from the cache. If this dimension has value spikes, it could indicate that the cache is nearing capacity, and data needs to be evicted to make room for new entries.",
+            "flushers": "The number of cache worker threads responsible for flushing data from the cache to disk. If this dimension has value spikes, it could indicate that the cache is being cleared to free up memory temporarily.",
+            "hot2dirty": "The number of cache worker threads responsible for writing dirty blocks to disk. A dirty block is a cache block that has been modified since it was last written to disk. If this dimension has value spikes, it could indicate that the cache is writing huge amounts of modified data to disk.",
+            "jv2 flushers": "The number of threads that perform the JV2 cache flush operation. JV2 cache flush is the process of writing metadata of regular and extended attributes to disk. If this dimension has value spikes, it could indicate that the JV2 flush operation is running at high speed.",
+            "searchers": "The number of worker threads responsible for searching the cache. If this dimension has value spikes, it could indicate that the cache searches are taking too long, and more worker threads may be needed to speed up the searches."
+        }
+    ]
+}

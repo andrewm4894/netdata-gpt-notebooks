@@ -1,0 +1,12 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_memory",
+    "chart_description": "This chart shows the usage of open cache memory in bytes for the Netdata dbengine. It provides insight into how much cache memory is being used for indexing, cleaning, and storing data.",
+    "dimension_descriptions": [
+        {
+            "clean": "The amount of open cache memory used for cleaning.",
+            "free": "The amount of open cache memory currently unused.",
+            "hot": "The amount of open cache memory used for frequently accessed data.",
+            "index": "The amount of open cache memory used for indexing."
+        }
+    ]
+}

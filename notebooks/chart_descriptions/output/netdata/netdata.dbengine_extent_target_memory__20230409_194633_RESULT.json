@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_extent_target_memory",
+    "chart_description": "The Netdata extent Target Cache Memory chart shows the amount of memory used by the cache in the database engine. The cache system is used to store data in memory, which can improve the performance of the system by reducing the number of disk reads. This chart specifically shows the current amount of memory used by the cache and the desired or wanted amount of memory.",
+    "dimension_descriptions": [
+        {
+            "current": "The current amount of memory used by the cache in bytes.",
+            "wanted": "The desired or wanted amount of memory for the cache in bytes. This indicates the amount of memory that the cache is expected to use, based on the system's configuration settings."
+        }
+    ]
+}

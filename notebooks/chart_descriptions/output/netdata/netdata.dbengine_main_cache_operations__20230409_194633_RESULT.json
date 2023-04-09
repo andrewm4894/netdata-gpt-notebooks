@@ -1,0 +1,17 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_operations",
+    "chart_description": "This chart displays the main cache operations for the Netdata database engine. It shows the rate of operations per second.",
+    "dimension_descriptions": [
+        {
+            "acquires": "The number of times a thread-acquires a lock.",
+            "add clean": "The number of times a clean cached entry is added.",
+            "add hot": "The number of times a hot cached entry is added.",
+            "del acquires": "The number of times a thread-acquires a del queue lock.",
+            "evictions": "The number of entries evicted from the main cache.",
+            "flushes": "The number of entries flushed from the main cache.",
+            "releases": "The number of times a thread-releases a lock.",
+            "search closest": "The number of times the closest entry in the cache is searched.",
+            "search exact": "The number of times the exact entry in the cache is searched."
+        }
+    ]
+}

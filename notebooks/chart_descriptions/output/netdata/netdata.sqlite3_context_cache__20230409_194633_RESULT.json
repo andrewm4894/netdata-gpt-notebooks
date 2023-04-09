@@ -1,0 +1,12 @@
+{
+    "chart_id": "netdata.sqlite3_context_cache",
+    "chart_description": "This chart displays the performance of Netdata's SQLite3 cache in terms of cache hits, cache misses, cache spills and cache writes per second.",
+    "dimension_descriptions": [
+        {
+            "cache_hit": "The rate at which queries were satisfied by the SQLite3 cache.",
+            "cache_miss": "The rate at which queries had to be fulfilled from the SQLite3 database because they were not found in cache.",
+            "cache_spill": "The rate at which cache entries were evicted from memory to disk in order to make space for new entries.",
+            "cache_write": "The rate at which cache entries were being modified or created."
+        }
+    ]
+}

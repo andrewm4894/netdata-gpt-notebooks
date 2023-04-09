@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_hit_ratio",
+    "chart_description": "The Netdata main Cache Hit Ratio chart shows the percentage of cache hits for the main database engine. This metric is a key performance indicator for database performance as a high cache hit ratio indicates that database requests are being fulfilled from cache memory rather than having to access disk storage.",
+    "dimension_descriptions": [
+        {
+            "closest": "This dimension represents the percentage of database queries that could be served from a cache entry whose timestamp is closest to the time of the query. A high percentage indicates that the most recently accessed data is being efficiently cached.",
+            "exact": "This dimension represents the percentage of database queries that could be served from an exact match to the cache. A high percentage indicates that a large portion of the database is being efficiently cached."
+        }
+    ]
+}

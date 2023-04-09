@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_open_cache_pages",
+    "chart_description": "The Netdata open Cache Pages chart displays the number of pages that the database engine opens in the cache. This is an indicator of the amount of memory that the database is currently using for caching purposes.",
+    "dimension_descriptions": [
+        {
+            "clean": "The number of pages that have been cleaned and are ready to be used again.",
+            "hot": "The number of pages that are currently being used by the database engine."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dictionaries.category.spins",
+    "chart_description": "This chart displays the number of times the netdata dictionaries have been accessed in order to read or update their contents. The 'use' dimension indicates whether the access was a read or a write operation.",
+    "dimension_descriptions": [
+        {
+            "use": "Indicates whether the dictionary access was a read or a write operation."
+        }
+    ]
+}

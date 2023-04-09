@@ -1,0 +1,11 @@
+{
+    "chart_id": "netdata.dbengine_extent_cache_memory",
+    "chart_description": "This chart shows the extent cache memory usage in bytes for the Netdata dbengine extent cache family",
+    "dimension_descriptions": [
+        {
+            "clean": "The amount of memory used by clean extents that do not need to be flushed to disk",
+            "free": "The amount of memory available for a new extent to be created or to be used by existing dirty extents",
+            "index": "The amount of memory used by index nodes to locate data extents"
+        }
+    ]
+}

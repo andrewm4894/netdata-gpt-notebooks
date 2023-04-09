@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_main_cache_memory_migrations",
+    "chart_description": "This chart displays the rate of memory migrations between different cache states in Netdata's main database engine cache. Memory migration is a process where data is moved between different memory caches in order to optimize performance and reduce the likelihood of cache misses. The chart helps monitor the efficiency of memory migration in the cache.",
+    "dimension_descriptions": [
+        {
+            "dirty to clean": "The rate of memory migration from the Dirty cache to the Clean cache. The Dirty cache stores data that has been modified but not yet written to disk, while the Clean cache stores data that has been synced to disk.",
+            "hot to dirty": "The rate of memory migration from the Hot cache to the Dirty cache. The Hot cache stores frequently accessed data in memory to improve performance, while the Dirty cache stores modified data that has not yet been synced to disk."
+        }
+    ]
+}

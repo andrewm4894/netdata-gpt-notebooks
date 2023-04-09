@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.aclk_query_per_second",
+    "chart_description": "This chart displays the number of ACLK queries per second received and dispatched by Netdata.",
+    "dimension_descriptions": [
+        {
+            "added": "The number of ACLK queries added per second.",
+            "dispatched": "The number of ACLK queries dispatched per second."
+        }
+    ]
+}

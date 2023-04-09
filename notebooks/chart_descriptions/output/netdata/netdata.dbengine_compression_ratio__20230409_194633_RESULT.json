@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.dbengine_compression_ratio",
+    "chart_description": "This chart displays the percentage of savings achieved through compression of data extents in Netdata's DB engine. DB engine data extents are logical units of storage that contain data records.",
+    "dimension_descriptions": [
+        {
+            "savings": "The percentage of savings achieved through compression of data extents. It is calculated by subtracting the size of uncompressed data extents from the size of compressed data extents, and dividing the result by the size of uncompressed data extents, then multiplying by 100. A higher value indicates better compression efficiency."
+        }
+    ]
+}

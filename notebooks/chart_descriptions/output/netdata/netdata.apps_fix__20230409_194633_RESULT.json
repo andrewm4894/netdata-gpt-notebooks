@@ -1,0 +1,13 @@
+{
+    "chart_id": "netdata.apps_fix",
+    "chart_description": "The Apps Plugin Normalization Ratios chart displays the percentage of time spent in user mode, system mode, and the percentage of major and minor page faults for all processes started by the 'apps' plugin. This chart is useful in identifying abnormal behavior in processes started by the 'apps' plugin and optimizing their performance.",
+    "dimension_descriptions": [
+        {
+            "gtime": "Percentage of time spent in user mode by processes started by the 'apps' plugin.",
+            "majflt": "Percentage of expected 'major' page faults, which occur when the operating system must bring in data from disk to fulfill a request by a program, for all processes started by the 'apps' plugin.",
+            "minflt": "Percentage of expected 'minor' page faults, which occur when data is not in memory and the operating system must bring it from disk into memory, for all processes started by the 'apps' plugin.",
+            "stime": "Percentage of time spent in system mode by processes started by the 'apps' plugin.",
+            "utime": "Percentage of time spent in user mode by processes started by the 'apps' plugin."
+        }
+    ]
+}

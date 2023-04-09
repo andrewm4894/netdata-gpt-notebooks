@@ -1,0 +1,14 @@
+{
+    "chart_id": "netdata.dbengine_query_next_page_issues",
+    "chart_description": "This chart shows the number of database queries that fail to retrieve the next page of results. This could be caused by several issues such as entries that cannot be fixed, invalid page size, overlapping pages, past time, fixed update every, and zero timestamp.",
+    "dimension_descriptions": [
+        {
+            "entries fixed": "This dimension shows the number of queries that could not fix entries on the page.",
+            "invalid size": "This dimension shows the number of queries that have an invalid page size.",
+            "overlapping": "This dimension shows the number of queries that suffer from overlapping pages.",
+            "past time": "This dimension shows the number of queries that belong to the past time.",
+            "update every fixed": "This dimension shows the number of queries with a fixed update every.",
+            "zero timestamp": "This dimension shows the number of queries with a zero timestamp."
+        }
+    ]
+}

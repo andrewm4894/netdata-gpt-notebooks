@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.clients",
+    "chart_description": "This chart monitors the number of clients connected to Netdata's web interface. It provides insight into the level of usage and concurrent connections to the Netdata server.",
+    "dimension_descriptions": [
+        {
+            "clients": "The number of clients connected to the Netdata web interface. This includes both active and idle connections. A high number of clients may cause higher resource usage on the server and may impact performance."
+        }
+    ]
+}

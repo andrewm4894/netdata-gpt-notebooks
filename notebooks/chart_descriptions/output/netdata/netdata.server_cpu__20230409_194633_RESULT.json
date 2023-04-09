@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.server_cpu",
+    "chart_description": "The `netdata.server_cpu` chart displays the CPU usage of the server. It shows the amount of time the CPU is being used in kernel mode and user mode by system and user processes respectively.",
+    "dimension_descriptions": [
+        {
+            "system": "The amount of time the CPU is used in kernel mode by system processes.",
+            "user": "The amount of time the CPU is used in user mode by user processes."
+        }
+    ]
+}

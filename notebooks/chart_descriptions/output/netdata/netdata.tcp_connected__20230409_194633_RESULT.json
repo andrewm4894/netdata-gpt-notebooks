@@ -1,0 +1,9 @@
+{
+    "chart_id": "netdata.tcp_connected",
+    "chart_description": "This chart displays the number of active TCP connections to the StatsD server. This can be useful for monitoring network traffic and identifying potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "connected": "The number of active TCP connections to the server at the given moment in time."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "chart_id": "netdata.apps_sizes",
+    "chart_description": "This chart displays the rate at which files are being accessed and modified by various applications on the system, including the number of files, file descriptors, inodes, and processes. It can be used to track changes to application behavior and identify any potential performance or security issues caused by excessive file usage.",
+    "dimension_descriptions": [
+        {
+            "calls": "The rate at which file system calls are being made by each application on the system.",
+            "fds": "The number of file descriptors each application is using to access files.",
+            "filenames": "The rate at which each application is accessing different file names.",
+            "files": "The rate at which each application is accessing different files.",
+            "inode_changes": "The rate at which the inodes used by the applications are being updated.",
+            "link_changes": "The rate at which links to files are being updated.",
+            "new_pids": "The rate at which new processes are being spawned by each application.",
+            "pids": "The number of active processes each application has running.",
+            "targets": "The rate at which different file system targets are being accessed by each application."
+        }
+    ]
+}

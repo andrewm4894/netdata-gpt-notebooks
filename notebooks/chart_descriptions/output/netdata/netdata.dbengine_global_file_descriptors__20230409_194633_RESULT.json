@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_global_file_descriptors",
+    "chart_description": "This chart shows the current and maximum number of file descriptors used by the Netdata DB engine. File descriptors are a way of tracking open files and network sockets in use by a process. The higher the number of file descriptors, the more resources the process requires.",
+    "dimension_descriptions": [
+        {
+            "current": "The current number of file descriptors used by the Netdata DB engine.",
+            "max": "The maximum number of file descriptors used by the Netdata DB engine since it started running."
+        }
+    ]
+}

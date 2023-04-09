@@ -1,0 +1,17 @@
+{
+    "chart_id": "netdata.memory_buffers",
+    "chart_description": "The Netdata Memory Buffers chart shows the usage of the different memory buffers in bytes. These are used to temporarily store data as it moves through various parts of the system.",
+    "dimension_descriptions": [
+        {
+            "aral": "The memory used in Adaptive Replacement Cache (ARC) Algorithm for ZFS.",
+            "collection": "The memory used in collection engine.",
+            "judy": "The memory used in Judy arrays.",
+            "queries": "The memory used in queries engine.",
+            "replication": "The memory used in replication engine.",
+            "sqlite": "The memory used in SQLite database engine.",
+            "streaming": "The memory used in streaming engine.",
+            "streaming cbuf": "The memory used in streaming data circular buffers.",
+            "web": "The memory used in the web server engine."
+        }
+    ]
+}

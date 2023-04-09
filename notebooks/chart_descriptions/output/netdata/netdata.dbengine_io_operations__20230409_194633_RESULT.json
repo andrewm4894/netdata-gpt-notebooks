@@ -1,0 +1,10 @@
+{
+    "chart_id": "netdata.dbengine_io_operations",
+    "chart_description": "The Netdata DB engine I/O operations chart monitors the input/output operations per second (IOPS) of reads and writes on the database engine.",
+    "dimension_descriptions": [
+        {
+            "reads": "The number of read operations per second",
+            "writes": "The number of write operations per second"
+        }
+    ]
+}

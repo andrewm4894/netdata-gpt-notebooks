@@ -1,0 +1,15 @@
+{
+    "chart_id": "netdata.dbengine_main_target_memory",
+    "chart_description": "The Netdata main Target Cache Memory chart provides an overview of the memory usage in the main cache of the database engine. The main target cache is the memory allocated to the database engine to manage and store data from the disks in memory. ",
+    "dimension_descriptions": [
+        {
+            "current": "The current size of the main cache in bytes.",
+            "dirty": "The memory currently marked as dirty, meaning it has been modified and needs to be written back to disk.",
+            "dirty max": "The maximum size of dirty memory the cache can hold before it starts evicting data to disk.",
+            "hot": "The memory currently marked as hot, meaning it is frequently accessed and likely to be accessed again soon.",
+            "hot max": "The maximum size of hot memory the cache can hold before it starts evicting data to cold memory.",
+            "referenced": "The size of memory that has been accessed recently and is known to be present in memory.",
+            "wanted": "The size of memory that is needed but not currently present in the cache, which triggers the engine to read from disk."
+        }
+    ]
+}
