@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_latency",
+    "chart_description": "This chart tracks the average read/write latency of the logical disks on a Windows server in seconds.",
+    "dimension_descriptions": [
+        {
+            "read": "The average read latency of the logical disks in seconds.",
+            "write": "The average write latency of the logical disks in seconds."
+        }
+    ]
+}

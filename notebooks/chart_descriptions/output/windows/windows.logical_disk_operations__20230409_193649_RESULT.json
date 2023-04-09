@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_operations",
+    "chart_description": "This chart displays the number of read and write operations per second on a logical disk in a Windows environment.",
+    "dimension_descriptions": [
+        {
+            "reads": "The number of read operations per second on the logical disk.",
+            "writes": "The number of write operations per second on the logical disk."
+        }
+    ]
+}

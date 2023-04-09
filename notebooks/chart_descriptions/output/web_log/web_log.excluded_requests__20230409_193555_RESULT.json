@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.excluded_requests",
+    "chart_description": "This chart displays the rate of requests that were excluded from being processed by the web server. These requests were unmatched to any valid request patterns and were thus ignored. This chart helps identify potential issues with the web server configuration, request routing or load balancing.",
+    "dimension_descriptions": [
+        {
+            "unmatched": "The unmatched dimension represents the rate of requests that were not matched by any valid request pattern configured on the web server. These requests were excluded from processing and hence not accounted for in the other charts. A high rate of unmatched requests can indicate improper request routing or issues with the web server's configuration."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.keyspace_lookup_hit_rate",
+    "chart_description": "This chart measures the percentage of successful key lookup operations in Redis. A high hit rate indicates that most of the requested keys were found in the cache, reducing the need for expensive disk reads.",
+    "dimension_descriptions": [
+        {
+            "lookup_hit_rate": "The proportion of successful key lookups in Redis, expressed as a percentage."
+        }
+    ]
+}

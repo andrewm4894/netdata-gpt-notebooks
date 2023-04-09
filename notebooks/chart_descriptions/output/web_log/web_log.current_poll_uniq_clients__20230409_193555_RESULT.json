@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.current_poll_uniq_clients",
+    "chart_description": "This chart shows the number of unique clients currently connected to the web server, polled at a regular interval.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The IPv4 addresses of the clients connected to the web server."
+        }
+    ]
+}

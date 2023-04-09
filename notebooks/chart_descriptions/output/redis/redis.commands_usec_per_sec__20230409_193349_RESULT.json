@@ -1,0 +1,25 @@
+{
+    "chart_id": "redis.commands_usec_per_sec",
+    "chart_description": "This chart measures the average CPU consumed per command execution in Redis server. It provides insights into how much CPU time is consumed by different Redis commands, helping to identify potential bottlenecks and optimize the server's performance.",
+    "dimension_descriptions": [
+        {
+            "CONFIG|GET": "The CONFIG GET command retrieves the configuration parameters for a Redis server.",
+            "GET": "The GET command retrieves the value of a key.",
+            "HSET": "The HSET command sets the value of a field in a hash.",
+            "INCR": "The INCR command increments the value of a key by 1.",
+            "INFO": "The INFO command retrieves information and statistics about the Redis server.",
+            "LPOP": "The LPOP command removes and returns the first element of a list.",
+            "LPUSH": "The LPUSH command inserts one or multiple values at the head of a list.",
+            "LRANGE": "The LRANGE command returns a range of elements from a list.",
+            "MSET": "The MSET command sets multiple keys to multiple values.",
+            "PING": "The PING command checks whether the Redis server is running.",
+            "RPOP": "The RPOP command removes and returns the last element of a list.",
+            "RPUSH": "The RPUSH command inserts one or multiple values at the tail of a list.",
+            "SADD": "The SADD command adds one or more members to a set.",
+            "SET": "The SET command sets the value of a key.",
+            "SPOP": "The SPOP command removes and returns a random member from a set.",
+            "ZADD": "The ZADD command adds one or more members to a sorted set.",
+            "ZPOPMIN": "The ZPOPMIN command removes and returns the member with the lowest score from a sorted set."
+        }
+    ]
+}

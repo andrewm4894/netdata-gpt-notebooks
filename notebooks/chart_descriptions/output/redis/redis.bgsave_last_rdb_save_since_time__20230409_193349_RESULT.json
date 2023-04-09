@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.bgsave_last_rdb_save_since_time",
+    "chart_description": "This chart measures the time elapsed since the last successful RDB save in seconds.",
+    "dimension_descriptions": [
+        {
+            "last_bgsave_time": "The last time a background save was successfully executed."
+        }
+    ]
+}

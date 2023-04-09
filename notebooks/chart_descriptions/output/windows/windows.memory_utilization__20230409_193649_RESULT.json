@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.memory_utilization",
+    "chart_description": "This chart displays the memory utilization of a Windows system, by showing the amount of available memory and used memory in bytes. It helps to monitor the memory usage on a server and to identify potential memory issues.",
+    "dimension_descriptions": [
+        {
+            "available": "This dimension shows the amount of available memory in bytes. This includes any memory that is not currently being used by applications or processes.",
+            "used": "This dimension shows the amount of memory that is currently being used by applications or processes in bytes. It can help to identify if there are any performance issues caused by high memory usage."
+        }
+    ]
+}

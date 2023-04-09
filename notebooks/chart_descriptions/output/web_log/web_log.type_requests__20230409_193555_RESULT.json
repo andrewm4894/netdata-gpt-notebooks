@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.type_requests",
+    "chart_description": "The 'Requests By Type' chart displays the number of requests per second for each type of request received by the web server.",
+    "dimension_descriptions": [
+        {
+            "success": "The 'success' dimension indicates whether the request was successful or not. A value of '1' indicates a successful request, while a value of '0' indicates a failed request."
+        }
+    ]
+}

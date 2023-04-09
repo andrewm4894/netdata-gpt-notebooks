@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_swap_pages",
+    "chart_description": "This chart displays the rate at which pages are swapped in and out of physical memory due to the operating system's virtual memory management. It is a crucial metric to monitor for memory-intensive workloads, as high swap rates can indicate insufficient physical memory. The chart measures the number of swap pages per second.",
+    "dimension_descriptions": [
+        {
+            "read": "This dimension measures the rate at which pages are being read from the swap file into physical memory. High read rates could indicate excessive swapping, leading to decreased performance."
+        }
+    ]
+}

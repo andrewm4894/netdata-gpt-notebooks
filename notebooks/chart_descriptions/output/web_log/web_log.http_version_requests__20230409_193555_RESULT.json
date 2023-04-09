@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.http_version_requests",
+    "chart_description": "The Requests By HTTP Version chart displays the total number of requests made to the web server by different HTTP version protocols. It helps identify if there is a surge in requests from one protocol indicating the need for protocol-specific optimization.",
+    "dimension_descriptions": [
+        {
+            "1.1": "The count of requests that were made using the HTTP/1.1 protocol."
+        }
+    ]
+}

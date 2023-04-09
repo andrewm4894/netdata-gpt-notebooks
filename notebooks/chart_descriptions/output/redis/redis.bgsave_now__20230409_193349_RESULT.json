@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.bgsave_now",
+    "chart_description": "This chart shows the duration (in seconds) of any ongoing RDB save operation in Redis. RDB is a persistence mechanism that takes snapshots of the entire dataset at specific intervals.",
+    "dimension_descriptions": [
+        {
+            "current_bgsave_time": "The current duration of the background save operation in progress, in seconds."
+        }
+    ]
+}

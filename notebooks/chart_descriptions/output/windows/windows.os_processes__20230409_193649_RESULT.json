@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.os_processes",
+    "chart_description": "This chart displays the number of processes running on a Windows operating system.",
+    "dimension_descriptions": [
+        {
+            "processes": "The number of processes currently running on the system."
+        }
+    ]
+}

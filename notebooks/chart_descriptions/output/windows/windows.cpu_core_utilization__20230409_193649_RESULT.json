@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.cpu_core_utilization",
+    "chart_description": "The Core CPU Utilization chart provides insights into how much of the core's processing power is being utilized by privileged (kernel) and user (application) processes in percentage.",
+    "dimension_descriptions": [
+        {
+            "privileged": "The percentage of the core's processing power utilized by kernel processes.",
+            "user": "The percentage of the core's processing power utilized by application processes."
+        }
+    ]
+}

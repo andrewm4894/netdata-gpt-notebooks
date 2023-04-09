@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.mem_fragmentation_ratio",
+    "chart_description": "This chart shows the ratio between the amount of RSS memory used by the Redis server process and the total amount of memory used by Redis, including data structures and LRU caches. A high ratio indicates that fragmented memory is being used inefficiently, which can lead to performance degradation and memory usage issues.",
+    "dimension_descriptions": [
+        {
+            "mem_fragmentation": "This dimension represents the degree of memory fragmentation in Redis, which is the ratio of the memory used by Redis as reported by the operating system (used_memory_rss) divided by the 'logical' memory used by Redis (used_memory). This dimension gives insight into how fragmented the Redis memory allocation is and how well it is being utilized, and can help diagnose memory-related performance issues."
+        }
+    ]
+}

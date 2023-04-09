@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.ip_proto_requests",
+    "chart_description": "This chart displays the number of requests per second made to the web server by Internet Protocol version 4. It helps in identifying the usage and load distribution of IPv4 in the network traffic.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "This is a dimension that represents the number of requests made to the web server using Internet Protocol version 4. It enables the identification of the usage and load distribution of IPv4 in the network traffic."
+        }
+    ]
+}

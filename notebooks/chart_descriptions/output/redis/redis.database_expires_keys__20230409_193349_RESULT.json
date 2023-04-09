@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.database_expires_keys",
+    "chart_description": "This chart shows the number of keys with an expiration per database in Redis. It helps to track the number of keys that have a TTL (time-to-live) set for expiration and can assist in optimizing database performance by identifying databases that have a high number of expired keys that need to be removed.",
+    "dimension_descriptions": [
+        {
+            "db0": "This dimension represents the individual Redis database (e.g., db0) and shows the number of keys in the database with an expiration time set."
+        }
+    ]
+}

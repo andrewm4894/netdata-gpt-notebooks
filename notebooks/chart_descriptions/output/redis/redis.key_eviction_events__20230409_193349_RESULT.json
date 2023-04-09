@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.key_eviction_events",
+    "chart_description": "This chart displays the number of keys which were evicted due to the Redis server's memory usage exceeding the maximum allowed limit",
+    "dimension_descriptions": [
+        {
+            "evicted": "The number of keys evicted per second due to exceeding the maxmemory limit of the Redis server."
+        }
+    ]
+}

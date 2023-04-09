@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_cached",
+    "chart_description": "This chart displays the amount of memory that is currently being used as cache by the operating system on a Windows machine. The cached memory is used to improve overall system performance by storing frequently accessed data so that it can be quickly retrieved when needed.",
+    "dimension_descriptions": [
+        {
+            "cached": "The amount of memory (in bytes) that is currently being used as cache by the operating system."
+        }
+    ]
+}

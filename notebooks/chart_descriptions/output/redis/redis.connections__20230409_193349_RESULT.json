@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.connections",
+    "chart_description": "This chart shows the number of connections accepted by Redis server as well as the number of connections which had to be rejected due to reaching the maximum clients limit. This provides insight into the number of clients connecting to the Redis Server and the limits set on them.",
+    "dimension_descriptions": [
+        {
+            "accepted": "The number of connections accepted by Redis server per second"
+        }
+    ]
+}

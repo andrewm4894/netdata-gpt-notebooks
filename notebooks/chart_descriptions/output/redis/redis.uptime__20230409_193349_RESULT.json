@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.uptime",
+    "chart_description": "The `redis.uptime` chart shows the amount of time that Redis server has been running without interruption, measured in seconds.",
+    "dimension_descriptions": [
+        {
+            "uptime": "The uptime dimension represents the number of seconds that Redis has been running since the last restart or start."
+        }
+    ]
+}

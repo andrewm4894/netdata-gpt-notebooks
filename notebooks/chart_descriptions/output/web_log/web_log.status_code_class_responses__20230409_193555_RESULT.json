@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.status_code_class_responses",
+    "chart_description": "The Responses By Status Code Class chart shows the distribution of HTTP response codes returned by the web server. The chart helps to assess the server's overall health and performance by identifying which range of response codes are most commonly received.",
+    "dimension_descriptions": [
+        {
+            "2xx": "The chart shows the volume of successful responses where the status code begins with '2'. These codes typically indicate that the server successfully fulfilled the client request."
+        }
+    ]
+}

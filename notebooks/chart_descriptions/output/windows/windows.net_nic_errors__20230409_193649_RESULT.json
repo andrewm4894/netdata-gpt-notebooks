@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.net_nic_errors",
+    "chart_description": "The `windows.net_nic_errors` chart monitors the number of errors that occur in the network interface controller (NIC) on a Windows operating system. This chart can help identify issues with the network adapter, its driver, or problems with the network cable or switch. The `inbound` and `outbound` dimensions can help isolate which direction of network traffic is encountering the errors.",
+    "dimension_descriptions": [
+        {
+            "inbound": "Measures the number of errors that occur when receiving network traffic.",
+            "outbound": "Measures the number of errors that occur when sending network traffic."
+        }
+    ]
+}

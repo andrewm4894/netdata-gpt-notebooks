@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.net_nic_bandwidth",
+    "chart_description": "This chart shows the bandwidth usage of network interface cards (NICs) in a Windows system. The 'received' dimension indicates the amount of data packets received by the NICs, while the 'sent' dimension indicates the amount of data packets sent by the NICs. The bandwidth usage is measured in kilobits per second.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of data packets received by the NICs in a Windows system.",
+            "sent": "The amount of data packets sent by the NICs in a Windows system."
+        }
+    ]
+}

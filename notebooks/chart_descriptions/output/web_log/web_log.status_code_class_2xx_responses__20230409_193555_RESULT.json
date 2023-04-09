@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.status_code_class_2xx_responses",
+    "chart_description": "This chart displays the number of successful responses categorized by status code. Specifically, it shows the rate of responses with a HTTP status code of 200 per second.",
+    "dimension_descriptions": [
+        {
+            "200": "The count of successful responses with a HTTP status code of 200 per second."
+        }
+    ]
+}

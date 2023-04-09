@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.clients",
+    "chart_description": "The `redis.clients` chart provides information on the number of client connections to Redis. It is useful to monitor the client load on the Redis server and ensure that it is within acceptable limits.",
+    "dimension_descriptions": [
+        {
+            "connected": "The number of clients currently connected to Redis. A high number of clients may lead to increased memory usage and decreased performance."
+        }
+    ]
+}

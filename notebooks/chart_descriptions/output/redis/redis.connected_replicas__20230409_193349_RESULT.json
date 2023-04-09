@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.connected_replicas",
+    "chart_description": "This chart displays the number of connected replicas for a Redis instance.",
+    "dimension_descriptions": [
+        {
+            "connected": "The number of connected replicas to the Redis instance."
+        }
+    ]
+}

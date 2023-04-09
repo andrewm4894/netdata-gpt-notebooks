@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.database_keys",
+    "chart_description": "This chart displays the number of keys per database in a Redis instance. It helps to monitor the distribution of key space across the different databases and can be used to identify database size imbalances, which can lead to slow Redis performance.",
+    "dimension_descriptions": [
+        {
+            "db0": "This dimension represents a specific database in the Redis instance. The numerical value displayed in the chart represents the number of keys present in the database."
+        }
+    ]
+}

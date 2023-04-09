@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.os_paging_files_usage",
+    "chart_description": "This chart displays the usage of the paging files on a Windows operating system. Paging files are used by Windows to temporarily transfer data from RAM to the hard disk drive when the system runs low on RAM. The chart shows the amount of free and used space in the paging files in bytes.",
+    "dimension_descriptions": [
+        {
+            "free": "The amount of free space available in the paging files.",
+            "used": "The amount of space currently being used in the paging files."
+        }
+    ]
+}

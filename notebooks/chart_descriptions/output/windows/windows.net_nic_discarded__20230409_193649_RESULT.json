@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.net_nic_discarded",
+    "chart_description": "The `windows.net_nic_discarded` chart measures the number of discard packets per second on a network interface card (NIC) in a Windows system. Discard packets occur when a packet is dropped due to lack of buffer space or when a packet arrives on a NIC that is congested or for which the packet is not addressed. This chart provides information about potential network bottlenecks and can help diagnose network performance issues.",
+    "dimension_descriptions": [
+        {
+            "inbound": "Measures the number of discard packets per second received by a NIC on the Windows system.",
+            "outbound": "Measures the number of discard packets per second sent by a NIC on the Windows system."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.http_method_requests",
+    "chart_description": "This chart shows the number of requests made to the web server by HTTP method. Currently, it only displays the number of requests made using the GET method.",
+    "dimension_descriptions": [
+        {
+            "GET": "The number of requests made to the web server using the GET HTTP method per second."
+        }
+    ]
+}

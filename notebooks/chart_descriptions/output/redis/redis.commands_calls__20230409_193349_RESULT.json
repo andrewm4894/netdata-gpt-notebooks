@@ -1,0 +1,18 @@
+{
+    "chart_id": "redis.commands_calls",
+    "chart_description": "The `redis.commands_calls` chart measures the rate of Redis commands calls per second. It provides insights into the usage and performance of different Redis commands in the system.",
+    "dimension_descriptions": {
+        "HSET": "The `HSET` dimension measures the rate of `HSET` commands calls per second. The `HSET` command is used to set the value of a hash field in Redis.",
+        "INFO": "The `INFO` dimension measures the rate of `INFO` commands calls per second. The `INFO` command is used to retrieve information and statistics about the Redis server.",
+        "LPOP": "The `LPOP` dimension measures the rate of `LPOP` commands calls per second. The `LPOP` command is used to remove and return the first element of a list in Redis.",
+        "LPUSH": "The `LPUSH` dimension measures the rate of `LPUSH` commands calls per second. The `LPUSH` command is used to insert one or multiple values at the beginning of a list in Redis.",
+        "LRANGE": "The `LRANGE` dimension measures the rate of `LRANGE` commands calls per second. The `LRANGE` command is used to retrieve a range of elements from a list in Redis.",
+        "PING": "The `PING` dimension measures the rate of `PING` commands calls per second. The `PING` command is used to test if a connection to the Redis server is still alive.",
+        "RPOP": "The `RPOP` dimension measures the rate of `RPOP` commands calls per second. The `RPOP` command is used to remove and return the last element of a list in Redis.",
+        "RPUSH": "The `RPUSH` dimension measures the rate of `RPUSH` commands calls per second. The `RPUSH` command is used to insert one or multiple values at the end of a list in Redis.",
+        "SADD": "The `SADD` dimension measures the rate of `SADD` commands calls per second. The `SADD` command is used to add one or multiple members to a set in Redis.",
+        "SPOP": "The `SPOP` dimension measures the rate of `SPOP` commands calls per second. The `SPOP` command is used to remove and return a random member from a set in Redis.",
+        "ZADD": "The `ZADD` dimension measures the rate of `ZADD` commands calls per second. The `ZADD` command is used to add one or multiple members to a sorted set in Redis.",
+        "ZPOPMIN": "The `ZPOPMIN` dimension measures the rate of `ZPOPMIN` commands calls per second. The `ZPOPMIN` command is used to remove and return the member with the lowest score from a sorted set in Redis."
+    }
+}

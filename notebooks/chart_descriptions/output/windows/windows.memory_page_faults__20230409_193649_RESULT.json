@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_page_faults",
+    "chart_description": "This chart displays the rate at which the operating system is swapping data between physical memory and the paging file due to page faults. High page fault rates may indicate a need for more RAM or a problem with the paging file.",
+    "dimension_descriptions": [
+        {
+            "page_faults": "The number of page faults per second."
+        }
+    ]
+}

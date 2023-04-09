@@ -1,0 +1,11 @@
+{
+    "chart_id": "redis.ping_latency",
+    "chart_description": "This chart monitors the latency in milliseconds for pinging Redis server. It helps in detecting network or server issues affecting the performance of the Redis server.",
+    "dimension_descriptions": [
+        {
+            "avg": "This dimension measures the average latency in seconds for pinging Redis server.",
+            "max": "This dimension measures the maximum latency in seconds for pinging Redis server.",
+            "min": "This dimension measures the minimum latency in seconds for pinging Redis server."
+        }
+    ]
+}

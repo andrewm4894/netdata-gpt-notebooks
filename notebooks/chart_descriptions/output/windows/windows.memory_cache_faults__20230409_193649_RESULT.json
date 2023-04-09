@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_cache_faults",
+    "chart_description": "This chart displays the frequency of memory cache faults per second on Windows systems. Cache faults occur when data requested by an application is not present in the memory cache and needs to be fetched from the disk. High frequency of cache faults can indicate memory performance issues and may cause slowdowns in the system.",
+    "dimension_descriptions": [
+        {
+            "cache_faults": "The number of cache faults per second. A high value indicates that the system is performing excessive disk I/O operations."
+        }
+    ]
+}

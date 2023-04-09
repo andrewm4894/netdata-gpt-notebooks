@@ -1,0 +1,41 @@
+{
+    "chart_id": "windows.processes_file_bytes",
+    "chart_description": "This chart monitors the amount of bytes used in the page file(s) of various processes running on a Windows system. The page file is a space on the hard drive used by the operating system as virtual memory.",
+    "dimension_descriptions": [
+        {
+            "Idle": "The amount of bytes used by the idle process.",
+            "LogonUI": "The amount of bytes used by the LogonUI process which is responsible for handling user logins and logouts.",
+            "Microsoft.ActiveDirectory.WebServices": "The amount of bytes used by the Microsoft Active Directory Web Services process which provides web services to access Active Directory.",
+            "MsMpEng": "The amount of bytes used by the MsMpEng process which is the Windows Defender antimalware service.",
+            "NisSrv": "The amount of bytes used by the NisSrv process which is the Network Isolation service responsible for managing network connections and communications.",
+            "Registry": "The amount of bytes used by the Registry process which manages the system registry.",
+            "SMSvcHost": "The amount of bytes used by the SMSvcHost process which is the service host for the Windows Process Activation Service.",
+            "SecurityHealthService": "The amount of bytes used by the SecurityHealthService process which provides security health status and maintenance information to the system.",
+            "System": "The amount of bytes used by the System process which is the core operating system process.",
+            "WMSvc": "The amount of bytes used by the WMSvc process which is the World Wide Web Publishing Service for IIS.",
+            "WmiApSrv": "The amount of bytes used by the WmiApSrv process which is the Windows Management Instrumentation (WMI) Performance Adapter service.",
+            "WmiPrvSE": "The amount of bytes used by the WmiPrvSE process which is a host process for WMI providers.",
+            "amazon-ssm-agent": "The amount of bytes used by the Amazon SSM Agent process which enables remote management and administration of an instance.",
+            "conhost": "The amount of bytes used by the console host process which manages console windows.",
+            "csrss": "The amount of bytes used by the Client/Server Runtime Subsystem process which manages Windows console and GUI windows.",
+            "dfsrs": "The amount of bytes used by the Distributed File System Replication service which replicates files between servers.",
+            "dfssvc": "The amount of bytes used by the Distributed File System service which provides location transparency and fault tolerance to network storage resources.",
+            "dns": "The amount of bytes used by the Domain Name System (DNS) service which resolves hostnames to IP addresses.",
+            "dwm": "The amount of bytes used by the Desktop Window Manager process which composites the display of application windows.",
+            "fontdrvhost": "The amount of bytes used by the Font Driver Host process which manages font rendering.",
+            "ismserv": "The amount of bytes used by the Intersite Messaging service which is responsible for Active Directory to Active Directory replication across sites.",
+            "lsass": "The amount of bytes used by the Local Security Authority Subsystem Service process which validates logins and creates security tokens.",
+            "mqsvc": "The amount of bytes used by the Message Queuing service which handles messaging and queueing functions.",
+            "msdtc": "The amount of bytes used by the Microsoft Distributed Transaction Coordinator service which manages transactions across distributed systems.",
+            "services": "The amount of bytes used by the Services process which manages system services.",
+            "smss": "The amount of bytes used by the Session Manager Subsystem process which creates user sessions on the system.",
+            "spoolsv": "The amount of bytes used by the Print Spooler service which manages and controls print jobs.",
+            "ssm-agent-worker": "The amount of bytes used by the SSM Agent Worker process which runs commands and fetches state information from managed instances.",
+            "svchost": "The amount of bytes used by the Service Host process which hosts one or more Windows services.",
+            "vds": "The amount of bytes used by the Virtual Disk Service which manages and maintains virtual disks.",
+            "windows_exporter": "The amount of bytes used by the Prometheus exporter for Windows.",
+            "wininit": "The amount of bytes used by the Windows Initialization process which is responsible for starting system services.",
+            "winlogon": "The amount of bytes used by the Windows Logon process which handles user authentication and initiates the user's session."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.collector_duration",
+    "chart_description": "The `windows.collector_duration` chart displays the duration of a single data collection cycle on a windows machine in seconds. This could be useful for detecting slow or long running data collections.",
+    "dimension_descriptions": [
+        {
+            "duration": "The time, in seconds, it took for a single data collection cycle on a windows machine."
+        }
+    ]
+}

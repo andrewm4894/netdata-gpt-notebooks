@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.cpu_core_interrupts",
+    "chart_description": "This chart displays the rate at which the CPU core receives and services hardware interrupts on a Windows system.",
+    "dimension_descriptions": [
+        {
+            "interrupts": "The number of hardware interrupts received and serviced per second by the CPU core."
+        }
+    ]
+}

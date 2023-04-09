@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.bgsave_health",
+    "chart_description": "The `redis.bgsave_health` chart shows the status of the last RDB save operation. A value of 0 indicates that the operation was successful, while a value of 1 indicates an error.",
+    "dimension_descriptions": [
+        {
+            "last_bgsave": "The timestamp of the last background save in UNIX time format."
+        }
+    ]
+}

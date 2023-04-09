@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.memory_swap_operations",
+    "chart_description": "The `windows.memory_swap_operations` chart monitors the rate of swap operations on Windows machines. Swap operations occur when Windows moves data from physical memory to the swap file on disk to free up resources. High rates of swap operations can indicate that the physical memory is under pressure and the system is experiencing performance issues. This chart helps to identify potential memory-related problems on the machine.",
+    "dimension_descriptions": [
+        {
+            "read": "The `read` dimension indicates the rate at which the system is reading data from the swap file. High levels of reading suggest that swapping is occurring frequently due to high memory usage. This can cause a degradation in system performance."
+        }
+    ]
+}

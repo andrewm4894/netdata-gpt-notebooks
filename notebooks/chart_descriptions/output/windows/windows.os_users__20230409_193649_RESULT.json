@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.os_users",
+    "chart_description": "The `windows.os_users` chart represents the number of Windows operating system users that are currently logged on to the system. This chart is important for monitoring system usage and detecting potential issues with user access.",
+    "dimension_descriptions": [
+        {
+            "users": "This dimension represents the number of users currently logged on to the system. It includes both local and remote users."
+        }
+    ]
+}

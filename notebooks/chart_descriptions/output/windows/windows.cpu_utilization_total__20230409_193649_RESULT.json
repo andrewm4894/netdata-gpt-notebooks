@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.cpu_utilization_total",
+    "chart_description": "This chart displays the total CPU utilization across all cores in a Windows machine as a percentage. It indicates the overall load on the processor and can help identify potential bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "privileged": "Percentage of CPU utilization attributed to privileged processes, which are executed with higher permissions and can directly access system resources.",
+            "user": "Percentage of CPU utilization attributed to user processes, which are executed with lower permissions and typically perform tasks related to user interaction or applications."
+        }
+    ]
+}

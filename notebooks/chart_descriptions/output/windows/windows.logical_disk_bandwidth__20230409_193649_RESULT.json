@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_bandwidth",
+    "chart_description": "This chart measures the read and write bandwidth of logical disks on Windows systems in bytes per second. It helps to identify any bottlenecks in data transfer.",
+    "dimension_descriptions": [
+        {
+            "read": "The amount of data read from the logical disk in bytes per second.",
+            "write": "The amount of data written to the logical disk in bytes per second."
+        }
+    ]
+}

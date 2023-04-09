@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.requests",
+    "chart_description": "The 'web_log.requests' chart tracks the total number of requests on the web server per second. It helps in monitoring the traffic on the server and identifying any abnormalities or spikes in requests that may impact the server performance.",
+    "dimension_descriptions": [
+        {
+            "requests": "This dimension represents the number of requests made to the server per second. It is the primary dimension of the 'web_log.request' chart."
+        }
+    ]
+}

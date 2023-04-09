@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.memory_swap_utilization",
+    "chart_description": "The Swap Utilization chart shows the amount of swap memory that is available and used on a Windows system. Swap memory, also known as virtual memory, is a portion of a hard disk that is used to supplement the physical RAM when it becomes fully utilized. A high swap utilization rate can indicate that the system is running low on physical RAM or that there are memory leaks in the system.",
+    "dimension_descriptions": [
+        {
+            "available": "The amount of swap memory that is currently available on the Windows system, in bytes.",
+            "used": "The amount of swap memory that is currently being used on the Windows system, in bytes."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.key_expiration_events",
+    "chart_description": "The 'Expired keys' chart tracks the number of keys that have expired per second in the Redis environment. This chart is important for monitoring the expiration policies for keys in Redis and can provide insights into the efficiency and performance of the system.",
+    "dimension_descriptions": [
+        {
+            "expired": "The 'expired' dimension measures the number of keys that were expired in this Redis instance during each sampling interval. This dimension is measured in keys/s and is useful in determining the volume of data stored in Redis and its expiration rate. "
+        }
+    ]
+}

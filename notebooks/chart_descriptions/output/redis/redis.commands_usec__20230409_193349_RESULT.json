@@ -1,0 +1,11 @@
+{
+    "chart_id": "redis.commands_usec",
+    "chart_description": "This chart displays the total CPU time consumed by different Redis commands. It helps in identifying which commands are consuming more CPU time and hence optimizing their usage can lead to better performance.",
+    "dimension_descriptions": [
+        {
+            "INFO": "The CPU time consumed by the INFO command which provides information about the Redis server.",
+            "LRANGE": "The CPU time consumed by the LRANGE command which returns a range of elements from a list.",
+            "PING": "The CPU time consumed by the PING command which is used to test connectivity to the Redis server."
+        }
+    ]
+}

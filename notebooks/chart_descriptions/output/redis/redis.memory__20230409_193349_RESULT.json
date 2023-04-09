@@ -1,0 +1,15 @@
+{
+    "chart_id": "redis.memory",
+    "chart_description": "The Redis memory chart tracks the memory usage of Redis server in bytes over time. This chart helps in monitoring Redis memory usage and detecting any potential memory leaks.",
+    "dimension_descriptions": [
+        {
+            "dataset": "The Redis memory data set identifier. It is the name assigned to the memory data set or the database instance being monitored.",
+            "lua": "The memory usage by Redis Lua scripts in bytes.",
+            "max": "The maximum amount of memory Redis can use in bytes. It is the maximum value set in the Redis configuration file and can be modified using the maxmemory parameter.",
+            "peak": "The highest amount of memory used by Redis in bytes, among all the data sets that have ever existed since Redis started.",
+            "rss": "The Resident Set Size or the physical memory usage of Redis in bytes.",
+            "scripts": "The number of Redis Lua scripts loaded into the Redis server.",
+            "used": "The amount of memory used by Redis in bytes. It is the sum of all the memory used by the data sets and the overhead memory used by Redis."
+        }
+    ]
+}

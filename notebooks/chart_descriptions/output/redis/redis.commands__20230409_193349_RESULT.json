@@ -1,0 +1,9 @@
+{
+    "chart_id": "redis.commands",
+    "chart_description": "This chart displays the rate at which Redis processes commands per second.",
+    "dimension_descriptions": [
+        {
+            "processed": "The number of commands processed per second by Redis."
+        }
+    ]
+}

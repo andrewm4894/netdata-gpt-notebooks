@@ -1,0 +1,10 @@
+{
+    "chart_id": "redis.net",
+    "chart_description": "The `redis.net` chart displays the bandwidth usage of the Redis server. It measures the amount of data sent and received over the network for Redis operations.",
+    "dimension_descriptions": [
+        {
+            "received": "The amount of data received by the Redis server over the network. This includes data from client requests, as well as replication traffic from other Redis instances.",
+            "sent": "The amount of data sent by the Redis server over the network. This includes responses to client requests, as well as replication traffic to other Redis instances."
+        }
+    ]
+}

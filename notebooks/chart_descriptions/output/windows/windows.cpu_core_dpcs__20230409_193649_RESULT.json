@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.cpu_core_dpcs",
+    "chart_description": "The windows.cpu_core_dpcs chart displays the number of Deferred Procedure Calls (DPC) received and serviced per second on each CPU core. DPCs are a mechanism for higher-priority tasks to defer lower-priority tasks, allowing for smoother system performance.",
+    "dimension_descriptions": [
+        {
+            "dpcs": "The number of Deferred Procedure Calls (DPC) received and serviced per second on each CPU core."
+        }
+    ]
+}

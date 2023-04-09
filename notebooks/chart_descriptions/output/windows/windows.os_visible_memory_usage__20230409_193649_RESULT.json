@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.os_visible_memory_usage",
+    "chart_description": "This chart shows the usage of visible memory in bytes on a Windows operating system. Visible memory is the physical memory being used by the operating system that can be moved to disk when not in use, ensuring that the memory is always available for other tasks.",
+    "dimension_descriptions": [
+        {
+            "free": "The amount of visible memory that is currently free and available for use by the operating system and applications.",
+            "used": "The amount of visible memory that is currently being actively used by the operating system and applications and cannot be freed up without impacting performance."
+        }
+    ]
+}

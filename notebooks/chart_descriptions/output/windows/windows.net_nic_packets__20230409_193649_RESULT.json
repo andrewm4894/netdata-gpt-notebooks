@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.net_nic_packets",
+    "chart_description": "This chart displays the number of network packets sent and received by a network interface card (NIC) on a Windows machine.",
+    "dimension_descriptions": [
+        {
+            "received": "The number of packets received by the NIC per second.",
+            "sent": "The number of packets sent by the NIC per second."
+        }
+    ]
+}

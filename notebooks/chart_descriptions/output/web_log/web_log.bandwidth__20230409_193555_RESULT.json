@@ -1,0 +1,9 @@
+{
+    "chart_id": "web_log.bandwidth",
+    "chart_description": "The Bandwidth chart displays the amount of data that is being transmitted from the server to the clients accessing the website. This chart helps to identify patterns and monitor the performance of the website in terms of data transfer.",
+    "dimension_descriptions": [
+        {
+            "sent": "The amount of data sent from the server to the client in kilobits per second (Kbps). This dimension helps to measure the data transfer rate from the server and to monitor the bandwidth utilization of the website."
+        }
+    ]
+}

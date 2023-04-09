@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.memory_system_pool",
+    "chart_description": "This chart displays the memory allocated to system pools in bytes on a Windows machine. The memory is divided into two dimensions - non-paged and paged memory.",
+    "dimension_descriptions": [
+        {
+            "non-paged": "Non-paged memory is allocated to system processes and cannot be paged out to disk, which may cause a system crash if the memory becomes full.",
+            "paged": "Paged memory is allocated to user processes and can be paged out to disk if necessary, making it less critical than non-paged memory."
+        }
+    ]
+}

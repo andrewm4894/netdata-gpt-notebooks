@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.logical_disk_space_usage",
+    "chart_description": "The `windows.logical_disk_space_usage` chart displays the usage of logical disks on a Windows system. It shows the amount of free and used space on each disk in bytes, allowing users to monitor disk usage and detect potential disk space issues before they cause system problems.",
+    "dimension_descriptions": [
+        {
+            "free": "Displays the amount of free space on each logical disk in bytes. This dimension can be used to track how much free space is available and detect when a disk is running low on space.",
+            "used": "Displays the amount of space currently in use on each logical disk in bytes. This dimension can be used to identify high disk usage and pinpoint areas where space can be optimized to prevent running out of disk space."
+        }
+    ]
+}

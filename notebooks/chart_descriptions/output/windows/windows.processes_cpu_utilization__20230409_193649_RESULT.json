@@ -1,0 +1,17 @@
+{
+    "chart_id": "windows.processes_cpu_utilization",
+    "chart_description": "The CPU usage chart tracks the percentage of the CPU being used by various processes on a Windows machine. A process is a program or a collection of programs that are executing in a certain way at a certain time. This chart helps to identify which process is consuming the most CPU resources, which can lead to better optimization and troubleshooting.",
+    "dimension_descriptions": [
+        {
+            "LogonUI": "This dimension refers to the Logon User Interface process, which is responsible for the login screen on Windows systems.",
+            "System": "This dimension refers to the System process, which is responsible for managing resources on the Windows system.",
+            "WmiPrvSE": "This dimension refers to the Windows Management Instrumentation process which is an essential part of Windows that allows administrators to monitor and manage system resources and applications.",
+            "amazon-ssm-agent": "This dimension refers to the Amazon Simple Systems Manager agent process which is used for managing and configuring Windows instances in the Amazon Web Services cloud.",
+            "lsass": "This dimension refers to the Local Security Authority Subsystem Service process, which is responsible for local security policy and authentication on Windows systems.",
+            "services": "This dimension refers to the Services process on Windows systems, which is responsible for starting, stopping, and managing Windows services.",
+            "ssm-agent-worker": "This dimension refers to the Amazon SSM Agent Worker process which is responsible for performing tasks on behalf of the Amazon Simple Systems Manager Agent.",
+            "svchost": "This dimension refers to the Host Process for Windows Services, which is a shared process used by multiple Windows services.",
+            "windows_exporter": "This dimension refers to the Windows Exporter process, which is a tool that collects metrics from Windows machines and exports them to Netdata."
+        }
+    ]
+}

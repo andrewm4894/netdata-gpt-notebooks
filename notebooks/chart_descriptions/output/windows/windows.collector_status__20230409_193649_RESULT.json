@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.collector_status",
+    "chart_description": "This chart shows the status of a data collection for Windows machines. It has two dimensions, 'fail' and 'success', that represent the number of failed and successful data collections, respectively. The chart is displayed as a line graph.",
+    "dimension_descriptions": [
+        {
+            "fail": "The 'fail' dimension represents the number of failed data collections for Windows machines.",
+            "success": "The 'success' dimension represents the number of successful data collections for Windows machines."
+        }
+    ]
+}

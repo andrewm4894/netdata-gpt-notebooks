@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.cpu_core_cstate",
+    "chart_description": "The `windows.cpu_core_cstate` chart monitors how much time each CPU core spends in the low-power idle state (C1). A high percentage indicates that the CPU is not being fully utilized and could be more efficient.",
+    "dimension_descriptions": [
+        {
+            "c1": "The percentage of time the CPU core spends in the C1 low-power idle state."
+        }
+    ]
+}
