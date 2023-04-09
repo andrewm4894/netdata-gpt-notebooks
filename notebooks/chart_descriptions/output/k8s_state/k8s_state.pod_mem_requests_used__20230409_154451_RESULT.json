@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_mem_requests_used",
+    "chart_description": "This chart displays the amount of memory requested by pods vs the amount actually used. It can help identify if a pod is over or under utilizing its allocated memory.",
+    "dimension_descriptions": [
+        {
+            "requests": "The amount of memory requested by pods."
+        }
+    ]
+}

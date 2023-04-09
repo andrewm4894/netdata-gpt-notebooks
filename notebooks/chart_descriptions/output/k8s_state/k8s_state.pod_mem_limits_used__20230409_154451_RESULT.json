@@ -1,0 +1,9 @@
+{
+    "chart_id": "k8s_state.pod_mem_limits_used",
+    "chart_description": "This chart shows the amount of memory being used by containers in a Kubernetes pod based on the memory limits allocated to them. It gives valuable information about the overall efficiency of memory usage and whether the pod needs more memory to run smoothly.",
+    "dimension_descriptions": [
+        {
+            "limits": "This dimension represents the maximum memory that has been allocated to containers in the pod. This value is specified in the pod configuration and ensures that containers do not exceed the allowed memory usage. By monitoring this dimension, one can determine whether the container is efficiently using the allocated memory or whether it requires more to function properly."
+        }
+    ]
+}

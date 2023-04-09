@@ -1,0 +1,10 @@
+{
+    "chart_id": "k8s_state.pod_phase",
+    "chart_description": "This chart displays the current phase of all pods in a Kubernetes cluster. The phases include running and succeeded.",
+    "dimension_descriptions": [
+        {
+            "running": "The number of pods currently in the running phase",
+            "succeeded": "The number of pods that have completed successfully and are now in the succeeded phase"
+        }
+    ]
+}
