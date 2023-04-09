@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_mcache_inuse_bytes",
+    "chart_description": "This chart displays the number of bytes in use by mcache structures in the AWS load balancer controller. The mcache is a cache that holds memory chunks for small objects like strings and byte arrays to reduce the overhead of memory allocation in Go programs. By monitoring this chart, we can track the memory usage of this cache structure and optimize its size accordingly.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mcache_inuse_bytes": "The number of bytes currently in use by mcache structures. This metric can help us determine whether the current size of the mcache is appropriate for the load balancer controller performance or if it needs to be resized to improve its efficiency."
+        }
+    ]
+}

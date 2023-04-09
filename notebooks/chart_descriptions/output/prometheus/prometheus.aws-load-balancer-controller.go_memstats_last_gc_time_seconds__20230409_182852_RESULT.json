@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_last_gc_time_seconds",
+    "chart_description": "This chart shows the number of seconds since 1970 of the last garbage collection performed by the Go garbage collector in the AWS load balancer controller.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_last_gc_time_seconds": "The time (in seconds since 1970) of the last garbage collection performed by the Go garbage collector in the AWS load balancer controller. This metric can be useful for estimating how frequently garbage collection is occurring, and for identifying any spikes or irregularities in the collection process."
+        }
+    ]
+}

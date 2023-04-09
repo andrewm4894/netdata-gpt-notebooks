@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_other_sys_bytes",
+    "chart_description": "This chart shows the number of bytes used for other system allocations in the Go runtime memory statistics. It can provide insight into how much memory is being used for purposes other than stack or heap allocations.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_other_sys_bytes": "The amount of memory used for other system allocations in bytes."
+        }
+    ]
+}

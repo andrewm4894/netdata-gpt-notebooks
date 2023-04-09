@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_node_groups_count",
+    "chart_description": "This chart shows the number of node groups managed by the Cluster Autoscaler (CA) in an alpha stage. Cluster Autoscaler is a tool that automatically adjusts the size of Kubernetes node groups based on the demand. This chart is useful for understanding the number of node groups that Cluster Autoscaler manages in the AWS environment.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_node_groups_count": "The total number of node groups managed by the Cluster Autoscaler in the Kubernetes cluster."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.controller_runtime_max_concurrent_reconciles",
+    "chart_description": "This chart shows the maximum number of concurrent reconciles happening per controller in the aws-load-balancer-controller runtime environment. This metric is important for understanding the workload and capacity requirements of the controllers and can help with tuning their performance.",
+    "dimension_descriptions": [
+        {
+            "controller_runtime_max_concurrent_reconciles": "This is the only dimension in this chart, and it represents the maximum number of concurrent reconciles happening per controller. A high value for this dimension suggests that the controller workload is high and may indicate a need for more controller instances or better resource allocation."
+        }
+    ]
+}

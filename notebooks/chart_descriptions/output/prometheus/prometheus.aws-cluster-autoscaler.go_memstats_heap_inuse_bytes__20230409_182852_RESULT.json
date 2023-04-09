@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_inuse_bytes",
+    "chart_description": "This chart represents the number of heap bytes that are in use by the Go program in the AWS Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_inuse_bytes": "This dimension represents the total number of bytes allocated to the heap that are currently in use by the Go program in the AWS Cluster Autoscaler."
+        }
+    ]
+}

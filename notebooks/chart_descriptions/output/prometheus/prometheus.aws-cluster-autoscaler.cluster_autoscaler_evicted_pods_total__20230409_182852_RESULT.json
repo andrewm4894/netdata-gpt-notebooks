@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_evicted_pods_total",
+    "chart_description": "This chart shows the number of pods evicted by Cluster Autoscaler (CA) in a particular AWS cluster. CA automatically adjusts the size of an AWS cluster by increasing or decreasing the number of nodes based on the demand. When a node is no longer needed, CA evicts the pods associated with it to save resources. This chart helps monitor the CA eviction process, which can affect the availability and performance of the services running in the cluster.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_evicted_pods_total": "The total number of pods evicted by CA over the chosen time period. This dimension can help identify trends in the CA eviction rate and determine whether the current cluster size is appropriate for the workload."
+        }
+    ]
+}

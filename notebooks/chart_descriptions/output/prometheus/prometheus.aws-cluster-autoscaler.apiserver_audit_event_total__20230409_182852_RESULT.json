@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_audit_event_total",
+    "chart_description": "[ALPHA] Counter of audit events generated and sent to the audit backend",
+    "dimension_descriptions": [
+        {
+            "apiserver_audit_event_total": "The total number of audit events generated and sent to the audit backend per second."
+        }
+    ]
+}

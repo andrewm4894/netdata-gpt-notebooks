@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.controller_runtime_reconcile_total",
+    "chart_description": "This chart measures the total number of reconciliations performed by the AWS Load Balancer Controller. Reconciliation typically refers to the process of ensuring that the current state of the system matches the desired state.",
+    "dimension_descriptions": [
+        {
+            "controller_runtime_reconcile_total": "This dimension represents the total number of reconciliations performed by a controller. Each controller's number of reconciliations can be tracked separately by adding a filter to this dimension."
+        }
+    ]
+}

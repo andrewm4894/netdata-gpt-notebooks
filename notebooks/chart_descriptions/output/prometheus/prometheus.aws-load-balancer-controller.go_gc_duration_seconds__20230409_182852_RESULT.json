@@ -1,0 +1,13 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_gc_duration_seconds",
+    "chart_description": "This chart displays a summary of the pause duration of garbage collection cycles in seconds. It helps identify how long the garbage collection process takes and if it may be impacting latency or performance.",
+    "dimension_descriptions": [
+        {
+            "quantile_0": "The minimum pause duration for the garbage collection process.",
+            "quantile_0.25": "25% of the pause duration values for garbage collection cycles fall below this value.",
+            "quantile_0.5": "50% of the pause duration values for garbage collection cycles fall below this value.",
+            "quantile_0.75": "75% of the pause duration values for garbage collection cycles fall below this value.",
+            "quantile_1": "The maximum pause duration for the garbage collection process."
+        }
+    ]
+}

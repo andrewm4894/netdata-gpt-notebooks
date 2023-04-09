@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_nodes_count",
+    "chart_description": "[ALPHA] Number of nodes in cluster is a line chart that displays the number of nodes currently running in the autoscaling cluster. This chart helps you monitor the number of nodes in the cluster and whether it's scaling up or down as expected. This can aid in ensuring the cluster is responsive, reliable, and responsive under different workload conditions.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_nodes_count": "This dimension displays the number of nodes running in the Autoscaling cluster, which is a useful metric to keep an eye on when autoscaling instances are in use. This dimension helps you monitor when the cluster is scaling up or down."
+        }
+    ]
+}

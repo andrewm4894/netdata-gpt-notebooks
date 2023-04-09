@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_max_fds",
+    "chart_description": "This chart displays the maximum number of file descriptors opened by the Cluster Autoscaler process in the AWS environment. File descriptors are a key resource in Linux systems and this chart is useful for monitoring potential resource exhaustion or bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "process_max_fds": "This dimension represents the maximum number of file descriptors opened by the Cluster Autoscaler process. It is an important metric to monitor as high values may indicate potential resource exhaustion or bottleneck issues."
+        }
+    ]
+}

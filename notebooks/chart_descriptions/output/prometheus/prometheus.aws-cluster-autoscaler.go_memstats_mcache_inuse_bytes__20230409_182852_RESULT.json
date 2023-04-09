@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_mcache_inuse_bytes",
+    "chart_description": "This chart represents the number of bytes in use by mcache structures in the Go memory allocator.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mcache_inuse_bytes": "The number of bytes in use by mcache structures in the Go memory allocator. This metric can be helpful in identifying excessive memory usage and potential memory leaks in Go applications."
+        }
+    ]
+}

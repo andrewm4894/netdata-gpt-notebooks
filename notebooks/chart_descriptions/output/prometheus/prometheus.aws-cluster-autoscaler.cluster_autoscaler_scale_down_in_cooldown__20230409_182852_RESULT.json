@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_scale_down_in_cooldown",
+    "chart_description": "This chart shows whether or not the cluster autoscaler scale down is in cooldown. The value will be 1 if it is in cooldown, and 0 otherwise. This chart is part of the cluster autoscaler family and helps monitor the scaling behavior of AWS clusters.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_scale_down_in_cooldown": "This dimension tracks whether or not the scale down is in cooldown. It can provide insight into the cluster's scaling behavior and indicate whether the autoscaler is acting in accordance with the set cooldown period."
+        }
+    ]
+}

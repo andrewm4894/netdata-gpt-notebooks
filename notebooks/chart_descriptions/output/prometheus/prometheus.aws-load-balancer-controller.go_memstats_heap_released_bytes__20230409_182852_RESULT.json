@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_released_bytes",
+    "chart_description": "This chart shows the number of heap bytes that have been released back to the operating system by the AWS Load Balancer Controller. It is a measure of the amount of memory that is being freed up by the program and returned to the system for other applications to use.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_released_bytes": "The total number of bytes of heap memory that have been released back to the operating system. This is a cumulative value and will increase over time as more memory is freed up."
+        }
+    ]
+}

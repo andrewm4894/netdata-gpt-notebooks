@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_sys_bytes",
+    "chart_description": "This chart displays the number of heap bytes obtained from the system by the Go memory allocator.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_sys_bytes": "The amount of heap memory obtained from the operating system by the Go memory allocator in bytes. This is the total size of the heap memory segment reserved by the process virtual memory space."
+        }
+    ]
+}

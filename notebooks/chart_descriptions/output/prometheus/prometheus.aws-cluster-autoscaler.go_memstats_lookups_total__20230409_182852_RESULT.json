@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_lookups_total",
+    "chart_description": "This chart measures the total number of pointer lookups performed by the Go memory allocator.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_lookups_total": "The total number of pointer lookups performed by the Go memory allocator. This metric can be a good indicator of memory usage because the more memory that is in use, the more pointer lookups should be performed."
+        }
+    ]
+}

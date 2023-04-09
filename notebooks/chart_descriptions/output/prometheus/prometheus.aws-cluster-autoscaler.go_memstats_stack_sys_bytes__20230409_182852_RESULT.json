@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_stack_sys_bytes",
+    "chart_description": "This chart shows the number of bytes obtained from the system for the stack allocator in the Go language runtime used by the AWS Cluster Autoscaler. The stack allocator is responsible for managing the memory allocation for the function call stack of Go programs.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_stack_sys_bytes": "The total number of bytes obtained from the system for stack allocation. This includes the bytes returned to the kernel if stacks have shrunk."
+        }
+    ]
+}

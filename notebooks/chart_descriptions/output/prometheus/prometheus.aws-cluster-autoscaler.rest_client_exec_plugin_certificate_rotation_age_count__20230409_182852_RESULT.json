@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_exec_plugin_certificate_rotation_age_count",
+    "chart_description": "[ALPHA] Histogram of the number of seconds the last auth exec plugin client certificate lived before being rotated. If auth exec plugin client certificates are unused, histogram will contain no data",
+    "dimension_descriptions": [
+        {
+            "rest_client_exec_plugin_certificate_rotation_age_count": "The count of certificates and the duration in seconds that they were used before being rotated."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_alloc_bytes_total",
+    "chart_description": "This chart measures the total number of bytes that have been allocated, even if they have been freed in the past. It is a metric related to the Go programming language's memory usage and can indicate how much memory is being used by the cluster autoscaler in the AWS ecosystem.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_alloc_bytes_total": "This is the dimension that tracks the total number of bytes allocated, including bytes that have been freed. It provides an overview of the total memory usage of the Go program."
+        }
+    ]
+}

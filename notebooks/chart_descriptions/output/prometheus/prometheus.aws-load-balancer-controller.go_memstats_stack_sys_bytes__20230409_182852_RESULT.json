@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_stack_sys_bytes",
+    "chart_description": "This chart shows the number of bytes obtained from the system for stack allocator in AWS load balancer controller's Go language runtime.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_stack_sys_bytes": "Amount of memory obtained from the system for stack allocation."
+        }
+    ]
+}

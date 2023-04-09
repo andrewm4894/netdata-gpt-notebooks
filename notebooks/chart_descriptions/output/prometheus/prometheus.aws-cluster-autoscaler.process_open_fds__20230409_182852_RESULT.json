@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_open_fds",
+    "chart_description": "This chart tracks the number of open file descriptors being used by the process running AWS Cluster Autoscaler. A file descriptor is a non-negative integer used to uniquely identify an open file in a process. This chart can help detect potential issues related to file descriptor exhaustion.",
+    "dimension_descriptions": [
+        {
+            "process_open_fds": "The number of open file descriptors for the AWS Cluster Autoscaler process."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_inuse_bytes",
+    "chart_description": "This chart shows the number of heap bytes that are currently in use by the Go runtime in the AWS Load Balancer Controller service. The heap is where objects are allocated in memory, and this metric represents the amount of memory being used by the application. Monitoring this chart can help detect memory leaks and optimize memory usage in the service.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_inuse_bytes": "This dimension represents the current size of the heap in bytes that is in use by the Go runtime. As objects are allocated and deallocated, this value will change to reflect the current state of the heap."
+        }
+    ]
+}

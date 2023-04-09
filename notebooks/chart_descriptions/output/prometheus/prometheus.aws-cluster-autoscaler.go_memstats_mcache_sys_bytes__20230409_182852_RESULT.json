@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_mcache_sys_bytes",
+    "chart_description": "This chart displays the number of bytes used for mcache structures obtained from the system for the AWS Cluster Autoscaler. The data is collected using Prometheus and is displayed in bytes.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mcache_sys_bytes": "The amount of memory used by mcache structures obtained from the system. This includes the memory used by the space allocated to grow the structures."
+        }
+    ]
+}

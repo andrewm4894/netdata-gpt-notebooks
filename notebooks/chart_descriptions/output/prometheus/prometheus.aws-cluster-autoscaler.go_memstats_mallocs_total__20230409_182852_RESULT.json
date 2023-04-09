@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_mallocs_total",
+    "chart_description": "This chart measures the total number of mallocs per second performed by the Go programming language's memory allocator, as reported by the Prometheus metrics collected from the AWS cluster autoscaler.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mallocs_total": "The total number of mallocs that have occurred in the program since it started."
+        }
+    ]
+}

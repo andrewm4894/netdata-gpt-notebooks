@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_sys_bytes",
+    "chart_description": "This chart shows the number of heap bytes obtained from the system, as reported by the Go runtime's memory statistics (go_memstats) for the AWS load balancer controller.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_sys_bytes": "The total amount of memory obtained from the system for the Go heap. This includes any memory that has been reserved but not yet used by the heap."
+        }
+    ]
+}

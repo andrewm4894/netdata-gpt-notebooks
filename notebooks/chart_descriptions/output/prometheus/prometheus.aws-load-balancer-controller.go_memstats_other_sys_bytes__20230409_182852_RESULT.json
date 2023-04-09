@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_other_sys_bytes",
+    "chart_description": "This chart shows the number of bytes used for other system allocations by the aws-load-balancer-controller in the Go language. These allocations are not directly managed by Go's garbage collector and can impact overall system performance.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_other_sys_bytes": "The amount of memory used for other system allocations by the aws-load-balancer-controller in the Go language. Higher values may indicate that the system is under heavy load and may benefit from additional resources."
+        }
+    ]
+}

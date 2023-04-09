@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_gc_duration_seconds_sum",
+    "chart_description": "This chart displays a summary of the pause duration of garbage collection (GC) cycles in seconds. Pause duration is the amount of time the Go runtime stops executing the program to perform GC.",
+    "dimension_descriptions": [
+        {
+            "go_gc_duration_seconds_sum": "This dimension represents a cumulative sum of GC pause durations in seconds."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_mspan_inuse_bytes",
+    "chart_description": "This chart displays the number of bytes that are currently in use by mspan structures in the AWS load balancer controller's Golang runtime. This can be useful for monitoring the memory usage of the controller and detecting any potential memory leaks.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mspan_inuse_bytes": "The number of bytes currently in use by mspan structures. An mspan is a metadata structure used by the Go runtime to keep track of unused memory regions that can be freed up for future allocations. Monitoring this dimension can help identify any inefficiencies in the memory usage of the AWS load balancer controller."
+        }
+    ]
+}

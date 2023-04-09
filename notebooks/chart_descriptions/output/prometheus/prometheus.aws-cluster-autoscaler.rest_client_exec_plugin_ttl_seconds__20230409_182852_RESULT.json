@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_exec_plugin_ttl_seconds",
+    "chart_description": "This chart measures the shortest Time-To-Live (TTL) of the client certificate(s) used by the auth exec plugin in seconds. The auth exec plugin provides authentication credentials to the Prometheus instance in order to pull information from the Target servers. The value is represented in seconds until the certificate expires, and is negative if the certificate has already expired. If auth exec plugins are unused or manage no TLS certificates, the value will be +INF. This chart is useful to monitor the validity of the credentials used by Prometheus to access the target servers.",
+    "dimension_descriptions": [
+        {
+            "rest_client_exec_plugin_ttl_seconds": "The TTL of the client certificate(s) in seconds. It indicates the time remaining until the certificate(s) issued by the auth exec plugin expire. A negative value indicates the client certificate(s) have already expired. If auth exec plugins are unused or manage no TLS certificates, the value will be +INF."
+        }
+    ]
+}

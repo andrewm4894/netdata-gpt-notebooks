@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_scaled_up_nodes_total",
+    "chart_description": "This chart shows the number of nodes added to the AWS cluster autoscaler in a given time period. It provides insight into how the cluster is scaling and how quickly new nodes are being added.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_scaled_up_nodes_total": "The total number of nodes that have been added by the cluster autoscaler."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_alloc_bytes_total",
+    "chart_description": "This chart shows the total number of bytes allocated by the AWS Load Balancer Controller in Go programming language, including the ones that have been freed already. This chart gives an insight into the memory allocation performance of the Controller.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_alloc_bytes_total": "The total number of bytes allocated by the Controller. This metric includes all successful memory allocations, even if they have already been freed."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_next_gc_bytes",
+    "chart_description": "This chart shows the number of heap bytes when the next garbage collection will take place in the AWS Load Balancer Controller using the Go programming language. It helps to monitor and optimize memory usage in the application.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_next_gc_bytes": "The amount of heap bytes in use before the next garbage collection will take place. This metric can be used to identify memory leaks or inefficient memory usage."
+        }
+    ]
+}

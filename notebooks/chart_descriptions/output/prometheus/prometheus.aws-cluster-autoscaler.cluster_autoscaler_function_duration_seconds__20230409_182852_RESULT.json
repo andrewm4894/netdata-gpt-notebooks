@@ -1,0 +1,30 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_seconds",
+    "chart_description": "This chart provides information on the time taken by various parts of CA (Cluster Autoscaler) main loop, which manages the size of Kubernetes clusters based on the demands of the workloads. The durations are broken down into various buckets (in seconds) to provide a distribution of how long each operation takes.",
+    "dimension_descriptions": [
+        {
+            "bucket_+Inf": "This dimension represents the maximum time taken by an operation in seconds.",
+            "bucket_0.01": "This dimension represents the time taken by an operation in 0.01s seconds.",
+            "bucket_0.05": "This dimension represents the time taken by an operation in 0.05s seconds.",
+            "bucket_0.1": "This dimension represents the time taken by an operation in 0.1s seconds.",
+            "bucket_0.5": "This dimension represents the time taken by an operation in 0.5s seconds.",
+            "bucket_1": "This dimension represents the time taken by an operation in 1s seconds.",
+            "bucket_10": "This dimension represents the time taken by an operation in 10s seconds.",
+            "bucket_100": "This dimension represents the time taken by an operation in 100s seconds.",
+            "bucket_1000": "This dimension represents the time taken by an operation in 1000s seconds.",
+            "bucket_12.5": "This dimension represents the time taken by an operation in 12.5s seconds.",
+            "bucket_15": "This dimension represents the time taken by an operation in 15s seconds.",
+            "bucket_17.5": "This dimension represents the time taken by an operation in 17.5s seconds.",
+            "bucket_2.5": "This dimension represents the time taken by an operation in 2.5s seconds.",
+            "bucket_20": "This dimension represents the time taken by an operation in 20s seconds.",
+            "bucket_22.5": "This dimension represents the time taken by an operation in 22.5s seconds.",
+            "bucket_25": "This dimension represents the time taken by an operation in 25s seconds.",
+            "bucket_27.5": "This dimension represents the time taken by an operation in 27.5s seconds.",
+            "bucket_30": "This dimension represents the time taken by an operation in 30s seconds.",
+            "bucket_5": "This dimension represents the time taken by an operation in 5s seconds.",
+            "bucket_50": "This dimension represents the time taken by an operation in 50s seconds.",
+            "bucket_7.5": "This dimension represents the time taken by an operation in 7.5s seconds.",
+            "bucket_75": "This dimension represents the time taken by an operation in 75s seconds."
+        }
+    ]
+}

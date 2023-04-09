@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_mallocs_total",
+    "chart_description": "This chart displays the total number of memory allocations performed by the AWS load balancer controller in the Go programming language.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mallocs_total": "The total number of mallocs (memory allocations) performed by the Go runtime."
+        }
+    ]
+}

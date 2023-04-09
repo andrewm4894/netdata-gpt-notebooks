@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.controller_runtime_webhook_requests_total",
+    "chart_description": "This chart records the total number of admission requests by HTTP status code for the AWS load balancer controller.",
+    "dimension_descriptions": [
+        {
+            "controller_runtime_webhook_requests_total": "The total number of admission requests made by the AWS load balancer controller, grouped by HTTP status code."
+        }
+    ]
+}

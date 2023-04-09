@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_objects",
+    "chart_description": "Number of allocated objects chart measures the number of objects that are currently allocated in the Go heap.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_objects": "The 'go_memstats_heap_objects' dimension represents the number of objects that are currently allocated in the Go heap. This metric can be used to understand heap memory usage patterns and can be helpful in optimizing memory usage in Go applications."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_gc_cpu_fraction",
+    "chart_description": "This chart shows the fraction of available CPU time used by the garbage collector (GC) since the program started. It helps to monitor GC performance and ensure efficient memory management in the program.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_gc_cpu_fraction": "The fraction of CPU time used by the garbage collector. A higher value indicates that more CPU resources are being used for garbage collection, which may affect program performance."
+        }
+    ]
+}

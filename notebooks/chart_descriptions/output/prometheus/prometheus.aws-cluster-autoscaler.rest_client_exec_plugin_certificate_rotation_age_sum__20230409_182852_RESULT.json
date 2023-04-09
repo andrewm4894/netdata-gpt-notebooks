@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_exec_plugin_certificate_rotation_age_sum",
+    "chart_description": "[ALPHA] This chart displays a histogram of the number of seconds the last auth exec plugin client certificate lived before being rotated. If the auth exec plugin client certificates are unused, the histogram will contain no data. The dimensions of this chart help track the age of the certificates and monitor when and how frequently they are rotated. This chart can be useful for monitoring the security of your authentication processes and ensuring that client certificates are rotated frequently enough to reduce the risk of unauthorized access.",
+    "dimension_descriptions": [
+        {
+            "rest_client_exec_plugin_certificate_rotation_age_sum": "The sum of ages (in seconds) for the last auth exec plugin client certificate before it was rotated. This dimension helps you track the age of the certificates and monitor their frequency of rotation. By comparing this dimension to other metrics, you can better understand the security of your authentication processes and identify any potential issues with certificate lifetimes."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.controller_runtime_active_workers",
+    "chart_description": "This chart displays the number of currently active workers per controller in the AWS Load Balancer Controller runtime family.",
+    "dimension_descriptions": [
+        {
+            "controller_runtime_active_workers": "The number of active workers currently being used by the controller."
+        }
+    ]
+}

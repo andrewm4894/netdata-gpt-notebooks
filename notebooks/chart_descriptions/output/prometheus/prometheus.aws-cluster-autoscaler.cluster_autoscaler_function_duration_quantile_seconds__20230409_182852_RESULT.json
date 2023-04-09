@@ -1,0 +1,11 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_quantile_seconds",
+    "chart_description": "This chart provides quantiles of timings for various parts of the Cluster Autoscaler (CA) main loop which helps to efficiently manage the nodes in a Kubernetes cluster. It provides an insight into how long it takes for different parts of the main loop to execute.",
+    "dimension_descriptions": [
+        {
+            "quantile_0.5": "50th percentile value of time taken by various parts of the CA main loop.",
+            "quantile_0.9": "90th percentile value of time taken by various parts of the CA main loop.",
+            "quantile_0.99": "99th percentile value of time taken by various parts of the CA main loop."
+        }
+    ]
+}

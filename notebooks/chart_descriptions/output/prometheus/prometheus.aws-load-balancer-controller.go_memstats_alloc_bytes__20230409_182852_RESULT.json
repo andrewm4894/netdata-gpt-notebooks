@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_alloc_bytes",
+    "chart_description": "This chart displays the number of bytes allocated and still in use in the AWS Load Balancer Controller's Go memory statistics.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_alloc_bytes": "The current number of bytes allocated and still in use by the Go memory allocator. This includes all memory that has been allocated but not yet freed."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_objects",
+    "chart_description": "The Number of allocated objects chart measures the number of active objects that have been allocated in the heap. It is useful for tracking heap memory usage.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_objects": "This is the only dimension available for this chart. It measures the number of active objects that have been allocated in the heap."
+        }
+    ]
+}

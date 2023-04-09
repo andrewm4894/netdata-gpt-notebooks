@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_seconds_sum",
+    "chart_description": "This chart shows the time taken by various parts of the Cluster Autoscaler (CA) main loop in seconds. The main loop is responsible for monitoring the resources in the cluster and scaling up or down the nodes in response to changes in resource demands.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_function_duration_seconds_sum": "The total time taken by the CA main loop. This includes the time spent on monitoring and scaling activities."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_idle_bytes",
+    "chart_description": "This chart displays the number of heap bytes waiting to be used in the Go programming language used by the AWS Cluster Autoscaler application. This metric can help to determine if there is enough memory available for the application to function optimally.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_idle_bytes": "This dimension measures the size of heap memory that is currently unused and available for allocation."
+        }
+    ]
+}

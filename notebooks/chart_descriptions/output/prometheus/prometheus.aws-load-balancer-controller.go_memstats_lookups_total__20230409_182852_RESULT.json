@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_lookups_total",
+    "chart_description": "This chart measures the total number of pointer lookups performed by the AWS Load Balancer Controller application written in Go programming language. It can be used to monitor application memory usage and identify potential memory optimization opportunities.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_lookups_total": "The total number of pointer lookups performed by the application since it started."
+        }
+    ]
+}

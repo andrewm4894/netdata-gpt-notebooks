@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_next_gc_bytes",
+    "chart_description": "This chart shows the number of heap bytes when the next garbage collection will take place within the go runtime environment in the AWS cluster autoscaler. Garbage collection is an automated memory management process which frees up memory space that is no longer needed by a program.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_next_gc_bytes": "The next_gc_bytes dimension represents the number of heap bytes at which the next garbage collection cycle will be triggered. It is a measure of the minimum amount of allocation required to trigger garbage collection, and can be useful in diagnosing issues related to memory allocation and usage."
+        }
+    ]
+}

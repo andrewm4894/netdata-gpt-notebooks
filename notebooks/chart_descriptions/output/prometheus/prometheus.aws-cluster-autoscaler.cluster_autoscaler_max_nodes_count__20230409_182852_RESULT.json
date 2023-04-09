@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_max_nodes_count",
+    "chart_description": "[ALPHA] Maximum number of nodes in all node groups for autoscaling the cluster.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_max_nodes_count": "The maximum number of nodes that can be added to the cluster through autoscaling. This metric can help in understanding if the desired number of nodes are being added as per the autoscaling policy."
+        }
+    ]
+}

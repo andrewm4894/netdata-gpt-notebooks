@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_gc_cpu_fraction",
+    "chart_description": "This chart tracks the fraction of the available CPU time utilized by the garbage collector (GC) of the AWS Load Balancer Controller Go program since its inception. The GC is an automatic memory management process that reclaims memory occupied by objects that are no longer in use.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_gc_cpu_fraction": "The fraction of CPU time used by the Garbage Collector since program start. A higher value indicates that the GC is consuming a larger portion of the CPU, potentially impacting the overall application performance."
+        }
+    ]
+}

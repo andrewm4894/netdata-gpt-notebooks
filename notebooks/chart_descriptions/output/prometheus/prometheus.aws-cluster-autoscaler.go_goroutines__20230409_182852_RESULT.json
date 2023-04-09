@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_goroutines",
+    "chart_description": "This chart tracks the number of goroutines currently existing in the go codebase of the AWS Cluster Autoscaler. Goroutines are lightweight threads used for concurrency in Go.",
+    "dimension_descriptions": [
+        {
+            "go_goroutines": "This dimension shows the total number of goroutines currently running in the AWS Cluster Autoscaler codebase."
+        }
+    ]
+}

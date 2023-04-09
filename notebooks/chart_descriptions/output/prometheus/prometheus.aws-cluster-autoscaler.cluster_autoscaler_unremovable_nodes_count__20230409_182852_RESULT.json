@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_unremovable_nodes_count",
+    "chart_description": "[ALPHA] Number of nodes that are currently considered unremovable by Cluster Autoscaler (CA).",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_unremovable_nodes_count": "The number of nodes currently considered unremovable by CA."
+        }
+    ]
+}

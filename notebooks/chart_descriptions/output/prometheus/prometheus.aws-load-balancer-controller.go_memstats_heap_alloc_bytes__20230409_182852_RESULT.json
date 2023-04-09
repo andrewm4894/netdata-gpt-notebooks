@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_alloc_bytes",
+    "chart_description": "This chart shows the number of heap bytes that have been allocated and are still in use by the AWS load balancer controller process, as reported by the Go runtime memory statistics. This metric can help to detect and monitor memory usage of the controller.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_alloc_bytes": "The amount of memory in bytes that has been allocated from the heap but has not yet been freed. This metric represents the current heap memory usage of the AWS load balancer controller process."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.get_token_fail_count",
+    "chart_description": "This chart displays the count of failed Token() requests to the alternate token source in AWS cluster autoscaler.",
+    "dimension_descriptions": [
+        {
+            "get_token_fail_count": "The count of failed Token() requests to the alternate token source."
+        }
+    ]
+}

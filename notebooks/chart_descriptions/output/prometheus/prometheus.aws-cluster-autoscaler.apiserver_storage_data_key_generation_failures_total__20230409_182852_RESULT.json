@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_storage_data_key_generation_failures_total",
+    "chart_description": "This chart provides the count of failed operations relating to the generation of data encryption keys (DEK) for API server storage from the Amazon Web Services (AWS) cluster autoscaler. A high value indicates issues with generating DEKs, likely resulting in impact to the performance of the autoscaler.",
+    "dimension_descriptions": [
+        {
+            "apiserver_storage_data_key_generation_failures_total": "This dimension tracks the total number of failed operations related to generating data encryption keys (DEK) for API server storage. It provides insight into issues with DEK generation and their impact on the performance of the autoscaler."
+        }
+    ]
+}

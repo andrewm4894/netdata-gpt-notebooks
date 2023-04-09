@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_gc_duration_seconds_sum",
+    "chart_description": "This chart shows a summary of the pause duration of garbage collection cycles taking place in the AWS cluster that is being managed by the autoscaler tool. The chart can help admins and SREs monitor the behavior of the garbage collector and identify any issues or bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "go_gc_duration_seconds_sum": "The total sum of pause duration of garbage collection cycles, which is the amount of time the application was paused in order to perform garbage collection. This metric will increase when garbage collection occurs."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_storage_data_key_generation_duration_seconds_count",
+    "chart_description": "This chart represents the latencies in seconds of data encryption key generation operations in the apiserver storage of the AWS cluster autoscaler.",
+    "dimension_descriptions": [
+        {
+            "apiserver_storage_data_key_generation_duration_seconds_count": "The time taken in seconds for generating an encryption key for the storage in the apiserver."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_stack_inuse_bytes",
+    "chart_description": "This chart measures the number of bytes in use by the stack allocator. Stack allocator is a special region of memory used to store stack frames and is created when a program is run. It is often used to store local variables, function arguments, and pointers.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_stack_inuse_bytes": "The amount of stack memory in use at the time of the measurement."
+        }
+    ]
+}

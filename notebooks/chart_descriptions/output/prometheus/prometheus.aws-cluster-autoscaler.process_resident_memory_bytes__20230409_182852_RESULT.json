@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_resident_memory_bytes",
+    "chart_description": "This chart displays the amount of memory in bytes that is currently being used by the AWS Cluster Autoscaler process.",
+    "dimension_descriptions": [
+        {
+            "process_resident_memory_bytes": "This dimension refers to the resident memory size in bytes of the AWS Cluster Autoscaler process. Resident memory includes any memory held by a process that cannot be swapped out."
+        }
+    ]
+}

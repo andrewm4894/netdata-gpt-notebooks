@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_stack_inuse_bytes",
+    "chart_description": "This chart shows the number of bytes that are currently in use by the stack allocator. The stack is where function calls and local variables reside during program execution. Monitoring this chart can help identify potential stack overflows or leaks in a Go application.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_stack_inuse_bytes": "The number of bytes currently in use by the stack. High values on this dimension may indicate that the application is allocating too much memory on the stack, which can lead to stack overflows and crashes."
+        }
+    ]
+}

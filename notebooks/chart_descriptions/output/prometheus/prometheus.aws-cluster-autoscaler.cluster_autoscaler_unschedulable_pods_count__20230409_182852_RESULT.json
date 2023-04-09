@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_unschedulable_pods_count",
+    "chart_description": "This chart displays the number of unschedulable pods in the cluster. This can be an indicator of insufficient resources, such as CPU or memory, or scheduling issues.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_unschedulable_pods_count": "The number of unschedulable pods in the cluster, which means they cannot be assigned to any node due to various reasons, such as insufficient resources or node availability issues."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_old_unregistered_nodes_removed_count",
+    "chart_description": "[ALPHA] Number of nodes that were unregistered by CA and were removed from the cluster due to not being able to register again. This metric helps to identify the efficiency of the cluster autoscaler and the frequency of removing old unregistered nodes. ",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_old_unregistered_nodes_removed_count": "The total number of old unregistered nodes removed from the cluster by the cluster autoscaler per second."
+        }
+    ]
+}

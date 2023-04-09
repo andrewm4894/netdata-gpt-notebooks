@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_quantile_seconds_sum",
+    "chart_description": "This chart displays the quantiles of time taken by various parts of the Cluster Autoscaler's main loop in seconds. The quantiles are calculated by Prometheus.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_function_duration_quantile_seconds_sum": "The sum of time taken by the specified quantile of the main loop in seconds. This helps identify slow areas in the loop that may impact overall performance."
+        }
+    ]
+}

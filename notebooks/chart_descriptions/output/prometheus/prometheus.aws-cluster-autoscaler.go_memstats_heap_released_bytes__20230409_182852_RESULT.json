@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_released_bytes",
+    "chart_description": "This chart displays the number of heap bytes released to the operating system by the Go runtime. Heap memory is dynamically allocated storage in the application's virtual memory space. When the heap is freed, the memory is returned to the operating system. This chart helps track the amount of memory released by an application in order to monitor application crashes caused by memory leaks.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_released_bytes": "The amount of heap memory released to the operating system by the Go runtime, measured in bytes."
+        }
+    ]
+}

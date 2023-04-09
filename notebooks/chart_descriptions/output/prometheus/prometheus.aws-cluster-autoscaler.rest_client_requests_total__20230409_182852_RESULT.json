@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_requests_total",
+    "chart_description": "This chart monitors the number of HTTP requests made by the rest client to the AWS cluster autoscaler, partitioned by status code, method and host.",
+    "dimension_descriptions": [
+        {
+            "rest_client_requests_total": "The total number of HTTP requests made by the rest client, partitioned by status code, method and host."
+        }
+    ]
+}

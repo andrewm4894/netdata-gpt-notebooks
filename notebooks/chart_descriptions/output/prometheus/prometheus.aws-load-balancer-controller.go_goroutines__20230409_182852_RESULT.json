@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_goroutines",
+    "chart_description": "This chart shows the number of goroutines currently active in the AWS Load Balancer Controller.",
+    "dimension_descriptions": [
+        {
+            "go_goroutines": "The number of go routines currently active in the AWS Load Balancer Controller."
+        }
+    ]
+}

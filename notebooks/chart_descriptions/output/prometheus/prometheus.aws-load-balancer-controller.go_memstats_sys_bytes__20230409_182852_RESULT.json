@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_sys_bytes",
+    "chart_description": "This chart shows the amount of memory obtained from the system by the aws-load-balancer-controller using the Go programming language.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_sys_bytes": "The size of the memory obtained from the system by the aws-load-balancer-controller in bytes. This includes both the virtual and physical memory."
+        }
+    ]
+}

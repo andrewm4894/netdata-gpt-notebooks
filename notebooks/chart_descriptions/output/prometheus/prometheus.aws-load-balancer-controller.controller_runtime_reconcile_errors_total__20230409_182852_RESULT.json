@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.controller_runtime_reconcile_errors_total",
+    "chart_description": "This chart measures the total number of reconciliation errors that occurred per controller for the AWS load balancer. Reconciliation errors happen when the current state of an object in the cluster cannot be updated to match the desired state, which can be caused by various reasons such as network issues, resource constraints, or bugs in the system.",
+    "dimension_descriptions": [
+        {
+            "controller_runtime_reconcile_errors_total": "The total number of reconciliation errors that occurred per controller."
+        }
+    ]
+}

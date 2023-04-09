@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_gc_duration_seconds_count",
+    "chart_description": "This chart gives a summary of the pause duration of garbage collection cycles. Garbage collection is a process in programming where unused memory is identified and freed up for reuse. This chart can help identify any issues related to garbage collection taking too long, which can negatively impact system performance.",
+    "dimension_descriptions": [
+        {
+            "go_gc_duration_seconds_count": "The number of garbage collection cycles and the pause duration of each cycle. This dimension can help identify if there are issues with garbage collection taking too long or happening too frequently, which can indicate a need for memory optimization and troubleshooting."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_request_duration_seconds_sum",
+    "chart_description": "This chart tracks the request latency in seconds for requests made to the AWS Cluster Autoscaler REST client. The latency is broken down by verb and URL.",
+    "dimension_descriptions": [
+        {
+            "rest_client_request_duration_seconds_sum": "The sum of request durations in seconds for the specific verb and URL combination."
+        }
+    ]
+}

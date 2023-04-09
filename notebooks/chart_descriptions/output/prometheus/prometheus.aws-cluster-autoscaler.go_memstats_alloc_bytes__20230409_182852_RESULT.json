@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_alloc_bytes",
+    "chart_description": "This chart shows the number of bytes allocated and still in use by the Go garbage collector in the AWS Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_alloc_bytes": "The total number of bytes allocated and still in use by the Go garbage collector."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_storage_data_key_generation_duration_seconds",
+    "chart_description": "This chart measures the latencies in seconds of data encryption key (DEK) generation operations. It is in alpha and only for informational purposes.",
+    "dimension_descriptions": [
+        {
+            "bucket_+Inf": "The number of observations that were unbounded (i.e., taking more time than any of the buckets measured).",
+            "bucket_0.000005": "The number of observations that took 0.000005 seconds or less.",
+            "bucket_0.00001": "The number of observations that took between 0.000005 and 0.00001 seconds.",
+            "bucket_0.00002": "The number of observations that took between 0.00001 and 0.00002 seconds.",
+            "bucket_0.00004": "The number of observations that took between 0.00002 and 0.00004 seconds.",
+            "bucket_0.00008": "The number of observations that took between 0.00004 and 0.00008 seconds.",
+            "bucket_0.00016": "The number of observations that took between 0.00008 and 0.00016 seconds.",
+            "bucket_0.00032": "The number of observations that took between 0.00016 and 0.00032 seconds.",
+            "bucket_0.00064": "The number of observations that took between 0.00032 and 0.00064 seconds.",
+            "bucket_0.00128": "The number of observations that took between 0.00064 and 0.00128 seconds.",
+            "bucket_0.00256": "The number of observations that took between 0.00128 and 0.00256 seconds.",
+            "bucket_0.00512": "The number of observations that took between 0.00256 and 0.00512 seconds.",
+            "bucket_0.01024": "The number of observations that took between 0.00512 and 0.01024 seconds.",
+            "bucket_0.02048": "The number of observations that took between 0.01024 and 0.02048 seconds.",
+            "bucket_0.04096": "The number of observations that took between 0.02048 and 0.04096 seconds."
+        }
+    ]
+}

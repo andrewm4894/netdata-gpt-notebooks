@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_storage_data_key_generation_duration_seconds_sum",
+    "chart_description": "[ALPHA] This chart shows the latencies in seconds of data encryption key (DEK) generation operations.",
+    "dimension_descriptions": [
+        {
+            "apiserver_storage_data_key_generation_duration_seconds_sum": "The sum of time in seconds to generate a data encryption key (DEK) from the apiserver_storage."
+        }
+    ]
+}

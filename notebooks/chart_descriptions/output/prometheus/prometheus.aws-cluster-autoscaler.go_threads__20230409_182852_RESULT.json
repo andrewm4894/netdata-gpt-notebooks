@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_threads",
+    "chart_description": "This chart shows the number of OS threads created by the Autoscaler Go program in an AWS cluster. The Autoscaler is responsible for dynamically adjusting the number of nodes in a cluster based on resource usage.",
+    "dimension_descriptions": [
+        {
+            "go_threads": "The number of OS threads created by the Autoscaler Go program. This can help identify potential performance issues or resource bottlenecks in the Autoscaler, which could affect the performance of the cluster."
+        }
+    ]
+}

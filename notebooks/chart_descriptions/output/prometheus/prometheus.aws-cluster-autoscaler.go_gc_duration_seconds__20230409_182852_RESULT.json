@@ -1,0 +1,13 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_gc_duration_seconds",
+    "chart_description": "This chart shows the summary of the pause duration of garbage collection cycles in seconds for AWS cluster autoscaler running on a go programming language environment.",
+    "dimension_descriptions": [
+        {
+            "quantile_0": "The minimum pause duration time in seconds.",
+            "quantile_0.25": "The first quartile pause duration time in seconds.",
+            "quantile_0.5": "The median pause duration time in seconds.",
+            "quantile_0.75": "The third quartile pause duration time in seconds.",
+            "quantile_1": "The maximum pause duration time in seconds."
+        }
+    ]
+}

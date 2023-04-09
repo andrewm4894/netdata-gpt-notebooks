@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_mspan_sys_bytes",
+    "chart_description": "This chart shows the number of bytes used for mspan structures obtained from the system in the cluster autoscaler application running on AWS.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mspan_sys_bytes": "The size (in bytes) of the memory obtained from the system for mspan structures. Memory allocated for mspan structures is used in the garbage collection process of Go."
+        }
+    ]
+}

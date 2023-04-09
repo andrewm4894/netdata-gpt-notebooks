@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_quantile_seconds_count",
+    "chart_description": "This is an [ALPHA] chart that displays the quantiles of time taken by various components of the CA main loop in seconds. It is useful to monitor the efficiency and performance of the cluster autoscaler function in AWS.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_function_duration_quantile_seconds_count": "The time taken (in seconds) by various components of the CA main loop at specific time quantiles. This dimension can help identify components that may be taking too long to operate or contributing to poor performance."
+        }
+    ]
+}

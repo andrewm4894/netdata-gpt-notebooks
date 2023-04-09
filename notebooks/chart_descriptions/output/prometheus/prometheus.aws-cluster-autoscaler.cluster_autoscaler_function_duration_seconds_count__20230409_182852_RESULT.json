@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_function_duration_seconds_count",
+    "chart_description": "[ALPHA] Time taken by various parts of CA main loop is a line chart that displays the duration of the various parts of the main loop for Cluster Autoscaler. It helps in understanding the time taken by different functions of Cluster Autoscaler and optimization of the cluster.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_function_duration_seconds_count": "The time taken by various parts of CA main loop is calculated for each second and is displayed on the y-axis of the chart. The x-axis represents time in seconds."
+        }
+    ]
+}

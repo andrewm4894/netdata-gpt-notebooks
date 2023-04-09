@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_cpu_seconds_total",
+    "chart_description": "This chart shows the total user and system CPU time spent in seconds for the AWS Cluster Autoscaler process. It provides insight into the amount of CPU resources utilized by the process and assists in identifying any potential performance issues or bottlenecks.",
+    "dimension_descriptions": [
+        {
+            "process_cpu_seconds_total": "The total amount of CPU time spent in seconds by the AWS Cluster Autoscaler process. It includes both user and system CPU time and can be used to monitor the process's CPU usage over time."
+        }
+    ]
+}

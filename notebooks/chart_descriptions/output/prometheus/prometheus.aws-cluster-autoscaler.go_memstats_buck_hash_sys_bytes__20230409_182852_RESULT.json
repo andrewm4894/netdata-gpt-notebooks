@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_buck_hash_sys_bytes",
+    "chart_description": "This chart measures the number of bytes used by the profiling bucket hash table. It helps to identify memory issues on the go layer of the AWS cluster autoscaler.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_buck_hash_sys_bytes": "The amount of memory in bytes used by the profiling bucket hash table."
+        }
+    ]
+}

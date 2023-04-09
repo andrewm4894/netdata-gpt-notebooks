@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_last_gc_time_seconds",
+    "chart_description": "This chart displays the number of seconds since 1970 of the last garbage collection performed by the Go memory manager in the aws-cluster-autoscaler infrastructure.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_last_gc_time_seconds": "The number of seconds since 1970 of the last garbage collection. This dimension provides insight into the frequency of garbage collection performed by the Go memory manager in the aws-cluster-autoscaler infrastructure."
+        }
+    ]
+}

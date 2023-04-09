@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_last_activity",
+    "chart_description": "This chart displays the last time the certain part of Cluster Autoscaler logic executed. It helps to monitor and analyze the activity of the Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_last_activity": "The timestamp of the last execution of a certain part of Cluster Autoscaler logic."
+        }
+    ]
+}

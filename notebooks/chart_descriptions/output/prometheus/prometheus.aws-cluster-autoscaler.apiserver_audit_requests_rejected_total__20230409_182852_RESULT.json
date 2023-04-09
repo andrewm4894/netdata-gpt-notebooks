@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_audit_requests_rejected_total",
+    "chart_description": "This counter chart tracks the number of API server requests that have been rejected due to an error in the audit logging backend. The chart is in ALPHA stage and should be taken as a work in progress",
+    "dimension_descriptions": [
+        {
+            "apiserver_audit_requests_rejected_total": "The total number of rejected requests per second due to an error in the audit logging backend"
+        }
+    ]
+}

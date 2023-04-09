@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_start_time_seconds",
+    "chart_description": "This chart shows the start time of the AWS cluster autoscaler process in seconds since the Unix epoch. The AWS Cluster Autoscaler is a tool that automatically adjusts the size of an Auto Scaling group to add or remove EC2 instances based on the group's configured scaling policies.",
+    "dimension_descriptions": [
+        {
+            "process_start_time_seconds": "The time at which the AWS cluster autoscaler process started, measured in seconds since the Unix epoch."
+        }
+    ]
+}

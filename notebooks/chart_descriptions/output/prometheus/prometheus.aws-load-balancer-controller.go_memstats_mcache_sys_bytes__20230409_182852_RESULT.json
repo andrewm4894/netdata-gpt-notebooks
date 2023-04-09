@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_mcache_sys_bytes",
+    "chart_description": "The `prometheus.aws-load-balancer-controller.go_memstats_mcache_sys_bytes` chart displays the number of bytes used for mcache structures obtained from the system. This chart is useful for monitoring the cache efficiency of the application.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mcache_sys_bytes": "The `go_memstats_mcache_sys_bytes` dimension indicates the number of bytes used for mcache structures obtained from the system. A higher value for this dimension indicates that the application is using more memory for cache, which can increase the cache hit rate but also increase resource consumption. This dimension can be used to optimize the cache configuration of the application."
+        }
+    ]
+}

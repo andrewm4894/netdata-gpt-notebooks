@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_heap_alloc_bytes",
+    "chart_description": "This chart displays the number of heap bytes that have been allocated by the Go program and are still being used by it. It gives an idea of the amount of memory currently in use by the program.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_alloc_bytes": "This dimension represents the number of heap bytes allocated and still in use by the Go program. It is a measure of the current memory usage of the program."
+        }
+    ]
+}

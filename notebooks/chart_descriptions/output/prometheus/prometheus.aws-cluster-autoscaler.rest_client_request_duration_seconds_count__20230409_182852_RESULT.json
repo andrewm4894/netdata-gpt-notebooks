@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.rest_client_request_duration_seconds_count",
+    "chart_description": "[ALPHA] Request latency in seconds. Broken down by verb and URL. This chart displays the duration of client requests made to the AWS cluster autoscaler REST API, categorized by HTTP verb and URL. It can be used to measure the time taken by different types of requests and identify bottlenecks in the system.",
+    "dimension_descriptions": [
+        {
+            "rest_client_request_duration_seconds_count": "The total number of client requests made to the AWS cluster autoscaler REST API, categorized by HTTP verb and URL. This metric can be used to measure the overall load on the system and identify any sudden spikes in traffic."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.get_token_count",
+    "chart_description": "This chart tracks the number of Token() requests made to the alternate token source in Amazon's Cluster Autoscaler. It is an experimental feature currently in alpha stage.",
+    "dimension_descriptions": [
+        {
+            "get_token_count": "The total number of Token() requests made per second."
+        }
+    ]
+}

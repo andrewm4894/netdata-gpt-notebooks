@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.apiserver_storage_envelope_transformation_cache_misses_total",
+    "chart_description": "This chart represents the total number of cache misses that occurred while accessing the key decryption key(KEK) for the apiserver storage envelope transformation.",
+    "dimension_descriptions": [
+        {
+            "apiserver_storage_envelope_transformation_cache_misses_total": "The total number of cache misses that occurred while accessing the key decryption key(KEK) for the apiserver storage envelope transformation."
+        }
+    ]
+}

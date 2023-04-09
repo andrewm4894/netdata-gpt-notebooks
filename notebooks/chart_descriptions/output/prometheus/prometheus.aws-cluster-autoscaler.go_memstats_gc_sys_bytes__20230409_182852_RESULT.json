@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_gc_sys_bytes",
+    "chart_description": "This chart displays the number of bytes used by the Go garbage collector for system metadata in the AWS Cluster Autoscaler environment.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_gc_sys_bytes": "The number of bytes used for garbage collection system metadata by the Go memory manager."
+        }
+    ]
+}

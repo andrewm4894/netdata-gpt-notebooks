@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_frees_total",
+    "chart_description": "This chart tracks the total number of frees in the Go memory allocator of the AWS Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_frees_total": "The total number of frees in the Go memory allocator. This metric can be used to analyze the efficiency of the garbage collector and memory management of the application."
+        }
+    ]
+}

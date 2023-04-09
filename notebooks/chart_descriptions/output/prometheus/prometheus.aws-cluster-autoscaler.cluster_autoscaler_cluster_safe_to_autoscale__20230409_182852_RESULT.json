@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_cluster_safe_to_autoscale",
+    "chart_description": "This chart shows whether or not the AWS cluster is healthy enough for autoscaling. It reports a 1 if it is safe to autoscale and 0 otherwise. This chart is currently in alpha stage.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_cluster_safe_to_autoscale": "Whether or not the cluster is healthy enough for autoscaling. A value of 1 indicates that the cluster is healthy enough for autoscaling, while a value of 0 indicates that it is not safe to autoscale. This dimension reports the current state of the cluster's health affecting the autoscaling operation."
+        }
+    ]
+}

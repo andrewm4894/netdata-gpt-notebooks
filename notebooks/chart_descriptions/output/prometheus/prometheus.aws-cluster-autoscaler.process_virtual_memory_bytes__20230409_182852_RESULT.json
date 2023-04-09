@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_virtual_memory_bytes",
+    "chart_description": "This chart displays the virtual memory size of the process running in the AWS Cluster Autoscaler. Virtual memory size measures the total amount of memory that a process is using, including the memory it has allocated but may not be currently using.",
+    "dimension_descriptions": [
+        {
+            "process_virtual_memory_bytes": "This dimension represents the total virtual memory size in bytes used by the process in the AWS Cluster Autoscaler."
+        }
+    ]
+}

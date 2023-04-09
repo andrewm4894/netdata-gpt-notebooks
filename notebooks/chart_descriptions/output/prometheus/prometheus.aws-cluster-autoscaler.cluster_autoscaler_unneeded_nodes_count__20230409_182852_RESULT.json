@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_unneeded_nodes_count",
+    "chart_description": "[ALPHA] Number of nodes currently considered unneeded by Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_unneeded_nodes_count": "The number of nodes that are currently considered unneeded by the Cluster Autoscaler. These nodes have lower utilization compared to the other nodes in the cluster and can be terminated to save costs."
+        }
+    ]
+}

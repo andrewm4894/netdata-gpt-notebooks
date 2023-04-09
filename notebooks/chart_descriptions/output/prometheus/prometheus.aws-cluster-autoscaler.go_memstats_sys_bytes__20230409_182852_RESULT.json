@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.go_memstats_sys_bytes",
+    "chart_description": "This chart shows the number of bytes obtained from the system by the cluster autoscaler in AWS using Prometheus monitoring. It helps in identifying the memory usage pattern of the autoscaler and optimizing it for better performance.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_sys_bytes": "The total bytes requested from the system for memory allocation by the Go runtime."
+        }
+    ]
+}

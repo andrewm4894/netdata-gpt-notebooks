@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_threads",
+    "chart_description": "This chart shows the number of operating system (OS) threads created by the Go runtime used by the AWS Load Balancer Controller. The number of threads can impact the performance of the controller.",
+    "dimension_descriptions": [
+        {
+            "go_threads": "The number of OS threads created by the Go runtime used by the AWS Load Balancer Controller."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_nap_enabled",
+    "chart_description": "This chart displays whether or not Node Autoprovisioning is enabled for a given AWS cluster. The value '1' indicates that it is enabled, while '0' indicates that it is not.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_nap_enabled": "This dimension represents whether or not Node Autoprovisioning is enabled. Its value will be either '0' or '1'."
+        }
+    ]
+}

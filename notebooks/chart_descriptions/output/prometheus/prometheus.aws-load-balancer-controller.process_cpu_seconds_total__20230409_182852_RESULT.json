@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.process_cpu_seconds_total",
+    "chart_description": "This chart displays the total user and system CPU time spent by the AWS load balancer controller process, in seconds.",
+    "dimension_descriptions": [
+        {
+            "process_cpu_seconds_total": "The cumulative CPU seconds used by the AWS load balancer controller process."
+        }
+    ]
+}

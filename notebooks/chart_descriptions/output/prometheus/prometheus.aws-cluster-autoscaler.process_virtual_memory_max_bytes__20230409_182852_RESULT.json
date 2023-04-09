@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.process_virtual_memory_max_bytes",
+    "chart_description": "This chart shows the maximum amount of virtual memory available in bytes for the AWS Cluster Autoscaler process. Virtual memory is the total amount of memory available for use by processes and applications. This chart can be used to monitor and optimize memory usage for the autoscaler process.",
+    "dimension_descriptions": [
+        {
+            "process_virtual_memory_max_bytes": "This dimension measures the maximum amount of virtual memory available to the AWS Cluster Autoscaler process in bytes. It is important to monitor this dimension to ensure that the process has enough memory available to operate efficiently."
+        }
+    ]
+}

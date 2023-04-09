@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_frees_total",
+    "chart_description": "This chart shows the total number of frees per second in the Go memory statistics for the AWS Load Balancer Controller.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_frees_total": "The total number of frees per second. This metric indicates the rate at which objects are being freed from memory."
+        }
+    ]
+}

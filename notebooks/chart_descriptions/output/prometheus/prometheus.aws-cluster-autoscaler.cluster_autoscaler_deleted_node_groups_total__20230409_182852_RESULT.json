@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_deleted_node_groups_total",
+    "chart_description": "This chart shows the number of node groups deleted by Node Autoprovisioning in an AWS Cluster Autoscaler.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_deleted_node_groups_total": "The total number of node groups deleted by the Node Autoprovisioning process."
+        }
+    ]
+}

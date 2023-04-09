@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-cluster-autoscaler.cluster_autoscaler_created_node_groups_total",
+    "chart_description": "This chart shows the number of node groups that were created by Node Autoprovisioning in AWS Cluster Autoscaler. It is an alpha feature and is subject to change.",
+    "dimension_descriptions": [
+        {
+            "cluster_autoscaler_created_node_groups_total": "The total number of node groups created by Node Autoprovisioning in AWS Cluster Autoscaler."
+        }
+    ]
+}

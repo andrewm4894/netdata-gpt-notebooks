@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_mspan_sys_bytes",
+    "chart_description": "This chart shows the number of bytes used for mspan structures obtained from the system. The mspan structures are used by the garbage collector to track the size of objects in memory.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_mspan_sys_bytes": "The number of bytes used for mspan structures obtained from the system. This includes any memory used by the mspan metadata as well as the size of the memory blocks that are tracked by the mspan."
+        }
+    ]
+}

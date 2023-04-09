@@ -1,0 +1,9 @@
+{
+    "chart_id": "prometheus.aws-load-balancer-controller.go_memstats_heap_idle_bytes",
+    "chart_description": "This chart displays the number of heap bytes waiting to be used, indicating the amount of memory allocated but not yet used. It helps monitor the idle heap bytes and optimize memory usage in AWS load balancer controller infrastructure.",
+    "dimension_descriptions": [
+        {
+            "go_memstats_heap_idle_bytes": "The dimension represents the number of heap bytes waiting to be used by the Go runtime."
+        }
+    ]
+}
