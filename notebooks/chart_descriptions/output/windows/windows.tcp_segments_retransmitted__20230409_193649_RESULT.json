@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_segments_retransmitted",
+    "chart_description": "This chart displays the number of TCP segments that were retransmitted per second on a Windows system. TCP retransmission can occur due to network congestion or errors in data transmission. Monitoring this chart can help identify potential network issues and aid in troubleshooting.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "This dimension displays the number of TCP segments retransmitted over IPv4 protocol.",
+            "ipv6": "This dimension displays the number of TCP segments retransmitted over IPv6 protocol."
+        }
+    ]
+}

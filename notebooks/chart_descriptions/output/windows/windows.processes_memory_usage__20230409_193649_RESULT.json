@@ -1,0 +1,41 @@
+{
+    "chart_id": "windows.processes_memory_usage",
+    "chart_description": "This chart displays the memory usage of different processes running on a Windows machine.",
+    "dimension_descriptions": [
+        {
+            "Idle": "The amount of memory allocated to the Idle process.",
+            "LogonUI": "The amount of memory allocated to the LogonUI process.",
+            "Microsoft.ActiveDirectory.WebServices": "The amount of memory allocated to the Microsoft ActiveDirectory Web Services process.",
+            "MsMpEng": "The amount of memory allocated to the Windows Defender Antivirus Service process.",
+            "NisSrv": "The amount of memory allocated to the Network Store Interface Service process.",
+            "Registry": "The amount of memory allocated to the Registry process.",
+            "SMSvcHost": "The amount of memory allocated to the Microsoft Endpoint Configuration Manager process.",
+            "SecurityHealthService": "The amount of memory allocated to the Windows Security health service process.",
+            "System": "The amount of memory allocated to the System process.",
+            "WMSvc": "The amount of memory allocated to the Windows Process Activation Service process.",
+            "WmiApSrv": "The amount of memory allocated to the WMI Performance Adapter service process.",
+            "WmiPrvSE": "The amount of memory allocated to the WMI Provider Host process.",
+            "amazon-ssm-agent": "The amount of memory allocated to the Amazon EC2 Simple Systems Manager agent.",
+            "conhost": "The amount of memory allocated to the Windows Console Host process.",
+            "csrss": "The amount of memory allocated to the Client/Server Runtime Subsystem process.",
+            "dfsrs": "The amount of memory allocated to the DFS Replication process.",
+            "dfssvc": "The amount of memory allocated to the Distributed File System process.",
+            "dns": "The amount of memory allocated to the Domain Name System process.",
+            "dwm": "The amount of memory allocated to the Desktop Window Manager process.",
+            "fontdrvhost": "The amount of memory allocated to the Windows Font Driver Host process.",
+            "ismserv": "The amount of memory allocated to the Microsoft Intune Management Extension process.",
+            "lsass": "The amount of memory allocated to the Local Security Authority Subsystem Service process.",
+            "mqsvc": "The amount of memory allocated to the Microsoft Message Queuing Service process.",
+            "msdtc": "The amount of memory allocated to the Distributed Transaction Coordinator process.",
+            "services": "The amount of memory allocated to the Windows Service Control Manager process.",
+            "smss": "The amount of memory allocated to the Windows Session Manager process.",
+            "spoolsv": "The amount of memory allocated to the Print Spooler service process.",
+            "ssm-agent-worker": "The amount of memory allocated to the Amazon EC2 Systems Manager Agent worker process.",
+            "svchost": "The amount of memory allocated to the Generic Host Process for Win32 Services process.",
+            "vds": "The amount of memory allocated to the Virtual Disk Service process.",
+            "windows_exporter": "The amount of memory allocated to the Prometheus exporter for Windows servers process.",
+            "wininit": "The amount of memory allocated to the Windows Initialization process.",
+            "winlogon": "The amount of memory allocated to the Windows Logon process."
+        }
+    ]
+}

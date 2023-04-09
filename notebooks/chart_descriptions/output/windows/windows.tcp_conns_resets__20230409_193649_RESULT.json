@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.tcp_conns_resets",
+    "chart_description": "The TCP connections resets chart tracks the rate at which TCP connections are reset on Windows systems. TCP connection resets occur when a connection is forcibly closed without completing its intended purpose. This can happen for various reasons including network congestion or connection timeouts.",
+    "dimension_descriptions": [
+        {
+            "ipv6": "This dimension indicates whether the chart is displaying data for IPv6 connections only. If this dimension is not present or has a value of 'all', the chart is displaying data for both IPv4 and IPv6 connections."
+        }
+    ]
+}

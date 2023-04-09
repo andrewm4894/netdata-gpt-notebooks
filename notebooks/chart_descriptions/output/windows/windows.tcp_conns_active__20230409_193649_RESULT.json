@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_conns_active",
+    "chart_description": "The `windows.tcp_conns_active` chart displays the number of active TCP connections per second on a Windows system. This information can be useful to monitor network traffic and identify potential bottlenecks or issues.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The `ipv4` dimension counts the number of active TCP connections that use IPv4.",
+            "ipv6": "The `ipv6` dimension counts the number of active TCP connections that use IPv6."
+        }
+    ]
+}

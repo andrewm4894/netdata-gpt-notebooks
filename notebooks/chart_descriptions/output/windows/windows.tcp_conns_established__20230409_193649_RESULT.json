@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_conns_established",
+    "chart_description": "The TCP established connections chart displays the number of established TCP connections for both IPv4 and IPv6 on a Windows machine. Established connections are those that are in an active state and data is actively being transmitted. This chart can be useful for identifying potential network congestion and monitoring network stability.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The number of established TCP connections for IPv4.",
+            "ipv6": "The number of established TCP connections for IPv6."
+        }
+    ]
+}

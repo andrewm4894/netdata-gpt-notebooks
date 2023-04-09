@@ -1,0 +1,24 @@
+{
+    "chart_id": "windows.processes_page_faults",
+    "chart_description": "This chart displays the number of page faults sustained by different processes currently running on Windows operating system. Page faults occur when a process requires access to a memory page that is not currently in RAM and needs to be retrieved from the hard disk. A high number of page faults can indicate that a process is experiencing high memory usage or issues with virtual memory management.",
+    "dimension_descriptions": [
+        {
+            "LogonUI": "The LogonUI process manages the Windows login screen and user authentication.",
+            "Microsoft.ActiveDirectory.WebServices": "The Microsoft Active Directory Web Services process provides web-based access to Active Directory services.",
+            "MsMpEng": "The MsMpEng process is the antimalware service executable for Windows Defender.",
+            "Registry": "The Registry process manages the Windows registry, which stores configuration settings and other system information.",
+            "WMSvc": "The WMSvc process is the Windows Process Activation Service, which manages IIS and other web server applications.",
+            "WmiPrvSE": "The WmiPrvSE process provides access to system management information and settings via Windows Management Instrumentation (WMI).",
+            "amazon-ssm-agent": "The amazon-ssm-agent process is the Amazon EC2 Systems Manager agent used for managing EC2 instances.",
+            "csrss": "The csrss process is the Windows Client/Server Runtime Subsystem, which manages console windows and graphical user interfaces.",
+            "dwm": "The dwm process is the Desktop Window Manager, responsible for managing graphical user interfaces and displaying windows on the screen.",
+            "lsass": "The lsass process is the Local Security Authority Subsystem Service, responsible for managing local security and authentication.",
+            "services": "The services process manages system services running on Windows.",
+            "spoolsv": "The spoolsv process is the Print Spooler Service, responsible for managing print jobs and printer resources.",
+            "ssm-agent-worker": "The ssm-agent-worker process is the Amazon EC2 Systems Manager agent worker process used for managing EC2 instances.",
+            "svchost": "The svchost process is a generic host process for services that run from dynamic-link libraries (DLLs).",
+            "vds": "The vds process is the Virtual Disk Service, responsible for managing virtual storage devices on Windows.",
+            "windows_exporter": "The windows_exporter process is a Prometheus exporter for Windows performance counters."
+        }
+    ]
+}

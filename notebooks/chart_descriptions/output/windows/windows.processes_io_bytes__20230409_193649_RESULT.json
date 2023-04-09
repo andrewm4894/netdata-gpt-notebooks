@@ -1,0 +1,39 @@
+{
+    "chart_id": "windows.processes_handles",
+    "chart_description": "The `windows.processes_handles` chart shows the number of handles open for each running process on Windows machines. Handles provide a way to reference resources such as files, pipes, registry keys, and more, and their excessive usage by processes can lead to performance issues and system instability.",
+    "dimension_descriptions": [
+        {
+            "LogonUI": "The process responsible for displaying the login screen and enabling user authentication and login sessions.",
+            "Microsoft.ActiveDirectory.WebServices": "The web service that provides REST APIs to access Active Directory information and services.",
+            "MsMpEng": "The Microsoft Malware Protection service used to detect and remove threats and viruses from the system.",
+            "NisSrv": "The Network Inspection System service that monitors and inspects network traffic to detect possible security threats.",
+            "SMSvcHost": "The service host process for managing the System Center Configuration Manager client on devices.",
+            "SecurityHealthService": "The Windows Defender Security Center service that monitors system security, provides security recommendations and alerts, and detects malware.",
+            "System": "The system process that runs Windows kernel-mode components and device drivers.",
+            "WMSvc": "The Web Management Service that provides remote web-based management of Internet Information Services (IIS).",
+            "WmiApSrv": "The Windows Management Instrumentation (WMI) Performance Adapter that provides performance counter data access to WMI clients.",
+            "WmiPrvSE": "The WMI Provider Host process that hosts providers that supply data from WMI classes.",
+            "amazon-ssm-agent": "The AWS Systems Manager agent that facilitates management of EC2 instances and on-premises servers.",
+            "conhost": "The console host process used to manage console windows and display text output.",
+            "csrss": "The Client/Server Runtime Subsystem process that manages user-mode operations and OS internals.",
+            "dfsrs": "The DFS Replication service that replicates data across multiple servers for data availability and redundancy.",
+            "dfssvc": "The Distributed File System service that provides a unified namespace for accessing and managing remote file shares.",
+            "dns": "The Domain Name System service that resolves domain names to IP addresses for network communication.",
+            "dwm": "The Desktop Window Manager service that manages the visual effects and graphics of the desktop environment.",
+            "fontdrvhost": "The font driver host process that handles font operations such as installation, rendering, and management.",
+            "ismserv": "The Identity Management for Unix service that provides a unified identity authentication and management mechanism for Unix-based applications.",
+            "lsass": "The Local Security Authority Subsystem Service process responsible for implementing the security protocols including authentication mechanisms.",
+            "mqsvc": "The Microsoft Message Queuing service that enables message-based communication between applications or systems.",
+            "msdtc": "The Microsoft Distributed Transaction Coordinator service that coordinates distributed transactions between multiple resource managers.",
+            "services": "The Service Control Manager process that manages the system services including their start, stop, and configuration settings.",
+            "smss": "The Session Manager Subsystem process that initializes the system environment and launches the user-mode processes during system startup.",
+            "spoolsv": "The Print Spooler service that manages print jobs and printer queues on local and remote printers.",
+            "ssm-agent-worker": "The agent worker process that executes tasks and communicates with the AWS Systems Manager agent.",
+            "svchost": "The generic host process that hosts Windows services which run at a shared process in a secure way.",
+            "vds": "The Virtual Disk Service that manages storage providers and virtual disks on the system.",
+            "windows_exporter": "The Prometheus exporter for Windows system metrics that collects and exposes metrics on the system's health and performance.",
+            "wininit": "The Windows Initialization process that initializes the Windows subsystems, loads drivers, and sets up the environment for user-mode processes.",
+            "winlogon": "The Windows Logon process that manages the user logon and authentication mechanisms and launches the user environment and user-mode processes."
+        }
+    ]
+}

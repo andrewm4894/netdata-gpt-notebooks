@@ -1,0 +1,19 @@
+{
+    "chart_id": "windows.processes_io_operations",
+    "chart_description": "This chart displays the total number of IO (Input/Output) events which includes read, write, and other events for various processes of Windows. It helps in monitoring the processes and their usage of IO operations per second as higher numbers may indicate a potential bottleneck or issue.",
+    "dimension_descriptions": [
+        {
+            "LogonUI": "The Windows Logon or Logoff application, responsible for user authentication and managing user sessions.",
+            "MsMpEng": "The Microsoft Malware Protection service which provides real-time protection against dangerous software threats including viruses, spyware, and other forms of malicious software.",
+            "System": "The System process is responsible for managing system-level operations and system services.",
+            "dfsrs": "This process is utilized for the Distributed File System Replication (DFSR) which is used to synchronize folders between servers across different sites.",
+            "dfssvc": "The Distributed File System service which manages access to distributed file system namespaces and controls the replication of data.",
+            "dns": "The DNS (Domain Name System) process is responsible for resolving domain names to IP addresses and vice versa.",
+            "lsass": "The Local Security Authority Subsystem Service (LSASS) is responsible for authentication and security related functions such as enforcing security policies, auditing events, and managing user sessions.",
+            "services": "The services process is responsible for managing all system services.",
+            "ssm-agent-worker": "The AWS SSM (Systems Manager) agent worker process running in Windows which enables you to remotely manage your EC2 instances from the AWS Management Console, AWS CLI, or through the API.",
+            "svchost": "The Host Process for Windows Services which is utilized to host various services running in the background.",
+            "windows_exporter": "This is an exporter for Windows Performance Counters, which enables the collection of system and application metrics on Windows operating systems."
+        }
+    ]
+}

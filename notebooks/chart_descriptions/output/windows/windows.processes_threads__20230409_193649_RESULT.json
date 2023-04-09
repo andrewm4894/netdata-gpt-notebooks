@@ -1,0 +1,42 @@
+{
+    "chart_id": "windows.processes_threads",
+    "chart_description": "This chart displays the active threads in different processes running on a Windows operating system. It shows the total number of threads for each process, distributed among various dimensions.",
+    "dimension_descriptions": [
+        {
+            "Idle": "The number of threads being utilized for idle processes.",
+            "LogonUI": "The number of threads being utilized by the Windows Logon User Interface (UI) process.",
+            "Microsoft.ActiveDirectory.WebServices": "The number of threads being utilized by Microsoft Active Directory Web Services.",
+            "MsMpEng": "The number of threads being utilized by Microsoft Malware Protection Engine.",
+            "NisSrv": "The number of threads being utilized by Network Inspection System Service.",
+            "Registry": "The number of threads being utilized by the Registry process.",
+            "SMSvcHost": "The number of threads being utilized by the Service Management process.",
+            "SecurityHealthService": "The number of threads being utilized by Windows Security Health Service.",
+            "System": "The number of threads being utilized by the System process.",
+            "WMSvc": "The number of threads being utilized by Web Management Service.",
+            "WmiApSrv": "The number of threads being utilized by the WMI Performance Adapter Service.",
+            "WmiPrvSE": "The number of threads being utilized by Windows Management Instrumentation (WMI) Provider Host Service.",
+            "amazon-ssm-agent": "The number of threads being utilized by Amazon EC2 Simple Systems Manager (SSM) Agent Service.",
+            "conhost": "The number of threads being utilized by Console Host process.",
+            "csrss": "The number of threads being utilized by the Client Server Runtime Subsystem process.",
+            "dfsrs": "The number of threads being utilized by Distributed File System Replication Service.",
+            "dfssvc": "The number of threads being utilized by Distributed File System Service.",
+            "dns": "The number of threads being utilized by Domain Name System (DNS) Service.",
+            "dwm": "The number of threads being utilized by Desktop Window Manager Service.",
+            "fontdrvhost": "The number of threads being utilized by Font Driver Host Service.",
+            "ismserv": "The number of threads being utilized by Intersite Messaging Service.",
+            "lsass": "The number of threads being utilized by Local Security Authority Subsystem Service.",
+            "mqsvc": "The number of threads being utilized by Message Queuing Service.",
+            "msdtc": "The number of threads being utilized by Microsoft Distributed Transaction Coordinator Service.",
+            "services": "The number of threads being utilized by Services and Controller app.",
+            "smss": "The number of threads being utilized by Session Manager Subsystem.",
+            "spoolsv": "The number of threads being utilized by Print Spooler Service.",
+            "sppsvc": "The number of threads being utilized by Software Protection Service.",
+            "ssm-agent-worker": "The number of threads being utilized by AWS Systems Manager Agent Service worker process.",
+            "svchost": "The number of threads being utilized by Host Process for Windows Services.",
+            "vds": "The number of threads being utilized by Virtual Disk Service.",
+            "windows_exporter": "The number of threads being utilized by Windows Prometheus Exporter.",
+            "wininit": "The number of threads being utilized by Windows Initialization process.",
+            "winlogon": "The number of threads being utilized by Windows Logon process."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_segments_sent",
+    "chart_description": "This chart shows the number of TCP segments that have been sent per second on a Windows machine. It can be used to monitor the rate of data transmission over TCP connections.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "This dimension represents the number of TCP segments sent over IPv4 connections.",
+            "ipv6": "This dimension represents the number of TCP segments sent over IPv6 connections."
+        }
+    ]
+}

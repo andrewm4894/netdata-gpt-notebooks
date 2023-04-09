@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_segments_received",
+    "chart_description": "This chart shows the number of TCP segments received per second on a Windows server. It helps in monitoring network traffic and identifying potential issues with TCP connections.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The number of TCP segments received over IPv4 protocol.",
+            "ipv6": "The number of TCP segments received over IPv6 protocol."
+        }
+    ]
+}

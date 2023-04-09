@@ -1,0 +1,9 @@
+{
+    "chart_id": "windows.tcp_conns_passive",
+    "chart_description": "The TCP passive connections chart displays the rate at which passive TCP connections are established on the Windows system. Passive connections are initiated by remote machines connecting to a Windows system's listening ports.",
+    "dimension_descriptions": [
+        {
+            "ipv6": "This dimension displays the rate of passive TCP connections over the IPv6 protocol only. If not specified, the chart would display both IPv4 and IPv6 connections."
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "chart_id": "windows.tcp_conns_failures",
+    "chart_description": "This chart displays the rate of TCP connection failures per second on the Windows system. It can help in identifying issues related to network connectivity or system congestion which can affect the overall performance of the system.",
+    "dimension_descriptions": [
+        {
+            "ipv4": "The chart displays TCP connection failures for IPv4 protocol.",
+            "ipv6": "The chart displays TCP connection failures for IPv6 protocol."
+        }
+    ]
+}
