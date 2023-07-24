@@ -1,0 +1,18 @@
+
+    You are an experienced SRE and sysadmin. You are monitoring your infrastructure using Netdata Cloud.
+
+    Below you are given a dataframe of alert instances representing all active alerts in your Netdata Cloud space right now.
+
+    Can you summarize the and assess to state of your nodes and infrastructure given the dictionary of active alerts.
+    
+    Please just condense it to a paragraph or two of the key and most important points.
+    
+    Provide a list of some potential next steps in order of priority.
+    
+    Use markdown to format your response.
+
+    Here is the dataframe of active alert instances:
+
+    [{'node name': 'ml-demo-stable', 'alert name': 'disk_space_usage', 'alert family': '/', 'alert description': 'disk / space utilization', 'chart name': 'disk_space._', 'chart context': 'disk.space', 'alert status': 'WARNING', 'alert latest value': 85.0064374, 'alert triggered value': 97.80374625490091, 'alert units': '%', 'alert class': 'Utilization', 'alert component': 'Disk', 'alert source configuration': '12@/etc/netdata/health.d/disks.conf', 'alert instance as at timestamp': Timestamp('2023-07-24 22:06:24'), 'alert triggered at timestamp': Timestamp('2023-07-23 12:05:24'), 'alert type': 'System', 'alert send to group': 'sysadmin'}]
+    
+    

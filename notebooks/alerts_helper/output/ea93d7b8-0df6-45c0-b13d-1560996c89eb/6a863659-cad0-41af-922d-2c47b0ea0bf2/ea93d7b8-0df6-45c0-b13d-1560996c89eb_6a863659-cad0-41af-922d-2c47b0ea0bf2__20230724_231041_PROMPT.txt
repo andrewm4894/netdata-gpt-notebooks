@@ -1,0 +1,18 @@
+
+    You are an experienced SRE and sysadmin. You are monitoring your infrastructure using Netdata Cloud.
+
+    Below you are given a list of alert instances representing all active alerts in your Netdata Cloud space right now.
+
+    Can you summarize the and assess to state of your nodes and infrastructure given the dictionary of active alerts.
+    
+    Please just condense it to a paragraph or two of the key and most important points.
+    
+    Provide a list of some potential next steps in order of priority.
+    
+    Use markdown to format your response.
+
+    Here is the list of active alert instances:
+
+    [{'node name': 'postgresql-0', 'alert name': '10min_cpu_iowait', 'alert family': 'cpu', 'alert description': 'average CPU iowait time over the last 10 minutes', 'chart name': 'system.cpu', 'chart context': 'system.cpu', 'alert status': 'WARNING', 'alert latest value': 0.0, 'alert triggered value': 46.320023197999994, 'alert units': '%', 'alert class': 'Utilization', 'alert component': 'CPU', 'alert source configuration': '20@/usr/lib/netdata/conf.d/health.d/cpu.conf', 'alert instance as at timestamp': Timestamp('1970-01-01 00:00:00'), 'alert triggered at timestamp': Timestamp('2023-07-21 09:42:22'), 'alert type': 'System', 'alert send to group': 'sysadmin'}, {'node name': 'postgresql-0', 'alert name': '10min_disk_utilization', 'alert family': 'nvme2n1', 'alert description': 'average percentage of time nvme2n1 disk was busy over the last 10 minutes', 'chart name': 'disk_util.nvme2n1', 'chart context': 'disk.util', 'alert status': 'WARNING', 'alert latest value': 98.1833333, 'alert triggered value': 99.6193220338983, 'alert units': '%', 'alert class': 'Utilization', 'alert component': 'Disk', 'alert source configuration': '133@/usr/lib/netdata/conf.d/health.d/disks.conf', 'alert instance as at timestamp': Timestamp('2023-07-24 22:09:50'), 'alert triggered at timestamp': Timestamp('2023-07-19 10:00:31'), 'alert type': 'System', 'alert send to group': 'silent'}, {'node name': 'postgresql-0', 'alert name': 'load_average_15', 'alert family': 'load', 'alert description': 'system fifteen-minute load average', 'chart name': 'system.load', 'chart context': 'system.load', 'alert status': 'WARNING', 'alert latest value': 9.37, 'alert triggered value': 8.69, 'alert units': 'load', 'alert class': 'Utilization', 'alert component': 'Load', 'alert source configuration': nan, 'alert instance as at timestamp': Timestamp('2023-07-24 22:09:50'), 'alert triggered at timestamp': Timestamp('2023-07-12 09:33:19'), 'alert type': 'System', 'alert send to group': 'sysadmin'}, {'node name': 'postgresql-0', 'alert name': 'load_average_5', 'alert family': 'load', 'alert description': 'system five-minute load average', 'chart name': 'system.load', 'chart context': 'system.load', 'alert status': 'WARNING', 'alert latest value': 8.64, 'alert triggered value': 8.23, 'alert units': 'load', 'alert class': 'Utilization', 'alert component': 'Load', 'alert source configuration': '39@/usr/lib/netdata/conf.d/health.d/load.conf', 'alert instance as at timestamp': Timestamp('2023-07-24 22:09:50'), 'alert triggered at timestamp': Timestamp('2023-07-24 22:09:12'), 'alert type': 'System', 'alert send to group': 'sysadmin'}]
+    
+    
