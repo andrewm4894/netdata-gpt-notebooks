@@ -1,0 +1,18 @@
+
+    You are an experienced SRE and sysadmin. You are monitoring your infrastructure using Netdata Cloud.
+
+    Below you are given a list of alert instances representing all active alerts in your Netdata Cloud space right now.
+
+    Can you summarize the and assess to state of your nodes and infrastructure given the dictionary of active alerts.
+    
+    Please just condense it to a paragraph or two of the key and most important points.
+    
+    Provide a list of some potential next steps in order of priority.
+    
+    Use markdown to format your response.
+
+    Here is the list of active alert instances:
+
+    [{'node name': 'ml-demo-stable', 'alert name': 'disk_space_usage', 'alert family': '/', 'alert description': 'disk / space utilization', 'chart name': 'disk_space._', 'chart context': 'disk.space', 'alert status': 'WARNING', 'alert latest value': 84.2213862, 'alert triggered value': 97.80374625490091, 'alert units': '%', 'alert class': 'Utilization', 'alert component': 'Disk', 'alert source configuration': '12@/etc/netdata/health.d/disks.conf', 'alert instance as at timestamp': Timestamp('2023-07-25 11:27:24'), 'alert triggered at timestamp': Timestamp('2023-07-23 12:05:24'), 'alert type': 'System', 'alert send to group': 'sysadmin'}, {'node name': 'ml-demo-nightly', 'alert name': '10min_cpu_usage', 'alert family': 'cpu', 'alert description': 'average CPU utilization over the last 10 minutes (excluding iowait, nice and steal)', 'chart name': 'system.cpu', 'chart context': 'system.cpu', 'alert status': 'CRITICAL', 'alert latest value': 99.5103368, 'alert triggered value': 96.04503030499998, 'alert units': '%', 'alert class': 'Utilization', 'alert component': 'CPU', 'alert source configuration': '4@/usr/lib/netdata/conf.d/health.d/cpu.conf', 'alert instance as at timestamp': Timestamp('2023-07-25 11:26:54'), 'alert triggered at timestamp': Timestamp('2023-07-25 11:02:54'), 'alert type': 'System', 'alert send to group': 'sysadmin'}, {'node name': 'ml-demo-nightly', 'alert name': 'load_average_15', 'alert family': 'load', 'alert description': 'system fifteen-minute load average', 'chart name': 'system.load', 'chart context': 'system.load', 'alert status': 'WARNING', 'alert latest value': 5.398806, 'alert triggered value': 4.29, 'alert units': 'load', 'alert class': 'Utilization', 'alert component': 'Load', 'alert source configuration': '23@/usr/lib/netdata/conf.d/health.d/load.conf', 'alert instance as at timestamp': Timestamp('2023-07-25 11:26:54'), 'alert triggered at timestamp': Timestamp('2023-07-25 11:06:54'), 'alert type': 'System', 'alert send to group': 'sysadmin'}]
+    
+    
